@@ -1,0 +1,45 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.mockito.internal.MockHandler
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_134679_1546640712/target/classes
+  - /d4j/defects4j/framework/projects/Mockito/lib/asm-all-5.0.4.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/assertj-core-2.1.0.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/cglib-and-asm-1.0.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/cobertura-2.0.3.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/fest-assert-1.3.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/fest-util-1.1.4.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/hamcrest-all-1.3.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/hamcrest-core-1.1.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/objenesis-2.1.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/objenesis-2.2.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/powermock-reflect-1.2.5.jar
+* Finished analyzing classpath
+* Generating tests for class org.mockito.internal.MockHandler
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 15
+* Using seed 3000
+* Starting evolution
+[MASTER] 14:25:22.160 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 14:25:22.582 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class org.mockito.internal.invocation.Invocation canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 14:25:22.635 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.Invocation due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.SerializableMethod due to org.evosuite.ga.ConstructionFailedException: Have no generator for class org.mockito.internal.invocation.Invocation canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 14:25:22.642 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.Invocation due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.SerializableMethod due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.stubbing.StubbedInvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 14:25:57.646 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.Matcher<T> : Type points to itself
+* Search finished after 101s and 1457 generations, 192659 statements, best individual has fitness: 3.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 73%
+* Total number of goals: 15
+* Number of covered goals: 11
+* Generated 6 tests with total length 18
+* Resulting test suite's coverage: 73%
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Writing JUnit test case 'MockHandler_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

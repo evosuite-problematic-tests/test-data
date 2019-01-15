@@ -1,0 +1,30 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.lang3.time.FastDateFormat
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_158883_1545197141/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.time.FastDateFormat
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 374
+* Using seed 1000
+* Starting evolution
+[MASTER] 21:25:49.690 [logback-2] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+* Search finished after 101s and 2109 generations, 540669 statements, best individual has fitness: 45.32116137557044
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 79%
+* Total number of goals: 374
+* Number of covered goals: 297
+* Generated 63 tests with total length 177
+* Resulting test suite's coverage: 85%
+* Generating assertions
+* Resulting test suite's mutation score: 9%
+* Writing JUnit test case 'FastDateFormat_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

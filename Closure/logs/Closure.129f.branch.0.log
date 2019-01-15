@@ -1,0 +1,40 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.PrepareAst
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_112220_1546845868/build/classes
+  - /tmp/run_evosuite.pl_112220_1546845868/lib/args4j.jar
+  - /tmp/run_evosuite.pl_112220_1546845868/lib/guava.jar
+  - /tmp/run_evosuite.pl_112220_1546845868/lib/json.jar
+  - /tmp/run_evosuite.pl_112220_1546845868/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_112220_1546845868/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_112220_1546845868/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_112220_1546845868/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.PrepareAst
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 59
+* Using seed 1000
+* Starting evolution
+[MASTER] 23:24:46.558 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Iterator<E> : Type points to itself
+* Search finished after 103s and 253 generations, 86680 statements, best individual has fitness: 30.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 44%
+* Total number of goals: 59
+* Number of covered goals: 26
+* Generated 6 tests with total length 30
+* Resulting test suite's coverage: 44%
+* Generating assertions
+* Resulting test suite's mutation score: 12%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 8
+* Writing JUnit test case 'PrepareAst_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

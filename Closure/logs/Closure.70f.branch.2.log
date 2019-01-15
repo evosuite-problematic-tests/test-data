@@ -1,0 +1,40 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.TypedScopeCreator
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_50454_1546611391/build/classes
+  - /tmp/run_evosuite.pl_50454_1546611391/lib/args4j.jar
+  - /tmp/run_evosuite.pl_50454_1546611391/lib/guava.jar
+  - /tmp/run_evosuite.pl_50454_1546611391/lib/json.jar
+  - /tmp/run_evosuite.pl_50454_1546611391/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_50454_1546611391/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_50454_1546611391/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_50454_1546611391/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.TypedScopeCreator
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 663
+* Using seed 3000
+* Starting evolution
+[MASTER] 06:16:57.060 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.ControlFlowGraph<N> : Type points to itself
+* Search finished after 101s and 530 generations, 169170 statements, best individual has fitness: 493.806511699882
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 23%
+* Total number of goals: 663
+* Number of covered goals: 155
+* Generated 20 tests with total length 142
+* Resulting test suite's coverage: 23%
+* Generating assertions
+* Resulting test suite's mutation score: 8%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 10
+* Writing JUnit test case 'TypedScopeCreator_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

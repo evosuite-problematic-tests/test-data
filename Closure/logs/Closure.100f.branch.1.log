@@ -1,0 +1,42 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.CheckGlobalThis
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_117050_1545819898/build/classes
+  - /tmp/run_evosuite.pl_117050_1545819898/lib/ant_deploy.jar
+  - /tmp/run_evosuite.pl_117050_1545819898/lib/args4j_deploy.jar
+  - /tmp/run_evosuite.pl_117050_1545819898/lib/google_common_deploy.jar
+  - /tmp/run_evosuite.pl_117050_1545819898/lib/hamcrest-core-1.1.jar
+  - /tmp/run_evosuite.pl_117050_1545819898/lib/junit.jar
+  - /tmp/run_evosuite.pl_117050_1545819898/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_117050_1545819898/lib/protobuf_deploy.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.CheckGlobalThis
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 57
+* Using seed 2000
+* Starting evolution
+[MASTER] 02:25:09.277 [logback-2] ERROR TestCluster - Failed to check cache for java.util.PriorityQueue<E> : Type points to itself
+[MASTER] 02:25:35.138 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.ControlFlowGraph<N> : Type points to itself
+[MASTER] 02:26:23.803 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.BooleanType due to IAE: tried to access class com.google.javascript.rhino.jstype.ValueType from class com.google.javascript.rhino.jstype.BooleanType$MockitoMock$1257198300
+* Search finished after 101s and 907 generations, 365429 statements, best individual has fitness: 10.303571428571429
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 77%
+* Total number of goals: 57
+* Number of covered goals: 44
+* Generated 14 tests with total length 124
+* Resulting test suite's coverage: 77%
+* Generating assertions
+* Resulting test suite's mutation score: 40%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 20
+* Writing JUnit test case 'CheckGlobalThis_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

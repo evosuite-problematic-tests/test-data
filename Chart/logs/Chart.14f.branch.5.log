@@ -1,0 +1,67 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.chart.plot.XYPlot
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_57398_1545143136/build
+  - /tmp/run_evosuite.pl_57398_1545143136/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.chart.plot.XYPlot
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 912
+* Using seed 1000
+* Starting evolution
+[MASTER] 06:25:50.262 [logback-2] ERROR TestCluster - Failed to check cache for java.util.LinkedList<E> : Type points to itself
+[MASTER] 06:25:50.291 [logback-2] ERROR TestCluster - Failed to check cache for java.util.HashMap<K, V> : Type points to itself
+* Search finished after 102s and 275 generations, 165974 statements, best individual has fitness: 281.8333333333333
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 63%
+* Total number of goals: 912
+* Number of covered goals: 577
+* Generated 197 tests with total length 936
+* Resulting test suite's coverage: 63%
+* Generating assertions
+* Resulting test suite's mutation score: 18%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         queuePrintJob: 1
+         writeFileDescriptor: 1
+* Writing JUnit test case 'XYPlot_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.chart.plot.CategoryPlot
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_57398_1545143136/build
+  - /tmp/run_evosuite.pl_57398_1545143136/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.chart.plot.CategoryPlot
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 717
+* Using seed 1000
+* Starting evolution
+[MASTER] 06:29:08.047 [logback-2] ERROR TestCluster - Failed to check cache for java.util.LinkedList<E> : Type points to itself
+* Search finished after 102s and 274 generations, 185353 statements, best individual has fitness: 133.16666666666666
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 75%
+* Total number of goals: 717
+* Number of covered goals: 540
+* Generated 157 tests with total length 645
+* Resulting test suite's coverage: 75%
+* Generating assertions
+* Resulting test suite's mutation score: 16%
+* Writing JUnit test case 'CategoryPlot_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,29 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_52615_1545666014/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 64
+* Using seed 2000
+* Starting evolution
+* Search finished after 101s and 661 generations, 238266 statements, best individual has fitness: 3.1666666666666665
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 91%
+* Total number of goals: 64
+* Number of covered goals: 58
+* Generated 7 tests with total length 59
+* Resulting test suite's coverage: 91%
+* Generating assertions
+* Resulting test suite's mutation score: 7%
+* Writing JUnit test case 'KMeansPlusPlusClusterer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,29 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math.geometry.euclidean.threed.Rotation
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_51136_1545665597/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.geometry.euclidean.threed.Rotation
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 134
+* Using seed 2000
+* Starting evolution
+* Search finished after 102s and 3394 generations, 1411856 statements, best individual has fitness: 5.49999999708349
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 95%
+* Total number of goals: 134
+* Number of covered goals: 127
+* Generated 60 tests with total length 208
+* Resulting test suite's coverage: 96%
+* Generating assertions
+* Resulting test suite's mutation score: 32%
+* Writing JUnit test case 'Rotation_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

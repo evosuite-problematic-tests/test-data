@@ -1,0 +1,33 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.lang.text.ExtendedMessageFormat
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_12490_1545131463/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang.text.ExtendedMessageFormat
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 123
+* Using seed 1000
+* Starting evolution
+[MASTER] 03:11:13.275 [logback-2] ERROR TestCluster - Failed to check cache for java.time.temporal.TemporalQuery<R> : Type points to itself
+[MASTER] 03:11:15.154 [logback-2] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+[MASTER] 03:12:01.186 [logback-2] ERROR AbstractStatement - Error assigning value of type TemporalQuery[] defined at statement TemporalQuery<Object>[] temporalQueryArray0 = (TemporalQuery<Object>[]) Array.newInstance(TemporalQuery.class, 6), assignment statement: temporalQueryArray0[0] = (TemporalQuery<Object>) temporalQueryArray0; SUT=org.apache.commons.lang.text.ExtendedMessageFormat
+[MASTER] 03:12:08.397 [logback-2] ERROR AbstractStatement - Error assigning value of type TemporalQuery[] defined at statement TemporalQuery<Object>[] temporalQueryArray0 = (TemporalQuery<Object>[]) Array.newInstance(TemporalQuery.class, 4), assignment statement: temporalQueryArray0[0] = (TemporalQuery<Object>) temporalQueryArray0; SUT=org.apache.commons.lang.text.ExtendedMessageFormat
+* Search finished after 101s and 2745 generations, 489835 statements, best individual has fitness: 31.133333333333333
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 67%
+* Total number of goals: 123
+* Number of covered goals: 82
+* Generated 12 tests with total length 32
+* Resulting test suite's coverage: 67%
+* Generating assertions
+* Resulting test suite's mutation score: 30%
+* Writing JUnit test case 'ExtendedMessageFormat_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

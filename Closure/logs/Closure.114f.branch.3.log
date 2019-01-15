@@ -1,0 +1,42 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.NameAnalyzer
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_259894_1546687730/build/classes
+  - /tmp/run_evosuite.pl_259894_1546687730/lib/args4j.jar
+  - /tmp/run_evosuite.pl_259894_1546687730/lib/guava.jar
+  - /tmp/run_evosuite.pl_259894_1546687730/lib/json.jar
+  - /tmp/run_evosuite.pl_259894_1546687730/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_259894_1546687730/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_259894_1546687730/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_259894_1546687730/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.NameAnalyzer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 565
+* Using seed 4000
+* Starting evolution
+[MASTER] 03:29:04.140 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 03:29:04.140 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself
+[MASTER] 03:29:29.796 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+* Search finished after 103s and 60 generations, 18431 statements, best individual has fitness: 472.46666666608576
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 16%
+* Total number of goals: 565
+* Number of covered goals: 90
+* Generated 6 tests with total length 31
+* Resulting test suite's coverage: 16%
+* Generating assertions
+* Resulting test suite's mutation score: 9%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 4
+* Writing JUnit test case 'NameAnalyzer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,29 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math.util.MathUtils
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_30004_1546793928/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.util.MathUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 296
+* Using seed 5000
+* Starting evolution
+* Search finished after 101s and 2551 generations, 749789 statements, best individual has fitness: 8.16666666107873
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 97%
+* Total number of goals: 296
+* Number of covered goals: 287
+* Generated 131 tests with total length 141
+* Resulting test suite's coverage: 97%
+* Generating assertions
+* Resulting test suite's mutation score: 55%
+* Writing JUnit test case 'MathUtils_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,33 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.lang3.time.FastDatePrinter
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_73498_1546620345/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.time.FastDatePrinter
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 354
+* Using seed 3000
+* Starting evolution
+[MASTER] 08:46:12.198 [logback-2] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+* Search finished after 101s and 1743 generations, 456979 statements, best individual has fitness: 47.70448738954715
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 83%
+* Total number of goals: 354
+* Number of covered goals: 293
+* Generated 60 tests with total length 238
+* Resulting test suite's coverage: 83%
+* Generating assertions
+* Resulting test suite's mutation score: 23%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 7
+* Writing JUnit test case 'FastDatePrinter_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

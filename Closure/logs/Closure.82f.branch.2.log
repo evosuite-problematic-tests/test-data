@@ -1,0 +1,53 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.rhino.jstype.JSType
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_54448_1546613083/build/classes
+  - /tmp/run_evosuite.pl_54448_1546613083/lib/args4j.jar
+  - /tmp/run_evosuite.pl_54448_1546613083/lib/guava.jar
+  - /tmp/run_evosuite.pl_54448_1546613083/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_54448_1546613083/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_54448_1546613083/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_54448_1546613083/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.rhino.jstype.JSType
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 230
+* Using seed 3000
+* Starting evolution
+[MASTER] 06:45:04.696 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class com.google.javascript.jscomp.Scope canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 06:45:04.806 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.Node due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.Node due to org.evosuite.ga.ConstructionFailedException: Have no generator for class com.google.javascript.jscomp.Scope canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 06:45:05.992 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.jstype.ArrowType due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.Node due to org.evosuite.ga.ConstructionFailedException: Have no generator for class com.google.javascript.jscomp.Scope canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 06:45:07.340 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.jstype.ArrowType due to org.evosuite.ga.ConstructionFailedException: Have no generator for class com.google.javascript.jscomp.Scope canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 06:45:08.149 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.Node due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.Node due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.Node due to org.evosuite.ga.ConstructionFailedException: Have no generator for class com.google.javascript.jscomp.Scope canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 06:45:09.044 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.jstype.RecordTypeBuilder$RecordProperty due to org.evosuite.ga.ConstructionFailedException: Have no generator for class com.google.javascript.rhino.jstype.RecordTypeBuilder$RecordProperty canUseFunctionalMocks=false, canBeMocked: false
+[MASTER] 06:45:09.059 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.jstype.RecordTypeBuilder$RecordProperty due to org.evosuite.ga.ConstructionFailedException: Have no generator for class com.google.javascript.jscomp.Scope canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 06:45:09.098 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.jstype.ArrowType due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.Node due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.jstype.RecordTypeBuilder$RecordProperty due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.Node due to org.evosuite.ga.ConstructionFailedException: Have no generator for class com.google.javascript.jscomp.Scope canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 06:45:09.309 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.Node due to org.evosuite.ga.ConstructionFailedException: Have no generator for class com.google.javascript.jscomp.Scope canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 06:45:10.029 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.jstype.RecordTypeBuilder$RecordProperty due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.Node due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.Node due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.Node due to org.evosuite.ga.ConstructionFailedException: Have no generator for class com.google.javascript.jscomp.Scope canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 06:45:10.530 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.jstype.RecordTypeBuilder$RecordProperty due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.Node due to org.evosuite.ga.ConstructionFailedException: Have no generator for class com.google.javascript.jscomp.Scope canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 06:45:10.581 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.jstype.RecordTypeBuilder$RecordProperty due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.Node due to org.evosuite.ga.ConstructionFailedException: Have no generator for class com.google.javascript.rhino.jstype.RecordTypeBuilder$RecordProperty canUseFunctionalMocks=false, canBeMocked: false
+[MASTER] 06:45:11.144 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.jstype.ArrowType due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.Node due to org.evosuite.ga.ConstructionFailedException: Have no generator for class com.google.javascript.rhino.jstype.ErrorFunctionType canUseFunctionalMocks=false, canBeMocked: false
+[MASTER] 06:45:13.777 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.jstype.ArrowType due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.Node due to org.evosuite.ga.ConstructionFailedException: Have no generator for class com.google.javascript.rhino.jstype.IndexedType canUseFunctionalMocks=false, canBeMocked: false
+[MASTER] 06:45:16.067 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.jstype.EnumElementType due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.jstype.PrototypeObjectType due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.jstype.UnresolvedTypeExpression due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.Node due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 06:45:16.749 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.jstype.ArrowType due to org.evosuite.ga.ConstructionFailedException: Have no generator for class com.google.javascript.rhino.jstype.ErrorFunctionType canUseFunctionalMocks=false, canBeMocked: false
+[MASTER] 06:45:18.994 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.jstype.IndexedType due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.jstype.PrototypeObjectType due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.jstype.InstanceObjectType due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.jstype.FunctionType due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+* Search finished after 101s and 916 generations, 388694 statements, best individual has fitness: 4.5
+* Minimizing test suite
+[MASTER] 06:46:34.089 [logback-2] ERROR TestCluster - Failed to check cache for java.util.function.Function<T, R> : Type points to itself
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 97%
+* Total number of goals: 230
+* Number of covered goals: 222
+* Generated 83 tests with total length 470
+* Resulting test suite's coverage: 97%
+* Generating assertions
+* Resulting test suite's mutation score: 54%
+* Writing JUnit test case 'JSType_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

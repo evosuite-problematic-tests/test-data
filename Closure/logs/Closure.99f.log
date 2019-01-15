@@ -1,0 +1,15 @@
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2018-12-26 10:23:09  ######
+Generate tests for: com.google.javascript.jscomp.CheckGlobalThis : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2018-12-26 10:24:58  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-04 15:22:11  ######
+Generate tests for: com.google.javascript.jscomp.CheckGlobalThis : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-04 15:23:58  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-05 10:53:15  ######
+Generate tests for: com.google.javascript.jscomp.CheckGlobalThis : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-05 10:55:03  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-06 10:33:27  ######
+Generate tests for: com.google.javascript.jscomp.CheckGlobalThis : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-06 10:35:15  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-07 06:19:44  ######
+Generate tests for: com.google.javascript.jscomp.CheckGlobalThis : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-07 06:21:34  ######

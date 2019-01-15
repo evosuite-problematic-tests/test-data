@@ -1,0 +1,15 @@
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2018-12-26 11:31:19  ######
+Generate tests for: com.google.javascript.jscomp.CollapseProperties : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2018-12-26 11:33:10  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-04 16:29:52  ######
+Generate tests for: com.google.javascript.jscomp.CollapseProperties : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-04 16:31:40  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-05 12:00:37  ######
+Generate tests for: com.google.javascript.jscomp.CollapseProperties : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-05 12:02:29  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-06 11:39:54  ######
+Generate tests for: com.google.javascript.jscomp.CollapseProperties : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-06 11:41:43  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-07 07:26:33  ######
+Generate tests for: com.google.javascript.jscomp.CollapseProperties : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-07 07:28:20  ######

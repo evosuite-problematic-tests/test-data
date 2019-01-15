@@ -1,0 +1,34 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.joda.time.DateTimeZone
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_68098_1545153880/build/classes
+  - /defects4j/framework/projects/Time/lib/joda-convert-1.2.jar
+* Finished analyzing classpath
+* Generating tests for class org.joda.time.DateTimeZone
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 182
+* Using seed 1000
+* Starting evolution
+[MASTER] 09:24:52.021 [logback-2] ERROR TestCluster - Failed to check cache for java.lang.ref.PhantomReference<T> : Type points to itself
+[MASTER] 09:24:52.021 [logback-2] ERROR TestCluster - Failed to check cache for java.lang.ref.SoftReference<T> : Type points to itself
+[MASTER] 09:24:52.021 [logback-2] ERROR TestCluster - Failed to check cache for java.lang.ref.WeakReference<T> : Type points to itself
+[MASTER] 09:25:10.104 [logback-2] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+* Search finished after 102s and 1260 generations, 324086 statements, best individual has fitness: 23.166666625121486
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 81%
+* Total number of goals: 182
+* Number of covered goals: 148
+* Generated 47 tests with total length 103
+* Resulting test suite's coverage: 81%
+* Generating assertions
+* Resulting test suite's mutation score: 47%
+* Writing JUnit test case 'DateTimeZone_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

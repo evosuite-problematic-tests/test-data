@@ -1,0 +1,40 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.CodeGenerator
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_217869_1546766181/build/classes
+  - /tmp/run_evosuite.pl_217869_1546766181/lib/args4j.jar
+  - /tmp/run_evosuite.pl_217869_1546766181/lib/guava.jar
+  - /tmp/run_evosuite.pl_217869_1546766181/lib/json.jar
+  - /tmp/run_evosuite.pl_217869_1546766181/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_217869_1546766181/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_217869_1546766181/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_217869_1546766181/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.CodeGenerator
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 734
+* Using seed 5000
+* Starting evolution
+[MASTER] 01:17:37.284 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.TemplateType due to IAE: tried to access class com.google.javascript.rhino.jstype.ProxyObjectType from class com.google.javascript.rhino.jstype.TemplateType$MockitoMock$2039953031
+* Search finished after 101s and 1722 generations, 348591 statements, best individual has fitness: 631.0666666662011
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 15%
+* Total number of goals: 734
+* Number of covered goals: 107
+* Generated 28 tests with total length 62
+* Resulting test suite's coverage: 15%
+* Generating assertions
+* Resulting test suite's mutation score: 33%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 7
+* Writing JUnit test case 'CodeGenerator_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

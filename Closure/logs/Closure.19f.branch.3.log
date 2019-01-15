@@ -1,0 +1,41 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_222330_1546675016/build/classes
+  - /tmp/run_evosuite.pl_222330_1546675016/lib/args4j.jar
+  - /tmp/run_evosuite.pl_222330_1546675016/lib/guava.jar
+  - /tmp/run_evosuite.pl_222330_1546675016/lib/json.jar
+  - /tmp/run_evosuite.pl_222330_1546675016/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_222330_1546675016/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_222330_1546675016/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_222330_1546675016/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 162
+* Using seed 4000
+* Starting evolution
+[MASTER] 23:57:11.251 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.NoObjectType due to IAE: tried to access class com.google.javascript.rhino.jstype.PrototypeObjectType from class com.google.javascript.rhino.jstype.NoObjectType$MockitoMock$42404548
+[MASTER] 23:58:07.435 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.NoType due to IAE: tried to access class com.google.javascript.rhino.jstype.PrototypeObjectType from class com.google.javascript.rhino.jstype.NoType$MockitoMock$2043597517
+* Search finished after 101s and 963 generations, 413205 statements, best individual has fitness: 43.49999997125927
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 70%
+* Total number of goals: 162
+* Number of covered goals: 113
+* Generated 55 tests with total length 431
+* Resulting test suite's coverage: 70%
+* Generating assertions
+* Resulting test suite's mutation score: 15%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'ChainableReverseAbstractInterpreter_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

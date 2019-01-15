@@ -1,0 +1,29 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math.analysis.solvers.BisectionSolver
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_113406_1546635629/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.analysis.solvers.BisectionSolver
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 11
+* Using seed 3000
+* Starting evolution
+* Search finished after 1s and 1 generations, 3574 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 11
+* Number of covered goals: 11
+* Generated 4 tests with total length 13
+* Resulting test suite's coverage: 100%
+* Generating assertions
+* Resulting test suite's mutation score: 26%
+* Writing JUnit test case 'BisectionSolver_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

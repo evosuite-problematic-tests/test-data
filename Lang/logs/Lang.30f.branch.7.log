@@ -1,0 +1,30 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.lang3.StringUtils
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_143232_1545190293/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.StringUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 1126
+* Using seed 1000
+* Starting evolution
+[MASTER] 19:31:42.816 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+* Search finished after 101s and 376 generations, 329990 statements, best individual has fitness: 50.689393907946624
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 94%
+* Total number of goals: 1126
+* Number of covered goals: 1062
+* Generated 415 tests with total length 547
+* Resulting test suite's coverage: 94%
+* Generating assertions
+* Resulting test suite's mutation score: 55%
+* Writing JUnit test case 'StringUtils_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

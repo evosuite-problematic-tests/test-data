@@ -1,0 +1,46 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.UnreachableCodeElimination
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_55354_1546613455/build/classes
+  - /tmp/run_evosuite.pl_55354_1546613455/lib/ant-launcher.jar
+  - /tmp/run_evosuite.pl_55354_1546613455/lib/ant.jar
+  - /tmp/run_evosuite.pl_55354_1546613455/lib/args4j.jar
+  - /tmp/run_evosuite.pl_55354_1546613455/lib/caja-r4314.jar
+  - /tmp/run_evosuite.pl_55354_1546613455/lib/guava.jar
+  - /tmp/run_evosuite.pl_55354_1546613455/lib/json.jar
+  - /tmp/run_evosuite.pl_55354_1546613455/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_55354_1546613455/lib/junit.jar
+  - /tmp/run_evosuite.pl_55354_1546613455/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_55354_1546613455/lib/protobuf-java.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.UnreachableCodeElimination
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 68
+* Using seed 3000
+* Starting evolution
+[MASTER] 06:51:05.314 [logback-2] ERROR TestCluster - Failed to check cache for java.lang.Comparable<T> : Type points to itself
+[MASTER] 06:51:10.854 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 06:51:10.932 [logback-2] ERROR TestCluster - Failed to check cache for com.google.common.base.Supplier<T> : Type points to itself
+[MASTER] 06:51:51.611 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.NoType due to IAE: tried to access class com.google.javascript.rhino.jstype.PrototypeObjectType from class com.google.javascript.rhino.jstype.NoType$MockitoMock$488903171
+* Search finished after 104s and 1118 generations, 334620 statements, best individual has fitness: 11.361904761904762
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 76%
+* Total number of goals: 68
+* Number of covered goals: 52
+* Generated 11 tests with total length 74
+* Resulting test suite's coverage: 78%
+* Generating assertions
+* Resulting test suite's mutation score: 59%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 8
+* Writing JUnit test case 'UnreachableCodeElimination_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

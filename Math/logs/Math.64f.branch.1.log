@@ -1,0 +1,29 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_54660_1545666615/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 210
+* Using seed 2000
+* Starting evolution
+* Search finished after 101s and 297 generations, 188509 statements, best individual has fitness: 23.16666556194697
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 85%
+* Total number of goals: 210
+* Number of covered goals: 178
+* Generated 10 tests with total length 158
+* Resulting test suite's coverage: 85%
+* Generating assertions
+* Resulting test suite's mutation score: 27%
+* Writing JUnit test case 'LevenbergMarquardtOptimizer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,43 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_55958_1546613701/build/classes
+  - /tmp/run_evosuite.pl_55958_1546613701/lib/ant-launcher.jar
+  - /tmp/run_evosuite.pl_55958_1546613701/lib/ant.jar
+  - /tmp/run_evosuite.pl_55958_1546613701/lib/args4j.jar
+  - /tmp/run_evosuite.pl_55958_1546613701/lib/guava.jar
+  - /tmp/run_evosuite.pl_55958_1546613701/lib/json.jar
+  - /tmp/run_evosuite.pl_55958_1546613701/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_55958_1546613701/lib/junit.jar
+  - /tmp/run_evosuite.pl_55958_1546613701/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_55958_1546613701/lib/protobuf-java.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 374
+* Using seed 3000
+* Starting evolution
+[MASTER] 06:55:16.214 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 06:55:28.055 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.ControlFlowGraph<N> : Type points to itself
+* Search finished after 101s and 716 generations, 210307 statements, best individual has fitness: 311.7566461468308
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 17%
+* Total number of goals: 374
+* Number of covered goals: 64
+* Generated 16 tests with total length 76
+* Resulting test suite's coverage: 18%
+* Generating assertions
+* Resulting test suite's mutation score: 6%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 15
+* Writing JUnit test case 'PeepholeSubstituteAlternateSyntax_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

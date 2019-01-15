@@ -1,0 +1,29 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math3.util.ContinuedFraction
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_101697_1546631859/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.util.ContinuedFraction
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 20
+* Using seed 3000
+* Starting evolution
+* Search finished after 101s and 993 generations, 0 statements, best individual has fitness: 21.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 0%
+* Total number of goals: 20
+* Number of covered goals: 0
+* Generated 0 tests with total length 0
+* Resulting test suite's coverage: 0%
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Writing JUnit test case 'ContinuedFraction_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

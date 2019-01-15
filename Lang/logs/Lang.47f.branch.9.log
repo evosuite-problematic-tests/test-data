@@ -1,0 +1,29 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.lang.text.StrBuilder
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_196839_1545209803/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang.text.StrBuilder
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 564
+* Using seed 1000
+* Starting evolution
+* Search finished after 101s and 823 generations, 394263 statements, best individual has fitness: 0.6666666666666666
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 564
+* Number of covered goals: 563
+* Generated 240 tests with total length 687
+* Resulting test suite's coverage: 100%
+* Generating assertions
+* Resulting test suite's mutation score: 39%
+* Writing JUnit test case 'StrBuilder_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

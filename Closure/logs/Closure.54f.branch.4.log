@@ -1,0 +1,77 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.TypedScopeCreator
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_98406_1546757541/build/classes
+  - /tmp/run_evosuite.pl_98406_1546757541/lib/args4j.jar
+  - /tmp/run_evosuite.pl_98406_1546757541/lib/guava.jar
+  - /tmp/run_evosuite.pl_98406_1546757541/lib/json.jar
+  - /tmp/run_evosuite.pl_98406_1546757541/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_98406_1546757541/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_98406_1546757541/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_98406_1546757541/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.TypedScopeCreator
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 646
+* Using seed 5000
+* Starting evolution
+[MASTER] 22:52:37.672 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.ControlFlowGraph<N> : Type points to itself
+[MASTER] 22:52:39.285 [logback-2] ERROR TestCluster - Failed to check cache for com.google.common.base.Supplier<T> : Type points to itself
+* Search finished after 101s and 576 generations, 193253 statements, best individual has fitness: 482.62579181332615
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 23%
+* Total number of goals: 646
+* Number of covered goals: 151
+* Generated 17 tests with total length 124
+* Resulting test suite's coverage: 23%
+* Generating assertions
+* Resulting test suite's mutation score: 13%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 10
+* Writing JUnit test case 'TypedScopeCreator_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.rhino.jstype.FunctionType
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_98406_1546757541/build/classes
+  - /tmp/run_evosuite.pl_98406_1546757541/lib/args4j.jar
+  - /tmp/run_evosuite.pl_98406_1546757541/lib/guava.jar
+  - /tmp/run_evosuite.pl_98406_1546757541/lib/json.jar
+  - /tmp/run_evosuite.pl_98406_1546757541/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_98406_1546757541/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_98406_1546757541/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_98406_1546757541/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.rhino.jstype.FunctionType
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 334
+* Using seed 5000
+* Starting evolution
+* Search finished after 101s and 638 generations, 333041 statements, best individual has fitness: 59.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 79%
+* Total number of goals: 334
+* Number of covered goals: 263
+* Generated 69 tests with total length 375
+* Resulting test suite's coverage: 79%
+* Generating assertions
+* Resulting test suite's mutation score: 48%
+* Writing JUnit test case 'FunctionType_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

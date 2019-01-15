@@ -1,0 +1,42 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.PeepholeReplaceKnownMethods
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_96219_1545812900/build/classes
+  - /tmp/run_evosuite.pl_96219_1545812900/lib/args4j.jar
+  - /tmp/run_evosuite.pl_96219_1545812900/lib/guava.jar
+  - /tmp/run_evosuite.pl_96219_1545812900/lib/json.jar
+  - /tmp/run_evosuite.pl_96219_1545812900/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_96219_1545812900/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_96219_1545812900/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_96219_1545812900/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.PeepholeReplaceKnownMethods
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 259
+* Using seed 2000
+* Starting evolution
+[MASTER] 00:28:39.679 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+[MASTER] 00:28:40.239 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 00:28:44.392 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.ControlFlowGraph<N> : Type points to itself
+* Search finished after 101s and 1729 generations, 613053 statements, best individual has fitness: 240.21296296296296
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 8%
+* Total number of goals: 259
+* Number of covered goals: 22
+* Generated 5 tests with total length 31
+* Resulting test suite's coverage: 8%
+* Generating assertions
+* Resulting test suite's mutation score: 4%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'PeepholeReplaceKnownMethods_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

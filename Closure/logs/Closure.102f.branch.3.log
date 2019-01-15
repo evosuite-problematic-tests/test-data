@@ -1,0 +1,41 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.Normalize
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_255617_1546685931/build/classes
+  - /tmp/run_evosuite.pl_255617_1546685931/lib/ant_deploy.jar
+  - /tmp/run_evosuite.pl_255617_1546685931/lib/google_common_deploy.jar
+  - /tmp/run_evosuite.pl_255617_1546685931/lib/hamcrest-core-1.1.jar
+  - /tmp/run_evosuite.pl_255617_1546685931/lib/junit4-core.jar
+  - /tmp/run_evosuite.pl_255617_1546685931/lib/junit4-legacy.jar
+  - /tmp/run_evosuite.pl_255617_1546685931/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_255617_1546685931/lib/protobuf_deploy.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.Normalize
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 153
+* Using seed 4000
+* Starting evolution
+[MASTER] 02:59:05.738 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Stack<E> : Type points to itself
+[MASTER] 02:59:55.411 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.ControlFlowGraph<N> : Type points to itself
+* Search finished after 101s and 592 generations, 190892 statements, best individual has fitness: 83.08818126318127
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 44%
+* Total number of goals: 153
+* Number of covered goals: 67
+* Generated 11 tests with total length 57
+* Resulting test suite's coverage: 44%
+* Generating assertions
+* Resulting test suite's mutation score: 3%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 14
+* Writing JUnit test case 'Normalize_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

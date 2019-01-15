@@ -1,0 +1,37 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.rhino.jstype.PrototypeObjectType
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_228097_1546676704/build/classes
+  - /tmp/run_evosuite.pl_228097_1546676704/lib/args4j.jar
+  - /tmp/run_evosuite.pl_228097_1546676704/lib/guava.jar
+  - /tmp/run_evosuite.pl_228097_1546676704/lib/json.jar
+  - /tmp/run_evosuite.pl_228097_1546676704/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_228097_1546676704/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_228097_1546676704/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_228097_1546676704/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.rhino.jstype.PrototypeObjectType
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 197
+* Using seed 4000
+* Starting evolution
+[MASTER] 00:25:43.143 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.jstype.RecordTypeBuilder$RecordProperty due to org.evosuite.ga.ConstructionFailedException: Have no generator for class com.google.javascript.rhino.jstype.RecordTypeBuilder$RecordProperty canUseFunctionalMocks=false, canBeMocked: false
+* Search finished after 101s and 1002 generations, 453446 statements, best individual has fitness: 22.333333333333332
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 83%
+* Total number of goals: 197
+* Number of covered goals: 163
+* Generated 46 tests with total length 296
+* Resulting test suite's coverage: 83%
+* Generating assertions
+* Resulting test suite's mutation score: 58%
+* Writing JUnit test case 'PrototypeObjectType_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

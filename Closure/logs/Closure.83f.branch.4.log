@@ -1,0 +1,43 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.CommandLineRunner
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_223702_1546768690/build/classes
+  - /tmp/run_evosuite.pl_223702_1546768690/lib/args4j.jar
+  - /tmp/run_evosuite.pl_223702_1546768690/lib/guava.jar
+  - /tmp/run_evosuite.pl_223702_1546768690/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_223702_1546768690/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_223702_1546768690/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_223702_1546768690/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.CommandLineRunner
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 50
+* Using seed 5000
+* Starting evolution
+[MASTER] 01:58:20.333 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.ControlFlowGraph<N>.Branch : Type points to itself
+[MASTER] 01:58:22.095 [logback-2] ERROR TestCluster - Failed to check cache for com.google.common.base.Supplier<T> : Type points to itself
+[MASTER] 01:58:23.261 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+[MASTER] 01:59:02.730 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.CommandLineRunner due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.evosuite.runtime.mock.java.io.MockPrintStream due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for java.io.BufferedOutputStream due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.evosuite.runtime.mock.java.io.MockFileOutputStream due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 01:59:34.415 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for java.util.LinkedList due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for java.io.ObjectInputStream due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for java.io.PushbackInputStream due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+* Search finished after 101s and 1288 generations, 168934 statements, best individual has fitness: 27.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 44%
+* Total number of goals: 50
+* Number of covered goals: 22
+* Generated 7 tests with total length 42
+* Resulting test suite's coverage: 44%
+* Generating assertions
+* Resulting test suite's mutation score: 19%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 60
+* Writing JUnit test case 'CommandLineRunner_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

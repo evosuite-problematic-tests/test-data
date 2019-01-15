@@ -1,0 +1,39 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.rhino.IR
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_74641_1546832247/build/classes
+  - /tmp/run_evosuite.pl_74641_1546832247/lib/args4j.jar
+  - /tmp/run_evosuite.pl_74641_1546832247/lib/guava.jar
+  - /tmp/run_evosuite.pl_74641_1546832247/lib/json.jar
+  - /tmp/run_evosuite.pl_74641_1546832247/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_74641_1546832247/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_74641_1546832247/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_74641_1546832247/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.rhino.IR
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 377
+* Using seed 1000
+* Starting evolution
+* Search finished after 102s and 484 generations, 107995 statements, best individual has fitness: 19.15714285714286
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 91%
+* Total number of goals: 377
+* Number of covered goals: 343
+* Generated 132 tests with total length 338
+* Resulting test suite's coverage: 91%
+* Generating assertions
+* Resulting test suite's mutation score: 37%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'IR_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

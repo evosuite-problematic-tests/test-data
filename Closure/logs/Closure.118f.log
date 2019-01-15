@@ -1,0 +1,15 @@
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2018-12-26 11:06:52  ######
+Generate tests for: com.google.javascript.jscomp.DisambiguateProperties : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2018-12-26 11:08:42  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-04 16:06:02  ######
+Generate tests for: com.google.javascript.jscomp.DisambiguateProperties : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-04 16:07:49  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-05 11:36:59  ######
+Generate tests for: com.google.javascript.jscomp.DisambiguateProperties : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-05 11:38:47  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-06 11:16:02  ######
+Generate tests for: com.google.javascript.jscomp.DisambiguateProperties : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-06 11:17:52  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-07 07:02:36  ######
+Generate tests for: com.google.javascript.jscomp.DisambiguateProperties : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-07 07:04:26  ######

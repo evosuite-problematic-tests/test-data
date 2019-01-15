@@ -1,0 +1,29 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math3.optimization.direct.CMAESOptimizer
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_212296_1545199661/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.optimization.direct.CMAESOptimizer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 290
+* Using seed 1000
+* Starting evolution
+* Search finished after 101s and 821 generations, 314685 statements, best individual has fitness: 69.49996646177193
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 74%
+* Total number of goals: 290
+* Number of covered goals: 216
+* Generated 15 tests with total length 92
+* Resulting test suite's coverage: 74%
+* Generating assertions
+* Resulting test suite's mutation score: 5%
+* Writing JUnit test case 'CMAESOptimizer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

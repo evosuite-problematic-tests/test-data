@@ -1,0 +1,33 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizer
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_14762_1545215446/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 25
+* Using seed 1000
+* Starting evolution
+[MASTER] 02:31:00.950 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class org.apache.commons.math.optimization.univariate.BrentOptimizer canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 02:31:01.582 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizer<org.apache.commons.math.analysis.polynomials.PolynomialSplineFunction> canUseFunctionalMocks=false, canBeMocked: false
+[MASTER] 02:31:01.773 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizer<org.apache.commons.math.analysis.polynomials.PolynomialFunctionNewtonForm> canUseFunctionalMocks=false, canBeMocked: false
+[MASTER] 02:31:02.476 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizer<org.apache.commons.math.analysis.polynomials.PolynomialFunction> canUseFunctionalMocks=false, canBeMocked: false
+* Search finished after 11s and 18 generations, 13068 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 25
+* Number of covered goals: 25
+* Generated 11 tests with total length 62
+* Resulting test suite's coverage: 100%
+* Generating assertions
+* Resulting test suite's mutation score: 28%
+* Writing JUnit test case 'MultiStartUnivariateRealOptimizer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

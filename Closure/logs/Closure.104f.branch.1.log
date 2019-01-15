@@ -1,0 +1,36 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.rhino.jstype.UnionType
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_139155_1545820497/build/classes
+  - /tmp/run_evosuite.pl_139155_1545820497/lib/ant_deploy.jar
+  - /tmp/run_evosuite.pl_139155_1545820497/lib/google_common_deploy.jar
+  - /tmp/run_evosuite.pl_139155_1545820497/lib/hamcrest-core-1.1.jar
+  - /tmp/run_evosuite.pl_139155_1545820497/lib/junit4-core.jar
+  - /tmp/run_evosuite.pl_139155_1545820497/lib/junit4-legacy.jar
+  - /tmp/run_evosuite.pl_139155_1545820497/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_139155_1545820497/lib/protobuf_deploy.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.rhino.jstype.UnionType
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 131
+* Using seed 2000
+* Starting evolution
+* Search finished after 24s and 166 generations, 110451 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 131
+* Number of covered goals: 131
+* Generated 46 tests with total length 353
+* Resulting test suite's coverage: 100%
+* Generating assertions
+* Resulting test suite's mutation score: 43%
+* Writing JUnit test case 'UnionType_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,41 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.ProcessCommonJSModules
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_82965_1545809608/build/classes
+  - /tmp/run_evosuite.pl_82965_1545809608/lib/args4j.jar
+  - /tmp/run_evosuite.pl_82965_1545809608/lib/guava.jar
+  - /tmp/run_evosuite.pl_82965_1545809608/lib/json.jar
+  - /tmp/run_evosuite.pl_82965_1545809608/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_82965_1545809608/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_82965_1545809608/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_82965_1545809608/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.ProcessCommonJSModules
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 51
+* Using seed 2000
+* Starting evolution
+[MASTER] 23:33:43.946 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+[MASTER] 23:34:09.727 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.GlobalNamespace$Ref due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.GlobalNamespace$Name due to org.evosuite.ga.ConstructionFailedException: Have no generator for class com.google.javascript.jscomp.GlobalNamespace$Name canUseFunctionalMocks=true, canBeMocked: false
+* Search finished after 102s and 1034 generations, 329072 statements, best individual has fitness: 9.999999999443116
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 82%
+* Total number of goals: 51
+* Number of covered goals: 42
+* Generated 9 tests with total length 31
+* Resulting test suite's coverage: 82%
+* Generating assertions
+* Resulting test suite's mutation score: 8%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'ProcessCommonJSModules_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,55 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.chart.util.ShapeUtilities
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_6784_1545648315/build
+  - /tmp/run_evosuite.pl_6784_1545648315/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.chart.util.ShapeUtilities
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 123
+* Using seed 2000
+* Starting evolution
+[MASTER] 02:45:26.067 [logback-2] ERROR TestCluster - Failed to check cache for java.util.ArrayDeque<E> : Type points to itself
+[MASTER] 02:45:26.067 [logback-2] ERROR TestCluster - Failed to check cache for java.util.ArrayList<E> : Type points to itself
+[MASTER] 02:45:26.068 [logback-2] ERROR TestCluster - Failed to check cache for java.util.EnumMap<K, V> : Type points to itself
+[MASTER] 02:45:26.068 [logback-2] ERROR TestCluster - Failed to check cache for java.util.EnumSet<E> : Type points to itself
+[MASTER] 02:45:26.068 [logback-2] ERROR TestCluster - Failed to check cache for java.util.HashMap<K, V> : Type points to itself
+[MASTER] 02:45:26.069 [logback-2] ERROR TestCluster - Failed to check cache for java.util.HashSet<E> : Type points to itself
+[MASTER] 02:45:26.069 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Hashtable<K, V> : Type points to itself
+[MASTER] 02:45:26.069 [logback-2] ERROR TestCluster - Failed to check cache for java.util.IdentityHashMap<K, V> : Type points to itself
+[MASTER] 02:45:26.069 [logback-2] ERROR TestCluster - Failed to check cache for java.util.LinkedHashMap<K, V> : Type points to itself
+[MASTER] 02:45:26.069 [logback-2] ERROR TestCluster - Failed to check cache for java.util.LinkedHashSet<E> : Type points to itself
+[MASTER] 02:45:26.069 [logback-2] ERROR TestCluster - Failed to check cache for java.util.LinkedList<E> : Type points to itself
+[MASTER] 02:45:26.070 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Stack<E> : Type points to itself
+[MASTER] 02:45:26.070 [logback-2] ERROR TestCluster - Failed to check cache for java.util.TreeMap<K, V> : Type points to itself
+[MASTER] 02:45:26.070 [logback-2] ERROR TestCluster - Failed to check cache for java.util.TreeSet<E> : Type points to itself
+[MASTER] 02:45:26.070 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Vector<E> : Type points to itself
+* Search finished after 101s and 380 generations, 141330 statements, best individual has fitness: 1.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 98%
+* Total number of goals: 123
+* Number of covered goals: 120
+* Generated 62 tests with total length 176
+* Resulting test suite's coverage: 98%
+* Generating assertions
+* Resulting test suite's mutation score: 21%
+* Permissions denied during test execution: 
+  - java.io.FilePermission: 
+         write /tmp/+~JT5742650722165946367.tmp: 1
+         write /tmp/+~JT4639270410995304336.tmp: 1
+         write /tmp/+~JT3590805453183758795.tmp: 1
+         and other 2 cases of action/name for this exception class
+  - java.net.URLPermission: 
+         *:* http://www.someFakeButWellFormedURL.org/fooExample: 2
+  - java.lang.RuntimePermission: 
+         queuePrintJob: 1
+* Writing JUnit test case 'ShapeUtilities_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

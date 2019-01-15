@@ -1,0 +1,40 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.ScopedAliases
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_257778_1546686794/build/classes
+  - /tmp/run_evosuite.pl_257778_1546686794/lib/args4j.jar
+  - /tmp/run_evosuite.pl_257778_1546686794/lib/guava.jar
+  - /tmp/run_evosuite.pl_257778_1546686794/lib/json.jar
+  - /tmp/run_evosuite.pl_257778_1546686794/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_257778_1546686794/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_257778_1546686794/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_257778_1546686794/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.ScopedAliases
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 173
+* Using seed 4000
+* Starting evolution
+[MASTER] 03:15:04.036 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.NoType due to IAE: tried to access class com.google.javascript.rhino.jstype.PrototypeObjectType from class com.google.javascript.rhino.jstype.NoType$MockitoMock$1190309820
+* Search finished after 102s and 309 generations, 85291 statements, best individual has fitness: 149.83333333232488
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 14%
+* Total number of goals: 173
+* Number of covered goals: 25
+* Generated 2 tests with total length 12
+* Resulting test suite's coverage: 14%
+* Generating assertions
+* Resulting test suite's mutation score: 1%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 17
+* Writing JUnit test case 'ScopedAliases_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

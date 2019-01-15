@@ -1,0 +1,88 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.mockito.internal.invocation.InvocationMatcher
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_185715_1545170113/build/classes/main
+  - /defects4j/framework/projects/Mockito/lib/asm-all-5.0.4.jar
+  - /defects4j/framework/projects/Mockito/lib/assertj-core-2.1.0.jar
+  - /defects4j/framework/projects/Mockito/lib/cglib-and-asm-1.0.jar
+  - /defects4j/framework/projects/Mockito/lib/cobertura-2.0.3.jar
+  - /defects4j/framework/projects/Mockito/lib/fest-assert-1.3.jar
+  - /defects4j/framework/projects/Mockito/lib/fest-util-1.1.4.jar
+  - /defects4j/framework/projects/Mockito/lib/hamcrest-all-1.3.jar
+  - /defects4j/framework/projects/Mockito/lib/hamcrest-core-1.1.jar
+  - /defects4j/framework/projects/Mockito/lib/objenesis-2.1.jar
+  - /defects4j/framework/projects/Mockito/lib/objenesis-2.2.jar
+  - /defects4j/framework/projects/Mockito/lib/powermock-reflect-1.2.5.jar
+  - /tmp/run_evosuite.pl_185715_1545170113/compileLib/byte-buddy-0.6.8.jar
+* Finished analyzing classpath
+* Generating tests for class org.mockito.internal.invocation.InvocationMatcher
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 65
+* Using seed 1000
+* Starting evolution
+[MASTER] 13:56:00.438 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.beans.HasProperty<T> : Type points to itself
+[MASTER] 13:56:00.438 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.beans.HasPropertyWithValue<T> : Type points to itself
+[MASTER] 13:56:00.438 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.beans.SamePropertyValuesAs<T> : Type points to itself
+[MASTER] 13:56:00.438 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.beans.SamePropertyValuesAs<T>.PropertyMatcher : Type points to itself
+[MASTER] 13:56:00.438 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.collection.IsArray<T> : Type points to itself
+[MASTER] 13:56:00.439 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.collection.IsArrayContaining<T> : Type points to itself
+[MASTER] 13:56:00.439 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.collection.IsArrayContainingInAnyOrder<E> : Type points to itself
+[MASTER] 13:56:00.439 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.collection.IsArrayContainingInOrder<E> : Type points to itself
+[MASTER] 13:56:00.439 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.collection.IsArrayWithSize<E> : Type points to itself
+[MASTER] 13:56:00.439 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.collection.IsCollectionWithSize<E> : Type points to itself
+[MASTER] 13:56:00.439 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.collection.IsEmptyCollection<E> : Type points to itself
+[MASTER] 13:56:00.439 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.collection.IsEmptyIterable<E> : Type points to itself
+[MASTER] 13:56:00.439 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.collection.IsIn<T> : Type points to itself
+[MASTER] 13:56:00.439 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.collection.IsIterableContainingInAnyOrder<T> : Type points to itself
+[MASTER] 13:56:00.439 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.collection.IsIterableContainingInOrder<E> : Type points to itself
+[MASTER] 13:56:00.439 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.collection.IsIterableWithSize<E> : Type points to itself
+[MASTER] 13:56:00.439 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.collection.IsMapContaining<K, V> : Type points to itself
+[MASTER] 13:56:00.439 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.core.AllOf<T> : Type points to itself
+[MASTER] 13:56:00.439 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.core.AnyOf<T> : Type points to itself
+[MASTER] 13:56:00.439 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.core.CombinableMatcher<T> : Type points to itself
+[MASTER] 13:56:00.439 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.core.DescribedAs<T> : Type points to itself
+[MASTER] 13:56:00.439 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.core.Every<T> : Type points to itself
+[MASTER] 13:56:00.439 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.core.Is<T> : Type points to itself
+[MASTER] 13:56:00.439 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.core.IsAnything<T> : Type points to itself
+[MASTER] 13:56:00.439 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.core.IsCollectionContaining<T> : Type points to itself
+[MASTER] 13:56:00.439 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.core.IsEqual<T> : Type points to itself
+[MASTER] 13:56:00.440 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.core.IsNot<T> : Type points to itself
+[MASTER] 13:56:00.440 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.core.IsNull<T> : Type points to itself
+[MASTER] 13:56:00.440 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.core.IsSame<T> : Type points to itself
+[MASTER] 13:56:00.441 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.object.HasToString<T> : Type points to itself
+[MASTER] 13:56:00.441 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.object.IsCompatibleType<T> : Type points to itself
+[MASTER] 13:56:00.449 [logback-2] ERROR TestCluster - Failed to check cache for org.mockito.internal.matchers.CapturingMatcher<T> : Type points to itself
+[MASTER] 13:56:00.450 [logback-2] ERROR TestCluster - Failed to check cache for org.mockito.internal.matchers.VarargCapturingMatcher<T> : Type points to itself
+[MASTER] 13:56:26.332 [logback-2] ERROR AbstractStatement - Error assigning value of type OrderingComparison[] defined at statement OrderingComparison<String>[] orderingComparisonArray0 = (OrderingComparison<String>[]) Array.newInstance(OrderingComparison.class, 2), assignment statement: orderingComparisonArray0[0] = (OrderingComparison<String>) orderingComparisonArray0; SUT=org.mockito.internal.invocation.InvocationMatcher
+[MASTER] 13:56:26.810 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 13:56:28.048 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationImpl due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.SerializableMethod due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.stubbing.StubbedInvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 13:56:28.570 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationImpl due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.SerializableMethod due to org.evosuite.ga.ConstructionFailedException: Have no generator for class org.mockito.internal.invocation.InvocationImpl canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 13:56:28.585 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.stubbing.StubbedInvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationImpl due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.SerializableMethod due to org.evosuite.ga.ConstructionFailedException: Have no generator for class org.mockito.internal.invocation.InvocationImpl canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 13:56:30.774 [logback-2] ERROR AbstractStatement - Error assigning value of type OrderingComparison[] defined at statement OrderingComparison<String>[] orderingComparisonArray0 = (OrderingComparison<String>[]) Array.newInstance(OrderingComparison.class, 2), assignment statement: orderingComparisonArray0[0] = (OrderingComparison<String>) orderingComparisonArray0; SUT=org.mockito.internal.invocation.InvocationMatcher
+[MASTER] 13:56:51.523 [logback-2] ERROR AbstractStatement - Error assigning value of type OrderingComparison[] defined at statement OrderingComparison<Integer>[] orderingComparisonArray0 = (OrderingComparison<Integer>[]) Array.newInstance(OrderingComparison.class, 3), assignment statement: orderingComparisonArray0[0] = (OrderingComparison<Integer>) orderingComparisonArray0; SUT=org.mockito.internal.invocation.InvocationMatcher
+[MASTER] 13:56:52.963 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationImpl due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationImpl due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.SerializableMethod due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.stubbing.StubbedInvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 13:56:55.141 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationImpl due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.SerializableMethod due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.stubbing.StubbedInvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 13:57:06.175 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.stubbing.StubbedInvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Have no generator for class org.mockito.internal.invocation.InvocationMatcher canUseFunctionalMocks=false, canBeMocked: false
+[MASTER] 13:57:12.004 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class org.mockito.internal.invocation.InvocationImpl canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 13:57:32.389 [logback-2] ERROR AbstractStatement - Error assigning value of type IsArrayContainingInOrder[] defined at statement IsArrayContainingInOrder<SamePropertyValuesAs.PropertyMatcher>[] isArrayContainingInOrderArray0 = (IsArrayContainingInOrder<SamePropertyValuesAs.PropertyMatcher>[]) Array.newInstance(IsArrayContainingInOrder.class, 2), assignment statement: isArrayContainingInOrderArray0[0] = (IsArrayContainingInOrder<SamePropertyValuesAs.PropertyMatcher>) isArrayContainingInOrderArray0; SUT=org.mockito.internal.invocation.InvocationMatcher
+[MASTER] 13:57:35.703 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.stubbing.StubbedInvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationImpl due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.realmethod.CleanTraceRealMethod due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.realmethod.DefaultRealMethod due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 13:57:40.247 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class org.mockito.internal.invocation.InvocationMatcher canUseFunctionalMocks=false, canBeMocked: false
+* Search finished after 101s and 293 generations, 37474 statements, best individual has fitness: 61.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 14%
+* Total number of goals: 65
+* Number of covered goals: 9
+* Generated 4 tests with total length 14
+* Resulting test suite's coverage: 14%
+* Generating assertions
+* Resulting test suite's mutation score: 2%
+* Writing JUnit test case 'InvocationMatcher_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

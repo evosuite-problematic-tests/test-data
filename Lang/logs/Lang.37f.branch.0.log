@@ -1,0 +1,52 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.lang3.ArrayUtils
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_10698_1545130519/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.ArrayUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 854
+* Using seed 1000
+* Starting evolution
+[MASTER] 02:55:28.255 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 02:55:28.256 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself
+[MASTER] 02:55:29.155 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 02:56:26.510 [logback-2] ERROR AbstractStatement - Error assigning value of type Comparable[] defined at statement Comparable<Object>[] comparableArray0 = (Comparable<Object>[]) Array.newInstance(Comparable.class, 1), assignment statement: comparableArray0[0] = (Comparable<Object>) comparableArray0; SUT=org.apache.commons.lang3.ArrayUtils
+[MASTER] 02:56:27.052 [logback-2] ERROR AbstractStatement - Error assigning value of type Comparable[] defined at statement Comparable<Object>[] comparableArray0 = (Comparable<Object>[]) Array.newInstance(Comparable.class, 9), assignment statement: comparableArray0[0] = (Comparable<Object>) comparableArray0; SUT=org.apache.commons.lang3.ArrayUtils
+[MASTER] 02:56:30.534 [logback-2] ERROR AbstractStatement - Error assigning value of type Comparable[] defined at statement Comparable<Object>[] comparableArray0 = (Comparable<Object>[]) Array.newInstance(Comparable.class, 5), assignment statement: comparableArray0[0] = (Comparable<Object>) comparableArray0; SUT=org.apache.commons.lang3.ArrayUtils
+[MASTER] 02:56:31.464 [logback-2] ERROR AbstractStatement - Error assigning value of type Comparable[] defined at statement Comparable<Object>[] comparableArray0 = (Comparable<Object>[]) Array.newInstance(Comparable.class, 6), assignment statement: comparableArray0[0] = (Comparable<Object>) comparableArray0; SUT=org.apache.commons.lang3.ArrayUtils
+[MASTER] 02:56:31.761 [logback-2] ERROR AbstractStatement - Error assigning value of type Comparable[] defined at statement Comparable<Object>[] comparableArray0 = (Comparable<Object>[]) Array.newInstance(Comparable.class, 4), assignment statement: comparableArray0[0] = (Comparable<Object>) comparableArray0; SUT=org.apache.commons.lang3.ArrayUtils
+[MASTER] 02:56:32.145 [logback-2] ERROR AbstractStatement - Error assigning value of type Comparable[] defined at statement Comparable<Object>[] comparableArray0 = (Comparable<Object>[]) Array.newInstance(Comparable.class, 2), assignment statement: comparableArray0[0] = (Comparable<Object>) comparableArray0; SUT=org.apache.commons.lang3.ArrayUtils
+[MASTER] 02:56:36.164 [logback-2] ERROR AbstractStatement - Error assigning value of type Comparable[] defined at statement Comparable<Object>[] comparableArray0 = (Comparable<Object>[]) Array.newInstance(Comparable.class, 4), assignment statement: comparableArray0[0] = (Comparable<Object>) comparableArray0; SUT=org.apache.commons.lang3.ArrayUtils
+[MASTER] 02:56:38.188 [logback-2] ERROR AbstractStatement - Error assigning value of type Comparable[] defined at statement Comparable<Object>[] comparableArray0 = (Comparable<Object>[]) Array.newInstance(Comparable.class, 8), assignment statement: comparableArray0[0] = (Comparable<Object>) comparableArray0; SUT=org.apache.commons.lang3.ArrayUtils
+[MASTER] 02:56:42.828 [logback-2] ERROR AbstractStatement - Error assigning value of type Comparable[] defined at statement Comparable<Object>[] comparableArray0 = (Comparable<Object>[]) Array.newInstance(Comparable.class, 5), assignment statement: comparableArray0[0] = (Comparable<Object>) comparableArray0; SUT=org.apache.commons.lang3.ArrayUtils
+[MASTER] 02:56:46.386 [logback-2] ERROR AbstractStatement - Error assigning value of type Comparable[] defined at statement Comparable<Object>[] comparableArray0 = (Comparable<Object>[]) Array.newInstance(Comparable.class, 8), assignment statement: comparableArray0[0] = (Comparable<Object>) comparableArray0; SUT=org.apache.commons.lang3.ArrayUtils
+[MASTER] 02:56:53.316 [logback-2] ERROR AbstractStatement - Error assigning value of type Comparable[] defined at statement Comparable<Object>[] comparableArray0 = (Comparable<Object>[]) Array.newInstance(Comparable.class, 7), assignment statement: comparableArray0[0] = (Comparable<Object>) comparableArray0; SUT=org.apache.commons.lang3.ArrayUtils
+[MASTER] 02:56:53.627 [logback-2] ERROR AbstractStatement - Error assigning value of type Comparable[] defined at statement Comparable<Object>[] comparableArray0 = (Comparable<Object>[]) Array.newInstance(Comparable.class, 7), assignment statement: comparableArray0[0] = (Comparable<Object>) comparableArray0; SUT=org.apache.commons.lang3.ArrayUtils
+[MASTER] 02:56:59.057 [logback-2] ERROR AbstractStatement - Error assigning value of type Comparable[] defined at statement Comparable<Object>[] comparableArray0 = (Comparable<Object>[]) Array.newInstance(Comparable.class, 3), assignment statement: comparableArray0[0] = (Comparable<Object>) comparableArray0; SUT=org.apache.commons.lang3.ArrayUtils
+[MASTER] 02:57:01.246 [logback-2] ERROR AbstractStatement - Error assigning value of type Comparable[] defined at statement Comparable<Object>[] comparableArray0 = (Comparable<Object>[]) Array.newInstance(Comparable.class, 4), assignment statement: comparableArray0[0] = (Comparable<Object>) comparableArray0; SUT=org.apache.commons.lang3.ArrayUtils
+[MASTER] 02:57:02.836 [logback-2] ERROR AbstractStatement - Error assigning value of type Comparable[] defined at statement Comparable<Object>[] comparableArray0 = (Comparable<Object>[]) Array.newInstance(Comparable.class, 1), assignment statement: comparableArray0[0] = (Comparable<Object>) comparableArray0; SUT=org.apache.commons.lang3.ArrayUtils
+[MASTER] 02:57:03.839 [logback-2] ERROR AbstractStatement - Error assigning value of type Comparable[] defined at statement Comparable<Object>[] comparableArray0 = (Comparable<Object>[]) Array.newInstance(Comparable.class, 9), assignment statement: comparableArray0[0] = (Comparable<Object>) comparableArray0; SUT=org.apache.commons.lang3.ArrayUtils
+[MASTER] 02:57:03.976 [logback-2] ERROR AbstractStatement - Error assigning value of type Comparable[] defined at statement Comparable<Object>[] comparableArray0 = (Comparable<Object>[]) Array.newInstance(Comparable.class, 8), assignment statement: comparableArray0[0] = (Comparable<Object>) comparableArray0; SUT=org.apache.commons.lang3.ArrayUtils
+[MASTER] 02:57:06.719 [logback-2] ERROR AbstractStatement - Error assigning value of type Comparable[] defined at statement Comparable<Object>[] comparableArray0 = (Comparable<Object>[]) Array.newInstance(Comparable.class, 1), assignment statement: comparableArray0[0] = (Comparable<Object>) comparableArray0; SUT=org.apache.commons.lang3.ArrayUtils
+[MASTER] 02:57:06.760 [logback-2] ERROR AbstractStatement - Error assigning value of type Comparable[] defined at statement Comparable<Object>[] comparableArray0 = (Comparable<Object>[]) Array.newInstance(Comparable.class, 2), assignment statement: comparableArray0[0] = (Comparable<Object>) comparableArray0; SUT=org.apache.commons.lang3.ArrayUtils
+[MASTER] 02:57:08.237 [logback-2] ERROR AbstractStatement - Error assigning value of type Comparable[] defined at statement Comparable<Object>[] comparableArray0 = (Comparable<Object>[]) Array.newInstance(Comparable.class, 1), assignment statement: comparableArray0[0] = (Comparable<Object>) comparableArray0; SUT=org.apache.commons.lang3.ArrayUtils
+* Search finished after 101s and 450 generations, 433757 statements, best individual has fitness: 4.25
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 99%
+* Total number of goals: 854
+* Number of covered goals: 848
+* Generated 359 tests with total length 761
+* Resulting test suite's coverage: 99%
+* Generating assertions
+* Resulting test suite's mutation score: 72%
+* Writing JUnit test case 'ArrayUtils_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

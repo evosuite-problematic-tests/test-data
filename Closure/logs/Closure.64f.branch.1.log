@@ -1,0 +1,50 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.Compiler
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_203041_1545814777/build/classes
+  - /tmp/run_evosuite.pl_203041_1545814777/lib/args4j.jar
+  - /tmp/run_evosuite.pl_203041_1545814777/lib/guava.jar
+  - /tmp/run_evosuite.pl_203041_1545814777/lib/json.jar
+  - /tmp/run_evosuite.pl_203041_1545814777/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_203041_1545814777/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_203041_1545814777/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_203041_1545814777/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.Compiler
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 457
+* Using seed 2000
+* Starting evolution
+[MASTER] 00:59:50.165 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.DisambiguateProperties<T> : Type points to itself
+[MASTER] 00:59:54.222 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+[MASTER] 00:59:55.582 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.CheckRequiresForConstructors due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.NodeTraversal due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.Compiler due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.PrintStreamErrorManager due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.LightweightMessageFormatter due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 00:59:55.960 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.CheckRequiresForConstructors due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.NodeTraversal due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.TypeCheck due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.SemanticReverseAbstractInterpreter due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.jstype.JSTypeRegistry due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 00:59:56.197 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.CheckRequiresForConstructors due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.Compiler due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.PrintStreamErrorManager due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.LightweightMessageFormatter due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.Compiler due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 01:00:03.271 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.CheckPropertyOrder due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.NodeTraversal due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.Compiler due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.PrintStreamErrorManager due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.evosuite.runtime.mock.java.io.MockPrintStream due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 01:00:03.338 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.InferJSDocInfo due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.NodeTraversal due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.Compiler due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.evosuite.runtime.mock.java.io.MockPrintStream due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 01:00:04.956 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.CheckPropertyOrder due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.NodeTraversal due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.Compiler due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.evosuite.runtime.mock.java.io.MockPrintStream due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.evosuite.runtime.mock.java.io.MockFile due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 01:00:05.450 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.DefaultPassConfig due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.NodeTraversal due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.SyntacticScopeCreator due to org.evosuite.ga.ConstructionFailedException: Have no generator for interface com.google.javascript.jscomp.SyntacticScopeCreator$RedeclarationHandler canUseFunctionalMocks=true, canBeMocked: false
+[MASTER] 01:00:51.448 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class com.google.javascript.jscomp.FlowSensitiveInlineVariables canUseFunctionalMocks=true, canBeMocked: false
+[MASTER] 01:01:07.786 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.UnreachableCodeElimination due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.NodeTraversal due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.Compiler due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.PrintStreamErrorManager due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.evosuite.runtime.mock.java.io.MockPrintStream due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+* Search finished after 101s and 140 generations, 62907 statements, best individual has fitness: 129.49870674870704
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 65%
+* Total number of goals: 457
+* Number of covered goals: 296
+* Generated 89 tests with total length 386
+* Resulting test suite's coverage: 65%
+* Generating assertions
+* Resulting test suite's mutation score: 18%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 5
+* Writing JUnit test case 'Compiler_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

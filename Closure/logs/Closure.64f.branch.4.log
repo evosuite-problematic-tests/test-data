@@ -1,0 +1,44 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.Compiler
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_216289_1546766053/build/classes
+  - /tmp/run_evosuite.pl_216289_1546766053/lib/args4j.jar
+  - /tmp/run_evosuite.pl_216289_1546766053/lib/guava.jar
+  - /tmp/run_evosuite.pl_216289_1546766053/lib/json.jar
+  - /tmp/run_evosuite.pl_216289_1546766053/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_216289_1546766053/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_216289_1546766053/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_216289_1546766053/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.Compiler
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 457
+* Using seed 5000
+* Starting evolution
+[MASTER] 01:14:24.860 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.DisambiguateProperties<T> : Type points to itself
+[MASTER] 01:14:29.758 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.InferJSDocInfo due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.NodeTraversal due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.SyntacticScopeCreator due to org.evosuite.ga.ConstructionFailedException: Have no generator for interface com.google.javascript.jscomp.SyntacticScopeCreator$RedeclarationHandler canUseFunctionalMocks=true, canBeMocked: false
+[MASTER] 01:15:57.378 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.NodeTraversal due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.SyntacticScopeCreator due to org.evosuite.ga.ConstructionFailedException: Have no generator for interface com.google.javascript.jscomp.SyntacticScopeCreator$RedeclarationHandler canUseFunctionalMocks=true, canBeMocked: false
+[MASTER] 01:15:58.545 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.NameReferenceGraph$Reference due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.Node due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 01:16:02.683 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.JSModuleGraph due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.CompilerInput due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.CompilerInput due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+* Search finished after 102s and 145 generations, 61736 statements, best individual has fitness: 165.14428607151788
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 60%
+* Total number of goals: 457
+* Number of covered goals: 274
+* Generated 97 tests with total length 367
+* Resulting test suite's coverage: 60%
+* Generating assertions
+* Resulting test suite's mutation score: 17%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 9
+* Writing JUnit test case 'Compiler_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

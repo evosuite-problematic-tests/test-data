@@ -1,0 +1,33 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.data.time.TimeSeries
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_101504_1545156393/build
+  - /tmp/run_evosuite.pl_101504_1545156393/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.data.time.TimeSeries
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 161
+* Using seed 1000
+* Starting evolution
+[MASTER] 10:06:45.997 [logback-2] ERROR TestCluster - Failed to check cache for java.util.LinkedList<E> : Type points to itself
+[MASTER] 10:07:24.783 [logback-2] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+[MASTER] 10:07:41.437 [logback-2] ERROR AbstractStatement - Error assigning value of type TemporalQuery[] defined at statement TemporalQuery<Second>[] temporalQueryArray0 = (TemporalQuery<Second>[]) Array.newInstance(TemporalQuery.class, 6), assignment statement: temporalQueryArray0[0] = (TemporalQuery<Second>) temporalQueryArray0; SUT=org.jfree.data.time.TimeSeries
+* Search finished after 102s and 1864 generations, 525045 statements, best individual has fitness: 5.99999999953431
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 94%
+* Total number of goals: 161
+* Number of covered goals: 152
+* Generated 53 tests with total length 267
+* Resulting test suite's coverage: 94%
+* Generating assertions
+* Resulting test suite's mutation score: 49%
+* Writing JUnit test case 'TimeSeries_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,34 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.joda.time.format.DateTimeFormatter
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_150001_1546644918/target/classes
+  - /d4j/defects4j/framework/projects/Time/lib/org/joda/joda-convert/1.2/joda-convert-1.2.jar
+* Finished analyzing classpath
+* Generating tests for class org.joda.time.format.DateTimeFormatter
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 113
+* Using seed 3000
+* Starting evolution
+* Search finished after 101s and 1056 generations, 349961 statements, best individual has fitness: 2.9999999990686774
+* Minimizing test suite
+[MASTER] 15:37:08.739 [logback-2] ERROR TestCluster - Failed to check cache for java.time.temporal.TemporalQuery<R> : Type points to itself
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 96%
+* Total number of goals: 113
+* Number of covered goals: 109
+* Generated 50 tests with total length 221
+* Resulting test suite's coverage: 96%
+* Generating assertions
+* Resulting test suite's mutation score: 38%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 85
+* Writing JUnit test case 'DateTimeFormatter_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,45 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_155349_1545162409/target/classes
+  - /defects4j/framework/projects/Mockito/lib/asm-all-5.0.4.jar
+  - /defects4j/framework/projects/Mockito/lib/assertj-core-2.1.0.jar
+  - /defects4j/framework/projects/Mockito/lib/cglib-and-asm-1.0.jar
+  - /defects4j/framework/projects/Mockito/lib/cobertura-2.0.3.jar
+  - /defects4j/framework/projects/Mockito/lib/fest-assert-1.3.jar
+  - /defects4j/framework/projects/Mockito/lib/fest-util-1.1.4.jar
+  - /defects4j/framework/projects/Mockito/lib/hamcrest-all-1.3.jar
+  - /defects4j/framework/projects/Mockito/lib/hamcrest-core-1.1.jar
+  - /defects4j/framework/projects/Mockito/lib/objenesis-2.1.jar
+  - /defects4j/framework/projects/Mockito/lib/objenesis-2.2.jar
+  - /defects4j/framework/projects/Mockito/lib/powermock-reflect-1.2.5.jar
+* Finished analyzing classpath
+* Generating tests for class org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 22
+* Using seed 1000
+* Starting evolution
+[MASTER] 11:48:33.772 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationImpl due to org.evosuite.ga.ConstructionFailedException: Have no generator for class org.mockito.internal.stubbing.InvocationContainerImpl canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 11:48:33.796 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.stubbing.InvocationContainerImpl due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.creation.settings.CreationSettings due to org.evosuite.ga.ConstructionFailedException: Have no generator for org.mockito.internal.creation.MockSettingsImpl<java.lang.Object> canUseFunctionalMocks=false, canBeMocked: true
+* Search finished after 101s and 4031 generations, 405254 statements, best individual has fitness: 24.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 9%
+* Total number of goals: 22
+* Number of covered goals: 2
+* Generated 1 tests with total length 3
+* Resulting test suite's coverage: 9%
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+* Writing JUnit test case 'ReturnsDeepStubs_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

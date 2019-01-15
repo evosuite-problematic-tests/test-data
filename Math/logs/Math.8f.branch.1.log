@@ -1,0 +1,31 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math3.distribution.DiscreteDistribution
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_37267_1545661211/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.distribution.DiscreteDistribution
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 26
+* Using seed 2000
+* Starting evolution
+[MASTER] 06:20:22.182 [logback-2] ERROR TestCluster - Failed to check cache for org.apache.commons.math3.util.Pair<K, V> : Type points to itself
+[MASTER] 06:20:22.758 [logback-2] ERROR TestCluster - Failed to check cache for java.util.function.Function<T, R> : Type points to itself
+* Search finished after 101s and 844 generations, 253228 statements, best individual has fitness: 0.6666666666666666
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 96%
+* Total number of goals: 26
+* Number of covered goals: 25
+* Generated 9 tests with total length 57
+* Resulting test suite's coverage: 96%
+* Generating assertions
+* Resulting test suite's mutation score: 58%
+* Writing JUnit test case 'DiscreteDistribution_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

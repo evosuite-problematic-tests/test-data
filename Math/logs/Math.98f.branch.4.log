@@ -1,0 +1,58 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math.linear.BigMatrixImpl
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_29532_1546793674/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.linear.BigMatrixImpl
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 315
+* Using seed 5000
+* Starting evolution
+* Search finished after 101s and 1367 generations, 463389 statements, best individual has fitness: 30.833333333333332
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 90%
+* Total number of goals: 315
+* Number of covered goals: 282
+* Generated 87 tests with total length 352
+* Resulting test suite's coverage: 90%
+* Generating assertions
+* Resulting test suite's mutation score: 27%
+* Writing JUnit test case 'BigMatrixImpl_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math.linear.RealMatrixImpl
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_29532_1546793674/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.linear.RealMatrixImpl
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 268
+* Using seed 5000
+* Starting evolution
+* Search finished after 101s and 1367 generations, 420664 statements, best individual has fitness: 32.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 87%
+* Total number of goals: 268
+* Number of covered goals: 234
+* Generated 71 tests with total length 272
+* Resulting test suite's coverage: 87%
+* Generating assertions
+* Resulting test suite's mutation score: 30%
+* Writing JUnit test case 'RealMatrixImpl_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

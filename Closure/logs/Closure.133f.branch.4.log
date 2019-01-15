@@ -1,0 +1,63 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.parsing.JsDocInfoParser
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_240476_1546775138/build/classes
+  - /tmp/run_evosuite.pl_240476_1546775138/lib/args4j.jar
+  - /tmp/run_evosuite.pl_240476_1546775138/lib/guava.jar
+  - /tmp/run_evosuite.pl_240476_1546775138/lib/json.jar
+  - /tmp/run_evosuite.pl_240476_1546775138/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_240476_1546775138/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_240476_1546775138/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_240476_1546775138/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.parsing.JsDocInfoParser
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 800
+* Using seed 5000
+* Starting evolution
+[MASTER] 03:45:58.788 [logback-1] WARN  TestUsageChecker - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 03:46:28.838 [logback-2] ERROR FunctionalMockStatement - IAE on <public abstract boolean com.google.javascript.rhino.head.ast.NodeVisitor.visit(com.google.javascript.rhino.head.ast.AstNode)> when called with [[]]
+[MASTER] 03:46:29.759 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on interface com.google.javascript.rhino.head.ContextFactory$Listener due to IAE: 
+Misplaced or misused argument matcher detected here:
+
+-> at org.evosuite.testcase.fm.MethodDescriptor.executeMatcher(MethodDescriptor.java:245)
+
+You cannot use argument matchers outside of verification or stubbing.
+Examples of correct usage of argument matchers:
+    when(mock.get(anyInt())).thenReturn(null);
+    doThrow(new RuntimeException()).when(mock).someVoidMethod(anyObject());
+    verify(mock).someMethod(contains("foo"))
+
+This message may appear after an NullPointerException if the last matcher is returning an object 
+like any() but the stubbed method signature expect a primitive argument, in this case,
+use primitive alternatives.
+    when(mock.get(any())); // bad use, will raise NPE
+    when(mock.get(anyInt())); // correct usage use
+
+Also, this error might show up because you use argument matchers with methods that cannot be mocked.
+Following methods *cannot* be stubbed/verified: final/private/equals()/hashCode().
+Mocking methods declared on non-public parent classes is not supported.
+
+[MASTER] 03:46:42.657 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.TemplateType due to IAE: tried to access class com.google.javascript.rhino.jstype.ProxyObjectType from class com.google.javascript.rhino.jstype.TemplateType$MockitoMock$79125331
+* Search finished after 101s and 696 generations, 383744 statements, best individual has fitness: 562.1452380952381
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 28%
+* Total number of goals: 800
+* Number of covered goals: 223
+* Generated 43 tests with total length 353
+* Resulting test suite's coverage: 29%
+* Generating assertions
+* Resulting test suite's mutation score: 19%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 7
+* Writing JUnit test case 'JsDocInfoParser_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,43 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.ProcessClosurePrimitives
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_64684_1546617352/build/classes
+  - /tmp/run_evosuite.pl_64684_1546617352/lib/args4j.jar
+  - /tmp/run_evosuite.pl_64684_1546617352/lib/guava.jar
+  - /tmp/run_evosuite.pl_64684_1546617352/lib/json.jar
+  - /tmp/run_evosuite.pl_64684_1546617352/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_64684_1546617352/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_64684_1546617352/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_64684_1546617352/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.ProcessClosurePrimitives
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 352
+* Using seed 3000
+* Starting evolution
+[MASTER] 07:56:07.625 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 07:56:07.625 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself
+* Search finished after 103s and 128 generations, 43362 statements, best individual has fitness: 331.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 11%
+* Total number of goals: 352
+* Number of covered goals: 40
+* Generated 6 tests with total length 33
+* Resulting test suite's coverage: 11%
+* Generating assertions
+* Resulting test suite's mutation score: 1%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 5
+  - java.net.SocketPermission: 
+         resolve z-vlWApMj|=_8: 1
+* Writing JUnit test case 'ProcessClosurePrimitives_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,39 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.GlobalNamespace
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_109005_1546844666/build/classes
+  - /tmp/run_evosuite.pl_109005_1546844666/lib/args4j.jar
+  - /tmp/run_evosuite.pl_109005_1546844666/lib/guava.jar
+  - /tmp/run_evosuite.pl_109005_1546844666/lib/json.jar
+  - /tmp/run_evosuite.pl_109005_1546844666/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_109005_1546844666/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_109005_1546844666/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_109005_1546844666/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.GlobalNamespace
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 497
+* Using seed 1000
+* Starting evolution
+* Search finished after 101s and 172 generations, 63595 statements, best individual has fitness: 303.96601061773475
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 37%
+* Total number of goals: 497
+* Number of covered goals: 185
+* Generated 63 tests with total length 240
+* Resulting test suite's coverage: 37%
+* Generating assertions
+* Resulting test suite's mutation score: 17%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 3
+* Writing JUnit test case 'GlobalNamespace_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

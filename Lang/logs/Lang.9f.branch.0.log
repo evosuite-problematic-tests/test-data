@@ -1,0 +1,33 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.lang3.time.FastDateParser
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_2371_1545126631/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.time.FastDateParser
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 353
+* Using seed 1000
+* Starting evolution
+[MASTER] 01:50:40.046 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 01:50:40.047 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself
+[MASTER] 01:50:41.283 [logback-2] ERROR TestCluster - Failed to check cache for java.time.temporal.TemporalQuery<R> : Type points to itself
+[MASTER] 01:50:57.065 [logback-2] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+* Search finished after 101s and 1282 generations, 289732 statements, best individual has fitness: 51.49223602484473
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 76%
+* Total number of goals: 353
+* Number of covered goals: 269
+* Generated 49 tests with total length 174
+* Resulting test suite's coverage: 80%
+* Generating assertions
+* Resulting test suite's mutation score: 29%
+* Writing JUnit test case 'FastDateParser_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

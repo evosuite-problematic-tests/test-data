@@ -1,0 +1,40 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.FunctionRewriter
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_137394_1545813620/build/classes
+  - /tmp/run_evosuite.pl_137394_1545813620/lib/args4j.jar
+  - /tmp/run_evosuite.pl_137394_1545813620/lib/guava.jar
+  - /tmp/run_evosuite.pl_137394_1545813620/lib/json.jar
+  - /tmp/run_evosuite.pl_137394_1545813620/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_137394_1545813620/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_137394_1545813620/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_137394_1545813620/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.FunctionRewriter
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 97
+* Using seed 2000
+* Starting evolution
+[MASTER] 00:40:37.223 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+* Search finished after 101s and 1053 generations, 208804 statements, best individual has fitness: 23.477272727272727
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 71%
+* Total number of goals: 97
+* Number of covered goals: 69
+* Generated 4 tests with total length 22
+* Resulting test suite's coverage: 71%
+* Generating assertions
+* Resulting test suite's mutation score: 9%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 28
+* Writing JUnit test case 'FunctionRewriter_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

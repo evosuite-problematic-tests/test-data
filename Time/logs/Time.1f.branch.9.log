@@ -1,0 +1,63 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.joda.time.Partial
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_77633_1545157890/target/classes
+  - /defects4j/framework/projects/Time/lib/org/joda/joda-convert/1.2/joda-convert-1.2.jar
+* Finished analyzing classpath
+* Generating tests for class org.joda.time.Partial
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 138
+* Using seed 1000
+* Starting evolution
+[MASTER] 10:32:18.353 [logback-2] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+* Search finished after 78s and 1127 generations, 435747 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 99%
+* Total number of goals: 138
+* Number of covered goals: 137
+* Generated 57 tests with total length 270
+* Resulting test suite's coverage: 100%
+* Generating assertions
+* Resulting test suite's mutation score: 68%
+* Writing JUnit test case 'Partial_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.joda.time.field.UnsupportedDurationField
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_77633_1545157890/target/classes
+  - /defects4j/framework/projects/Time/lib/org/joda/joda-convert/1.2/joda-convert-1.2.jar
+* Finished analyzing classpath
+* Generating tests for class org.joda.time.field.UnsupportedDurationField
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 34
+* Using seed 1000
+* Starting evolution
+[MASTER] 10:33:49.059 [logback-2] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+[MASTER] 10:34:02.369 [logback-2] ERROR AbstractStatement - Error assigning value of type TemporalQuery[] defined at statement TemporalQuery<Object>[] temporalQueryArray0 = (TemporalQuery<Object>[]) Array.newInstance(TemporalQuery.class, 8), assignment statement: temporalQueryArray0[0] = (TemporalQuery<Object>) temporalQueryArray0; SUT=org.joda.time.field.UnsupportedDurationField
+* Search finished after 101s and 3452 generations, 610460 statements, best individual has fitness: 3.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 79%
+* Total number of goals: 34
+* Number of covered goals: 27
+* Generated 19 tests with total length 56
+* Resulting test suite's coverage: 88%
+* Generating assertions
+* Resulting test suite's mutation score: 48%
+* Writing JUnit test case 'UnsupportedDurationField_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

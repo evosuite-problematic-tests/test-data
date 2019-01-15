@@ -1,0 +1,43 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.CheckGlobalThis
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_79628_1545818720/build/classes
+  - /tmp/run_evosuite.pl_79628_1545818720/lib/ant_deploy.jar
+  - /tmp/run_evosuite.pl_79628_1545818720/lib/args4j_deploy.jar
+  - /tmp/run_evosuite.pl_79628_1545818720/lib/guava-r06.jar
+  - /tmp/run_evosuite.pl_79628_1545818720/lib/hamcrest-core-1.1.jar
+  - /tmp/run_evosuite.pl_79628_1545818720/lib/json.jar
+  - /tmp/run_evosuite.pl_79628_1545818720/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_79628_1545818720/lib/junit.jar
+  - /tmp/run_evosuite.pl_79628_1545818720/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_79628_1545818720/lib/protobuf-java-2.3.0.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.CheckGlobalThis
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 75
+* Using seed 2000
+* Starting evolution
+[MASTER] 02:05:31.203 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.ControlFlowGraph<N>.Branch : Type points to itself
+[MASTER] 02:06:29.684 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.ControlFlowGraph<N> : Type points to itself
+* Search finished after 101s and 869 generations, 308729 statements, best individual has fitness: 19.42857142857143
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 68%
+* Total number of goals: 75
+* Number of covered goals: 51
+* Generated 12 tests with total length 74
+* Resulting test suite's coverage: 68%
+* Generating assertions
+* Resulting test suite's mutation score: 40%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 26
+* Writing JUnit test case 'CheckGlobalThis_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

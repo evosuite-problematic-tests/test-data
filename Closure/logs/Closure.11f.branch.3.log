@@ -1,0 +1,39 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.TypeCheck
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_218388_1546674043/build/classes
+  - /tmp/run_evosuite.pl_218388_1546674043/lib/args4j.jar
+  - /tmp/run_evosuite.pl_218388_1546674043/lib/guava.jar
+  - /tmp/run_evosuite.pl_218388_1546674043/lib/json.jar
+  - /tmp/run_evosuite.pl_218388_1546674043/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_218388_1546674043/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_218388_1546674043/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_218388_1546674043/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.TypeCheck
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 1022
+* Using seed 4000
+* Starting evolution
+* Search finished after 104s and 350 generations, 73345 statements, best individual has fitness: 823.0925617575399
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 20%
+* Total number of goals: 1022
+* Number of covered goals: 205
+* Generated 14 tests with total length 140
+* Resulting test suite's coverage: 20%
+* Generating assertions
+* Resulting test suite's mutation score: 7%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 19
+* Writing JUnit test case 'TypeCheck_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

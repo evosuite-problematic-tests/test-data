@@ -1,0 +1,2662 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.CommandLineRunner
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_158323_1545820885/build/classes
+  - /tmp/run_evosuite.pl_158323_1545820885/lib/args4j.jar
+  - /tmp/run_evosuite.pl_158323_1545820885/lib/guava.jar
+  - /tmp/run_evosuite.pl_158323_1545820885/lib/json.jar
+  - /tmp/run_evosuite.pl_158323_1545820885/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_158323_1545820885/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_158323_1545820885/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_158323_1545820885/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.CommandLineRunner
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 94
+* Using seed 2000
+* Starting evolution
+[MASTER] 02:41:44.317 [logback-2] ERROR TestCluster - Failed to check cache for com.google.common.base.Supplier<T> : Type points to itself
+[MASTER] 02:41:44.318 [logback-2] ERROR TestCluster - Failed to check cache for com.google.common.base.Function<F, T> : Type points to itself
+[MASTER] 02:42:25.572 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for java.io.DataInputStream due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for java.io.PushbackInputStream due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.evosuite.runtime.mock.java.io.MockFileInputStream due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+* Search finished after 101s and 500 generations, 86606 statements, best individual has fitness: 53.49999999906868
+* Minimizing test suite
+[MASTER] 02:43:21.435 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.435 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.435 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.435 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.441 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.442 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.442 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.442 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.444 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.444 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.444 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.444 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.447 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.447 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.447 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.447 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.449 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.449 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:main([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.449 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.449 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:main([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.449 [logback-1] WARN  ExecutionTrace - Popping method main([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.449 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:main([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.452 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.452 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.452 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.452 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.455 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.455 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.455 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.455 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.458 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.458 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.458 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.458 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.460 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.460 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.460 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.460 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.463 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.463 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.463 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.463 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.473 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.473 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.473 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.473 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.479 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.479 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.479 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.479 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.485 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.485 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.485 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.485 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.493 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.493 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.493 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.493 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.496 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.496 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.496 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.496 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.499 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.499 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.499 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.499 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.501 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.501 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.501 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.501 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.503 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.503 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.504 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.504 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.506 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.507 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.507 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.507 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.510 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.510 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.510 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.510 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.512 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.512 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.512 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.512 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.515 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.515 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.515 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.515 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.518 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.518 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.518 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.518 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.555 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.555 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.555 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.555 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.561 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.561 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.561 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.561 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.566 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.566 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.566 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.566 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.571 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.571 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.571 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.571 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.576 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.576 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.576 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.576 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.582 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.582 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.582 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.582 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.589 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.589 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.589 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.589 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.594 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.594 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.594 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.595 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.611 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.611 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.611 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.611 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.612 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.612 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.612 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.612 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.614 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.614 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.614 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.614 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.615 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.615 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.615 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.615 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.617 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.617 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.617 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.617 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.618 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.618 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.618 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.618 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.627 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.627 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.627 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.627 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.630 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.630 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.630 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.630 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.632 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.632 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.632 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.632 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.635 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.635 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.635 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.635 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.637 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.637 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.637 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.637 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.640 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.640 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.640 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.640 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.642 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.642 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.642 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.642 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.645 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.645 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.645 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.645 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.647 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.647 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.647 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.647 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.649 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.649 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.649 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.649 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.663 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.663 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.664 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.664 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.666 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.666 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:21.666 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:21.666 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 22%
+* Total number of goals: 94
+* Number of covered goals: 21
+* Generated 5 tests with total length 19
+* Resulting test suite's coverage: 39%
+* Generating assertions
+[MASTER] 02:43:22.068 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.068 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.070 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.070 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.114 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.117 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.117 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.117 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.120 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.120 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.120 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.120 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.123 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.123 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.123 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.123 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.126 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.126 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.126 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.126 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.129 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.129 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.129 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.129 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.132 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.132 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.132 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.132 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.158 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.158 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.158 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.158 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.161 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.161 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.161 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.161 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.163 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.163 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.163 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.163 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.165 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.165 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.165 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.165 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.169 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.169 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.169 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.169 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.175 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.175 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.175 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.175 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.178 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.178 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.178 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.178 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.182 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.182 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.182 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.182 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.211 [logback-1] WARN  ExecutionTrace - Popping method processFlagFile(Ljava/io/PrintStream;)V because we were looking for initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+[MASTER] 02:43:22.211 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:processFlagFile(Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches:  7
+True Distances:  0.0
+False Distances:  2.147483646E9
+]
+[MASTER] 02:43:22.217 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.217 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.217 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.217 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.220 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.220 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.220 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.220 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.222 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.222 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.222 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.222 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.225 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.225 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.225 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.225 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.227 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.227 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.227 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.227 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.240 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.240 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.240 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.240 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.249 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.249 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.249 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.249 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.255 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.255 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.255 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.255 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.265 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.265 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.265 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.265 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.269 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.269 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.269 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.269 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.274 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.275 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.275 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.275 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.279 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.279 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.279 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.279 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.284 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.284 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.284 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.284 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.288 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.288 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.289 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.289 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.293 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.293 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.293 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.293 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.297 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.298 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.298 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.298 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.301 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.301 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.301 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.301 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.306 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.306 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.306 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.306 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.311 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.311 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.311 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.311 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.316 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.316 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.316 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.316 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.321 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.321 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.321 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.321 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.324 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.324 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.324 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.324 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.329 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.329 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.329 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.329 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.585 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.585 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.585 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.585 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.592 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.593 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.593 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.593 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.599 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.599 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.599 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.599 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.603 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.603 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.603 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.603 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.610 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.610 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.610 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.610 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.614 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.614 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.614 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.614 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.616 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.616 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.616 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.616 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.618 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.618 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.618 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.618 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.621 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.621 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.621 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.621 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.623 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.623 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.623 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.623 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.625 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.625 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.625 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.625 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.636 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.636 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.636 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.636 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.641 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.641 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:main([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.641 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.641 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:main([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.641 [logback-1] WARN  ExecutionTrace - Popping method main([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.641 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:main([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.643 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.643 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:main([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.643 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.643 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:main([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.643 [logback-1] WARN  ExecutionTrace - Popping method main([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.643 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:main([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.645 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.645 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:main([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.645 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.645 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:main([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.645 [logback-1] WARN  ExecutionTrace - Popping method main([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.645 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:main([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.647 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.647 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:main([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.647 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.647 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:main([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.647 [logback-1] WARN  ExecutionTrace - Popping method main([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.647 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:main([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+* Resulting test suite's mutation score: 0%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 22
+* Writing JUnit test case 'CommandLineRunner_ESTest' to evosuite-branch
+[MASTER] 02:43:22.658 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.658 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.658 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.658 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.660 [logback-1] WARN  ExecutionTrace - Popping method initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.660 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags([Ljava/lang/String;Ljava/io/PrintStream;)V
+Branches: 
+True Distances: 
+False Distances: 
+, com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 02:43:22.660 [logback-1] WARN  ExecutionTrace - Popping method <init>([Ljava/lang/String;)V because we were looking for <init>(Lorg/kohsuke/args4j/CmdLineParser;Lorg/kohsuke/args4j/OptionDef;Lorg/kohsuke/args4j/spi/Setter;)V
+[MASTER] 02:43:22.660 [logback-1] WARN  ExecutionTrace - Current stack: [com.google.javascript.jscomp.CommandLineRunner:<init>([Ljava/lang/String;)V
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+* Done!
+
+* Computation finished

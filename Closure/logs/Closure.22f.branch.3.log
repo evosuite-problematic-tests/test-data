@@ -1,0 +1,40 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.CheckSideEffects
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_223314_1546675364/build/classes
+  - /tmp/run_evosuite.pl_223314_1546675364/lib/args4j.jar
+  - /tmp/run_evosuite.pl_223314_1546675364/lib/guava.jar
+  - /tmp/run_evosuite.pl_223314_1546675364/lib/json.jar
+  - /tmp/run_evosuite.pl_223314_1546675364/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_223314_1546675364/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_223314_1546675364/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_223314_1546675364/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.CheckSideEffects
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 45
+* Using seed 4000
+* Starting evolution
+[MASTER] 00:03:08.279 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.ControlFlowGraph<N> : Type points to itself
+* Search finished after 105s and 888 generations, 212512 statements, best individual has fitness: 8.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 78%
+* Total number of goals: 45
+* Number of covered goals: 35
+* Generated 7 tests with total length 36
+* Resulting test suite's coverage: 78%
+* Generating assertions
+* Resulting test suite's mutation score: 13%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 20
+* Writing JUnit test case 'CheckSideEffects_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

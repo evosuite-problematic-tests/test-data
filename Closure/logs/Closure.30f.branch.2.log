@@ -1,0 +1,83 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.MustBeReachingVariableDef
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_30003_1546605875/build/classes
+  - /tmp/run_evosuite.pl_30003_1546605875/lib/args4j.jar
+  - /tmp/run_evosuite.pl_30003_1546605875/lib/guava.jar
+  - /tmp/run_evosuite.pl_30003_1546605875/lib/json.jar
+  - /tmp/run_evosuite.pl_30003_1546605875/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_30003_1546605875/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_30003_1546605875/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_30003_1546605875/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.MustBeReachingVariableDef
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 177
+* Using seed 3000
+* Starting evolution
+[MASTER] 04:44:47.223 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 04:44:47.224 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself
+[MASTER] 04:44:57.922 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Collection<java.io.InputStream> : Invalid generic instance
+[MASTER] 04:45:02.098 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Collection<com.google.javascript.jscomp.InlineVariables$Mode> : Invalid generic instance
+* Search finished after 101s and 502 generations, 153466 statements, best individual has fitness: 112.96143925023989
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 33%
+* Total number of goals: 177
+* Number of covered goals: 59
+* Generated 8 tests with total length 56
+* Resulting test suite's coverage: 33%
+* Generating assertions
+* Resulting test suite's mutation score: 8%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 7
+* Writing JUnit test case 'MustBeReachingVariableDef_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.FlowSensitiveInlineVariables
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_30003_1546605875/build/classes
+  - /tmp/run_evosuite.pl_30003_1546605875/lib/args4j.jar
+  - /tmp/run_evosuite.pl_30003_1546605875/lib/guava.jar
+  - /tmp/run_evosuite.pl_30003_1546605875/lib/json.jar
+  - /tmp/run_evosuite.pl_30003_1546605875/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_30003_1546605875/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_30003_1546605875/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_30003_1546605875/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.FlowSensitiveInlineVariables
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 145
+* Using seed 3000
+* Starting evolution
+[MASTER] 04:47:35.728 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.ControlFlowGraph<N> : Type points to itself
+* Search finished after 101s and 1206 generations, 199918 statements, best individual has fitness: 150.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 3%
+* Total number of goals: 145
+* Number of covered goals: 5
+* Generated 4 tests with total length 16
+* Resulting test suite's coverage: 3%
+* Generating assertions
+* Resulting test suite's mutation score: 1%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 35
+* Writing JUnit test case 'FlowSensitiveInlineVariables_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,45 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.CheckGlobalThis
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_252390_1546684652/build/classes
+  - /tmp/run_evosuite.pl_252390_1546684652/lib/ant_deploy.jar
+  - /tmp/run_evosuite.pl_252390_1546684652/lib/args4j_deploy.jar
+  - /tmp/run_evosuite.pl_252390_1546684652/lib/guava-r06.jar
+  - /tmp/run_evosuite.pl_252390_1546684652/lib/hamcrest-core-1.1.jar
+  - /tmp/run_evosuite.pl_252390_1546684652/lib/json.jar
+  - /tmp/run_evosuite.pl_252390_1546684652/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_252390_1546684652/lib/junit.jar
+  - /tmp/run_evosuite.pl_252390_1546684652/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_252390_1546684652/lib/protobuf-java-2.3.0.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.CheckGlobalThis
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 75
+* Using seed 4000
+* Starting evolution
+[MASTER] 02:37:43.698 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 02:37:51.433 [logback-2] ERROR AbstractStatement - Error assigning value of type Comparable[] defined at statement Comparable<Object>[] comparableArray0 = (Comparable<Object>[]) Array.newInstance(Comparable.class, 1), assignment statement: comparableArray0[0] = (Comparable<Object>) comparableArray0; SUT=com.google.javascript.jscomp.CheckGlobalThis
+[MASTER] 02:38:36.506 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.NoType due to IAE: tried to access class com.google.javascript.rhino.jstype.PrototypeObjectType from class com.google.javascript.rhino.jstype.NoType$MockitoMock$1409190861
+[MASTER] 02:39:05.916 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.ControlFlowGraph<N> : Type points to itself
+* Search finished after 101s and 746 generations, 297768 statements, best individual has fitness: 20.62857142857143
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 67%
+* Total number of goals: 75
+* Number of covered goals: 50
+* Generated 12 tests with total length 85
+* Resulting test suite's coverage: 67%
+* Generating assertions
+* Resulting test suite's mutation score: 30%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 26
+* Writing JUnit test case 'CheckGlobalThis_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

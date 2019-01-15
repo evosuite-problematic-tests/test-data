@@ -1,0 +1,40 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_112660_1546752951/build/classes
+  - /tmp/run_evosuite.pl_112660_1546752951/lib/args4j.jar
+  - /tmp/run_evosuite.pl_112660_1546752951/lib/guava.jar
+  - /tmp/run_evosuite.pl_112660_1546752951/lib/json.jar
+  - /tmp/run_evosuite.pl_112660_1546752951/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_112660_1546752951/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_112660_1546752951/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_112660_1546752951/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 615
+* Using seed 5000
+* Starting evolution
+[MASTER] 21:36:07.906 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+* Search finished after 101s and 1059 generations, 272413 statements, best individual has fitness: 501.6960567210567
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 19%
+* Total number of goals: 615
+* Number of covered goals: 119
+* Generated 38 tests with total length 133
+* Resulting test suite's coverage: 20%
+* Generating assertions
+* Resulting test suite's mutation score: 4%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 15
+* Writing JUnit test case 'PeepholeSubstituteAlternateSyntax_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

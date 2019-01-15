@@ -1,0 +1,32 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.chart.axis.Axis
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_13976_1545650316/build
+  - /tmp/run_evosuite.pl_13976_1545650316/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.chart.axis.Axis
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 172
+* Using seed 2000
+* Starting evolution
+[MASTER] 03:18:47.936 [logback-2] ERROR TestCluster - Failed to check cache for javax.swing.JComboBox<E> : Type points to itself
+[MASTER] 03:18:50.971 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+* Search finished after 102s and 415 generations, 208332 statements, best individual has fitness: 12.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 88%
+* Total number of goals: 172
+* Number of covered goals: 151
+* Generated 59 tests with total length 212
+* Resulting test suite's coverage: 88%
+* Generating assertions
+* Resulting test suite's mutation score: 41%
+* Writing JUnit test case 'Axis_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

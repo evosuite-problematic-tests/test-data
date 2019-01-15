@@ -1,0 +1,31 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.chart.plot.PiePlot
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_210254_1546671378/build
+  - /tmp/run_evosuite.pl_210254_1546671378/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.chart.plot.PiePlot
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 392
+* Using seed 4000
+* Starting evolution
+[MASTER] 22:56:32.909 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+* Search finished after 102s and 447 generations, 244387 statements, best individual has fitness: 70.99999999948777
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 73%
+* Total number of goals: 392
+* Number of covered goals: 287
+* Generated 105 tests with total length 355
+* Resulting test suite's coverage: 73%
+* Generating assertions
+* Resulting test suite's mutation score: 20%
+* Writing JUnit test case 'PiePlot_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

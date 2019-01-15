@@ -1,0 +1,15 @@
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2018-12-26 10:28:52  ######
+Generate tests for: com.google.javascript.jscomp.Normalize : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2018-12-26 10:30:51  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-04 15:27:54  ######
+Generate tests for: com.google.javascript.jscomp.Normalize : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-04 15:29:42  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-05 10:58:57  ######
+Generate tests for: com.google.javascript.jscomp.Normalize : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-05 11:00:46  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-06 10:39:07  ######
+Generate tests for: com.google.javascript.jscomp.Normalize : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-06 10:41:00  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-07 06:25:26  ######
+Generate tests for: com.google.javascript.jscomp.Normalize : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-07 06:27:25  ######

@@ -1,0 +1,32 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.data.time.Week
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_7789_1546599257/build
+  - /tmp/run_evosuite.pl_7789_1546599257/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.data.time.Week
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 83
+* Using seed 3000
+* Starting evolution
+[MASTER] 02:55:21.366 [logback-2] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+[MASTER] 02:56:04.930 [logback-2] ERROR AbstractStatement - Error assigning value of type TemporalQuery[] defined at statement TemporalQuery<Hour>[] temporalQueryArray0 = (TemporalQuery<Hour>[]) Array.newInstance(TemporalQuery.class, 1), assignment statement: temporalQueryArray0[0] = (TemporalQuery<Hour>) temporalQueryArray0; SUT=org.jfree.data.time.Week
+* Search finished after 101s and 3376 generations, 638038 statements, best individual has fitness: 8.963636363636365
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 88%
+* Total number of goals: 83
+* Number of covered goals: 73
+* Generated 30 tests with total length 81
+* Resulting test suite's coverage: 88%
+* Generating assertions
+* Resulting test suite's mutation score: 24%
+* Writing JUnit test case 'Week_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,40 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.TypeInference
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_224292_1546675725/build/classes
+  - /tmp/run_evosuite.pl_224292_1546675725/lib/args4j.jar
+  - /tmp/run_evosuite.pl_224292_1546675725/lib/guava.jar
+  - /tmp/run_evosuite.pl_224292_1546675725/lib/json.jar
+  - /tmp/run_evosuite.pl_224292_1546675725/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_224292_1546675725/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_224292_1546675725/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_224292_1546675725/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.TypeInference
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 655
+* Using seed 4000
+* Starting evolution
+[MASTER] 00:09:37.611 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.ControlFlowGraph<N> : Type points to itself
+* Search finished after 101s and 778 generations, 334447 statements, best individual has fitness: 425.58796162987335
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 32%
+* Total number of goals: 655
+* Number of covered goals: 208
+* Generated 32 tests with total length 451
+* Resulting test suite's coverage: 32%
+* Generating assertions
+* Resulting test suite's mutation score: 1%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 35
+* Writing JUnit test case 'TypeInference_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

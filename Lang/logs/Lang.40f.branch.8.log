@@ -1,0 +1,31 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.lang.StringUtils
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_165456_1545200364/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang.StringUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 1036
+* Using seed 1000
+* Starting evolution
+[MASTER] 22:19:33.994 [logback-2] ERROR TestCluster - Failed to check cache for java.util.function.Function<T, R> : Type points to itself
+[MASTER] 22:19:34.435 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Iterator<E> : Type points to itself
+* Search finished after 102s and 348 generations, 298896 statements, best individual has fitness: 21.525739443375098
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 97%
+* Total number of goals: 1036
+* Number of covered goals: 1006
+* Generated 394 tests with total length 533
+* Resulting test suite's coverage: 97%
+* Generating assertions
+* Resulting test suite's mutation score: 60%
+* Writing JUnit test case 'StringUtils_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

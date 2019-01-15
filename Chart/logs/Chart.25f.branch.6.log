@@ -1,0 +1,34 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.chart.renderer.category.StatisticalBarRenderer
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_72232_1545147878/build
+  - /tmp/run_evosuite.pl_72232_1545147878/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.chart.renderer.category.StatisticalBarRenderer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 97
+* Using seed 1000
+* Starting evolution
+[MASTER] 07:44:52.583 [logback-2] ERROR TestCluster - Failed to check cache for javax.swing.JComboBox<E> : Type points to itself
+* Search finished after 104s and 499 generations, 264622 statements, best individual has fitness: 55.33333331377556
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 40%
+* Total number of goals: 97
+* Number of covered goals: 39
+* Generated 19 tests with total length 182
+* Resulting test suite's coverage: 40%
+* Generating assertions
+* Resulting test suite's mutation score: 20%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'StatisticalBarRenderer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

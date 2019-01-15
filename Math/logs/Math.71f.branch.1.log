@@ -1,0 +1,58 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_56704_1545667133/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 41
+* Using seed 2000
+* Starting evolution
+* Search finished after 101s and 74 generations, 35498 statements, best individual has fitness: 2.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 93%
+* Total number of goals: 41
+* Number of covered goals: 38
+* Generated 4 tests with total length 26
+* Resulting test suite's coverage: 93%
+* Generating assertions
+* Resulting test suite's mutation score: 67%
+* Writing JUnit test case 'RungeKuttaIntegrator_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_56704_1545667133/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 66
+* Using seed 2000
+* Starting evolution
+* Search finished after 101s and 104 generations, 74707 statements, best individual has fitness: 28.666666666666668
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 50%
+* Total number of goals: 66
+* Number of covered goals: 33
+* Generated 5 tests with total length 21
+* Resulting test suite's coverage: 50%
+* Generating assertions
+* Resulting test suite's mutation score: 28%
+* Writing JUnit test case 'EmbeddedRungeKuttaIntegrator_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

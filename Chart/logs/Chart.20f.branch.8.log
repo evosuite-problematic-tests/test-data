@@ -1,0 +1,35 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.chart.plot.ValueMarker
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_91770_1545153744/build
+  - /tmp/run_evosuite.pl_91770_1545153744/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.chart.plot.ValueMarker
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 13
+* Using seed 1000
+* Starting evolution
+* Search finished after 104s and 1225 generations, 261281 statements, best individual has fitness: 0.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 92%
+* Total number of goals: 13
+* Number of covered goals: 12
+* Generated 5 tests with total length 14
+* Resulting test suite's coverage: 92%
+* Generating assertions
+* Resulting test suite's mutation score: 89%
+* Permissions denied during test execution: 
+  - java.io.FilePermission: 
+         write /tmp/+~JT179932451132245981.tmp: 1
+         write /tmp/+~JT5630645263611365845.tmp: 1
+         write /tmp/+~JT2847470695367500959.tmp: 1
+* Writing JUnit test case 'ValueMarker_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

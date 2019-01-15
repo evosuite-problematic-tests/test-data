@@ -1,0 +1,29 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math3.optimization.linear.SimplexSolver
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_4473_1545212142/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.optimization.linear.SimplexSolver
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 54
+* Using seed 1000
+* Starting evolution
+* Search finished after 13s and 153 generations, 77237 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 54
+* Number of covered goals: 54
+* Generated 6 tests with total length 67
+* Resulting test suite's coverage: 100%
+* Generating assertions
+* Resulting test suite's mutation score: 39%
+* Writing JUnit test case 'SimplexSolver_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

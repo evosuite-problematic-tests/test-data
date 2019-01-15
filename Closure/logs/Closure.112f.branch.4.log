@@ -1,0 +1,44 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.TypeInference
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_233704_1546772640/build/classes
+  - /tmp/run_evosuite.pl_233704_1546772640/lib/args4j.jar
+  - /tmp/run_evosuite.pl_233704_1546772640/lib/guava.jar
+  - /tmp/run_evosuite.pl_233704_1546772640/lib/json.jar
+  - /tmp/run_evosuite.pl_233704_1546772640/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_233704_1546772640/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_233704_1546772640/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_233704_1546772640/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.TypeInference
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 771
+* Using seed 5000
+* Starting evolution
+[MASTER] 03:04:24.806 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 03:04:54.464 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.VoidType due to IAE: tried to access class com.google.javascript.rhino.jstype.ValueType from class com.google.javascript.rhino.jstype.VoidType$MockitoMock$1355194166
+[MASTER] 03:05:01.580 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.BooleanType due to IAE: tried to access class com.google.javascript.rhino.jstype.ValueType from class com.google.javascript.rhino.jstype.BooleanType$MockitoMock$945477834
+[MASTER] 03:05:07.360 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.NumberType due to IAE: tried to access class com.google.javascript.rhino.jstype.ValueType from class com.google.javascript.rhino.jstype.NumberType$MockitoMock$1411204671
+[MASTER] 03:05:52.498 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.NumberType due to failed class initialization: Could not initialize class com.google.javascript.rhino.jstype.NumberType$MockitoMock$1411204671
+* Search finished after 101s and 176 generations, 49933 statements, best individual has fitness: 808.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 0%
+* Total number of goals: 771
+* Number of covered goals: 2
+* Generated 2 tests with total length 4
+* Resulting test suite's coverage: 0%
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 17
+* Writing JUnit test case 'TypeInference_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

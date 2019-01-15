@@ -1,0 +1,45 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.CheckSideEffects
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_119821_1546753186/build/classes
+  - /tmp/run_evosuite.pl_119821_1546753186/lib/args4j.jar
+  - /tmp/run_evosuite.pl_119821_1546753186/lib/guava.jar
+  - /tmp/run_evosuite.pl_119821_1546753186/lib/json.jar
+  - /tmp/run_evosuite.pl_119821_1546753186/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_119821_1546753186/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_119821_1546753186/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_119821_1546753186/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.CheckSideEffects
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 45
+* Using seed 5000
+* Starting evolution
+[MASTER] 21:40:03.553 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 21:40:11.958 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.ControlFlowGraph due to org.evosuite.ga.ConstructionFailedException: Have no generator for class com.google.javascript.rhino.jstype.UnionType canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 21:40:12.471 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.ControlFlowGraph<N> : Type points to itself
+* Search finished after 101s and 743 generations, 195984 statements, best individual has fitness: 8.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 78%
+* Total number of goals: 45
+* Number of covered goals: 35
+* Generated 7 tests with total length 36
+* Resulting test suite's coverage: 78%
+* Generating assertions
+* Resulting test suite's mutation score: 13%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 24
+  - java.net.SocketPermission: 
+         resolve ~sL: 1
+         resolve JSC_USELESS_CODE: 1
+* Writing JUnit test case 'CheckSideEffects_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

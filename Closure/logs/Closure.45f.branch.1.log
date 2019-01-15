@@ -1,0 +1,39 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.RemoveUnusedVars
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_56032_1545812208/build/classes
+  - /tmp/run_evosuite.pl_56032_1545812208/lib/args4j.jar
+  - /tmp/run_evosuite.pl_56032_1545812208/lib/guava.jar
+  - /tmp/run_evosuite.pl_56032_1545812208/lib/json.jar
+  - /tmp/run_evosuite.pl_56032_1545812208/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_56032_1545812208/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_56032_1545812208/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_56032_1545812208/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.RemoveUnusedVars
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 307
+* Using seed 2000
+* Starting evolution
+* Search finished after 101s and 1579 generations, 546514 statements, best individual has fitness: 270.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 15%
+* Total number of goals: 307
+* Number of covered goals: 45
+* Generated 6 tests with total length 44
+* Resulting test suite's coverage: 15%
+* Generating assertions
+* Resulting test suite's mutation score: 4%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 9
+* Writing JUnit test case 'RemoveUnusedVars_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

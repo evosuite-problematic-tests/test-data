@@ -1,0 +1,77 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.rhino.JSDocInfoBuilder
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_147321_1545820659/build/classes
+  - /tmp/run_evosuite.pl_147321_1545820659/lib/google_common_deploy.jar
+  - /tmp/run_evosuite.pl_147321_1545820659/lib/google_compiled_protos_deploy.jar
+  - /tmp/run_evosuite.pl_147321_1545820659/lib/junit.jar
+  - /tmp/run_evosuite.pl_147321_1545820659/lib/libtrunk_rhino_parser_jarjared.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.rhino.JSDocInfoBuilder
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 150
+* Using seed 2000
+* Starting evolution
+[MASTER] 02:38:56.446 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.StringType due to IAE: tried to access class com.google.javascript.rhino.jstype.ValueType from class com.google.javascript.rhino.jstype.StringType$MockitoMock$1811266836
+[MASTER] 02:39:05.535 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.StringType due to failed class initialization: Could not initialize class com.google.javascript.rhino.jstype.StringType$MockitoMock$1811266836
+[MASTER] 02:39:10.102 [logback-2] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+* Search finished after 101s and 1926 generations, 721812 statements, best individual has fitness: 1.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 98%
+* Total number of goals: 150
+* Number of covered goals: 147
+* Generated 78 tests with total length 302
+* Resulting test suite's coverage: 98%
+* Generating assertions
+* Resulting test suite's mutation score: 68%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+* Writing JUnit test case 'JSDocInfoBuilder_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.GlobalNamespace
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_147321_1545820659/build/classes
+  - /tmp/run_evosuite.pl_147321_1545820659/lib/google_common_deploy.jar
+  - /tmp/run_evosuite.pl_147321_1545820659/lib/google_compiled_protos_deploy.jar
+  - /tmp/run_evosuite.pl_147321_1545820659/lib/junit.jar
+  - /tmp/run_evosuite.pl_147321_1545820659/lib/libtrunk_rhino_parser_jarjared.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.GlobalNamespace
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 400
+* Using seed 2000
+* Starting evolution
+[MASTER] 02:39:39.441 [logback-2] ERROR TestCluster - Failed to check cache for java.util.HashSet<E> : Type points to itself
+[MASTER] 02:39:42.536 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+* Search finished after 102s and 860 generations, 314338 statements, best individual has fitness: 236.80823114083984
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 41%
+* Total number of goals: 400
+* Number of covered goals: 165
+* Generated 52 tests with total length 251
+* Resulting test suite's coverage: 41%
+* Generating assertions
+* Resulting test suite's mutation score: 17%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+* Writing JUnit test case 'GlobalNamespace_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

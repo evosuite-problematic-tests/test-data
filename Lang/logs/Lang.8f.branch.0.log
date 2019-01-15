@@ -1,0 +1,32 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.lang3.time.FastDatePrinter
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_2076_1545126347/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.time.FastDatePrinter
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 354
+* Using seed 1000
+* Starting evolution
+[MASTER] 01:45:58.776 [logback-2] ERROR TestCluster - Failed to check cache for java.time.temporal.TemporalQuery<R> : Type points to itself
+[MASTER] 01:46:57.392 [logback-2] ERROR AbstractStatement - Error assigning value of type TemporalQuery[] defined at statement TemporalQuery<Calendar>[] temporalQueryArray0 = (TemporalQuery<Calendar>[]) Array.newInstance(TemporalQuery.class, 2), assignment statement: temporalQueryArray0[0] = (TemporalQuery<Calendar>) temporalQueryArray0; SUT=org.apache.commons.lang3.time.FastDatePrinter
+[MASTER] 01:47:17.823 [logback-2] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+* Search finished after 101s and 1472 generations, 375520 statements, best individual has fitness: 54.8843448027428
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 81%
+* Total number of goals: 354
+* Number of covered goals: 286
+* Generated 65 tests with total length 241
+* Resulting test suite's coverage: 81%
+* Generating assertions
+* Resulting test suite's mutation score: 22%
+* Writing JUnit test case 'FastDatePrinter_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

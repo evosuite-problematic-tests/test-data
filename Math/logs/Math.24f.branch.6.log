@@ -1,0 +1,31 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math3.optimization.univariate.BrentOptimizer
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_214010_1545200250/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.optimization.univariate.BrentOptimizer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 75
+* Using seed 1000
+* Starting evolution
+[MASTER] 22:17:52.226 [logback-2] ERROR TestCluster - Failed to check cache for org.apache.commons.math3.optimization.ConvergenceChecker<PAIR> : Type points to itself
+* Search finished after 217s and 177 generations, 37647 statements, best individual has fitness: 0.5
+[MASTER] 22:21:27.129 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 116 seconds more than allowed.
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 99%
+* Total number of goals: 75
+* Number of covered goals: 74
+* Generated 10 tests with total length 36
+* Resulting test suite's coverage: 99%
+* Generating assertions
+* Resulting test suite's mutation score: 52%
+* Writing JUnit test case 'BrentOptimizer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

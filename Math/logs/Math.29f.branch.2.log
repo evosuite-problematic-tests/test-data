@@ -1,0 +1,29 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math3.linear.OpenMapRealVector
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_101085_1546631816/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.linear.OpenMapRealVector
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 171
+* Using seed 3000
+* Starting evolution
+* Search finished after 14s and 75 generations, 61540 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 171
+* Number of covered goals: 171
+* Generated 47 tests with total length 227
+* Resulting test suite's coverage: 100%
+* Generating assertions
+* Resulting test suite's mutation score: 54%
+* Writing JUnit test case 'OpenMapRealVector_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,42 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.GlobalNamespace
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_196226_1545822523/build/classes
+  - /tmp/run_evosuite.pl_196226_1545822523/lib/args4j.jar
+  - /tmp/run_evosuite.pl_196226_1545822523/lib/guava.jar
+  - /tmp/run_evosuite.pl_196226_1545822523/lib/json.jar
+  - /tmp/run_evosuite.pl_196226_1545822523/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_196226_1545822523/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_196226_1545822523/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_196226_1545822523/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.GlobalNamespace
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 497
+* Using seed 2000
+* Starting evolution
+[MASTER] 03:09:48.707 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.NullType due to IAE: tried to access class com.google.javascript.rhino.jstype.ValueType from class com.google.javascript.rhino.jstype.NullType$MockitoMock$1497797420
+[MASTER] 03:09:57.387 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.NullType due to failed class initialization: Could not initialize class com.google.javascript.rhino.jstype.NullType$MockitoMock$1497797420
+[MASTER] 03:10:05.461 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.NumberType due to IAE: tried to access class com.google.javascript.rhino.jstype.ValueType from class com.google.javascript.rhino.jstype.NumberType$MockitoMock$904632629
+* Search finished after 101s and 138 generations, 50906 statements, best individual has fitness: 316.99406597031054
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 35%
+* Total number of goals: 497
+* Number of covered goals: 174
+* Generated 61 tests with total length 214
+* Resulting test suite's coverage: 34%
+* Generating assertions
+* Resulting test suite's mutation score: 15%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 3
+* Writing JUnit test case 'GlobalNamespace_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

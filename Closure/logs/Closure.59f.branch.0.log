@@ -1,0 +1,50 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.Compiler
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_86568_1546836594/build/classes
+  - /tmp/run_evosuite.pl_86568_1546836594/lib/args4j.jar
+  - /tmp/run_evosuite.pl_86568_1546836594/lib/guava.jar
+  - /tmp/run_evosuite.pl_86568_1546836594/lib/json.jar
+  - /tmp/run_evosuite.pl_86568_1546836594/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_86568_1546836594/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_86568_1546836594/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_86568_1546836594/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.Compiler
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 467
+* Using seed 1000
+* Starting evolution
+[MASTER] 20:50:08.052 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.DisambiguateProperties<T> : Type points to itself
+[MASTER] 20:50:16.820 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+[MASTER] 20:50:17.416 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.NameReferenceGraphConstruction due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.Compiler due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.evosuite.runtime.mock.java.io.MockPrintStream due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for java.io.DataOutputStream due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for java.io.BufferedOutputStream due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 20:50:17.422 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class com.google.javascript.jscomp.NameReferenceGraphConstruction canUseFunctionalMocks=true, canBeMocked: false
+[MASTER] 20:50:17.528 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.NameReferenceGraphConstruction due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.Compiler due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.evosuite.runtime.mock.java.io.MockPrintStream due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.evosuite.runtime.mock.java.io.MockFileOutputStream due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 20:50:17.860 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.ReferenceCollectingCallback$Reference due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.ReferenceCollectingCallback$BasicBlock due to org.evosuite.ga.ConstructionFailedException: Have no generator for class com.google.javascript.jscomp.ReferenceCollectingCallback$BasicBlock canUseFunctionalMocks=true, canBeMocked: false
+[MASTER] 20:50:18.462 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.SideEffectsAnalysis due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.NodeTraversal due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.GatherSideEffectSubexpressionsCallback due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.GatherSideEffectSubexpressionsCallback$CopySideEffectSubexpressions due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 20:50:18.579 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.CoalesceVariableNames due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.NodeTraversal due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.AnonymousFunctionNamingCallback due to org.evosuite.ga.ConstructionFailedException: Have no generator for interface com.google.javascript.jscomp.AnonymousFunctionNamingCallback$FunctionNamer canUseFunctionalMocks=true, canBeMocked: false
+[MASTER] 20:50:18.722 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.CreateSyntheticBlocks due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.NodeTraversal due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.Compiler due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.PrintStreamErrorManager due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.evosuite.runtime.mock.java.io.MockPrintStream due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 20:50:31.096 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.NameAnonymousFunctionsMapped due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.NodeTraversal due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.AnonymousFunctionNamingCallback due to org.evosuite.ga.ConstructionFailedException: Have no generator for interface com.google.javascript.jscomp.AnonymousFunctionNamingCallback$FunctionNamer canUseFunctionalMocks=true, canBeMocked: false
+[MASTER] 20:51:23.933 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.VarCheck due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.NodeTraversal due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.Compiler due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.LoggerErrorManager due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.LightweightMessageFormatter due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+* Search finished after 101s and 151 generations, 95803 statements, best individual has fitness: 171.87499999953434
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 58%
+* Total number of goals: 467
+* Number of covered goals: 272
+* Generated 88 tests with total length 408
+* Resulting test suite's coverage: 58%
+* Generating assertions
+* Resulting test suite's mutation score: 18%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 9
+* Writing JUnit test case 'Compiler_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,44 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_224908_1546769158/build/classes
+  - /tmp/run_evosuite.pl_224908_1546769158/lib/ant-launcher.jar
+  - /tmp/run_evosuite.pl_224908_1546769158/lib/ant.jar
+  - /tmp/run_evosuite.pl_224908_1546769158/lib/args4j.jar
+  - /tmp/run_evosuite.pl_224908_1546769158/lib/guava.jar
+  - /tmp/run_evosuite.pl_224908_1546769158/lib/json.jar
+  - /tmp/run_evosuite.pl_224908_1546769158/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_224908_1546769158/lib/junit.jar
+  - /tmp/run_evosuite.pl_224908_1546769158/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_224908_1546769158/lib/protobuf-java.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 374
+* Using seed 5000
+* Starting evolution
+[MASTER] 02:06:09.143 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.ControlFlowGraph<N> : Type points to itself
+[MASTER] 02:06:12.250 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Iterator<E> : Type points to itself
+[MASTER] 02:06:44.496 [logback-2] ERROR AbstractStatement - Error assigning value of type Comparable[] defined at statement Comparable<Object>[] comparableArray0 = (Comparable<Object>[]) Array.newInstance(Comparable.class, 3), assignment statement: comparableArray0[0] = (Comparable<Object>) comparableArray0; SUT=com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax
+* Search finished after 101s and 1012 generations, 234765 statements, best individual has fitness: 315.03223270440253
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 18%
+* Total number of goals: 374
+* Number of covered goals: 67
+* Generated 23 tests with total length 96
+* Resulting test suite's coverage: 18%
+* Generating assertions
+* Resulting test suite's mutation score: 6%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 14
+* Writing JUnit test case 'PeepholeSubstituteAlternateSyntax_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

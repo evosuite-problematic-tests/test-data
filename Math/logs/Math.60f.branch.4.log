@@ -1,0 +1,29 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math.distribution.NormalDistributionImpl
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_17991_1546790066/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.distribution.NormalDistributionImpl
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 25
+* Using seed 5000
+* Starting evolution
+* Search finished after 1s and 2 generations, 2036 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 25
+* Number of covered goals: 25
+* Generated 12 tests with total length 23
+* Resulting test suite's coverage: 100%
+* Generating assertions
+* Resulting test suite's mutation score: 63%
+* Writing JUnit test case 'NormalDistributionImpl_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

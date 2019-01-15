@@ -1,0 +1,35 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.joda.time.tz.ZoneInfoCompiler
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_63846_1545151815/target/classes
+  - /defects4j/framework/projects/Time/lib/org/joda/joda-convert/1.2/joda-convert-1.2.jar
+* Finished analyzing classpath
+* Generating tests for class org.joda.time.tz.ZoneInfoCompiler
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 232
+* Using seed 1000
+* Starting evolution
+[MASTER] 08:50:25.481 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 08:50:25.481 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself
+* Search finished after 106s and 137 generations, 46073 statements, best individual has fitness: 108.07575746364213
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 53%
+* Total number of goals: 232
+* Number of covered goals: 122
+* Generated 37 tests with total length 109
+* Resulting test suite's coverage: 53%
+* Generating assertions
+* Resulting test suite's mutation score: 20%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 14
+* Writing JUnit test case 'ZoneInfoCompiler_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

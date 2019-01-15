@@ -1,0 +1,83 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.VarCheck
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_53357_1546612589/build/classes
+  - /tmp/run_evosuite.pl_53357_1546612589/lib/args4j.jar
+  - /tmp/run_evosuite.pl_53357_1546612589/lib/guava.jar
+  - /tmp/run_evosuite.pl_53357_1546612589/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_53357_1546612589/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_53357_1546612589/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_53357_1546612589/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.VarCheck
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 75
+* Using seed 3000
+* Starting evolution
+[MASTER] 06:37:45.286 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.ControlFlowGraph<N> : Type points to itself
+* Search finished after 101s and 824 generations, 176574 statements, best individual has fitness: 38.12948717948718
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 40%
+* Total number of goals: 75
+* Number of covered goals: 30
+* Generated 4 tests with total length 19
+* Resulting test suite's coverage: 40%
+* Generating assertions
+* Resulting test suite's mutation score: 6%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 18
+* Writing JUnit test case 'VarCheck_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.Normalize
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_53357_1546612589/build/classes
+  - /tmp/run_evosuite.pl_53357_1546612589/lib/args4j.jar
+  - /tmp/run_evosuite.pl_53357_1546612589/lib/guava.jar
+  - /tmp/run_evosuite.pl_53357_1546612589/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_53357_1546612589/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_53357_1546612589/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_53357_1546612589/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.Normalize
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 228
+* Using seed 3000
+* Starting evolution
+[MASTER] 06:40:06.966 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.ControlFlowGraph<N> : Type points to itself
+* Search finished after 101s and 801 generations, 302471 statements, best individual has fitness: 92.48536741036742
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 55%
+* Total number of goals: 228
+* Number of covered goals: 126
+* Generated 14 tests with total length 98
+* Resulting test suite's coverage: 55%
+* Generating assertions
+* Resulting test suite's mutation score: 12%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 20
+  - java.net.SocketPermission: 
+         resolve NEW: 1
+         resolve f_lLE80xCQb: 1
+         resolve +V$e%l>0: 1
+         connect,resolve 127.0.0.1:40: 1
+* Writing JUnit test case 'Normalize_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

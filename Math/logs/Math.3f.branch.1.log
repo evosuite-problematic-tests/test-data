@@ -1,0 +1,31 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math3.util.MathArrays
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_216489_1545890519/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.util.MathArrays
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 257
+* Using seed 2000
+* Starting evolution
+* Search finished after 401s and 2 generations, 6061 statements, best individual has fitness: 22.452380951915295
+[MASTER] 22:08:50.108 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 300 seconds more than allowed.
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 87%
+* Total number of goals: 257
+* Number of covered goals: 223
+* Generated 71 tests with total length 201
+* Resulting test suite's coverage: 87%
+* Generating assertions
+[MASTER] 22:08:52.672 [logback-1] WARN  TimeController - Current phase ASSERTION_GENERATION could run up to 300s, but only 295s are left
+* Resulting test suite's mutation score: 23%
+* Writing JUnit test case 'MathArrays_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

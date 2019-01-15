@@ -1,0 +1,31 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.data.time.Week
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_207196_1546670526/build
+  - /tmp/run_evosuite.pl_207196_1546670526/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.data.time.Week
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 83
+* Using seed 4000
+* Starting evolution
+[MASTER] 22:42:15.710 [logback-2] ERROR TestCluster - Failed to check cache for java.time.temporal.TemporalQuery<R> : Type points to itself
+* Search finished after 101s and 3403 generations, 683338 statements, best individual has fitness: 9.943228200371058
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 87%
+* Total number of goals: 83
+* Number of covered goals: 72
+* Generated 29 tests with total length 77
+* Resulting test suite's coverage: 87%
+* Generating assertions
+* Resulting test suite's mutation score: 22%
+* Writing JUnit test case 'Week_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

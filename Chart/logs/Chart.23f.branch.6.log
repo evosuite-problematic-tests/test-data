@@ -1,0 +1,36 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.chart.renderer.category.MinMaxCategoryRenderer
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_71500_1545147746/build
+  - /tmp/run_evosuite.pl_71500_1545147746/lib/servlet.jar
+[MASTER] 07:42:35.776 [logback-1] WARN  TestUsageChecker - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$2 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$2
+[MASTER] 07:42:35.776 [logback-1] WARN  TestUsageChecker - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+* Finished analyzing classpath
+* Generating tests for class org.jfree.chart.renderer.category.MinMaxCategoryRenderer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 73
+* Using seed 1000
+* Starting evolution
+[MASTER] 07:42:43.401 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+* Search finished after 101s and 444 generations, 162646 statements, best individual has fitness: 37.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 52%
+* Total number of goals: 73
+* Number of covered goals: 38
+* Generated 23 tests with total length 93
+* Resulting test suite's coverage: 52%
+* Generating assertions
+* Resulting test suite's mutation score: 14%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'MinMaxCategoryRenderer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

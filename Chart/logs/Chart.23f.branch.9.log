@@ -1,0 +1,42 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.chart.renderer.category.MinMaxCategoryRenderer
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_103914_1545157238/build
+  - /tmp/run_evosuite.pl_103914_1545157238/lib/servlet.jar
+[MASTER] 10:20:47.169 [logback-1] WARN  TestUsageChecker - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$2 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$2
+[MASTER] 10:20:47.169 [logback-1] WARN  TestUsageChecker - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+* Finished analyzing classpath
+* Generating tests for class org.jfree.chart.renderer.category.MinMaxCategoryRenderer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 73
+* Using seed 1000
+* Starting evolution
+[MASTER] 10:20:54.551 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+* Search finished after 101s and 590 generations, 231204 statements, best individual has fitness: 40.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 47%
+* Total number of goals: 73
+* Number of covered goals: 34
+* Generated 21 tests with total length 69
+* Resulting test suite's coverage: 47%
+* Generating assertions
+* Resulting test suite's mutation score: 7%
+* Permissions denied during test execution: 
+  - java.io.FilePermission: 
+         write /tmp/+~JT6888845158356646591.tmp: 1
+         write /tmp/+~JT7480926169921909842.tmp: 1
+         write /tmp/+~JF6089370284814015790.tmp: 1
+  - java.net.URLPermission: 
+         *:* http://www.someFakeButWellFormedURL.org/fooExample: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+* Writing JUnit test case 'MinMaxCategoryRenderer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,43 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.PeepholeFoldConstants
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_254143_1546685354/build/classes
+  - /tmp/run_evosuite.pl_254143_1546685354/lib/ant_deploy.jar
+  - /tmp/run_evosuite.pl_254143_1546685354/lib/args4j_deploy.jar
+  - /tmp/run_evosuite.pl_254143_1546685354/lib/google_common_deploy.jar
+  - /tmp/run_evosuite.pl_254143_1546685354/lib/hamcrest-core-1.1.jar
+  - /tmp/run_evosuite.pl_254143_1546685354/lib/json.jar
+  - /tmp/run_evosuite.pl_254143_1546685354/lib/junit.jar
+  - /tmp/run_evosuite.pl_254143_1546685354/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_254143_1546685354/lib/protobuf_deploy.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.PeepholeFoldConstants
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 761
+* Using seed 4000
+* Starting evolution
+[MASTER] 02:49:25.109 [logback-2] ERROR TestCluster - Failed to check cache for java.util.TreeSet<E> : Type points to itself
+[MASTER] 02:49:29.595 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+[MASTER] 02:49:29.609 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Iterator<E> : Type points to itself
+* Search finished after 101s and 504 generations, 286983 statements, best individual has fitness: 428.0793949762182
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 40%
+* Total number of goals: 761
+* Number of covered goals: 303
+* Generated 83 tests with total length 481
+* Resulting test suite's coverage: 39%
+* Generating assertions
+* Resulting test suite's mutation score: 10%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 4
+* Writing JUnit test case 'PeepholeFoldConstants_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

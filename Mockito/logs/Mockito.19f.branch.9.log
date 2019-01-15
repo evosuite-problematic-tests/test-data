@@ -1,0 +1,207 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.mockito.internal.configuration.injection.PropertyAndSetterInjection
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_219793_1545177852/build/classes/main
+  - /defects4j/framework/projects/Mockito/lib/asm-all-5.0.4.jar
+  - /defects4j/framework/projects/Mockito/lib/assertj-core-2.1.0.jar
+  - /defects4j/framework/projects/Mockito/lib/cglib-and-asm-1.0.jar
+  - /defects4j/framework/projects/Mockito/lib/cobertura-2.0.3.jar
+  - /defects4j/framework/projects/Mockito/lib/fest-assert-1.3.jar
+  - /defects4j/framework/projects/Mockito/lib/fest-util-1.1.4.jar
+  - /defects4j/framework/projects/Mockito/lib/hamcrest-all-1.3.jar
+  - /defects4j/framework/projects/Mockito/lib/hamcrest-core-1.1.jar
+  - /defects4j/framework/projects/Mockito/lib/objenesis-2.1.jar
+  - /defects4j/framework/projects/Mockito/lib/objenesis-2.2.jar
+  - /defects4j/framework/projects/Mockito/lib/powermock-reflect-1.2.5.jar
+  - /tmp/run_evosuite.pl_219793_1545177852/compileLib/byte-buddy-0.6.8.jar
+* Finished analyzing classpath
+* Generating tests for class org.mockito.internal.configuration.injection.PropertyAndSetterInjection
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 16
+* Using seed 1000
+* Starting evolution
+[MASTER] 16:04:58.883 [logback-2] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+* Search finished after 101s and 3461 generations, 513728 statements, best individual has fitness: 16.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 12%
+* Total number of goals: 16
+* Number of covered goals: 2
+* Generated 1 tests with total length 1
+* Resulting test suite's coverage: 12%
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 5
+* Writing JUnit test case 'PropertyAndSetterInjection_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.mockito.internal.configuration.injection.filter.FinalMockCandidateFilter
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_219793_1545177852/build/classes/main
+  - /defects4j/framework/projects/Mockito/lib/asm-all-5.0.4.jar
+  - /defects4j/framework/projects/Mockito/lib/assertj-core-2.1.0.jar
+  - /defects4j/framework/projects/Mockito/lib/cglib-and-asm-1.0.jar
+  - /defects4j/framework/projects/Mockito/lib/cobertura-2.0.3.jar
+  - /defects4j/framework/projects/Mockito/lib/fest-assert-1.3.jar
+  - /defects4j/framework/projects/Mockito/lib/fest-util-1.1.4.jar
+  - /defects4j/framework/projects/Mockito/lib/hamcrest-all-1.3.jar
+  - /defects4j/framework/projects/Mockito/lib/hamcrest-core-1.1.jar
+  - /defects4j/framework/projects/Mockito/lib/objenesis-2.1.jar
+  - /defects4j/framework/projects/Mockito/lib/objenesis-2.2.jar
+  - /defects4j/framework/projects/Mockito/lib/powermock-reflect-1.2.5.jar
+  - /tmp/run_evosuite.pl_219793_1545177852/compileLib/byte-buddy-0.6.8.jar
+* Finished analyzing classpath
+* Generating tests for class org.mockito.internal.configuration.injection.filter.FinalMockCandidateFilter
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 8
+* Using seed 1000
+* Starting evolution
+[MASTER] 16:06:48.641 [logback-2] ERROR TestCluster - Failed to check cache for java.util.function.Function<T, R> : Type points to itself
+[MASTER] 16:06:49.098 [logback-2] ERROR TestCluster - Failed to check cache for java.util.function.Predicate<T> : Type points to itself
+* Search finished after 101s and 4160 generations, 629740 statements, best individual has fitness: 4.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 62%
+* Total number of goals: 8
+* Number of covered goals: 5
+* Generated 2 tests with total length 10
+* Resulting test suite's coverage: 62%
+* Generating assertions
+* Resulting test suite's mutation score: 40%
+* Writing JUnit test case 'FinalMockCandidateFilter_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.mockito.internal.configuration.injection.filter.MockCandidateFilter
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_219793_1545177852/build/classes/main
+  - /defects4j/framework/projects/Mockito/lib/asm-all-5.0.4.jar
+  - /defects4j/framework/projects/Mockito/lib/assertj-core-2.1.0.jar
+  - /defects4j/framework/projects/Mockito/lib/cglib-and-asm-1.0.jar
+  - /defects4j/framework/projects/Mockito/lib/cobertura-2.0.3.jar
+  - /defects4j/framework/projects/Mockito/lib/fest-assert-1.3.jar
+  - /defects4j/framework/projects/Mockito/lib/fest-util-1.1.4.jar
+  - /defects4j/framework/projects/Mockito/lib/hamcrest-all-1.3.jar
+  - /defects4j/framework/projects/Mockito/lib/hamcrest-core-1.1.jar
+  - /defects4j/framework/projects/Mockito/lib/objenesis-2.1.jar
+  - /defects4j/framework/projects/Mockito/lib/objenesis-2.2.jar
+  - /defects4j/framework/projects/Mockito/lib/powermock-reflect-1.2.5.jar
+  - /tmp/run_evosuite.pl_219793_1545177852/compileLib/byte-buddy-0.6.8.jar
+* Finished analyzing classpath
+* Generating tests for class org.mockito.internal.configuration.injection.filter.MockCandidateFilter
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 0
+* Search finished after 0s and 0 generations, 0 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100% (no goals)
+* Generated 0 tests with total length 0
+* Resulting test suite's coverage: 100%
+* Generating assertions
+* Resulting test suite's mutation score: 100%
+* Writing JUnit test case 'MockCandidateFilter_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.mockito.internal.configuration.injection.filter.NameBasedCandidateFilter
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_219793_1545177852/build/classes/main
+  - /defects4j/framework/projects/Mockito/lib/asm-all-5.0.4.jar
+  - /defects4j/framework/projects/Mockito/lib/assertj-core-2.1.0.jar
+  - /defects4j/framework/projects/Mockito/lib/cglib-and-asm-1.0.jar
+  - /defects4j/framework/projects/Mockito/lib/cobertura-2.0.3.jar
+  - /defects4j/framework/projects/Mockito/lib/fest-assert-1.3.jar
+  - /defects4j/framework/projects/Mockito/lib/fest-util-1.1.4.jar
+  - /defects4j/framework/projects/Mockito/lib/hamcrest-all-1.3.jar
+  - /defects4j/framework/projects/Mockito/lib/hamcrest-core-1.1.jar
+  - /defects4j/framework/projects/Mockito/lib/objenesis-2.1.jar
+  - /defects4j/framework/projects/Mockito/lib/objenesis-2.2.jar
+  - /defects4j/framework/projects/Mockito/lib/powermock-reflect-1.2.5.jar
+  - /tmp/run_evosuite.pl_219793_1545177852/compileLib/byte-buddy-0.6.8.jar
+* Finished analyzing classpath
+* Generating tests for class org.mockito.internal.configuration.injection.filter.NameBasedCandidateFilter
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 19
+* Using seed 1000
+* Starting evolution
+* Search finished after 101s and 3021 generations, 749422 statements, best individual has fitness: 12.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 32%
+* Total number of goals: 19
+* Number of covered goals: 6
+* Generated 3 tests with total length 17
+* Resulting test suite's coverage: 32%
+* Generating assertions
+* Resulting test suite's mutation score: 8%
+* Writing JUnit test case 'NameBasedCandidateFilter_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.mockito.internal.configuration.injection.filter.TypeBasedCandidateFilter
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_219793_1545177852/build/classes/main
+  - /defects4j/framework/projects/Mockito/lib/asm-all-5.0.4.jar
+  - /defects4j/framework/projects/Mockito/lib/assertj-core-2.1.0.jar
+  - /defects4j/framework/projects/Mockito/lib/cglib-and-asm-1.0.jar
+  - /defects4j/framework/projects/Mockito/lib/cobertura-2.0.3.jar
+  - /defects4j/framework/projects/Mockito/lib/fest-assert-1.3.jar
+  - /defects4j/framework/projects/Mockito/lib/fest-util-1.1.4.jar
+  - /defects4j/framework/projects/Mockito/lib/hamcrest-all-1.3.jar
+  - /defects4j/framework/projects/Mockito/lib/hamcrest-core-1.1.jar
+  - /defects4j/framework/projects/Mockito/lib/objenesis-2.1.jar
+  - /defects4j/framework/projects/Mockito/lib/objenesis-2.2.jar
+  - /defects4j/framework/projects/Mockito/lib/powermock-reflect-1.2.5.jar
+  - /tmp/run_evosuite.pl_219793_1545177852/compileLib/byte-buddy-0.6.8.jar
+* Finished analyzing classpath
+* Generating tests for class org.mockito.internal.configuration.injection.filter.TypeBasedCandidateFilter
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 5
+* Using seed 1000
+* Starting evolution
+* Search finished after 101s and 3053 generations, 714144 statements, best individual has fitness: 2.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 60%
+* Total number of goals: 5
+* Number of covered goals: 3
+* Generated 2 tests with total length 10
+* Resulting test suite's coverage: 60%
+* Generating assertions
+* Resulting test suite's mutation score: 25%
+* Writing JUnit test case 'TypeBasedCandidateFilter_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

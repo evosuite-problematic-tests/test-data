@@ -1,0 +1,15 @@
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2018-12-26 11:14:50  ######
+Generate tests for: com.google.javascript.jscomp.parsing.IRFactory : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2018-12-26 11:17:16  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-04 16:13:58  ######
+Generate tests for: com.google.javascript.jscomp.parsing.IRFactory : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-04 16:15:48  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-05 11:44:50  ######
+Generate tests for: com.google.javascript.jscomp.parsing.IRFactory : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-05 11:46:40  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-06 11:23:53  ######
+Generate tests for: com.google.javascript.jscomp.parsing.IRFactory : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-06 11:25:54  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-07 07:10:32  ######
+Generate tests for: com.google.javascript.jscomp.parsing.IRFactory : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-07 07:12:24  ######

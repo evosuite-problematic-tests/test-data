@@ -1,0 +1,29 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.lang.Entities
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_171934_1545203235/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang.Entities
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 117
+* Using seed 1000
+* Starting evolution
+* Search finished after 101s and 2413 generations, 662338 statements, best individual has fitness: 20.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 81%
+* Total number of goals: 117
+* Number of covered goals: 95
+* Generated 26 tests with total length 68
+* Resulting test suite's coverage: 81%
+* Generating assertions
+* Resulting test suite's mutation score: 53%
+* Writing JUnit test case 'Entities_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

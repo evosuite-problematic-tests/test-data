@@ -1,0 +1,32 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.joda.time.format.PeriodFormatterBuilder
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_63733_1546803709/build/classes
+* Finished analyzing classpath
+* Generating tests for class org.joda.time.format.PeriodFormatterBuilder
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 569
+* Using seed 5000
+* Starting evolution
+* Search finished after 101s and 575 generations, 382965 statements, best individual has fitness: 59.88216783216784
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 86%
+* Total number of goals: 569
+* Number of covered goals: 492
+* Generated 111 tests with total length 604
+* Resulting test suite's coverage: 87%
+* Generating assertions
+* Resulting test suite's mutation score: 33%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 215
+* Writing JUnit test case 'PeriodFormatterBuilder_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

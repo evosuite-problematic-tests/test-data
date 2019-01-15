@@ -1,0 +1,42 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.Normalize
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_229685_1546771141/build/classes
+  - /tmp/run_evosuite.pl_229685_1546771141/lib/ant_deploy.jar
+  - /tmp/run_evosuite.pl_229685_1546771141/lib/google_common_deploy.jar
+  - /tmp/run_evosuite.pl_229685_1546771141/lib/hamcrest-core-1.1.jar
+  - /tmp/run_evosuite.pl_229685_1546771141/lib/junit4-core.jar
+  - /tmp/run_evosuite.pl_229685_1546771141/lib/junit4-legacy.jar
+  - /tmp/run_evosuite.pl_229685_1546771141/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_229685_1546771141/lib/protobuf_deploy.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.Normalize
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 153
+* Using seed 5000
+* Starting evolution
+[MASTER] 02:39:12.905 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Vector<E> : Type points to itself
+[MASTER] 02:39:14.682 [logback-2] ERROR TestCluster - Failed to check cache for com.google.common.base.Supplier<T> : Type points to itself
+[MASTER] 02:40:47.211 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.ControlFlowGraph<N> : Type points to itself
+* Search finished after 105s and 692 generations, 251467 statements, best individual has fitness: 38.33333333333333
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 70%
+* Total number of goals: 153
+* Number of covered goals: 107
+* Generated 21 tests with total length 107
+* Resulting test suite's coverage: 70%
+* Generating assertions
+* Resulting test suite's mutation score: 13%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 22
+* Writing JUnit test case 'Normalize_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

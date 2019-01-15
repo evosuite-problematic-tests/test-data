@@ -1,0 +1,30 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.data.general.DatasetUtilities
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_53080_1545141797/build
+  - /tmp/run_evosuite.pl_53080_1545141797/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.data.general.DatasetUtilities
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 564
+* Using seed 1000
+* Starting evolution
+* Search finished after 101s and 323 generations, 217297 statements, best individual has fitness: 75.49897540983606
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 83%
+* Total number of goals: 564
+* Number of covered goals: 470
+* Generated 133 tests with total length 483
+* Resulting test suite's coverage: 83%
+* Generating assertions
+* Resulting test suite's mutation score: 50%
+* Writing JUnit test case 'DatasetUtilities_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

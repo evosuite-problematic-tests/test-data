@@ -1,0 +1,35 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.chart.plot.PiePlot
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_9505_1545648987/build
+  - /tmp/run_evosuite.pl_9505_1545648987/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.chart.plot.PiePlot
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 392
+* Using seed 2000
+* Starting evolution
+* Search finished after 101s and 375 generations, 194704 statements, best individual has fitness: 77.66666666619972
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 72%
+* Total number of goals: 392
+* Number of covered goals: 283
+* Generated 112 tests with total length 380
+* Resulting test suite's coverage: 72%
+* Generating assertions
+* Resulting test suite's mutation score: 18%
+* Permissions denied during test execution: 
+  - java.io.FilePermission: 
+         write /tmp/+~JT8169386442251369307.tmp: 1
+  - java.net.URLPermission: 
+         *:* http://www.someFakeButWellFormedURL.org/fooExample: 1
+* Writing JUnit test case 'PiePlot_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,41 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.MinimizeExitPoints
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_1908_1546689157/build/classes
+  - /tmp/run_evosuite.pl_1908_1546689157/lib/args4j.jar
+  - /tmp/run_evosuite.pl_1908_1546689157/lib/guava.jar
+  - /tmp/run_evosuite.pl_1908_1546689157/lib/json.jar
+  - /tmp/run_evosuite.pl_1908_1546689157/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_1908_1546689157/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_1908_1546689157/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_1908_1546689157/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.MinimizeExitPoints
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 76
+* Using seed 4000
+* Starting evolution
+[MASTER] 03:52:56.038 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Iterator<E> : Type points to itself
+[MASTER] 03:53:01.295 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+* Search finished after 104s and 72 generations, 29636 statements, best individual has fitness: 54.93523908523909
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 24%
+* Total number of goals: 76
+* Number of covered goals: 18
+* Generated 3 tests with total length 12
+* Resulting test suite's coverage: 24%
+* Generating assertions
+* Resulting test suite's mutation score: 4%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 6
+* Writing JUnit test case 'MinimizeExitPoints_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,47 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.DisambiguateProperties
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_261181_1546688211/build/classes
+  - /tmp/run_evosuite.pl_261181_1546688211/lib/args4j.jar
+  - /tmp/run_evosuite.pl_261181_1546688211/lib/guava.jar
+  - /tmp/run_evosuite.pl_261181_1546688211/lib/json.jar
+  - /tmp/run_evosuite.pl_261181_1546688211/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_261181_1546688211/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_261181_1546688211/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_261181_1546688211/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.DisambiguateProperties
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 373
+* Using seed 4000
+* Starting evolution
+[MASTER] 03:37:07.477 [logback-2] ERROR TestCluster - Failed to check cache for java.util.LinkedList<E> : Type points to itself
+[MASTER] 03:37:07.477 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 03:37:07.478 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself
+[MASTER] 03:37:07.479 [logback-2] ERROR TestCluster - Failed to check cache for java.util.LinkedHashSet<E> : Type points to itself
+[MASTER] 03:38:17.245 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.BooleanType due to IAE: tried to access class com.google.javascript.rhino.jstype.ValueType from class com.google.javascript.rhino.jstype.BooleanType$MockitoMock$1093502524
+[MASTER] 03:38:17.253 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Iterator<E> : Type points to itself
+[MASTER] 03:38:22.329 [logback-2] ERROR TestCluster - Failed to check cache for java.util.function.Function<T, R> : Type points to itself
+[MASTER] 03:38:22.360 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+* Search finished after 102s and 9 generations, 2775 statements, best individual has fitness: 411.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 1%
+* Total number of goals: 373
+* Number of covered goals: 4
+* Generated 3 tests with total length 7
+* Resulting test suite's coverage: 1%
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'DisambiguateProperties_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

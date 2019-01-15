@@ -1,0 +1,30 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.joda.time.base.BaseSingleFieldPeriod
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_3209_1545126679/target/classes
+  - /defects4j/framework/projects/Time/lib/org/joda/joda-convert/1.2/joda-convert-1.2.jar
+* Finished analyzing classpath
+* Generating tests for class org.joda.time.base.BaseSingleFieldPeriod
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 53
+* Using seed 1000
+* Starting evolution
+* Search finished after 101s and 1405 generations, 260002 statements, best individual has fitness: 1.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 96%
+* Total number of goals: 53
+* Number of covered goals: 51
+* Generated 28 tests with total length 79
+* Resulting test suite's coverage: 96%
+* Generating assertions
+* Resulting test suite's mutation score: 51%
+* Writing JUnit test case 'BaseSingleFieldPeriod_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

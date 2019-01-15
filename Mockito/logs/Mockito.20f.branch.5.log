@@ -1,0 +1,46 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_130182_1545156677/build/classes/main
+  - /defects4j/framework/projects/Mockito/lib/asm-all-5.0.4.jar
+  - /defects4j/framework/projects/Mockito/lib/assertj-core-2.1.0.jar
+  - /defects4j/framework/projects/Mockito/lib/cglib-and-asm-1.0.jar
+  - /defects4j/framework/projects/Mockito/lib/cobertura-2.0.3.jar
+  - /defects4j/framework/projects/Mockito/lib/fest-assert-1.3.jar
+  - /defects4j/framework/projects/Mockito/lib/fest-util-1.1.4.jar
+  - /defects4j/framework/projects/Mockito/lib/hamcrest-all-1.3.jar
+  - /defects4j/framework/projects/Mockito/lib/hamcrest-core-1.1.jar
+  - /defects4j/framework/projects/Mockito/lib/objenesis-2.1.jar
+  - /defects4j/framework/projects/Mockito/lib/objenesis-2.2.jar
+  - /defects4j/framework/projects/Mockito/lib/powermock-reflect-1.2.5.jar
+  - /tmp/run_evosuite.pl_130182_1545156677/compileLib/byte-buddy-0.2.1.jar
+* Finished analyzing classpath
+* Generating tests for class org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 14
+* Using seed 1000
+* Starting evolution
+[MASTER] 10:11:59.390 [logback-2] ERROR TestCluster - Failed to check cache for org.mockito.mock.MockCreationSettings<T> : Type points to itself
+[MASTER] 10:11:59.961 [logback-2] ERROR TestCluster - Failed to check cache for org.mockito.stubbing.Answer<T> : Type points to itself
+* Search finished after 101s and 1874 generations, 419345 statements, best individual has fitness: 8.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 50%
+* Total number of goals: 14
+* Number of covered goals: 7
+* Generated 4 tests with total length 15
+* Resulting test suite's coverage: 50%
+* Generating assertions
+* Resulting test suite's mutation score: 10%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 6
+* Writing JUnit test case 'ByteBuddyMockMaker_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

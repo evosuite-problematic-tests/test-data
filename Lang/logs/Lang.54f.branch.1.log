@@ -1,0 +1,31 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.lang.LocaleUtils
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_30121_1545657281/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang.LocaleUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 73
+* Using seed 2000
+* Starting evolution
+[MASTER] 05:14:49.032 [logback-2] ERROR TestCluster - Failed to check cache for java.util.LinkedList<E> : Type points to itself
+[MASTER] 05:14:50.712 [logback-2] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+* Search finished after 73s and 3031 generations, 273252 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 73
+* Number of covered goals: 73
+* Generated 26 tests with total length 116
+* Resulting test suite's coverage: 100%
+* Generating assertions
+* Resulting test suite's mutation score: 32%
+* Writing JUnit test case 'LocaleUtils_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

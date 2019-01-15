@@ -1,0 +1,29 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math3.util.FastMath
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_4418_1546785481/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.util.FastMath
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 830
+* Using seed 5000
+* Starting evolution
+* Search finished after 101s and 1155 generations, 661212 statements, best individual has fitness: 27.246751462899265
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 96%
+* Total number of goals: 830
+* Number of covered goals: 794
+* Generated 291 tests with total length 291
+* Resulting test suite's coverage: 96%
+* Generating assertions
+* Resulting test suite's mutation score: 53%
+* Writing JUnit test case 'FastMath_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

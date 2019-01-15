@@ -1,0 +1,37 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.MaybeReachingVariableUse
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_20047_1546603727/build/classes
+  - /tmp/run_evosuite.pl_20047_1546603727/lib/args4j.jar
+  - /tmp/run_evosuite.pl_20047_1546603727/lib/guava.jar
+  - /tmp/run_evosuite.pl_20047_1546603727/lib/json.jar
+  - /tmp/run_evosuite.pl_20047_1546603727/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_20047_1546603727/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_20047_1546603727/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_20047_1546603727/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.MaybeReachingVariableUse
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 81
+* Using seed 3000
+* Starting evolution
+[MASTER] 04:09:00.402 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Set<com.google.javascript.jscomp.Scope$Var> : Invalid generic instance
+* Search finished after 105s and 255 generations, 81273 statements, best individual has fitness: 40.13333333333333
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 48%
+* Total number of goals: 81
+* Number of covered goals: 39
+* Generated 12 tests with total length 109
+* Resulting test suite's coverage: 48%
+* Generating assertions
+* Resulting test suite's mutation score: 10%
+* Writing JUnit test case 'MaybeReachingVariableUse_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

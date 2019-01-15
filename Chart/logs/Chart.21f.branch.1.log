@@ -1,0 +1,35 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_11868_1545649845/build
+  - /tmp/run_evosuite.pl_11868_1545649845/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 99
+* Using seed 2000
+* Starting evolution
+[MASTER] 03:10:57.250 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 03:10:57.580 [logback-2] ERROR TestCluster - Failed to check cache for java.time.temporal.TemporalQuery<R> : Type points to itself
+* Search finished after 101s and 1807 generations, 693279 statements, best individual has fitness: 7.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 86%
+* Total number of goals: 99
+* Number of covered goals: 85
+* Generated 45 tests with total length 346
+* Resulting test suite's coverage: 86%
+* Generating assertions
+* Resulting test suite's mutation score: 34%
+* Permissions denied during test execution: 
+  - java.net.URLPermission: 
+         *:* http://www.someFakeButWellFormedURL.org/fooExample: 1
+* Writing JUnit test case 'DefaultBoxAndWhiskerCategoryDataset_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,32 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.lang.time.DateUtils
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_23415_1546698137/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang.time.DateUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 206
+* Using seed 4000
+* Starting evolution
+[MASTER] 06:22:25.933 [logback-2] ERROR TestCluster - Failed to check cache for java.time.temporal.TemporalQuery<R> : Type points to itself
+[MASTER] 06:23:05.938 [logback-2] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+[MASTER] 06:23:59.955 [logback-2] ERROR AbstractStatement - Error assigning value of type TemporalQuery[] defined at statement TemporalQuery<Date>[] temporalQueryArray0 = (TemporalQuery<Date>[]) Array.newInstance(TemporalQuery.class, 6), assignment statement: temporalQueryArray0[0] = (TemporalQuery<Date>) temporalQueryArray0; SUT=org.apache.commons.lang.time.DateUtils
+* Search finished after 101s and 2347 generations, 481543 statements, best individual has fitness: 1.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 99%
+* Total number of goals: 206
+* Number of covered goals: 203
+* Generated 72 tests with total length 171
+* Resulting test suite's coverage: 99%
+* Generating assertions
+* Resulting test suite's mutation score: 51%
+* Writing JUnit test case 'DateUtils_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

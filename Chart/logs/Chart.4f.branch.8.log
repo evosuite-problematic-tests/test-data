@@ -1,0 +1,37 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.chart.plot.XYPlot
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_85232_1545151720/build
+  - /tmp/run_evosuite.pl_85232_1545151720/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.chart.plot.XYPlot
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 1079
+* Using seed 1000
+* Starting evolution
+[MASTER] 08:48:54.788 [logback-2] ERROR TestCluster - Failed to check cache for java.util.LinkedList<E> : Type points to itself
+[MASTER] 08:48:54.802 [logback-2] ERROR TestCluster - Failed to check cache for java.util.HashMap<K, V> : Type points to itself
+* Search finished after 102s and 225 generations, 162218 statements, best individual has fitness: 424.3333333333333
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 56%
+* Total number of goals: 1079
+* Number of covered goals: 609
+* Generated 224 tests with total length 884
+* Resulting test suite's coverage: 56%
+* Generating assertions
+* Resulting test suite's mutation score: 15%
+* Permissions denied during test execution: 
+  - java.io.FilePermission: 
+         write /tmp/+~JT4983223038005927760.tmp: 1
+         write /tmp/+~JT6741280146258215420.tmp: 1
+         write /tmp/+~JT5846379250508976526.tmp: 1
+* Writing JUnit test case 'XYPlot_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

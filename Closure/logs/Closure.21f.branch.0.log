@@ -1,0 +1,41 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.CheckSideEffects
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_72689_1546831530/build/classes
+  - /tmp/run_evosuite.pl_72689_1546831530/lib/args4j.jar
+  - /tmp/run_evosuite.pl_72689_1546831530/lib/guava.jar
+  - /tmp/run_evosuite.pl_72689_1546831530/lib/json.jar
+  - /tmp/run_evosuite.pl_72689_1546831530/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_72689_1546831530/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_72689_1546831530/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_72689_1546831530/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.CheckSideEffects
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 45
+* Using seed 1000
+* Starting evolution
+[MASTER] 19:26:48.219 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.NullType due to IAE: tried to access class com.google.javascript.rhino.jstype.ValueType from class com.google.javascript.rhino.jstype.NullType$MockitoMock$625694643
+[MASTER] 19:26:56.664 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.ControlFlowGraph<N> : Type points to itself
+* Search finished after 106s and 910 generations, 241454 statements, best individual has fitness: 8.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 78%
+* Total number of goals: 45
+* Number of covered goals: 35
+* Generated 7 tests with total length 36
+* Resulting test suite's coverage: 78%
+* Generating assertions
+* Resulting test suite's mutation score: 15%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 24
+* Writing JUnit test case 'CheckSideEffects_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

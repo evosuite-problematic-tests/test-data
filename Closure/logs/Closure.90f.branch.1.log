@@ -1,0 +1,82 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.rhino.jstype.FunctionType
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_72052_1545818478/build/classes
+  - /tmp/run_evosuite.pl_72052_1545818478/lib/ant_deploy.jar
+  - /tmp/run_evosuite.pl_72052_1545818478/lib/args4j_deploy.jar
+  - /tmp/run_evosuite.pl_72052_1545818478/lib/guava-r06.jar
+  - /tmp/run_evosuite.pl_72052_1545818478/lib/hamcrest-core-1.1.jar
+  - /tmp/run_evosuite.pl_72052_1545818478/lib/json.jar
+  - /tmp/run_evosuite.pl_72052_1545818478/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_72052_1545818478/lib/junit.jar
+  - /tmp/run_evosuite.pl_72052_1545818478/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_72052_1545818478/lib/protobuf-java-2.3.0.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.rhino.jstype.FunctionType
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 304
+* Using seed 2000
+* Starting evolution
+* Search finished after 101s and 760 generations, 399769 statements, best individual has fitness: 44.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 82%
+* Total number of goals: 304
+* Number of covered goals: 250
+* Generated 72 tests with total length 443
+* Resulting test suite's coverage: 82%
+* Generating assertions
+* Resulting test suite's mutation score: 47%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'FunctionType_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.FunctionTypeBuilder
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_72052_1545818478/build/classes
+  - /tmp/run_evosuite.pl_72052_1545818478/lib/ant_deploy.jar
+  - /tmp/run_evosuite.pl_72052_1545818478/lib/args4j_deploy.jar
+  - /tmp/run_evosuite.pl_72052_1545818478/lib/guava-r06.jar
+  - /tmp/run_evosuite.pl_72052_1545818478/lib/hamcrest-core-1.1.jar
+  - /tmp/run_evosuite.pl_72052_1545818478/lib/json.jar
+  - /tmp/run_evosuite.pl_72052_1545818478/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_72052_1545818478/lib/junit.jar
+  - /tmp/run_evosuite.pl_72052_1545818478/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_72052_1545818478/lib/protobuf-java-2.3.0.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.FunctionTypeBuilder
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 243
+* Using seed 2000
+* Starting evolution
+* Search finished after 102s and 362 generations, 223964 statements, best individual has fitness: 120.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 45%
+* Total number of goals: 243
+* Number of covered goals: 109
+* Generated 30 tests with total length 209
+* Resulting test suite's coverage: 45%
+* Generating assertions
+* Resulting test suite's mutation score: 19%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 4
+* Writing JUnit test case 'FunctionTypeBuilder_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

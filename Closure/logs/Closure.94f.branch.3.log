@@ -1,0 +1,65 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.NodeUtil
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_253267_1546684992/build/classes
+  - /tmp/run_evosuite.pl_253267_1546684992/lib/ant_deploy.jar
+  - /tmp/run_evosuite.pl_253267_1546684992/lib/args4j_deploy.jar
+  - /tmp/run_evosuite.pl_253267_1546684992/lib/guava-r06.jar
+  - /tmp/run_evosuite.pl_253267_1546684992/lib/hamcrest-core-1.1.jar
+  - /tmp/run_evosuite.pl_253267_1546684992/lib/json.jar
+  - /tmp/run_evosuite.pl_253267_1546684992/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_253267_1546684992/lib/junit.jar
+  - /tmp/run_evosuite.pl_253267_1546684992/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_253267_1546684992/lib/protobuf-java-2.3.0.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.NodeUtil
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 1966
+* Using seed 4000
+* Starting evolution
+[MASTER] 02:43:26.250 [logback-2] ERROR TestCluster - Failed to check cache for com.google.common.base.Supplier<T> : Type points to itself
+[MASTER] 02:43:26.738 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 02:43:27.209 [logback-2] ERROR ClientNodeImpl - Cannot inform master of change of state
+java.rmi.UnmarshalException: Error unmarshaling return header; nested exception is: 
+	java.net.SocketException: Connection reset
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:236) ~[na:1.8.0_191]
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161) ~[na:1.8.0_191]
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227) ~[na:1.8.0_191]
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179) ~[na:1.8.0_191]
+	at com.sun.proxy.$Proxy7.evosuite_collectStatistics(Unknown Source) ~[na:na]
+	at org.evosuite.rmi.service.ClientNodeImpl.updateStatistics(ClientNodeImpl.java:237) ~[evosuite-current.jar:1.0.6]
+	at org.evosuite.statistics.StatisticsSender.sendIndividualToMaster(StatisticsSender.java:68) [evosuite-current.jar:1.0.6]
+	at org.evosuite.statistics.StatisticsListener$1.run(StatisticsListener.java:71) [evosuite-current.jar:1.0.6]
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:115) ~[na:1.8.0_191]
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155) ~[na:1.8.0_191]
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82) ~[na:1.8.0_191]
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140) ~[na:1.8.0_191]
+	at java.io.ObjectOutputStream$BlockDataOutputStream.flush(ObjectOutputStream.java:1823) ~[na:1.8.0_191]
+	at java.io.ObjectOutputStream.flush(ObjectOutputStream.java:719) ~[na:1.8.0_191]
+	at sun.rmi.transport.StreamRemoteCall.releaseOutputStream(StreamRemoteCall.java:115) ~[na:1.8.0_191]
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:220) ~[na:1.8.0_191]
+	... 7 common frames omitted
+[MASTER] 02:44:43.967 [logback-2] ERROR AbstractStatement - Error assigning value of type Comparable[] defined at statement Comparable<Object>[] comparableArray0 = (Comparable<Object>[]) Array.newInstance(Comparable.class, 3), assignment statement: comparableArray0[0] = (Comparable<Object>) comparableArray0; SUT=com.google.javascript.jscomp.NodeUtil
+* Search finished after 101s and 298 generations, 121540 statements, best individual has fitness: 703.2386892343077
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 56%
+* Total number of goals: 1966
+* Number of covered goals: 1100
+* Generated 236 tests with total length 483
+* Resulting test suite's coverage: 56%
+* Generating assertions
+* Resulting test suite's mutation score: 22%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 4
+* Writing JUnit test case 'NodeUtil_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

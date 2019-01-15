@@ -1,0 +1,31 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.joda.time.chrono.GJChronology
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_83406_1545160357/build/classes
+  - /defects4j/framework/projects/Time/lib/joda-convert-1.2.jar
+* Finished analyzing classpath
+* Generating tests for class org.joda.time.chrono.GJChronology
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 199
+* Using seed 1000
+* Starting evolution
+[MASTER] 11:12:46.558 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+* Search finished after 101s and 1174 generations, 390321 statements, best individual has fitness: 31.999999994412057
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 82%
+* Total number of goals: 199
+* Number of covered goals: 164
+* Generated 55 tests with total length 202
+* Resulting test suite's coverage: 84%
+* Generating assertions
+* Resulting test suite's mutation score: 36%
+* Writing JUnit test case 'GJChronology_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

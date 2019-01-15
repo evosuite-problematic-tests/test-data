@@ -1,0 +1,41 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.parsing.JsDocInfoParser
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_148890_1545810354/build/classes
+  - /tmp/run_evosuite.pl_148890_1545810354/lib/args4j.jar
+  - /tmp/run_evosuite.pl_148890_1545810354/lib/guava.jar
+  - /tmp/run_evosuite.pl_148890_1545810354/lib/json.jar
+  - /tmp/run_evosuite.pl_148890_1545810354/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_148890_1545810354/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_148890_1545810354/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_148890_1545810354/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.parsing.JsDocInfoParser
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 753
+* Using seed 2000
+* Starting evolution
+[MASTER] 23:46:10.131 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 23:47:25.180 [logback-1] WARN  TestUsageChecker - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+* Search finished after 104s and 933 generations, 453319 statements, best individual has fitness: 524.5916666666667
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 29%
+* Total number of goals: 753
+* Number of covered goals: 220
+* Generated 47 tests with total length 292
+* Resulting test suite's coverage: 29%
+* Generating assertions
+* Resulting test suite's mutation score: 22%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 12
+* Writing JUnit test case 'JsDocInfoParser_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,31 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.data.general.DatasetUtilities
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_95094_1545154614/build
+  - /tmp/run_evosuite.pl_95094_1545154614/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.data.general.DatasetUtilities
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 564
+* Using seed 1000
+* Starting evolution
+[MASTER] 09:38:09.322 [logback-2] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+* Search finished after 101s and 485 generations, 300631 statements, best individual has fitness: 51.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 87%
+* Total number of goals: 564
+* Number of covered goals: 490
+* Generated 135 tests with total length 502
+* Resulting test suite's coverage: 87%
+* Generating assertions
+* Resulting test suite's mutation score: 50%
+* Writing JUnit test case 'DatasetUtilities_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

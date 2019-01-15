@@ -1,0 +1,41 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.ReferenceCollectingCallback
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_101935_1546841864/build/classes
+  - /tmp/run_evosuite.pl_101935_1546841864/lib/ant_deploy.jar
+  - /tmp/run_evosuite.pl_101935_1546841864/lib/args4j_deploy.jar
+  - /tmp/run_evosuite.pl_101935_1546841864/lib/google_common_deploy.jar
+  - /tmp/run_evosuite.pl_101935_1546841864/lib/hamcrest-core-1.1.jar
+  - /tmp/run_evosuite.pl_101935_1546841864/lib/junit.jar
+  - /tmp/run_evosuite.pl_101935_1546841864/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_101935_1546841864/lib/protobuf_deploy.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.ReferenceCollectingCallback
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 181
+* Using seed 1000
+* Starting evolution
+[MASTER] 22:17:56.180 [logback-2] ERROR TestCluster - Failed to check cache for java.util.TreeSet<E> : Type points to itself
+[MASTER] 22:19:16.913 [logback-2] ERROR TestCluster - Failed to check cache for java.lang.Comparable<T> : Type points to itself
+* Search finished after 102s and 261 generations, 108706 statements, best individual has fitness: 87.93650793557661
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 46%
+* Total number of goals: 181
+* Number of covered goals: 84
+* Generated 31 tests with total length 179
+* Resulting test suite's coverage: 46%
+* Generating assertions
+* Resulting test suite's mutation score: 20%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 5
+* Writing JUnit test case 'ReferenceCollectingCallback_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

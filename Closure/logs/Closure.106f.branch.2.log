@@ -1,0 +1,72 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.rhino.JSDocInfoBuilder
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_62088_1546616166/build/classes
+  - /tmp/run_evosuite.pl_62088_1546616166/lib/google_common_deploy.jar
+  - /tmp/run_evosuite.pl_62088_1546616166/lib/google_compiled_protos_deploy.jar
+  - /tmp/run_evosuite.pl_62088_1546616166/lib/junit.jar
+  - /tmp/run_evosuite.pl_62088_1546616166/lib/libtrunk_rhino_parser_jarjared.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.rhino.JSDocInfoBuilder
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 150
+* Using seed 3000
+* Starting evolution
+* Search finished after 102s and 1987 generations, 777795 statements, best individual has fitness: 1.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 98%
+* Total number of goals: 150
+* Number of covered goals: 147
+* Generated 75 tests with total length 285
+* Resulting test suite's coverage: 98%
+* Generating assertions
+* Resulting test suite's mutation score: 68%
+* Writing JUnit test case 'JSDocInfoBuilder_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.GlobalNamespace
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_62088_1546616166/build/classes
+  - /tmp/run_evosuite.pl_62088_1546616166/lib/google_common_deploy.jar
+  - /tmp/run_evosuite.pl_62088_1546616166/lib/google_compiled_protos_deploy.jar
+  - /tmp/run_evosuite.pl_62088_1546616166/lib/junit.jar
+  - /tmp/run_evosuite.pl_62088_1546616166/lib/libtrunk_rhino_parser_jarjared.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.GlobalNamespace
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 400
+* Using seed 3000
+* Starting evolution
+[MASTER] 07:38:04.714 [logback-2] ERROR TestCluster - Failed to check cache for java.util.ArrayList<E> : Type points to itself
+[MASTER] 07:38:07.281 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 07:38:08.575 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+* Search finished after 106s and 793 generations, 288452 statements, best individual has fitness: 228.767664908278
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 42%
+* Total number of goals: 400
+* Number of covered goals: 170
+* Generated 52 tests with total length 219
+* Resulting test suite's coverage: 42%
+* Generating assertions
+* Resulting test suite's mutation score: 16%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 4
+* Writing JUnit test case 'GlobalNamespace_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

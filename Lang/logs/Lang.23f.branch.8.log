@@ -1,0 +1,32 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.lang3.text.ExtendedMessageFormat
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_160363_1545197991/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.text.ExtendedMessageFormat
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 136
+* Using seed 1000
+* Starting evolution
+[MASTER] 21:39:59.659 [logback-2] ERROR TestCluster - Failed to check cache for java.time.temporal.TemporalQuery<R> : Type points to itself
+[MASTER] 21:40:00.076 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 21:40:10.120 [logback-2] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+* Search finished after 101s and 2951 generations, 540450 statements, best individual has fitness: 30.166666666666664
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 71%
+* Total number of goals: 136
+* Number of covered goals: 96
+* Generated 17 tests with total length 52
+* Resulting test suite's coverage: 71%
+* Generating assertions
+* Resulting test suite's mutation score: 33%
+* Writing JUnit test case 'ExtendedMessageFormat_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

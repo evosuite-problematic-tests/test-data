@@ -1,0 +1,30 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math.complex.ComplexFormat
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_240935_1545208225/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.complex.ComplexFormat
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 77
+* Using seed 1000
+* Starting evolution
+[MASTER] 00:30:51.736 [logback-2] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+* Search finished after 101s and 3430 generations, 617462 statements, best individual has fitness: 1.6666666666666665
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 97%
+* Total number of goals: 77
+* Number of covered goals: 75
+* Generated 19 tests with total length 49
+* Resulting test suite's coverage: 97%
+* Generating assertions
+* Resulting test suite's mutation score: 64%
+* Writing JUnit test case 'ComplexFormat_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

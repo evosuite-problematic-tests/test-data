@@ -1,0 +1,31 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.data.KeyedObjects2D
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_92643_1545153979/build
+  - /tmp/run_evosuite.pl_92643_1545153979/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.data.KeyedObjects2D
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 87
+* Using seed 1000
+* Starting evolution
+[MASTER] 09:26:33.451 [logback-2] ERROR TestCluster - Failed to check cache for java.lang.Comparable<T> : Type points to itself
+* Search finished after 101s and 1895 generations, 392270 statements, best individual has fitness: 2.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 94%
+* Total number of goals: 87
+* Number of covered goals: 82
+* Generated 24 tests with total length 86
+* Resulting test suite's coverage: 94%
+* Generating assertions
+* Resulting test suite's mutation score: 61%
+* Writing JUnit test case 'KeyedObjects2D_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

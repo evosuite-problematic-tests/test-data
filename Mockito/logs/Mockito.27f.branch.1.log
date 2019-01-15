@@ -1,0 +1,46 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.mockito.internal.util.MockUtil
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_203559_1545826049/target/classes
+  - /d4j/defects4j/framework/projects/Mockito/lib/asm-all-5.0.4.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/assertj-core-2.1.0.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/cglib-and-asm-1.0.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/cobertura-2.0.3.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/fest-assert-1.3.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/fest-util-1.1.4.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/hamcrest-all-1.3.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/hamcrest-core-1.1.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/objenesis-2.1.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/objenesis-2.2.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/powermock-reflect-1.2.5.jar
+* Finished analyzing classpath
+* Generating tests for class org.mockito.internal.util.MockUtil
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 27
+* Using seed 2000
+* Starting evolution
+[MASTER] 04:07:38.204 [logback-2] ERROR TestCluster - Failed to check cache for org.mockito.internal.InvocationNotifierHandler<T> : Type points to itself
+[MASTER] 04:07:38.205 [logback-2] ERROR TestCluster - Failed to check cache for org.mockito.internal.MockHandler<T> : Type points to itself
+[MASTER] 04:07:53.411 [logback-2] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+* Search finished after 101s and 3102 generations, 433731 statements, best individual has fitness: 6.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 70%
+* Total number of goals: 27
+* Number of covered goals: 19
+* Generated 8 tests with total length 44
+* Resulting test suite's coverage: 70%
+* Generating assertions
+* Resulting test suite's mutation score: 19%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 9
+* Writing JUnit test case 'MockUtil_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

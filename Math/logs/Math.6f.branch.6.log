@@ -1,0 +1,2104 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_207038_1545197686/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 44
+* Using seed 1000
+* Starting evolution
+* Search finished after 101s and 3060 generations, 311496 statements, best individual has fitness: 32.5
+* Minimizing test suite
+[MASTER] 21:36:37.658 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.658 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.084292217E9 2.084292217E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.661 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.661 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.147001371E9 2.147001371E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.662 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.662 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.146471864E9 2.146471864E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.664 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.664 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145842165E9 2.145842165E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.664 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.664 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.665 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.665 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.672 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.672 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.146471864E9 2.146471864E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.681 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.681 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.682 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.682 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.683 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.683 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.684 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.684 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.685 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.685 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.686 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.686 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.687 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.687 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.688 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.688 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.688 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.688 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.689 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.689 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.690 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.690 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.691 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.691 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.692 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.692 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.693 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.693 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.694 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.694 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.695 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.695 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.696 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.696 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.697 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.697 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.698 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.698 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.699 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.699 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.700 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.700 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.700 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.700 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.701 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.701 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.702 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.702 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.703 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.703 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.703 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.704 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.706 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.706 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.707 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.707 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.708 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.708 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.708 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.708 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.709 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.709 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.710 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.710 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.710 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.710 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.711 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.711 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.712 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.712 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.712 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.712 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.713 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.713 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.714 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.714 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.714 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.714 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.715 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.715 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.715 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.715 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.716 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.716 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.717 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.717 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.717 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.717 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.718 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.718 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.718 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.719 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.719 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.719 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.720 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.720 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.721 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.721 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.722 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.722 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.723 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.723 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.724 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.724 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.724 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.724 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.725 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.725 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.726 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.726 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.727 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.727 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.728 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.728 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.729 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.729 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.729 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.730 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.738 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.738 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.739 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.739 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.740 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.740 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.740 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.740 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.741 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.741 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.741 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.741 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.742 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.742 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.743 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.743 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.743 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.743 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.744 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.744 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.744 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.744 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.745 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.745 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.746 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.746 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.748 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.748 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.749 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.749 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.750 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.750 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.751 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.751 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.751 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.752 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.753 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.753 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.753 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.753 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.755 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.755 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.756 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.756 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.758 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.758 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.146471864E9 2.146471864E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:37.758 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:37.758 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145842165E9 2.145842165E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 30%
+* Total number of goals: 44
+* Number of covered goals: 13
+* Generated 4 tests with total length 13
+* Resulting test suite's coverage: 30%
+* Generating assertions
+[MASTER] 21:36:38.086 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.086 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.146191338E9 2.146868356E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.099 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.100 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.146191338E9 2.146191338E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.101 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.101 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.146191338E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.104 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.104 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 2.146868356E9
+False Distances:  2.146191338E9 0.0
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.108 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.108 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.112 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.112 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.114 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.114 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.115 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.115 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.117 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.117 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.118 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.118 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.119 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.119 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.121 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.121 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.123 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.123 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.125 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.125 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.199 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.199 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.201 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.201 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.203 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.203 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.204 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.204 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.205 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.205 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.207 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.207 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.208 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.208 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.080476028E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.209 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.209 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.210 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.210 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.211 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.211 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.213 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.213 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.215 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.215 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.216 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.216 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.217 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.217 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.218 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.218 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.220 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.220 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.221 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.221 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.222 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.222 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.223 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.223 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145260581E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.224 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.224 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.226 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.226 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.227 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.227 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.229 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.229 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.230 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.230 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.231 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.231 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.233 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.233 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.234 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.234 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.235 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.235 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.236 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.236 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.237 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.237 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145255968E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.238 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.238 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.239 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.239 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.240 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.240 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.241 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.241 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.242 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.242 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.243 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.243 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.080476028E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.244 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.244 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.245 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.245 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.080476028E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.246 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.246 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.246 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.247 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.247 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.247 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.080476028E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.248 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.248 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.249 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.249 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.251 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.251 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.252 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.252 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.254 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.254 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.255 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.255 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.257 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.257 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.258 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.258 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.259 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.259 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.261 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.261 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.262 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.262 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.263 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.263 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.268 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.268 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.269 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.269 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.270 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.270 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.271 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.271 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.257966797E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.272 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.272 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.273 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.273 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.257966797E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.274 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.274 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.275 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.275 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.275 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.275 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.276 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.276 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.431655766E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.277 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.277 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.278 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.278 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.278 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.279 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.431655766E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.279 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.279 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.280 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.280 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.282 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.282 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.283 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.283 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.284 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.284 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.285 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.285 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.286 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.286 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.287 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.287 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.288 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.288 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.289 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.289 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.290 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.290 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.291 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.291 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.292 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.292 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.292 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.293 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.293 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.293 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.073741825E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.294 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.294 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.295 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.295 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.296 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.296 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.073741825E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+* Resulting test suite's mutation score: 0%
+* Writing JUnit test case 'PowellOptimizer_ESTest' to evosuite-branch
+[MASTER] 21:36:38.304 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.304 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  2.145258277E9 2.145258277E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:36:38.305 [logback-1] WARN  ExecutionTrace - Popping method <init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V because we were looking for <init>(Lorg/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer;DD)V
+[MASTER] 21:36:38.305 [logback-1] WARN  ExecutionTrace - Current stack: [org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:<init>(DDDDLorg/apache/commons/math3/optim/ConvergenceChecker;)V
+Branches:  1 2
+True Distances:  0.0 0.0
+False Distances:  1.431655766E9 1.073741825E9
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizer
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_207038_1545197686/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 57
+* Using seed 1000
+* Starting evolution
+* Search finished after 101s and 4181 generations, 846992 statements, best individual has fitness: 43.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 26%
+* Total number of goals: 57
+* Number of covered goals: 15
+* Generated 4 tests with total length 20
+* Resulting test suite's coverage: 26%
+* Generating assertions
+* Resulting test suite's mutation score: 3%
+* Writing JUnit test case 'NonLinearConjugateGradientOptimizer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizer
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_207038_1545197686/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 30
+* Using seed 1000
+* Starting evolution
+* Search finished after 101s and 3474 generations, 839152 statements, best individual has fitness: 14.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 53%
+* Total number of goals: 30
+* Number of covered goals: 16
+* Generated 3 tests with total length 22
+* Resulting test suite's coverage: 53%
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Writing JUnit test case 'SimplexOptimizer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizer
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_207038_1545197686/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 28
+* Using seed 1000
+* Starting evolution
+* Search finished after 101s and 5210 generations, 685618 statements, best individual has fitness: 21.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 21%
+* Total number of goals: 28
+* Number of covered goals: 6
+* Generated 2 tests with total length 5
+* Resulting test suite's coverage: 21%
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Writing JUnit test case 'GaussNewtonOptimizer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_207038_1545197686/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 256
+* Using seed 1000
+* Starting evolution
+* Search finished after 101s and 1835 generations, 848203 statements, best individual has fitness: 262.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 11%
+* Total number of goals: 256
+* Number of covered goals: 27
+* Generated 9 tests with total length 51
+* Resulting test suite's coverage: 11%
+* Generating assertions
+* Resulting test suite's mutation score: 2%
+* Writing JUnit test case 'CMAESOptimizer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math3.optim.BaseOptimizer
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_207038_1545197686/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.optim.BaseOptimizer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 17
+* Using seed 1000
+* Starting evolution
+[MASTER] 21:43:44.654 [logback-2] ERROR TestCluster - Failed to check cache for org.apache.commons.math3.optim.ConvergenceChecker<PAIR> : Type points to itself
+* Search finished after 101s and 4434 generations, 493806 statements, best individual has fitness: 2.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 88%
+* Total number of goals: 17
+* Number of covered goals: 15
+* Generated 7 tests with total length 21
+* Resulting test suite's coverage: 88%
+* Generating assertions
+* Resulting test suite's mutation score: 19%
+* Writing JUnit test case 'BaseOptimizer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_207038_1545197686/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 211
+* Using seed 1000
+* Starting evolution
+* Search finished after 101s and 5293 generations, 575392 statements, best individual has fitness: 207.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 3%
+* Total number of goals: 211
+* Number of covered goals: 7
+* Generated 3 tests with total length 5
+* Resulting test suite's coverage: 3%
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Writing JUnit test case 'LevenbergMarquardtOptimizer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

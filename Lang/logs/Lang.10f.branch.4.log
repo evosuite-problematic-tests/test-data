@@ -1,0 +1,35 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.lang3.time.FastDateParser
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_243441_1546776152/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.time.FastDateParser
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 351
+* Using seed 5000
+* Starting evolution
+[MASTER] 04:02:40.315 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 04:02:40.315 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself
+[MASTER] 04:02:41.062 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 04:02:41.420 [logback-2] ERROR TestCluster - Failed to check cache for java.time.temporal.TemporalQuery<R> : Type points to itself
+[MASTER] 04:02:49.846 [logback-2] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+[MASTER] 04:03:28.366 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Error: VariableReference: Statement 6, type java.util.AbstractMap<java.util.List<java.lang.Object>, org.apache.commons.lang3.time.FastDateParser>.SimpleEntry<java.lang.String, java.util.Locale> is not assignable to java.util.AbstractMap<java.util.List<E>, org.apache.commons.lang3.time.FastDateParser>.SimpleEntry<java.lang.String, java.util.Locale>
+* Search finished after 101s and 1644 generations, 408735 statements, best individual has fitness: 55.583333333333336
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 75%
+* Total number of goals: 351
+* Number of covered goals: 265
+* Generated 41 tests with total length 151
+* Resulting test suite's coverage: 79%
+* Generating assertions
+* Resulting test suite's mutation score: 39%
+* Writing JUnit test case 'FastDateParser_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

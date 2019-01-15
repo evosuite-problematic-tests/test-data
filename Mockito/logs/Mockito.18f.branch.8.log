@@ -1,0 +1,60 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_195922_1545172343/build/classes/main
+  - /defects4j/framework/projects/Mockito/lib/asm-all-5.0.4.jar
+  - /defects4j/framework/projects/Mockito/lib/assertj-core-2.1.0.jar
+  - /defects4j/framework/projects/Mockito/lib/cglib-and-asm-1.0.jar
+  - /defects4j/framework/projects/Mockito/lib/cobertura-2.0.3.jar
+  - /defects4j/framework/projects/Mockito/lib/fest-assert-1.3.jar
+  - /defects4j/framework/projects/Mockito/lib/fest-util-1.1.4.jar
+  - /defects4j/framework/projects/Mockito/lib/hamcrest-all-1.3.jar
+  - /defects4j/framework/projects/Mockito/lib/hamcrest-core-1.1.jar
+  - /defects4j/framework/projects/Mockito/lib/objenesis-2.1.jar
+  - /defects4j/framework/projects/Mockito/lib/objenesis-2.2.jar
+  - /defects4j/framework/projects/Mockito/lib/powermock-reflect-1.2.5.jar
+  - /tmp/run_evosuite.pl_195922_1545172343/compileLib/byte-buddy-0.6.8.jar
+* Finished analyzing classpath
+* Generating tests for class org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 41
+* Using seed 1000
+* Starting evolution
+[MASTER] 14:33:05.234 [logback-2] ERROR TestCluster - Failed to check cache for java.util.LinkedList<E> : Type points to itself
+[MASTER] 14:33:05.240 [logback-2] ERROR TestCluster - Failed to check cache for java.util.ArrayDeque<E> : Type points to itself
+[MASTER] 14:33:05.240 [logback-2] ERROR TestCluster - Failed to check cache for java.util.ArrayList<E> : Type points to itself
+[MASTER] 14:33:05.240 [logback-2] ERROR TestCluster - Failed to check cache for java.util.EnumSet<E> : Type points to itself
+[MASTER] 14:33:05.240 [logback-2] ERROR TestCluster - Failed to check cache for java.util.HashSet<E> : Type points to itself
+[MASTER] 14:33:05.241 [logback-2] ERROR TestCluster - Failed to check cache for java.util.LinkedHashSet<E> : Type points to itself
+[MASTER] 14:33:05.241 [logback-2] ERROR TestCluster - Failed to check cache for java.util.PriorityQueue<E> : Type points to itself
+[MASTER] 14:33:05.241 [logback-2] ERROR TestCluster - Failed to check cache for java.util.ServiceLoader<S> : Type points to itself
+[MASTER] 14:33:05.241 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Stack<E> : Type points to itself
+[MASTER] 14:33:05.241 [logback-2] ERROR TestCluster - Failed to check cache for java.util.TreeSet<E> : Type points to itself
+[MASTER] 14:33:05.241 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Vector<E> : Type points to itself
+[MASTER] 14:33:05.241 [logback-2] ERROR TestCluster - Failed to check cache for java.util.TreeMap<K, V> : Type points to itself
+[MASTER] 14:33:05.242 [logback-2] ERROR TestCluster - Failed to check cache for java.util.HashMap<K, V> : Type points to itself
+[MASTER] 14:33:07.496 [logback-2] ERROR TestCluster - Failed to check cache for org.mockito.stubbing.Answer<T> : Type points to itself
+[MASTER] 14:33:07.706 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationImpl due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.SerializableMethod due to org.evosuite.ga.ConstructionFailedException: Have no generator for class org.mockito.internal.invocation.InvocationImpl canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 14:33:07.783 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationImpl due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for java.sql.SQLTransactionRollbackException due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for java.sql.SQLIntegrityConstraintViolationException due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for java.sql.SQLRecoverableException due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 14:33:07.812 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationImpl due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.SerializableMethod due to org.evosuite.ga.ConstructionFailedException: Have no generator for class org.mockito.internal.invocation.InvocationImpl canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 14:33:07.848 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationImpl due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.SerializableMethod due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.stubbing.StubbedInvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 14:33:08.252 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.stubbing.StubbedInvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationImpl due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.SerializableMethod due to org.evosuite.ga.ConstructionFailedException: Have no generator for class org.mockito.internal.invocation.InvocationImpl canUseFunctionalMocks=false, canBeMocked: true
+* Search finished after 101s and 3315 generations, 580218 statements, best individual has fitness: 15.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 44%
+* Total number of goals: 41
+* Number of covered goals: 18
+* Generated 2 tests with total length 6
+* Resulting test suite's coverage: 44%
+* Generating assertions
+* Resulting test suite's mutation score: 52%
+* Writing JUnit test case 'ReturnsEmptyValues_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

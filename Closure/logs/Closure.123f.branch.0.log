@@ -1,0 +1,40 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.CodeGenerator
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_110292_1546845144/build/classes
+  - /tmp/run_evosuite.pl_110292_1546845144/lib/args4j.jar
+  - /tmp/run_evosuite.pl_110292_1546845144/lib/guava.jar
+  - /tmp/run_evosuite.pl_110292_1546845144/lib/json.jar
+  - /tmp/run_evosuite.pl_110292_1546845144/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_110292_1546845144/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_110292_1546845144/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_110292_1546845144/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.CodeGenerator
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 776
+* Using seed 1000
+* Starting evolution
+[MASTER] 23:13:03.762 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.ControlFlowGraph<N> : Type points to itself
+* Search finished after 105s and 793 generations, 201006 statements, best individual has fitness: 674.3255108596924
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 14%
+* Total number of goals: 776
+* Number of covered goals: 109
+* Generated 32 tests with total length 73
+* Resulting test suite's coverage: 13%
+* Generating assertions
+* Resulting test suite's mutation score: 26%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 5
+* Writing JUnit test case 'CodeGenerator_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

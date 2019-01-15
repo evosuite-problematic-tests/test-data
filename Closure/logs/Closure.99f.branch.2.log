@@ -1,0 +1,44 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.CheckGlobalThis
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_59840_1546615325/build/classes
+  - /tmp/run_evosuite.pl_59840_1546615325/lib/ant_deploy.jar
+  - /tmp/run_evosuite.pl_59840_1546615325/lib/args4j_deploy.jar
+  - /tmp/run_evosuite.pl_59840_1546615325/lib/google_common_deploy.jar
+  - /tmp/run_evosuite.pl_59840_1546615325/lib/hamcrest-core-1.1.jar
+  - /tmp/run_evosuite.pl_59840_1546615325/lib/junit.jar
+  - /tmp/run_evosuite.pl_59840_1546615325/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_59840_1546615325/lib/protobuf_deploy.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.CheckGlobalThis
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 63
+* Using seed 3000
+* Starting evolution
+[MASTER] 07:22:18.169 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Stack<E> : Type points to itself
+[MASTER] 07:22:25.897 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Iterator<E> : Type points to itself
+[MASTER] 07:23:14.287 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.ControlFlowGraph<N> : Type points to itself
+[MASTER] 07:23:16.358 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.InstanceObjectType due to IAE: tried to access class com.google.javascript.rhino.jstype.PrototypeObjectType from class com.google.javascript.rhino.jstype.InstanceObjectType$MockitoMock$1525654802
+[MASTER] 07:23:27.013 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.InstanceObjectType due to failed class initialization: Could not initialize class com.google.javascript.rhino.jstype.InstanceObjectType$MockitoMock$1525654802
+* Search finished after 101s and 910 generations, 313058 statements, best individual has fitness: 12.178571428571429
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 76%
+* Total number of goals: 63
+* Number of covered goals: 48
+* Generated 14 tests with total length 100
+* Resulting test suite's coverage: 76%
+* Generating assertions
+* Resulting test suite's mutation score: 36%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 23
+* Writing JUnit test case 'CheckGlobalThis_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

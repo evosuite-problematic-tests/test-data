@@ -1,0 +1,40 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.CommandLineRunner
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_37952_1545817392/build/classes
+  - /tmp/run_evosuite.pl_37952_1545817392/lib/args4j.jar
+  - /tmp/run_evosuite.pl_37952_1545817392/lib/guava.jar
+  - /tmp/run_evosuite.pl_37952_1545817392/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_37952_1545817392/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_37952_1545817392/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_37952_1545817392/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.CommandLineRunner
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 50
+* Using seed 2000
+* Starting evolution
+[MASTER] 01:43:25.796 [logback-2] ERROR TestCluster - Failed to check cache for com.google.common.base.Supplier<T> : Type points to itself
+[MASTER] 01:43:31.240 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+* Search finished after 101s and 1215 generations, 155136 statements, best individual has fitness: 27.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 44%
+* Total number of goals: 50
+* Number of covered goals: 22
+* Generated 6 tests with total length 28
+* Resulting test suite's coverage: 44%
+* Generating assertions
+* Resulting test suite's mutation score: 19%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 48
+* Writing JUnit test case 'CommandLineRunner_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,29 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math.fraction.BigFraction
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_103230_1546632321/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.fraction.BigFraction
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 131
+* Using seed 3000
+* Starting evolution
+* Search finished after 106s and 79 generations, 30127 statements, best individual has fitness: 1.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 98%
+* Total number of goals: 131
+* Number of covered goals: 128
+* Generated 61 tests with total length 125
+* Resulting test suite's coverage: 98%
+* Generating assertions
+* Resulting test suite's mutation score: 45%
+* Writing JUnit test case 'BigFraction_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

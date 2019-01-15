@@ -1,0 +1,41 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.CheckGlobalThis
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_255026_1546685703/build/classes
+  - /tmp/run_evosuite.pl_255026_1546685703/lib/ant_deploy.jar
+  - /tmp/run_evosuite.pl_255026_1546685703/lib/args4j_deploy.jar
+  - /tmp/run_evosuite.pl_255026_1546685703/lib/google_common_deploy.jar
+  - /tmp/run_evosuite.pl_255026_1546685703/lib/hamcrest-core-1.1.jar
+  - /tmp/run_evosuite.pl_255026_1546685703/lib/junit.jar
+  - /tmp/run_evosuite.pl_255026_1546685703/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_255026_1546685703/lib/protobuf_deploy.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.CheckGlobalThis
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 57
+* Using seed 4000
+* Starting evolution
+[MASTER] 02:55:12.967 [logback-2] ERROR TestCluster - Failed to check cache for java.util.PriorityQueue<E> : Type points to itself
+[MASTER] 02:56:19.313 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.ControlFlowGraph<N> : Type points to itself
+* Search finished after 104s and 715 generations, 342565 statements, best individual has fitness: 12.71328502415459
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 70%
+* Total number of goals: 57
+* Number of covered goals: 40
+* Generated 10 tests with total length 72
+* Resulting test suite's coverage: 70%
+* Generating assertions
+* Resulting test suite's mutation score: 31%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 20
+* Writing JUnit test case 'CheckGlobalThis_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

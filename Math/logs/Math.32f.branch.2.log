@@ -1,0 +1,32 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_102003_1546631970/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 95
+* Using seed 3000
+* Starting evolution
+[MASTER] 11:59:39.430 [logback-2] ERROR TestCluster - Failed to check cache for java.util.LinkedList<E> : Type points to itself
+[MASTER] 11:59:40.995 [logback-2] ERROR TestCluster - Failed to check cache for org.apache.commons.math3.geometry.partitioning.Transform<S, T> : Type points to itself
+[MASTER] 12:00:01.961 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.apache.commons.math3.geometry.euclidean.twod.SubLine due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.apache.commons.math3.geometry.euclidean.twod.Line due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.apache.commons.math3.geometry.euclidean.twod.Line due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.apache.commons.math3.geometry.euclidean.twod.Vector2D due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+* Search finished after 101s and 3160 generations, 594123 statements, best individual has fitness: 10.166666666666666
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 88%
+* Total number of goals: 95
+* Number of covered goals: 84
+* Generated 10 tests with total length 41
+* Resulting test suite's coverage: 88%
+* Generating assertions
+* Resulting test suite's mutation score: 46%
+* Writing JUnit test case 'PolygonsSet_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

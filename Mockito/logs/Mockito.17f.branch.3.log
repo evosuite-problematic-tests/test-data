@@ -1,0 +1,83 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.mockito.internal.creation.MockSettingsImpl
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_94360_1546711821/target/classes
+  - /d4j/defects4j/framework/projects/Mockito/lib/asm-all-5.0.4.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/assertj-core-2.1.0.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/cglib-and-asm-1.0.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/cobertura-2.0.3.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/fest-assert-1.3.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/fest-util-1.1.4.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/hamcrest-all-1.3.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/hamcrest-core-1.1.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/objenesis-2.1.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/objenesis-2.2.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/powermock-reflect-1.2.5.jar
+* Finished analyzing classpath
+* Generating tests for class org.mockito.internal.creation.MockSettingsImpl
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 21
+* Using seed 4000
+* Starting evolution
+[MASTER] 10:10:30.563 [logback-2] ERROR TestCluster - Failed to check cache for org.mockito.stubbing.Answer<T> : Type points to itself
+* Search finished after 4s and 62 generations, 17689 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 21
+* Number of covered goals: 21
+* Generated 15 tests with total length 42
+* Resulting test suite's coverage: 100%
+* Generating assertions
+* Resulting test suite's mutation score: 50%
+* Writing JUnit test case 'MockSettingsImpl_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.mockito.internal.util.MockUtil
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_94360_1546711821/target/classes
+  - /d4j/defects4j/framework/projects/Mockito/lib/asm-all-5.0.4.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/assertj-core-2.1.0.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/cglib-and-asm-1.0.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/cobertura-2.0.3.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/fest-assert-1.3.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/fest-util-1.1.4.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/hamcrest-all-1.3.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/hamcrest-core-1.1.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/objenesis-2.1.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/objenesis-2.2.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/powermock-reflect-1.2.5.jar
+* Finished analyzing classpath
+* Generating tests for class org.mockito.internal.util.MockUtil
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 26
+* Using seed 4000
+* Starting evolution
+[MASTER] 10:10:38.669 [logback-2] ERROR TestCluster - Failed to check cache for org.mockito.internal.MockHandler<T> : Type points to itself
+[MASTER] 10:10:39.612 [logback-2] ERROR TestCluster - Failed to check cache for org.mockito.stubbing.Answer<T> : Type points to itself
+* Search finished after 101s and 3530 generations, 435444 statements, best individual has fitness: 8.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 65%
+* Total number of goals: 26
+* Number of covered goals: 17
+* Generated 8 tests with total length 45
+* Resulting test suite's coverage: 65%
+* Generating assertions
+* Resulting test suite's mutation score: 19%
+* Writing JUnit test case 'MockUtil_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

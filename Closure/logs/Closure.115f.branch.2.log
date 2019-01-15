@@ -1,0 +1,42 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.FunctionInjector
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_65330_1546617592/build/classes
+  - /tmp/run_evosuite.pl_65330_1546617592/lib/args4j.jar
+  - /tmp/run_evosuite.pl_65330_1546617592/lib/guava.jar
+  - /tmp/run_evosuite.pl_65330_1546617592/lib/json.jar
+  - /tmp/run_evosuite.pl_65330_1546617592/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_65330_1546617592/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_65330_1546617592/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_65330_1546617592/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.FunctionInjector
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 250
+* Using seed 3000
+* Starting evolution
+[MASTER] 08:00:11.259 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 08:00:11.354 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Iterator<E> : Type points to itself
+[MASTER] 08:00:11.397 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+* Search finished after 101s and 180 generations, 98214 statements, best individual has fitness: 218.666666666201
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 14%
+* Total number of goals: 250
+* Number of covered goals: 35
+* Generated 10 tests with total length 103
+* Resulting test suite's coverage: 14%
+* Generating assertions
+* Resulting test suite's mutation score: 1%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 6
+* Writing JUnit test case 'FunctionInjector_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

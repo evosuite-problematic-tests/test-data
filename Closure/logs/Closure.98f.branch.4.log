@@ -1,0 +1,42 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.ReferenceCollectingCallback
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_228496_1546770686/build/classes
+  - /tmp/run_evosuite.pl_228496_1546770686/lib/ant_deploy.jar
+  - /tmp/run_evosuite.pl_228496_1546770686/lib/args4j_deploy.jar
+  - /tmp/run_evosuite.pl_228496_1546770686/lib/google_common_deploy.jar
+  - /tmp/run_evosuite.pl_228496_1546770686/lib/hamcrest-core-1.1.jar
+  - /tmp/run_evosuite.pl_228496_1546770686/lib/junit.jar
+  - /tmp/run_evosuite.pl_228496_1546770686/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_228496_1546770686/lib/protobuf_deploy.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.ReferenceCollectingCallback
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 181
+* Using seed 5000
+* Starting evolution
+[MASTER] 02:31:36.729 [logback-2] ERROR TestCluster - Failed to check cache for java.util.PriorityQueue<E> : Type points to itself
+[MASTER] 02:31:42.670 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 02:33:00.917 [logback-2] ERROR TestCluster - Failed to check cache for java.lang.Comparable<T> : Type points to itself
+* Search finished after 102s and 283 generations, 138689 statements, best individual has fitness: 71.85595238095239
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 57%
+* Total number of goals: 181
+* Number of covered goals: 104
+* Generated 45 tests with total length 250
+* Resulting test suite's coverage: 57%
+* Generating assertions
+* Resulting test suite's mutation score: 25%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 3
+* Writing JUnit test case 'ReferenceCollectingCallback_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

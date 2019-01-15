@@ -1,0 +1,46 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.Compiler
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_226430_1546676447/build/classes
+  - /tmp/run_evosuite.pl_226430_1546676447/lib/args4j.jar
+  - /tmp/run_evosuite.pl_226430_1546676447/lib/guava.jar
+  - /tmp/run_evosuite.pl_226430_1546676447/lib/json.jar
+  - /tmp/run_evosuite.pl_226430_1546676447/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_226430_1546676447/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_226430_1546676447/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_226430_1546676447/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.Compiler
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 542
+* Using seed 4000
+* Starting evolution
+[MASTER] 00:21:00.901 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.DisambiguateProperties<T> : Type points to itself
+[MASTER] 00:21:05.430 [logback-2] ERROR TestCluster - Failed to check cache for com.google.common.base.Supplier<T> : Type points to itself
+[MASTER] 00:21:05.487 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 00:21:05.762 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+[MASTER] 00:21:48.369 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.PhaseOptimizer due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.PerformanceTracker due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for java.io.InputStreamReader due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 00:21:49.981 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.ReferenceCollectingCallback$Reference due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.ReferenceCollectingCallback$BasicBlock due to org.evosuite.ga.ConstructionFailedException: Have no generator for class com.google.javascript.jscomp.ReferenceCollectingCallback$BasicBlock canUseFunctionalMocks=true, canBeMocked: false
+[MASTER] 00:21:54.025 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.MinimizeExitPoints due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.NodeTraversal due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.CheckDebuggerStatement due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.Compiler due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.LoggerErrorManager due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+* Search finished after 105s and 172 generations, 77031 statements, best individual has fitness: 215.41666666620102
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 56%
+* Total number of goals: 542
+* Number of covered goals: 303
+* Generated 100 tests with total length 471
+* Resulting test suite's coverage: 56%
+* Generating assertions
+* Resulting test suite's mutation score: 18%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 4
+* Writing JUnit test case 'Compiler_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

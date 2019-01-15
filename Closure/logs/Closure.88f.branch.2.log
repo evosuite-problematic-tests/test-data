@@ -1,0 +1,45 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.DeadAssignmentsElimination
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_56260_1546613814/build/classes
+  - /tmp/run_evosuite.pl_56260_1546613814/lib/ant-launcher.jar
+  - /tmp/run_evosuite.pl_56260_1546613814/lib/ant.jar
+  - /tmp/run_evosuite.pl_56260_1546613814/lib/args4j.jar
+  - /tmp/run_evosuite.pl_56260_1546613814/lib/guava.jar
+  - /tmp/run_evosuite.pl_56260_1546613814/lib/json.jar
+  - /tmp/run_evosuite.pl_56260_1546613814/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_56260_1546613814/lib/junit.jar
+  - /tmp/run_evosuite.pl_56260_1546613814/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_56260_1546613814/lib/protobuf-java.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.DeadAssignmentsElimination
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 124
+* Using seed 3000
+* Starting evolution
+[MASTER] 06:57:08.262 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 06:57:08.263 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Iterator<E> : Type points to itself
+[MASTER] 06:57:48.403 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.ControlFlowGraph<N> : Type points to itself
+[MASTER] 06:58:43.456 [logback-2] ERROR AbstractStatement - Error assigning value of type Comparable[] defined at statement Comparable<Object>[] comparableArray0 = (Comparable<Object>[]) Array.newInstance(Comparable.class, 3), assignment statement: comparableArray0[0] = (Comparable<Object>) comparableArray0; SUT=com.google.javascript.jscomp.DeadAssignmentsElimination
+* Search finished after 101s and 821 generations, 155769 statements, best individual has fitness: 123.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 4%
+* Total number of goals: 124
+* Number of covered goals: 5
+* Generated 1 tests with total length 4
+* Resulting test suite's coverage: 4%
+* Generating assertions
+* Resulting test suite's mutation score: 1%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 26
+* Writing JUnit test case 'DeadAssignmentsElimination_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

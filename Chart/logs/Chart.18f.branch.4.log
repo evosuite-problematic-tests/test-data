@@ -1,0 +1,64 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.data.DefaultKeyedValues
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_221186_1546749515/build
+  - /tmp/run_evosuite.pl_221186_1546749515/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.data.DefaultKeyedValues
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 62
+* Using seed 5000
+* Starting evolution
+[MASTER] 20:38:43.796 [logback-2] ERROR TestCluster - Failed to check cache for java.util.LinkedList<E> : Type points to itself
+[MASTER] 20:38:44.446 [logback-2] ERROR TestCluster - Failed to check cache for java.lang.Comparable<T> : Type points to itself
+* Search finished after 101s and 2492 generations, 560141 statements, best individual has fitness: 1.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 97%
+* Total number of goals: 62
+* Number of covered goals: 60
+* Generated 22 tests with total length 86
+* Resulting test suite's coverage: 97%
+* Generating assertions
+* Resulting test suite's mutation score: 72%
+* Writing JUnit test case 'DefaultKeyedValues_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.data.DefaultKeyedValues2D
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_221186_1546749515/build
+  - /tmp/run_evosuite.pl_221186_1546749515/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.data.DefaultKeyedValues2D
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 95
+* Using seed 5000
+* Starting evolution
+[MASTER] 20:40:29.794 [logback-2] ERROR TestCluster - Failed to check cache for java.util.LinkedList<E> : Type points to itself
+[MASTER] 20:40:30.356 [logback-2] ERROR TestCluster - Failed to check cache for java.lang.Comparable<T> : Type points to itself
+* Search finished after 101s and 2822 generations, 580156 statements, best individual has fitness: 1.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 97%
+* Total number of goals: 95
+* Number of covered goals: 92
+* Generated 28 tests with total length 108
+* Resulting test suite's coverage: 97%
+* Generating assertions
+* Resulting test suite's mutation score: 64%
+* Writing JUnit test case 'DefaultKeyedValues2D_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,30 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.joda.time.Period
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_149368_1546644779/target/classes
+  - /d4j/defects4j/framework/projects/Time/lib/org/joda/joda-convert/1.2/joda-convert-1.2.jar
+* Finished analyzing classpath
+* Generating tests for class org.joda.time.Period
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 131
+* Using seed 3000
+* Starting evolution
+* Search finished after 9s and 74 generations, 35481 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 131
+* Number of covered goals: 131
+* Generated 73 tests with total length 206
+* Resulting test suite's coverage: 100%
+* Generating assertions
+* Resulting test suite's mutation score: 28%
+* Writing JUnit test case 'Period_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

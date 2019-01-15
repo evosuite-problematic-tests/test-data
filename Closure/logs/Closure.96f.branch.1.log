@@ -1,0 +1,42 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.TypeCheck
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_102212_1545819421/build/classes
+  - /tmp/run_evosuite.pl_102212_1545819421/lib/ant_deploy.jar
+  - /tmp/run_evosuite.pl_102212_1545819421/lib/args4j_deploy.jar
+  - /tmp/run_evosuite.pl_102212_1545819421/lib/guava-r06.jar
+  - /tmp/run_evosuite.pl_102212_1545819421/lib/hamcrest-core-1.1.jar
+  - /tmp/run_evosuite.pl_102212_1545819421/lib/json.jar
+  - /tmp/run_evosuite.pl_102212_1545819421/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_102212_1545819421/lib/junit.jar
+  - /tmp/run_evosuite.pl_102212_1545819421/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_102212_1545819421/lib/protobuf_deploy.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.TypeCheck
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 915
+* Using seed 2000
+* Starting evolution
+[MASTER] 02:18:36.886 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.NumberType due to IAE: tried to access class com.google.javascript.rhino.jstype.ValueType from class com.google.javascript.rhino.jstype.NumberType$MockitoMock$161930767
+* Search finished after 101s and 435 generations, 229778 statements, best individual has fitness: 479.3292446949496
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 43%
+* Total number of goals: 915
+* Number of covered goals: 390
+* Generated 59 tests with total length 585
+* Resulting test suite's coverage: 43%
+* Generating assertions
+* Resulting test suite's mutation score: 15%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 15
+* Writing JUnit test case 'TypeCheck_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

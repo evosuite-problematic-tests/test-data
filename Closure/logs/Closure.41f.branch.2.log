@@ -1,0 +1,40 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.FunctionTypeBuilder
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_35613_1546607547/build/classes
+  - /tmp/run_evosuite.pl_35613_1546607547/lib/args4j.jar
+  - /tmp/run_evosuite.pl_35613_1546607547/lib/guava.jar
+  - /tmp/run_evosuite.pl_35613_1546607547/lib/json.jar
+  - /tmp/run_evosuite.pl_35613_1546607547/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_35613_1546607547/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_35613_1546607547/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_35613_1546607547/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.FunctionTypeBuilder
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 261
+* Using seed 3000
+* Starting evolution
+[MASTER] 05:12:43.422 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+* Search finished after 101s and 654 generations, 295890 statements, best individual has fitness: 149.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 39%
+* Total number of goals: 261
+* Number of covered goals: 102
+* Generated 31 tests with total length 216
+* Resulting test suite's coverage: 39%
+* Generating assertions
+* Resulting test suite's mutation score: 12%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 8
+* Writing JUnit test case 'FunctionTypeBuilder_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

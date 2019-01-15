@@ -1,0 +1,68 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.NodeUtil
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_227330_1546770183/build/classes
+  - /tmp/run_evosuite.pl_227330_1546770183/lib/ant_deploy.jar
+  - /tmp/run_evosuite.pl_227330_1546770183/lib/args4j_deploy.jar
+  - /tmp/run_evosuite.pl_227330_1546770183/lib/guava-r06.jar
+  - /tmp/run_evosuite.pl_227330_1546770183/lib/hamcrest-core-1.1.jar
+  - /tmp/run_evosuite.pl_227330_1546770183/lib/json.jar
+  - /tmp/run_evosuite.pl_227330_1546770183/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_227330_1546770183/lib/junit.jar
+  - /tmp/run_evosuite.pl_227330_1546770183/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_227330_1546770183/lib/protobuf-java-2.3.0.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.NodeUtil
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 1966
+* Using seed 5000
+* Starting evolution
+[MASTER] 02:23:16.267 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.ControlFlowGraph<N> : Type points to itself
+[MASTER] 02:23:16.916 [logback-2] ERROR TestCluster - Failed to check cache for com.google.common.base.Supplier<T> : Type points to itself
+[MASTER] 02:23:16.995 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 02:23:38.463 [logback-2] ERROR ClientNodeImpl - Cannot inform master of change of state
+java.rmi.MarshalException: error marshalling arguments; nested exception is: 
+	java.net.SocketException: Broken pipe (Write failed)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:157) ~[na:1.8.0_191]
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227) ~[na:1.8.0_191]
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179) ~[na:1.8.0_191]
+	at com.sun.proxy.$Proxy7.evosuite_collectStatistics(Unknown Source) ~[na:na]
+	at org.evosuite.rmi.service.ClientNodeImpl.updateStatistics(ClientNodeImpl.java:237) ~[evosuite-current.jar:1.0.6]
+	at org.evosuite.statistics.StatisticsSender.sendIndividualToMaster(StatisticsSender.java:68) [evosuite-current.jar:1.0.6]
+	at org.evosuite.statistics.StatisticsListener$1.run(StatisticsListener.java:71) [evosuite-current.jar:1.0.6]
+Caused by: java.net.SocketException: Broken pipe (Write failed)
+	at java.net.SocketOutputStream.socketWrite0(Native Method) ~[na:1.8.0_191]
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111) ~[na:1.8.0_191]
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155) ~[na:1.8.0_191]
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82) ~[na:1.8.0_191]
+	at java.io.BufferedOutputStream.write(BufferedOutputStream.java:126) ~[na:1.8.0_191]
+	at java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1877) ~[na:1.8.0_191]
+	at java.io.ObjectOutputStream$BlockDataOutputStream.setBlockDataMode(ObjectOutputStream.java:1786) ~[na:1.8.0_191]
+	at java.io.ObjectOutputStream.writeFatalException(ObjectOutputStream.java:1580) ~[na:1.8.0_191]
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:351) ~[na:1.8.0_191]
+	at sun.rmi.server.UnicastRef.marshalValue(UnicastRef.java:290) ~[na:1.8.0_191]
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:152) ~[na:1.8.0_191]
+	... 6 common frames omitted
+* Search finished after 102s and 305 generations, 110597 statements, best individual has fitness: 595.6084411596568
+* Minimizing test suite
+[MASTER] 02:24:55.955 [logback-2] ERROR TestCluster - Failed to check cache for java.util.function.Function<T, R> : Type points to itself
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 61%
+* Total number of goals: 1966
+* Number of covered goals: 1191
+* Generated 289 tests with total length 554
+* Resulting test suite's coverage: 61%
+* Generating assertions
+* Resulting test suite's mutation score: 28%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 3
+* Writing JUnit test case 'NodeUtil_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

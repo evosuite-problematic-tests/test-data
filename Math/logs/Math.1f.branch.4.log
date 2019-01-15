@@ -1,0 +1,58 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math3.fraction.Fraction
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_260022_1546783417/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.fraction.Fraction
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 118
+* Using seed 5000
+* Starting evolution
+* Search finished after 101s and 2826 generations, 846328 statements, best individual has fitness: 1.1666666666666665
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 97%
+* Total number of goals: 118
+* Number of covered goals: 115
+* Generated 48 tests with total length 100
+* Resulting test suite's coverage: 98%
+* Generating assertions
+* Resulting test suite's mutation score: 48%
+* Writing JUnit test case 'Fraction_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math3.fraction.BigFraction
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_260022_1546783417/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.fraction.BigFraction
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 137
+* Using seed 5000
+* Starting evolution
+* Search finished after 106s and 34 generations, 21132 statements, best individual has fitness: 1.9999999995343387
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 97%
+* Total number of goals: 137
+* Number of covered goals: 133
+* Generated 65 tests with total length 143
+* Resulting test suite's coverage: 98%
+* Generating assertions
+* Resulting test suite's mutation score: 48%
+* Writing JUnit test case 'BigFraction_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

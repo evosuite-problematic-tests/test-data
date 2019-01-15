@@ -1,0 +1,29 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math.stat.Frequency
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_247335_1546707892/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.stat.Frequency
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 55
+* Using seed 4000
+* Starting evolution
+* Search finished after 101s and 3400 generations, 940668 statements, best individual has fitness: 0.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 98%
+* Total number of goals: 55
+* Number of covered goals: 54
+* Generated 22 tests with total length 60
+* Resulting test suite's coverage: 98%
+* Generating assertions
+* Resulting test suite's mutation score: 64%
+* Writing JUnit test case 'Frequency_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

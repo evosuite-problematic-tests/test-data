@@ -1,0 +1,40 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.chart.renderer.category.StatisticalBarRenderer
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_104673_1545157367/build
+  - /tmp/run_evosuite.pl_104673_1545157367/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.chart.renderer.category.StatisticalBarRenderer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 97
+* Using seed 1000
+* Starting evolution
+[MASTER] 10:23:00.953 [logback-2] ERROR TestCluster - Failed to check cache for javax.swing.JComboBox<E> : Type points to itself
+* Search finished after 102s and 639 generations, 282157 statements, best individual has fitness: 76.33333333333333
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 20%
+* Total number of goals: 97
+* Number of covered goals: 19
+* Generated 10 tests with total length 58
+* Resulting test suite's coverage: 20%
+* Generating assertions
+* Resulting test suite's mutation score: 8%
+* Permissions denied during test execution: 
+  - java.io.FilePermission: 
+         write /tmp/+~JT6953134430310028145.tmp: 1
+         write /tmp/+~JF8096334000982817485.tmp: 1
+  - java.net.URLPermission: 
+         *:* http://www.someFakeButWellFormedURL.org/fooExample: 1
+         *:* http://foo.bar: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+* Writing JUnit test case 'StatisticalBarRenderer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

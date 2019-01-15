@@ -1,0 +1,42 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_217066_1546673539/build/classes
+  - /tmp/run_evosuite.pl_217066_1546673539/lib/args4j.jar
+  - /tmp/run_evosuite.pl_217066_1546673539/lib/guava.jar
+  - /tmp/run_evosuite.pl_217066_1546673539/lib/json.jar
+  - /tmp/run_evosuite.pl_217066_1546673539/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_217066_1546673539/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_217066_1546673539/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_217066_1546673539/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 162
+* Using seed 4000
+* Starting evolution
+[MASTER] 23:32:34.289 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.BooleanType due to IAE: tried to access class com.google.javascript.rhino.jstype.ValueType from class com.google.javascript.rhino.jstype.BooleanType$MockitoMock$213429440
+[MASTER] 23:32:34.939 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.NoObjectType due to IAE: tried to access class com.google.javascript.rhino.jstype.PrototypeObjectType from class com.google.javascript.rhino.jstype.NoObjectType$MockitoMock$1602148243
+[MASTER] 23:32:43.743 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class com.google.javascript.rhino.jstype.UnionType canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 23:32:52.940 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.BooleanType due to failed class initialization: Could not initialize class com.google.javascript.rhino.jstype.BooleanType$MockitoMock$213429440
+[MASTER] 23:33:02.721 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.TemplateType due to IAE: tried to access class com.google.javascript.rhino.jstype.ProxyObjectType from class com.google.javascript.rhino.jstype.TemplateType$MockitoMock$1989567910
+[MASTER] 23:33:04.955 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.TemplateType due to failed class initialization: Could not initialize class com.google.javascript.rhino.jstype.TemplateType$MockitoMock$1989567910
+* Search finished after 102s and 1110 generations, 430076 statements, best individual has fitness: 45.99999995491925
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 67%
+* Total number of goals: 162
+* Number of covered goals: 109
+* Generated 57 tests with total length 409
+* Resulting test suite's coverage: 67%
+* Generating assertions
+* Resulting test suite's mutation score: 10%
+* Writing JUnit test case 'ChainableReverseAbstractInterpreter_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

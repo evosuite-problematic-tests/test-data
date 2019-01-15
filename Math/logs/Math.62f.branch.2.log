@@ -1,0 +1,33 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizer
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_111063_1546634875/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 25
+* Using seed 3000
+* Starting evolution
+[MASTER] 12:48:10.397 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class org.apache.commons.math.optimization.univariate.BrentOptimizer canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 12:48:10.499 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizer<org.apache.commons.math.analysis.polynomials.PolynomialFunctionLagrangeForm> canUseFunctionalMocks=false, canBeMocked: false
+[MASTER] 12:48:10.552 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizer<org.apache.commons.math.analysis.polynomials.PolynomialFunction> canUseFunctionalMocks=false, canBeMocked: false
+[MASTER] 12:48:12.641 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class org.apache.commons.math.analysis.polynomials.PolynomialSplineFunction canUseFunctionalMocks=false, canBeMocked: true
+* Search finished after 18s and 36 generations, 26141 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 25
+* Number of covered goals: 25
+* Generated 10 tests with total length 51
+* Resulting test suite's coverage: 100%
+* Generating assertions
+* Resulting test suite's mutation score: 25%
+* Writing JUnit test case 'MultiStartUnivariateRealOptimizer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

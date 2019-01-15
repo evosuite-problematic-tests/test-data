@@ -1,0 +1,31 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.joda.time.chrono.ZonedChronology
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_212684_1546718406/build/classes
+  - /d4j/defects4j/framework/projects/Time/lib/joda-convert-1.2.jar
+* Finished analyzing classpath
+* Generating tests for class org.joda.time.chrono.ZonedChronology
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 121
+* Using seed 4000
+* Starting evolution
+[MASTER] 12:01:13.942 [logback-2] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+* Search finished after 101s and 1270 generations, 387603 statements, best individual has fitness: 3.4999999990686774
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 91%
+* Total number of goals: 121
+* Number of covered goals: 110
+* Generated 58 tests with total length 334
+* Resulting test suite's coverage: 95%
+* Generating assertions
+* Resulting test suite's mutation score: 39%
+* Writing JUnit test case 'ZonedChronology_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

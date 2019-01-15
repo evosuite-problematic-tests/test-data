@@ -1,0 +1,39 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.MakeDeclaredNamesUnique
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_38404_1546608637/build/classes
+  - /tmp/run_evosuite.pl_38404_1546608637/lib/args4j.jar
+  - /tmp/run_evosuite.pl_38404_1546608637/lib/guava.jar
+  - /tmp/run_evosuite.pl_38404_1546608637/lib/json.jar
+  - /tmp/run_evosuite.pl_38404_1546608637/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_38404_1546608637/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_38404_1546608637/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_38404_1546608637/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.MakeDeclaredNamesUnique
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 138
+* Using seed 3000
+* Starting evolution
+* Search finished after 102s and 959 generations, 247833 statements, best individual has fitness: 53.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 60%
+* Total number of goals: 138
+* Number of covered goals: 83
+* Generated 25 tests with total length 95
+* Resulting test suite's coverage: 60%
+* Generating assertions
+* Resulting test suite's mutation score: 19%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 21
+* Writing JUnit test case 'MakeDeclaredNamesUnique_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

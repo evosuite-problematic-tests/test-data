@@ -1,0 +1,42 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.CheckAccessControls
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_93130_1546838089/build/classes
+  - /tmp/run_evosuite.pl_93130_1546838089/lib/args4j.jar
+  - /tmp/run_evosuite.pl_93130_1546838089/lib/guava.jar
+  - /tmp/run_evosuite.pl_93130_1546838089/lib/json.jar
+  - /tmp/run_evosuite.pl_93130_1546838089/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_93130_1546838089/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_93130_1546838089/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_93130_1546838089/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.CheckAccessControls
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 230
+* Using seed 1000
+* Starting evolution
+[MASTER] 21:15:01.998 [logback-2] ERROR TestCluster - Failed to check cache for com.google.common.base.Supplier<T> : Type points to itself
+[MASTER] 21:15:02.429 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 21:15:10.424 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.ControlFlowGraph<N> : Type points to itself
+* Search finished after 101s and 697 generations, 222645 statements, best individual has fitness: 190.05287987874195
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 17%
+* Total number of goals: 230
+* Number of covered goals: 40
+* Generated 4 tests with total length 44
+* Resulting test suite's coverage: 17%
+* Generating assertions
+* Resulting test suite's mutation score: 3%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 14
+* Writing JUnit test case 'CheckAccessControls_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

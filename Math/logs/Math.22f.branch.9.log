@@ -1,0 +1,58 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math3.distribution.UniformRealDistribution
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_70834_1545234165/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.distribution.UniformRealDistribution
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 22
+* Using seed 1000
+* Starting evolution
+* Search finished after 2s and 1 generations, 1745 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 22
+* Number of covered goals: 22
+* Generated 10 tests with total length 21
+* Resulting test suite's coverage: 100%
+* Generating assertions
+* Resulting test suite's mutation score: 54%
+* Writing JUnit test case 'UniformRealDistribution_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math3.distribution.FDistribution
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_70834_1545234165/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.distribution.FDistribution
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 23
+* Using seed 1000
+* Starting evolution
+* Search finished after 1s and 1 generations, 1633 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 23
+* Number of covered goals: 23
+* Generated 8 tests with total length 15
+* Resulting test suite's coverage: 100%
+* Generating assertions
+* Resulting test suite's mutation score: 8%
+* Writing JUnit test case 'FDistribution_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

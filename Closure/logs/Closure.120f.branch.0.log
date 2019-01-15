@@ -1,0 +1,42 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.ReferenceCollectingCallback
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_109327_1546844788/build/classes
+  - /tmp/run_evosuite.pl_109327_1546844788/lib/args4j.jar
+  - /tmp/run_evosuite.pl_109327_1546844788/lib/guava.jar
+  - /tmp/run_evosuite.pl_109327_1546844788/lib/json.jar
+  - /tmp/run_evosuite.pl_109327_1546844788/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_109327_1546844788/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_109327_1546844788/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_109327_1546844788/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.ReferenceCollectingCallback
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 198
+* Using seed 1000
+* Starting evolution
+[MASTER] 23:06:47.846 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Iterator<E> : Type points to itself
+[MASTER] 23:06:58.310 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 23:07:35.135 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.ControlFlowGraph<N> : Type points to itself
+* Search finished after 101s and 255 generations, 95280 statements, best individual has fitness: 112.75760073192293
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 41%
+* Total number of goals: 198
+* Number of covered goals: 81
+* Generated 35 tests with total length 141
+* Resulting test suite's coverage: 41%
+* Generating assertions
+* Resulting test suite's mutation score: 10%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 5
+* Writing JUnit test case 'ReferenceCollectingCallback_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

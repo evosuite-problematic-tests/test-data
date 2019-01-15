@@ -1,0 +1,33 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.data.time.Week
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_215873_1546748234/build
+  - /tmp/run_evosuite.pl_215873_1546748234/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.data.time.Week
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 83
+* Using seed 5000
+* Starting evolution
+[MASTER] 20:17:30.814 [logback-2] ERROR AbstractStatement - Error assigning value of type TemporalQuery[] defined at statement TemporalQuery<Minute>[] temporalQueryArray0 = (TemporalQuery<Minute>[]) Array.newInstance(TemporalQuery.class, 3), assignment statement: temporalQueryArray0[0] = (TemporalQuery<Minute>) temporalQueryArray0; SUT=org.jfree.data.time.Week
+[MASTER] 20:17:31.521 [logback-2] ERROR AbstractStatement - Error assigning value of type TemporalQuery[] defined at statement TemporalQuery<Week>[] temporalQueryArray0 = (TemporalQuery<Week>[]) Array.newInstance(TemporalQuery.class, 4), assignment statement: temporalQueryArray0[0] = (TemporalQuery<Week>) temporalQueryArray0; SUT=org.jfree.data.time.Week
+[MASTER] 20:18:10.149 [logback-2] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+* Search finished after 101s and 3314 generations, 585360 statements, best individual has fitness: 8.963636363636365
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 88%
+* Total number of goals: 83
+* Number of covered goals: 73
+* Generated 31 tests with total length 83
+* Resulting test suite's coverage: 88%
+* Generating assertions
+* Resulting test suite's mutation score: 21%
+* Writing JUnit test case 'Week_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

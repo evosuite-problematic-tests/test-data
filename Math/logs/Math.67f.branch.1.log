@@ -1,0 +1,29 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_55531_1545666858/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 51
+* Using seed 2000
+* Starting evolution
+* Search finished after 102s and 231 generations, 113500 statements, best individual has fitness: 0.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 98%
+* Total number of goals: 51
+* Number of covered goals: 50
+* Generated 20 tests with total length 89
+* Resulting test suite's coverage: 98%
+* Generating assertions
+* Resulting test suite's mutation score: 36%
+* Writing JUnit test case 'MultiStartUnivariateRealOptimizer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

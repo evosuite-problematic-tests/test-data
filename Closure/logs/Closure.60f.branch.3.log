@@ -1,0 +1,38 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.NodeUtil
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_239852_1546680393/build/classes
+  - /tmp/run_evosuite.pl_239852_1546680393/lib/args4j.jar
+  - /tmp/run_evosuite.pl_239852_1546680393/lib/guava.jar
+  - /tmp/run_evosuite.pl_239852_1546680393/lib/json.jar
+  - /tmp/run_evosuite.pl_239852_1546680393/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_239852_1546680393/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_239852_1546680393/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_239852_1546680393/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.NodeUtil
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 2430
+* Using seed 4000
+* Starting evolution
+[MASTER] 01:27:33.378 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.ControlFlowGraph<N> : Type points to itself
+* Search finished after 101s and 293 generations, 123862 statements, best individual has fitness: 860.7730435220603
+* Minimizing test suite
+[MASTER] 01:28:28.585 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 56%
+* Total number of goals: 2430
+* Number of covered goals: 1357
+* Generated 280 tests with total length 593
+* Resulting test suite's coverage: 56%
+* Generating assertions
+* Resulting test suite's mutation score: 24%
+* Writing JUnit test case 'NodeUtil_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

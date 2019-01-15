@@ -1,0 +1,82 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.rhino.Node
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_258421_1546687034/build/classes
+  - /tmp/run_evosuite.pl_258421_1546687034/lib/args4j.jar
+  - /tmp/run_evosuite.pl_258421_1546687034/lib/guava.jar
+  - /tmp/run_evosuite.pl_258421_1546687034/lib/json.jar
+  - /tmp/run_evosuite.pl_258421_1546687034/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_258421_1546687034/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_258421_1546687034/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_258421_1546687034/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.rhino.Node
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 716
+* Using seed 4000
+* Starting evolution
+[MASTER] 03:17:27.334 [logback-2] ERROR TestCluster - Failed to check cache for java.util.LinkedHashSet<E> : Type points to itself
+[MASTER] 03:17:29.681 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Iterator<E> : Type points to itself
+[MASTER] 03:17:31.308 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.BooleanType due to IAE: tried to access class com.google.javascript.rhino.jstype.ValueType from class com.google.javascript.rhino.jstype.BooleanType$MockitoMock$184126990
+[MASTER] 03:17:32.652 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.BooleanType due to failed class initialization: Could not initialize class com.google.javascript.rhino.jstype.BooleanType$MockitoMock$184126990
+* Search finished after 102s and 392 generations, 250731 statements, best individual has fitness: 100.83263010980428
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 81%
+* Total number of goals: 716
+* Number of covered goals: 580
+* Generated 247 tests with total length 690
+* Resulting test suite's coverage: 81%
+* Generating assertions
+* Resulting test suite's mutation score: 31%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+* Writing JUnit test case 'Node_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.ScopedAliases
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_258421_1546687034/build/classes
+  - /tmp/run_evosuite.pl_258421_1546687034/lib/args4j.jar
+  - /tmp/run_evosuite.pl_258421_1546687034/lib/guava.jar
+  - /tmp/run_evosuite.pl_258421_1546687034/lib/json.jar
+  - /tmp/run_evosuite.pl_258421_1546687034/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_258421_1546687034/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_258421_1546687034/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_258421_1546687034/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.ScopedAliases
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 169
+* Using seed 4000
+* Starting evolution
+* Search finished after 104s and 168 generations, 47804 statements, best individual has fitness: 145.83333333240202
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 15%
+* Total number of goals: 169
+* Number of covered goals: 25
+* Generated 3 tests with total length 20
+* Resulting test suite's coverage: 15%
+* Generating assertions
+* Resulting test suite's mutation score: 1%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 5
+* Writing JUnit test case 'ScopedAliases_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

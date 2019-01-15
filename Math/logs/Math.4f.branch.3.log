@@ -1,0 +1,60 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math3.geometry.euclidean.threed.SubLine
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_24822_1546698675/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.geometry.euclidean.threed.SubLine
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 18
+* Using seed 4000
+* Starting evolution
+[MASTER] 06:31:26.145 [logback-2] ERROR TestCluster - Failed to check cache for org.apache.commons.math3.geometry.partitioning.Transform<S, T> : Type points to itself
+* Search finished after 3s and 13 generations, 5828 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 18
+* Number of covered goals: 18
+* Generated 9 tests with total length 40
+* Resulting test suite's coverage: 100%
+* Generating assertions
+* Resulting test suite's mutation score: 69%
+* Writing JUnit test case 'SubLine_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math3.geometry.euclidean.twod.SubLine
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_24822_1546698675/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.geometry.euclidean.twod.SubLine
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 39
+* Using seed 4000
+* Starting evolution
+[MASTER] 06:31:32.444 [logback-2] ERROR TestCluster - Failed to check cache for org.apache.commons.math3.geometry.partitioning.Transform<S, T> : Type points to itself
+* Search finished after 4s and 42 generations, 21688 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 39
+* Number of covered goals: 39
+* Generated 19 tests with total length 97
+* Resulting test suite's coverage: 100%
+* Generating assertions
+* Resulting test suite's mutation score: 44%
+* Writing JUnit test case 'SubLine_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

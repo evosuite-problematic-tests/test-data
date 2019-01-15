@@ -1,0 +1,47 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.TypeValidator
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_18068_1546602962/build/classes
+  - /tmp/run_evosuite.pl_18068_1546602962/lib/args4j.jar
+  - /tmp/run_evosuite.pl_18068_1546602962/lib/guava.jar
+  - /tmp/run_evosuite.pl_18068_1546602962/lib/json.jar
+  - /tmp/run_evosuite.pl_18068_1546602962/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_18068_1546602962/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_18068_1546602962/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_18068_1546602962/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.TypeValidator
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 218
+* Using seed 3000
+* Starting evolution
+[MASTER] 03:57:19.308 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class com.google.javascript.rhino.jstype.UnionType canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 03:57:39.308 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 03:57:52.494 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class com.google.javascript.rhino.jstype.EnumType canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 03:57:53.018 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class com.google.javascript.rhino.jstype.EnumElementType canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 03:57:54.058 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.NoObjectType due to IAE: tried to access class com.google.javascript.rhino.jstype.PrototypeObjectType from class com.google.javascript.rhino.jstype.NoObjectType$MockitoMock$988123418
+[MASTER] 03:57:55.149 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.NoType due to IAE: tried to access class com.google.javascript.rhino.jstype.PrototypeObjectType from class com.google.javascript.rhino.jstype.NoType$MockitoMock$1453501667
+[MASTER] 03:57:55.345 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.NullType due to IAE: tried to access class com.google.javascript.rhino.jstype.ValueType from class com.google.javascript.rhino.jstype.NullType$MockitoMock$1949420371
+[MASTER] 03:57:55.613 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.StringType due to IAE: tried to access class com.google.javascript.rhino.jstype.ValueType from class com.google.javascript.rhino.jstype.StringType$MockitoMock$1722952568
+* Search finished after 101s and 138 generations, 94267 statements, best individual has fitness: 123.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 37%
+* Total number of goals: 218
+* Number of covered goals: 80
+* Generated 36 tests with total length 454
+* Resulting test suite's coverage: 37%
+* Generating assertions
+* Resulting test suite's mutation score: 20%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 10
+* Writing JUnit test case 'TypeValidator_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

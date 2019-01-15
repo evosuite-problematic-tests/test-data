@@ -1,0 +1,38 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.PeepholeFoldConstants
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_15493_1545816649/build/classes
+  - /tmp/run_evosuite.pl_15493_1545816649/lib/args4j.jar
+  - /tmp/run_evosuite.pl_15493_1545816649/lib/guava.jar
+  - /tmp/run_evosuite.pl_15493_1545816649/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_15493_1545816649/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_15493_1545816649/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_15493_1545816649/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.PeepholeFoldConstants
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 1103
+* Using seed 2000
+* Starting evolution
+* Search finished after 101s and 399 generations, 210733 statements, best individual has fitness: 667.0369751651253
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 36%
+* Total number of goals: 1103
+* Number of covered goals: 402
+* Generated 95 tests with total length 367
+* Resulting test suite's coverage: 36%
+* Generating assertions
+* Resulting test suite's mutation score: 5%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 4
+* Writing JUnit test case 'PeepholeFoldConstants_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

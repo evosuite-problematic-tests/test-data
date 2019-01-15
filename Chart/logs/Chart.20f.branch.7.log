@@ -1,0 +1,37 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.chart.plot.ValueMarker
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_81404_1545150625/build
+  - /tmp/run_evosuite.pl_81404_1545150625/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.chart.plot.ValueMarker
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 13
+* Using seed 1000
+* Starting evolution
+[MASTER] 08:31:53.522 [logback-1] WARN  TestUsageChecker - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$2 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$2
+[MASTER] 08:32:07.644 [logback-1] WARN  TestUsageChecker - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+* Search finished after 104s and 748 generations, 161012 statements, best individual has fitness: 0.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 92%
+* Total number of goals: 13
+* Number of covered goals: 12
+* Generated 5 tests with total length 14
+* Resulting test suite's coverage: 92%
+* Generating assertions
+* Resulting test suite's mutation score: 89%
+* Permissions denied during test execution: 
+  - java.io.FilePermission: 
+         write /tmp/+~JT3739047827405042437.tmp: 1
+         write /tmp/+~JT2459341553495214356.tmp: 1
+         write /tmp/+~JT5035845423761373600.tmp: 1
+* Writing JUnit test case 'ValueMarker_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,36 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.rhino.jstype.NamedType
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_86500_1545806719/build/classes
+  - /tmp/run_evosuite.pl_86500_1545806719/lib/args4j.jar
+  - /tmp/run_evosuite.pl_86500_1545806719/lib/guava.jar
+  - /tmp/run_evosuite.pl_86500_1545806719/lib/json.jar
+  - /tmp/run_evosuite.pl_86500_1545806719/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_86500_1545806719/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_86500_1545806719/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_86500_1545806719/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.rhino.jstype.NamedType
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 96
+* Using seed 2000
+* Starting evolution
+* Search finished after 101s and 736 generations, 335242 statements, best individual has fitness: 17.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 76%
+* Total number of goals: 96
+* Number of covered goals: 73
+* Generated 20 tests with total length 143
+* Resulting test suite's coverage: 76%
+* Generating assertions
+* Resulting test suite's mutation score: 35%
+* Writing JUnit test case 'NamedType_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

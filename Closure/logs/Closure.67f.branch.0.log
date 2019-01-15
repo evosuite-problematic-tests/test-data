@@ -1,0 +1,39 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.AnalyzePrototypeProperties
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_91925_1546837614/build/classes
+  - /tmp/run_evosuite.pl_91925_1546837614/lib/args4j.jar
+  - /tmp/run_evosuite.pl_91925_1546837614/lib/guava.jar
+  - /tmp/run_evosuite.pl_91925_1546837614/lib/json.jar
+  - /tmp/run_evosuite.pl_91925_1546837614/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_91925_1546837614/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_91925_1546837614/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_91925_1546837614/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.AnalyzePrototypeProperties
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 175
+* Using seed 1000
+* Starting evolution
+* Search finished after 101s and 389 generations, 147550 statements, best individual has fitness: 86.77428570720853
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 46%
+* Total number of goals: 175
+* Number of covered goals: 81
+* Generated 20 tests with total length 97
+* Resulting test suite's coverage: 46%
+* Generating assertions
+* Resulting test suite's mutation score: 5%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 3
+* Writing JUnit test case 'AnalyzePrototypeProperties_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

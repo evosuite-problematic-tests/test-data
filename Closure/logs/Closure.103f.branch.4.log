@@ -1,0 +1,86 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.DisambiguateProperties
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_230334_1546771260/build/classes
+  - /tmp/run_evosuite.pl_230334_1546771260/lib/ant_deploy.jar
+  - /tmp/run_evosuite.pl_230334_1546771260/lib/google_common_deploy.jar
+  - /tmp/run_evosuite.pl_230334_1546771260/lib/hamcrest-core-1.1.jar
+  - /tmp/run_evosuite.pl_230334_1546771260/lib/junit4-core.jar
+  - /tmp/run_evosuite.pl_230334_1546771260/lib/junit4-legacy.jar
+  - /tmp/run_evosuite.pl_230334_1546771260/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_230334_1546771260/lib/protobuf_deploy.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.DisambiguateProperties
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 300
+* Using seed 5000
+* Starting evolution
+[MASTER] 02:41:12.287 [logback-2] ERROR TestCluster - Failed to check cache for java.util.LinkedList<E> : Type points to itself
+[MASTER] 02:41:12.287 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 02:41:12.287 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself
+[MASTER] 02:41:12.288 [logback-2] ERROR TestCluster - Failed to check cache for java.util.LinkedHashSet<E> : Type points to itself
+[MASTER] 02:42:16.545 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Collection<E> : Type points to itself
+* Search finished after 102s and 144 generations, 62847 statements, best individual has fitness: 289.65714285482784
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 12%
+* Total number of goals: 300
+* Number of covered goals: 36
+* Generated 10 tests with total length 51
+* Resulting test suite's coverage: 12%
+* Generating assertions
+* Resulting test suite's mutation score: 1%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 4
+* Writing JUnit test case 'DisambiguateProperties_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.ControlFlowAnalysis
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_230334_1546771260/build/classes
+  - /tmp/run_evosuite.pl_230334_1546771260/lib/ant_deploy.jar
+  - /tmp/run_evosuite.pl_230334_1546771260/lib/google_common_deploy.jar
+  - /tmp/run_evosuite.pl_230334_1546771260/lib/hamcrest-core-1.1.jar
+  - /tmp/run_evosuite.pl_230334_1546771260/lib/junit4-core.jar
+  - /tmp/run_evosuite.pl_230334_1546771260/lib/junit4-legacy.jar
+  - /tmp/run_evosuite.pl_230334_1546771260/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_230334_1546771260/lib/protobuf_deploy.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.ControlFlowAnalysis
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 392
+* Using seed 5000
+* Starting evolution
+[MASTER] 02:42:57.904 [logback-2] ERROR TestCluster - Failed to check cache for java.util.TreeSet<E> : Type points to itself
+[MASTER] 02:43:00.301 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+[MASTER] 02:44:28.323 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.ControlFlowGraph<N> : Type points to itself
+* Search finished after 101s and 615 generations, 252490 statements, best individual has fitness: 99.82446033081021
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 71%
+* Total number of goals: 392
+* Number of covered goals: 277
+* Generated 48 tests with total length 241
+* Resulting test suite's coverage: 71%
+* Generating assertions
+* Resulting test suite's mutation score: 12%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 10
+* Writing JUnit test case 'ControlFlowAnalysis_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

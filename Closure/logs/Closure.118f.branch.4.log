@@ -1,0 +1,44 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.DisambiguateProperties
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_235636_1546773355/build/classes
+  - /tmp/run_evosuite.pl_235636_1546773355/lib/args4j.jar
+  - /tmp/run_evosuite.pl_235636_1546773355/lib/guava.jar
+  - /tmp/run_evosuite.pl_235636_1546773355/lib/json.jar
+  - /tmp/run_evosuite.pl_235636_1546773355/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_235636_1546773355/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_235636_1546773355/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_235636_1546773355/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.DisambiguateProperties
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 373
+* Using seed 5000
+* Starting evolution
+[MASTER] 03:16:09.181 [logback-2] ERROR TestCluster - Failed to check cache for java.util.LinkedList<E> : Type points to itself
+[MASTER] 03:16:09.181 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 03:16:09.182 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself
+[MASTER] 03:16:09.184 [logback-2] ERROR TestCluster - Failed to check cache for java.util.LinkedHashSet<E> : Type points to itself
+[MASTER] 03:17:35.434 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+* Search finished after 101s and 0 generations, 1419 statements, best individual has fitness: 404.25
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 2%
+* Total number of goals: 373
+* Number of covered goals: 9
+* Generated 3 tests with total length 13
+* Resulting test suite's coverage: 2%
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+* Writing JUnit test case 'DisambiguateProperties_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,29 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math.stat.descriptive.moment.Variance
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_47763_1545664468/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.stat.descriptive.moment.Variance
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 59
+* Using seed 2000
+* Starting evolution
+* Search finished after 101s and 3231 generations, 951838 statements, best individual has fitness: 3.666666666666666
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 90%
+* Total number of goals: 59
+* Number of covered goals: 53
+* Generated 20 tests with total length 68
+* Resulting test suite's coverage: 90%
+* Generating assertions
+* Resulting test suite's mutation score: 44%
+* Writing JUnit test case 'Variance_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

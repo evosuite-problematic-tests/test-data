@@ -1,0 +1,33 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.lang.StringUtils
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_11598_1545131060/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang.StringUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 1036
+* Using seed 1000
+* Starting evolution
+[MASTER] 03:04:29.595 [logback-2] ERROR TestCluster - Failed to check cache for java.util.function.Function<T, R> : Type points to itself
+[MASTER] 03:04:30.060 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Iterator<E> : Type points to itself
+[MASTER] 03:04:37.825 [logback-2] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+[MASTER] 03:05:55.167 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class java.util.Locale$LanguageRange canUseFunctionalMocks=true, canBeMocked: false
+* Search finished after 101s and 327 generations, 294445 statements, best individual has fitness: 22.936231884057968
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 97%
+* Total number of goals: 1036
+* Number of covered goals: 1004
+* Generated 394 tests with total length 535
+* Resulting test suite's coverage: 97%
+* Generating assertions
+* Resulting test suite's mutation score: 59%
+* Writing JUnit test case 'StringUtils_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

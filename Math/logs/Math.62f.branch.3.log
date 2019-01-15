@@ -1,0 +1,34 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizer
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_100672_1546705032/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 25
+* Using seed 4000
+* Starting evolution
+[MASTER] 08:17:26.307 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class org.apache.commons.math.optimization.univariate.BrentOptimizer canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 08:17:26.308 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizer<org.apache.commons.math.analysis.polynomials.PolynomialFunctionLagrangeForm> canUseFunctionalMocks=false, canBeMocked: false
+[MASTER] 08:17:26.366 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizer<org.apache.commons.math.analysis.polynomials.PolynomialFunctionNewtonForm> canUseFunctionalMocks=false, canBeMocked: false
+[MASTER] 08:17:26.401 [logback-2] ERROR TestCluster - Failed to check cache for org.apache.commons.math.optimization.ConvergenceChecker<PAIR> : Type points to itself
+[MASTER] 08:17:28.344 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizer<org.apache.commons.math.analysis.polynomials.PolynomialFunction> canUseFunctionalMocks=false, canBeMocked: false
+* Search finished after 10s and 16 generations, 11277 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 25
+* Number of covered goals: 25
+* Generated 10 tests with total length 51
+* Resulting test suite's coverage: 100%
+* Generating assertions
+* Resulting test suite's mutation score: 28%
+* Writing JUnit test case 'MultiStartUnivariateRealOptimizer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

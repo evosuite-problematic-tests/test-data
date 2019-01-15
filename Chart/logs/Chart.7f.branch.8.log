@@ -1,0 +1,30 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.data.time.TimePeriodValues
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_86559_1545152053/build
+  - /tmp/run_evosuite.pl_86559_1545152053/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.data.time.TimePeriodValues
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 74
+* Using seed 1000
+* Starting evolution
+* Search finished after 21s and 291 generations, 105703 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 74
+* Number of covered goals: 74
+* Generated 26 tests with total length 121
+* Resulting test suite's coverage: 100%
+* Generating assertions
+* Resulting test suite's mutation score: 44%
+* Writing JUnit test case 'TimePeriodValues_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

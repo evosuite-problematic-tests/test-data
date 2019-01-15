@@ -1,0 +1,35 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.chart.axis.Axis
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_214713_1546672693/build
+  - /tmp/run_evosuite.pl_214713_1546672693/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.chart.axis.Axis
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 172
+* Using seed 4000
+* Starting evolution
+[MASTER] 23:18:37.879 [logback-1] WARN  TestUsageChecker - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 23:19:54.180 [logback-2] ERROR TestCluster - Failed to check cache for javax.swing.JLayer<?> : Invalid generic instance
+* Search finished after 102s and 435 generations, 215163 statements, best individual has fitness: 13.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 84%
+* Total number of goals: 172
+* Number of covered goals: 145
+* Generated 58 tests with total length 207
+* Resulting test suite's coverage: 85%
+* Generating assertions
+* Resulting test suite's mutation score: 39%
+* Permissions denied during test execution: 
+  - java.io.FilePermission: 
+         write /tmp/+~JT3495766183725674142.tmp: 1
+* Writing JUnit test case 'Axis_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

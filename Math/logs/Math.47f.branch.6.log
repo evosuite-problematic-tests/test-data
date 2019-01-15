@@ -1,0 +1,29 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math.complex.Complex
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_221077_1545202783/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.complex.Complex
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 161
+* Using seed 1000
+* Starting evolution
+* Search finished after 101s and 2162 generations, 697617 statements, best individual has fitness: 0.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 99%
+* Total number of goals: 161
+* Number of covered goals: 160
+* Generated 71 tests with total length 158
+* Resulting test suite's coverage: 99%
+* Generating assertions
+* Resulting test suite's mutation score: 51%
+* Writing JUnit test case 'Complex_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

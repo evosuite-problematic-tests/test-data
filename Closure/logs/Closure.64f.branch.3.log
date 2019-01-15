@@ -1,0 +1,42 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.Compiler
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_241154_1546680907/build/classes
+  - /tmp/run_evosuite.pl_241154_1546680907/lib/args4j.jar
+  - /tmp/run_evosuite.pl_241154_1546680907/lib/guava.jar
+  - /tmp/run_evosuite.pl_241154_1546680907/lib/json.jar
+  - /tmp/run_evosuite.pl_241154_1546680907/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_241154_1546680907/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_241154_1546680907/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_241154_1546680907/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.Compiler
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 457
+* Using seed 4000
+* Starting evolution
+[MASTER] 01:35:18.069 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.DisambiguateProperties<T> : Type points to itself
+[MASTER] 01:35:21.981 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+[MASTER] 01:35:49.209 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.InlineSimpleMethods due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.Compiler due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.LoggerErrorManager due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.LightweightMessageFormatter due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.Compiler due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+* Search finished after 101s and 119 generations, 42034 statements, best individual has fitness: 168.24999999847026
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 59%
+* Total number of goals: 457
+* Number of covered goals: 269
+* Generated 90 tests with total length 322
+* Resulting test suite's coverage: 59%
+* Generating assertions
+* Resulting test suite's mutation score: 18%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 6
+* Writing JUnit test case 'Compiler_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

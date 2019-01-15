@@ -1,0 +1,41 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.NameAnalyzer
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_40432_1546755778/build/classes
+  - /tmp/run_evosuite.pl_40432_1546755778/lib/args4j.jar
+  - /tmp/run_evosuite.pl_40432_1546755778/lib/guava.jar
+  - /tmp/run_evosuite.pl_40432_1546755778/lib/json.jar
+  - /tmp/run_evosuite.pl_40432_1546755778/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_40432_1546755778/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_40432_1546755778/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_40432_1546755778/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.NameAnalyzer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 510
+* Using seed 5000
+* Starting evolution
+[MASTER] 22:23:12.051 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 22:23:12.052 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself
+* Search finished after 101s and 623 generations, 169065 statements, best individual has fitness: 361.9666666614747
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 26%
+* Total number of goals: 510
+* Number of covered goals: 131
+* Generated 5 tests with total length 22
+* Resulting test suite's coverage: 26%
+* Generating assertions
+* Resulting test suite's mutation score: 9%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 16
+* Writing JUnit test case 'NameAnalyzer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

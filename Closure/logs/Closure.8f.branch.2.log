@@ -1,0 +1,39 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.CollapseVariableDeclarations
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_18726_1546603206/build/classes
+  - /tmp/run_evosuite.pl_18726_1546603206/lib/args4j.jar
+  - /tmp/run_evosuite.pl_18726_1546603206/lib/guava.jar
+  - /tmp/run_evosuite.pl_18726_1546603206/lib/json.jar
+  - /tmp/run_evosuite.pl_18726_1546603206/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_18726_1546603206/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_18726_1546603206/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_18726_1546603206/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.CollapseVariableDeclarations
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 62
+* Using seed 3000
+* Starting evolution
+* Search finished after 104s and 62 generations, 21258 statements, best individual has fitness: 42.666666666201
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 26%
+* Total number of goals: 62
+* Number of covered goals: 16
+* Generated 3 tests with total length 16
+* Resulting test suite's coverage: 26%
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 3
+* Writing JUnit test case 'CollapseVariableDeclarations_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

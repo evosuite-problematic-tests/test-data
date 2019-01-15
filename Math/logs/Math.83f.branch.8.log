@@ -1,0 +1,30 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math.optimization.linear.SimplexTableau
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_55483_1545229252/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.optimization.linear.SimplexTableau
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 115
+* Using seed 1000
+* Starting evolution
+[MASTER] 06:21:02.514 [logback-2] ERROR TestCluster - Failed to check cache for java.util.function.Function<T, R> : Type points to itself
+* Search finished after 101s and 2747 generations, 1198806 statements, best individual has fitness: 2.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 98%
+* Total number of goals: 115
+* Number of covered goals: 113
+* Generated 23 tests with total length 174
+* Resulting test suite's coverage: 98%
+* Generating assertions
+* Resulting test suite's mutation score: 28%
+* Writing JUnit test case 'SimplexTableau_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,40 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_72363_1546831412/build/classes
+  - /tmp/run_evosuite.pl_72363_1546831412/lib/args4j.jar
+  - /tmp/run_evosuite.pl_72363_1546831412/lib/guava.jar
+  - /tmp/run_evosuite.pl_72363_1546831412/lib/json.jar
+  - /tmp/run_evosuite.pl_72363_1546831412/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_72363_1546831412/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_72363_1546831412/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_72363_1546831412/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 615
+* Using seed 1000
+* Starting evolution
+[MASTER] 19:24:29.394 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.NoType due to IAE: tried to access class com.google.javascript.rhino.jstype.PrototypeObjectType from class com.google.javascript.rhino.jstype.NoType$MockitoMock$2090899944
+* Search finished after 101s and 1020 generations, 305515 statements, best individual has fitness: 483.5363018848931
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 23%
+* Total number of goals: 615
+* Number of covered goals: 139
+* Generated 42 tests with total length 173
+* Resulting test suite's coverage: 23%
+* Generating assertions
+* Resulting test suite's mutation score: 5%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 11
+* Writing JUnit test case 'PeepholeSubstituteAlternateSyntax_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

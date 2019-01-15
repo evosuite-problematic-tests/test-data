@@ -1,0 +1,15 @@
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2018-12-26 11:29:20  ######
+Generate tests for: com.google.javascript.jscomp.PrepareAst : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2018-12-26 11:31:11  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-04 16:27:55  ######
+Generate tests for: com.google.javascript.jscomp.PrepareAst : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-04 16:29:44  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-05 11:58:42  ######
+Generate tests for: com.google.javascript.jscomp.PrepareAst : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-05 12:00:30  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-06 11:37:57  ######
+Generate tests for: com.google.javascript.jscomp.PrepareAst : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-06 11:39:46  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-07 07:24:36  ######
+Generate tests for: com.google.javascript.jscomp.PrepareAst : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-07 07:26:25  ######

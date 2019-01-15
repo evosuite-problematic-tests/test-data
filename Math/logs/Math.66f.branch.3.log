@@ -1,0 +1,29 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math.optimization.univariate.BrentOptimizer
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_124224_1546705450/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.optimization.univariate.BrentOptimizer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 57
+* Using seed 4000
+* Starting evolution
+* Search finished after 9s and 190 generations, 59924 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 57
+* Number of covered goals: 57
+* Generated 7 tests with total length 39
+* Resulting test suite's coverage: 100%
+* Generating assertions
+* Resulting test suite's mutation score: 64%
+* Writing JUnit test case 'BrentOptimizer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

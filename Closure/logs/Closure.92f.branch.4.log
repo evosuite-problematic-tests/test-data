@@ -1,0 +1,45 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.ProcessClosurePrimitives
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_226747_1546769959/build/classes
+  - /tmp/run_evosuite.pl_226747_1546769959/lib/ant_deploy.jar
+  - /tmp/run_evosuite.pl_226747_1546769959/lib/args4j_deploy.jar
+  - /tmp/run_evosuite.pl_226747_1546769959/lib/guava-r06.jar
+  - /tmp/run_evosuite.pl_226747_1546769959/lib/hamcrest-core-1.1.jar
+  - /tmp/run_evosuite.pl_226747_1546769959/lib/json.jar
+  - /tmp/run_evosuite.pl_226747_1546769959/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_226747_1546769959/lib/junit.jar
+  - /tmp/run_evosuite.pl_226747_1546769959/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_226747_1546769959/lib/protobuf-java-2.3.0.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.ProcessClosurePrimitives
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 282
+* Using seed 5000
+* Starting evolution
+[MASTER] 02:19:28.487 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.ControlFlowGraph<N>.Branch : Type points to itself
+[MASTER] 02:19:30.696 [logback-2] ERROR TestCluster - Failed to check cache for com.google.common.base.Supplier<T> : Type points to itself
+[MASTER] 02:19:44.343 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.VoidType due to IAE: tried to access class com.google.javascript.rhino.jstype.ValueType from class com.google.javascript.rhino.jstype.VoidType$MockitoMock$2032533759
+[MASTER] 02:20:15.869 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.VoidType due to failed class initialization: Could not initialize class com.google.javascript.rhino.jstype.VoidType$MockitoMock$2032533759
+* Search finished after 101s and 837 generations, 256804 statements, best individual has fitness: 242.49021640298236
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 17%
+* Total number of goals: 282
+* Number of covered goals: 48
+* Generated 8 tests with total length 46
+* Resulting test suite's coverage: 17%
+* Generating assertions
+* Resulting test suite's mutation score: 2%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 26
+* Writing JUnit test case 'ProcessClosurePrimitives_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

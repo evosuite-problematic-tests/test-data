@@ -1,0 +1,35 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.chart.plot.MultiplePiePlot
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_4044_1545126667/build
+  - /tmp/run_evosuite.pl_4044_1545126667/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.chart.plot.MultiplePiePlot
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 96
+* Using seed 1000
+* Starting evolution
+[MASTER] 01:51:21.583 [logback-2] ERROR TestCluster - Failed to check cache for javax.swing.JComboBox<E> : Type points to itself
+* Search finished after 105s and 552 generations, 173623 statements, best individual has fitness: 3.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 95%
+* Total number of goals: 96
+* Number of covered goals: 91
+* Generated 26 tests with total length 129
+* Resulting test suite's coverage: 95%
+* Generating assertions
+* Resulting test suite's mutation score: 50%
+* Permissions denied during test execution: 
+  - java.io.FilePermission: 
+         write /tmp/+~JT6476446785928207506.tmp: 1
+         write /tmp/+~JT654742464609738716.tmp: 1
+* Writing JUnit test case 'MultiplePiePlot_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

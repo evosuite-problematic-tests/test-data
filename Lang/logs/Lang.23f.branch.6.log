@@ -1,0 +1,36 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.lang3.text.ExtendedMessageFormat
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_121911_1545181168/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.text.ExtendedMessageFormat
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 136
+* Using seed 1000
+* Starting evolution
+[MASTER] 16:59:36.827 [logback-2] ERROR TestCluster - Failed to check cache for java.time.temporal.TemporalQuery<R> : Type points to itself
+[MASTER] 16:59:37.183 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 16:59:46.576 [logback-2] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+[MASTER] 17:00:26.663 [logback-2] ERROR AbstractStatement - Error assigning value of type TemporalQuery[] defined at statement TemporalQuery<DecimalFormat>[] temporalQueryArray0 = (TemporalQuery<DecimalFormat>[]) Array.newInstance(TemporalQuery.class, 7), assignment statement: temporalQueryArray0[0] = (TemporalQuery<DecimalFormat>) temporalQueryArray0; SUT=org.apache.commons.lang3.text.ExtendedMessageFormat
+[MASTER] 17:00:38.573 [logback-2] ERROR AbstractStatement - Error assigning value of type TemporalQuery[] defined at statement TemporalQuery<MockSimpleDateFormat>[] temporalQueryArray0 = (TemporalQuery<MockSimpleDateFormat>[]) Array.newInstance(TemporalQuery.class, 7), assignment statement: temporalQueryArray0[0] = (TemporalQuery<MockSimpleDateFormat>) temporalQueryArray0; SUT=org.apache.commons.lang3.text.ExtendedMessageFormat
+[MASTER] 17:00:56.721 [logback-2] ERROR AbstractStatement - Error assigning value of type TemporalQuery[] defined at statement TemporalQuery<DecimalFormat>[] temporalQueryArray0 = (TemporalQuery<DecimalFormat>[]) Array.newInstance(TemporalQuery.class, 7), assignment statement: temporalQueryArray0[0] = (TemporalQuery<DecimalFormat>) temporalQueryArray0; SUT=org.apache.commons.lang3.text.ExtendedMessageFormat
+[MASTER] 17:01:16.447 [logback-2] ERROR AbstractStatement - Error assigning value of type TemporalQuery[] defined at statement TemporalQuery<ChoiceFormat>[] temporalQueryArray0 = (TemporalQuery<ChoiceFormat>[]) Array.newInstance(TemporalQuery.class, 6), assignment statement: temporalQueryArray0[0] = (TemporalQuery<ChoiceFormat>) temporalQueryArray0; SUT=org.apache.commons.lang3.text.ExtendedMessageFormat
+* Search finished after 101s and 3010 generations, 540868 statements, best individual has fitness: 30.833333333333336
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 70%
+* Total number of goals: 136
+* Number of covered goals: 95
+* Generated 16 tests with total length 50
+* Resulting test suite's coverage: 70%
+* Generating assertions
+* Resulting test suite's mutation score: 31%
+* Writing JUnit test case 'ExtendedMessageFormat_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

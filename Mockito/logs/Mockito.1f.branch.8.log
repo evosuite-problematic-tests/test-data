@@ -1,0 +1,100 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.mockito.internal.invocation.InvocationMatcher
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_183973_1545169820/build/classes/main
+  - /defects4j/framework/projects/Mockito/lib/asm-all-5.0.4.jar
+  - /defects4j/framework/projects/Mockito/lib/assertj-core-2.1.0.jar
+  - /defects4j/framework/projects/Mockito/lib/cglib-and-asm-1.0.jar
+  - /defects4j/framework/projects/Mockito/lib/cobertura-2.0.3.jar
+  - /defects4j/framework/projects/Mockito/lib/fest-assert-1.3.jar
+  - /defects4j/framework/projects/Mockito/lib/fest-util-1.1.4.jar
+  - /defects4j/framework/projects/Mockito/lib/hamcrest-all-1.3.jar
+  - /defects4j/framework/projects/Mockito/lib/hamcrest-core-1.1.jar
+  - /defects4j/framework/projects/Mockito/lib/objenesis-2.1.jar
+  - /defects4j/framework/projects/Mockito/lib/objenesis-2.2.jar
+  - /defects4j/framework/projects/Mockito/lib/powermock-reflect-1.2.5.jar
+  - /tmp/run_evosuite.pl_183973_1545169820/compileLib/byte-buddy-0.6.8.jar
+* Finished analyzing classpath
+* Generating tests for class org.mockito.internal.invocation.InvocationMatcher
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 69
+* Using seed 1000
+* Starting evolution
+[MASTER] 13:50:57.420 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.beans.HasProperty<T> : Type points to itself
+[MASTER] 13:50:57.420 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.beans.HasPropertyWithValue<T> : Type points to itself
+[MASTER] 13:50:57.420 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.beans.SamePropertyValuesAs<T> : Type points to itself
+[MASTER] 13:50:57.420 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.beans.SamePropertyValuesAs<T>.PropertyMatcher : Type points to itself
+[MASTER] 13:50:57.420 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.collection.IsArray<T> : Type points to itself
+[MASTER] 13:50:57.420 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.collection.IsArrayContaining<T> : Type points to itself
+[MASTER] 13:50:57.420 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.collection.IsArrayContainingInAnyOrder<E> : Type points to itself
+[MASTER] 13:50:57.420 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.collection.IsArrayContainingInOrder<E> : Type points to itself
+[MASTER] 13:50:57.420 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.collection.IsArrayWithSize<E> : Type points to itself
+[MASTER] 13:50:57.420 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.collection.IsCollectionWithSize<E> : Type points to itself
+[MASTER] 13:50:57.421 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.collection.IsEmptyCollection<E> : Type points to itself
+[MASTER] 13:50:57.421 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.collection.IsEmptyIterable<E> : Type points to itself
+[MASTER] 13:50:57.421 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.collection.IsIn<T> : Type points to itself
+[MASTER] 13:50:57.421 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.collection.IsIterableContainingInAnyOrder<T> : Type points to itself
+[MASTER] 13:50:57.421 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.collection.IsIterableContainingInOrder<E> : Type points to itself
+[MASTER] 13:50:57.421 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.collection.IsIterableWithSize<E> : Type points to itself
+[MASTER] 13:50:57.421 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.collection.IsMapContaining<K, V> : Type points to itself
+[MASTER] 13:50:57.421 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.core.AllOf<T> : Type points to itself
+[MASTER] 13:50:57.421 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.core.AnyOf<T> : Type points to itself
+[MASTER] 13:50:57.421 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.core.CombinableMatcher<T> : Type points to itself
+[MASTER] 13:50:57.421 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.core.DescribedAs<T> : Type points to itself
+[MASTER] 13:50:57.421 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.core.Every<T> : Type points to itself
+[MASTER] 13:50:57.421 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.core.Is<T> : Type points to itself
+[MASTER] 13:50:57.421 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.core.IsAnything<T> : Type points to itself
+[MASTER] 13:50:57.421 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.core.IsCollectionContaining<T> : Type points to itself
+[MASTER] 13:50:57.421 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.core.IsEqual<T> : Type points to itself
+[MASTER] 13:50:57.422 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.core.IsNot<T> : Type points to itself
+[MASTER] 13:50:57.422 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.core.IsNull<T> : Type points to itself
+[MASTER] 13:50:57.422 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.core.IsSame<T> : Type points to itself
+[MASTER] 13:50:57.422 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.object.HasToString<T> : Type points to itself
+[MASTER] 13:50:57.422 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.object.IsCompatibleType<T> : Type points to itself
+[MASTER] 13:50:57.423 [logback-2] ERROR TestCluster - Failed to check cache for org.mockito.internal.matchers.CapturingMatcher<T> : Type points to itself
+[MASTER] 13:50:57.423 [logback-2] ERROR TestCluster - Failed to check cache for org.mockito.internal.matchers.VarargCapturingMatcher<T> : Type points to itself
+[MASTER] 13:51:23.304 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 13:51:23.612 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationImpl due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.SerializableMethod due to org.evosuite.ga.ConstructionFailedException: Have no generator for class org.mockito.internal.invocation.InvocationImpl canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 13:51:24.056 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.StubInfoImpl due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationImpl due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.SerializableMethod due to org.evosuite.ga.ConstructionFailedException: Have no generator for class org.mockito.internal.invocation.InvocationImpl canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 13:51:24.158 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationImpl due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.SerializableMethod due to org.evosuite.ga.ConstructionFailedException: Have no generator for class org.mockito.internal.invocation.InvocationImpl canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 13:51:26.612 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.stubbing.StubbedInvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationImpl due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.SerializableMethod due to org.evosuite.ga.ConstructionFailedException: Have no generator for class org.mockito.internal.invocation.InvocationImpl canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 13:51:27.331 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.stubbing.StubbedInvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationImpl due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.SerializableMethod due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 13:51:27.875 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationImpl due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.SerializableMethod due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 13:51:41.511 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class org.mockito.internal.invocation.InvocationImpl canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 13:51:44.999 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.StubInfoImpl due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.stubbing.StubbedInvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationImpl due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.SerializableMethod due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 13:51:52.874 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationImpl due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.stubbing.StubbedInvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 13:51:56.678 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.stubbing.StubbedInvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Have no generator for class org.mockito.internal.invocation.InvocationMatcher canUseFunctionalMocks=true, canBeMocked: false
+[MASTER] 13:51:57.466 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Have no generator for class org.mockito.internal.invocation.InvocationMatcher canUseFunctionalMocks=false, canBeMocked: false
+[MASTER] 13:51:58.504 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationImpl due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.SerializableMethod due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.stubbing.StubbedInvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 13:51:59.061 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationImpl due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.SerializableMethod due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.stubbing.StubbedInvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 13:51:59.547 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.StubInfoImpl due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationImpl due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.SerializableMethod due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.stubbing.StubbedInvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 13:51:59.649 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.stubbing.StubbedInvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationImpl due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.realmethod.CleanTraceRealMethod due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.realmethod.CleanTraceRealMethod due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 13:52:03.695 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationImpl due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationImpl due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.SerializableMethod due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.stubbing.StubbedInvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 13:52:11.454 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.stubbing.StubbedInvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationImpl due to org.evosuite.ga.ConstructionFailedException: Have no generator for class org.mockito.internal.invocation.InvocationImpl canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 13:52:11.670 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationImpl due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.SerializableMethod due to org.evosuite.ga.ConstructionFailedException: Have no generator for class java.lang.reflect.Method canUseFunctionalMocks=true, canBeMocked: false
+[MASTER] 13:52:11.737 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class org.mockito.internal.invocation.InvocationMatcher canUseFunctionalMocks=false, canBeMocked: false
+[MASTER] 13:52:11.799 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class java.lang.reflect.Method canUseFunctionalMocks=true, canBeMocked: false
+[MASTER] 13:52:33.822 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.StubInfoImpl due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationImpl due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.SerializableMethod due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 13:52:35.244 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationImpl due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.SerializableMethod due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.invocation.InvocationMatcher due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+* Search finished after 101s and 462 generations, 121253 statements, best individual has fitness: 58.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 20%
+* Total number of goals: 69
+* Number of covered goals: 14
+* Generated 7 tests with total length 36
+* Resulting test suite's coverage: 20%
+* Generating assertions
+* Resulting test suite's mutation score: 3%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'InvocationMatcher_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

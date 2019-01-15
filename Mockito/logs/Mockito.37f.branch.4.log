@@ -1,0 +1,43 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.mockito.internal.stubbing.answers.AnswersValidator
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_54738_1546799933/target/classes
+  - /d4j/defects4j/framework/projects/Mockito/lib/asm-all-5.0.4.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/assertj-core-2.1.0.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/cglib-and-asm-1.0.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/cobertura-2.0.3.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/fest-assert-1.3.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/fest-util-1.1.4.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/hamcrest-all-1.3.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/hamcrest-core-1.1.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/objenesis-2.1.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/objenesis-2.2.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/powermock-reflect-1.2.5.jar
+* Finished analyzing classpath
+* Generating tests for class org.mockito.internal.stubbing.answers.AnswersValidator
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 31
+* Using seed 5000
+* Starting evolution
+* Search finished after 101s and 4246 generations, 885604 statements, best individual has fitness: 16.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 48%
+* Total number of goals: 31
+* Number of covered goals: 15
+* Generated 8 tests with total length 27
+* Resulting test suite's coverage: 48%
+* Generating assertions
+* Resulting test suite's mutation score: 44%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 26
+* Writing JUnit test case 'AnswersValidator_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,32 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.lang.time.DurationFormatUtils
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_22829_1546697917/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang.time.DurationFormatUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 155
+* Using seed 4000
+* Starting evolution
+[MASTER] 06:19:01.205 [logback-2] ERROR AbstractStatement - Error assigning value of type TemporalQuery[] defined at statement TemporalQuery<Integer>[] temporalQueryArray0 = (TemporalQuery<Integer>[]) Array.newInstance(TemporalQuery.class, 2), assignment statement: temporalQueryArray0[0] = (TemporalQuery<Integer>) temporalQueryArray0; SUT=org.apache.commons.lang.time.DurationFormatUtils
+[MASTER] 06:19:24.671 [logback-2] ERROR AbstractStatement - Error assigning value of type TemporalQuery[] defined at statement TemporalQuery<Long>[] temporalQueryArray0 = (TemporalQuery<Long>[]) Array.newInstance(TemporalQuery.class, 5), assignment statement: temporalQueryArray0[0] = (TemporalQuery<Long>) temporalQueryArray0; SUT=org.apache.commons.lang.time.DurationFormatUtils
+[MASTER] 06:19:24.818 [logback-2] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+* Search finished after 101s and 2626 generations, 601374 statements, best individual has fitness: 10.992753623188406
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 92%
+* Total number of goals: 155
+* Number of covered goals: 142
+* Generated 22 tests with total length 49
+* Resulting test suite's coverage: 92%
+* Generating assertions
+* Resulting test suite's mutation score: 12%
+* Writing JUnit test case 'DurationFormatUtils_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

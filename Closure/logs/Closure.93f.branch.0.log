@@ -1,0 +1,42 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.ProcessClosurePrimitives
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_100477_1546841248/build/classes
+  - /tmp/run_evosuite.pl_100477_1546841248/lib/ant_deploy.jar
+  - /tmp/run_evosuite.pl_100477_1546841248/lib/args4j_deploy.jar
+  - /tmp/run_evosuite.pl_100477_1546841248/lib/guava-r06.jar
+  - /tmp/run_evosuite.pl_100477_1546841248/lib/hamcrest-core-1.1.jar
+  - /tmp/run_evosuite.pl_100477_1546841248/lib/json.jar
+  - /tmp/run_evosuite.pl_100477_1546841248/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_100477_1546841248/lib/junit.jar
+  - /tmp/run_evosuite.pl_100477_1546841248/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_100477_1546841248/lib/protobuf-java-2.3.0.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.ProcessClosurePrimitives
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 282
+* Using seed 1000
+* Starting evolution
+[MASTER] 22:09:17.127 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.ControlFlowGraph<N> : Type points to itself
+* Search finished after 105s and 698 generations, 257412 statements, best individual has fitness: 239.34807692307692
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 18%
+* Total number of goals: 282
+* Number of covered goals: 51
+* Generated 11 tests with total length 82
+* Resulting test suite's coverage: 18%
+* Generating assertions
+* Resulting test suite's mutation score: 3%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 19
+* Writing JUnit test case 'ProcessClosurePrimitives_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

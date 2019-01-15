@@ -1,0 +1,29 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.lang.builder.EqualsBuilder
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_28354_1545656464/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang.builder.EqualsBuilder
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 232
+* Using seed 2000
+* Starting evolution
+* Search finished after 104s and 1829 generations, 1103641 statements, best individual has fitness: 11.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 94%
+* Total number of goals: 232
+* Number of covered goals: 218
+* Generated 76 tests with total length 307
+* Resulting test suite's coverage: 94%
+* Generating assertions
+* Resulting test suite's mutation score: 73%
+* Writing JUnit test case 'EqualsBuilder_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

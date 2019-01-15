@@ -1,0 +1,15 @@
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2018-12-26 10:35:41  ######
+Generate tests for: com.google.javascript.jscomp.FoldConstants : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2018-12-26 10:37:39  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-04 15:34:11  ######
+Generate tests for: com.google.javascript.jscomp.FoldConstants : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-04 15:36:06  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-05 11:05:36  ######
+Generate tests for: com.google.javascript.jscomp.FoldConstants : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-05 11:07:30  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-06 10:45:26  ######
+Generate tests for: com.google.javascript.jscomp.FoldConstants : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-06 10:47:21  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-07 06:32:04  ######
+Generate tests for: com.google.javascript.jscomp.FoldConstants : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-07 06:33:57  ######

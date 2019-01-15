@@ -1,0 +1,40 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.parsing.JsDocInfoParser
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_232551_1546772102/build/classes
+  - /tmp/run_evosuite.pl_232551_1546772102/lib/args4j.jar
+  - /tmp/run_evosuite.pl_232551_1546772102/lib/guava.jar
+  - /tmp/run_evosuite.pl_232551_1546772102/lib/json.jar
+  - /tmp/run_evosuite.pl_232551_1546772102/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_232551_1546772102/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_232551_1546772102/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_232551_1546772102/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.parsing.JsDocInfoParser
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 862
+* Using seed 5000
+* Starting evolution
+[MASTER] 02:55:31.618 [logback-1] WARN  TestUsageChecker - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+* Search finished after 102s and 838 generations, 478400 statements, best individual has fitness: 628.2166666583089
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 26%
+* Total number of goals: 862
+* Number of covered goals: 225
+* Generated 42 tests with total length 428
+* Resulting test suite's coverage: 26%
+* Generating assertions
+* Resulting test suite's mutation score: 16%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 3
+* Writing JUnit test case 'JsDocInfoParser_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

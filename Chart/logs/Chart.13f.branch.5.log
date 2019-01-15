@@ -1,0 +1,36 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.chart.block.BorderArrangement
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_57004_1545143016/build
+  - /tmp/run_evosuite.pl_57004_1545143016/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.chart.block.BorderArrangement
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 122
+* Using seed 1000
+* Starting evolution
+* Search finished after 101s and 1541 generations, 551418 statements, best individual has fitness: 4.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 93%
+* Total number of goals: 122
+* Number of covered goals: 114
+* Generated 23 tests with total length 145
+* Resulting test suite's coverage: 93%
+* Generating assertions
+* Resulting test suite's mutation score: 33%
+* Permissions denied during test execution: 
+  - java.io.FilePermission: 
+         write /tmp/+~JT6311336137786073980.tmp: 1
+         write /tmp/+~JF6746619888643149463.tmp: 1
+         write /tmp/+~JT3696690275363208705.tmp: 1
+         and other 37 cases of action/name for this exception class
+* Writing JUnit test case 'BorderArrangement_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

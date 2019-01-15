@@ -1,0 +1,41 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.ScopedAliases
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_82350_1546752451/build/classes
+  - /tmp/run_evosuite.pl_82350_1546752451/lib/args4j.jar
+  - /tmp/run_evosuite.pl_82350_1546752451/lib/guava.jar
+  - /tmp/run_evosuite.pl_82350_1546752451/lib/json.jar
+  - /tmp/run_evosuite.pl_82350_1546752451/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_82350_1546752451/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_82350_1546752451/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_82350_1546752451/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.ScopedAliases
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 140
+* Using seed 5000
+* Starting evolution
+[MASTER] 21:27:50.825 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+[MASTER] 21:28:29.928 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.ControlFlowGraph<N> : Type points to itself
+* Search finished after 101s and 1257 generations, 339634 statements, best individual has fitness: 115.83333333279053
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 17%
+* Total number of goals: 140
+* Number of covered goals: 24
+* Generated 2 tests with total length 14
+* Resulting test suite's coverage: 17%
+* Generating assertions
+* Resulting test suite's mutation score: 1%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 19
+* Writing JUnit test case 'ScopedAliases_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

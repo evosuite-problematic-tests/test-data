@@ -1,0 +1,31 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.joda.time.tz.DefaultNameProvider
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_61986_1546803007/build/classes
+  - /d4j/defects4j/framework/projects/Time/lib/joda-convert-1.2.jar
+* Finished analyzing classpath
+* Generating tests for class org.joda.time.tz.DefaultNameProvider
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 38
+* Using seed 5000
+* Starting evolution
+[MASTER] 11:30:20.688 [logback-2] ERROR TestCluster - Failed to check cache for java.util.HashMap<K, V> : Type points to itself
+* Search finished after 101s and 831 generations, 223564 statements, best individual has fitness: 11.833333333333332
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 61%
+* Total number of goals: 38
+* Number of covered goals: 23
+* Generated 5 tests with total length 16
+* Resulting test suite's coverage: 61%
+* Generating assertions
+* Resulting test suite's mutation score: 30%
+* Writing JUnit test case 'DefaultNameProvider_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

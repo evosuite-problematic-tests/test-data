@@ -1,0 +1,46 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.NodeUtil
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_250540_1546683833/build/classes
+  - /tmp/run_evosuite.pl_250540_1546683833/lib/ant-launcher.jar
+  - /tmp/run_evosuite.pl_250540_1546683833/lib/ant.jar
+  - /tmp/run_evosuite.pl_250540_1546683833/lib/args4j.jar
+  - /tmp/run_evosuite.pl_250540_1546683833/lib/caja-r4314.jar
+  - /tmp/run_evosuite.pl_250540_1546683833/lib/guava.jar
+  - /tmp/run_evosuite.pl_250540_1546683833/lib/json.jar
+  - /tmp/run_evosuite.pl_250540_1546683833/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_250540_1546683833/lib/junit.jar
+  - /tmp/run_evosuite.pl_250540_1546683833/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_250540_1546683833/lib/protobuf-java.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.NodeUtil
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 2051
+* Using seed 4000
+* Starting evolution
+[MASTER] 02:24:07.854 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 02:24:10.036 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+[MASTER] 02:25:03.880 [logback-2] ERROR TestCluster - Failed to check cache for java.lang.Comparable<T> : Type points to itself
+* Search finished after 102s and 167 generations, 55015 statements, best individual has fitness: 817.025084377814
+* Minimizing test suite
+[MASTER] 02:25:45.512 [logback-2] ERROR TestCluster - Failed to check cache for com.google.common.base.Supplier<T> : Type points to itself
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 52%
+* Total number of goals: 2051
+* Number of covered goals: 1073
+* Generated 163 tests with total length 405
+* Resulting test suite's coverage: 52%
+* Generating assertions
+* Resulting test suite's mutation score: 22%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+* Writing JUnit test case 'NodeUtil_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,37 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.rhino.jstype.JSType
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_34116_1545817261/build/classes
+  - /tmp/run_evosuite.pl_34116_1545817261/lib/args4j.jar
+  - /tmp/run_evosuite.pl_34116_1545817261/lib/guava.jar
+  - /tmp/run_evosuite.pl_34116_1545817261/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_34116_1545817261/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_34116_1545817261/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_34116_1545817261/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.rhino.jstype.JSType
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 230
+* Using seed 2000
+* Starting evolution
+[MASTER] 01:41:14.033 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class com.google.javascript.rhino.jstype.BooleanType canUseFunctionalMocks=true, canBeMocked: false
+[MASTER] 01:42:19.012 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.jstype.EnumType due to org.evosuite.ga.ConstructionFailedException: Have no generator for class com.google.javascript.jscomp.Scope canUseFunctionalMocks=false, canBeMocked: true
+* Search finished after 102s and 787 generations, 372593 statements, best individual has fitness: 6.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 96%
+* Total number of goals: 230
+* Number of covered goals: 220
+* Generated 89 tests with total length 485
+* Resulting test suite's coverage: 96%
+* Generating assertions
+* Resulting test suite's mutation score: 56%
+* Writing JUnit test case 'JSType_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

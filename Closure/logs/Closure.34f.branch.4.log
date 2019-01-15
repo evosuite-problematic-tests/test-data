@@ -1,0 +1,72 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.CodeGenerator
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_246741_1546754822/build/classes
+  - /tmp/run_evosuite.pl_246741_1546754822/lib/args4j.jar
+  - /tmp/run_evosuite.pl_246741_1546754822/lib/guava.jar
+  - /tmp/run_evosuite.pl_246741_1546754822/lib/json.jar
+  - /tmp/run_evosuite.pl_246741_1546754822/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_246741_1546754822/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_246741_1546754822/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_246741_1546754822/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.CodeGenerator
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 736
+* Using seed 5000
+* Starting evolution
+* Search finished after 101s and 2923 generations, 519511 statements, best individual has fitness: 643.3999999995343
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 13%
+* Total number of goals: 736
+* Number of covered goals: 99
+* Generated 28 tests with total length 52
+* Resulting test suite's coverage: 14%
+* Generating assertions
+* Resulting test suite's mutation score: 32%
+* Writing JUnit test case 'CodeGenerator_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.CodePrinter
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_246741_1546754822/build/classes
+  - /tmp/run_evosuite.pl_246741_1546754822/lib/args4j.jar
+  - /tmp/run_evosuite.pl_246741_1546754822/lib/guava.jar
+  - /tmp/run_evosuite.pl_246741_1546754822/lib/json.jar
+  - /tmp/run_evosuite.pl_246741_1546754822/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_246741_1546754822/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_246741_1546754822/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_246741_1546754822/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.CodePrinter
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 155
+* Using seed 5000
+* Starting evolution
+* Search finished after 101s and 2187 generations, 719390 statements, best individual has fitness: 78.8
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 50%
+* Total number of goals: 155
+* Number of covered goals: 78
+* Generated 16 tests with total length 69
+* Resulting test suite's coverage: 50%
+* Generating assertions
+* Resulting test suite's mutation score: 10%
+* Writing JUnit test case 'CodePrinter_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,41 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.CheckAccessControls
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_252966_1545815668/build/classes
+  - /tmp/run_evosuite.pl_252966_1545815668/lib/args4j.jar
+  - /tmp/run_evosuite.pl_252966_1545815668/lib/guava.jar
+  - /tmp/run_evosuite.pl_252966_1545815668/lib/json.jar
+  - /tmp/run_evosuite.pl_252966_1545815668/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_252966_1545815668/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_252966_1545815668/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_252966_1545815668/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.CheckAccessControls
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 230
+* Using seed 2000
+* Starting evolution
+[MASTER] 01:14:43.004 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 01:15:17.450 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.ControlFlowGraph<N> : Type points to itself
+* Search finished after 101s and 903 generations, 157736 statements, best individual has fitness: 203.514889788574
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 13%
+* Total number of goals: 230
+* Number of covered goals: 29
+* Generated 2 tests with total length 9
+* Resulting test suite's coverage: 13%
+* Generating assertions
+* Resulting test suite's mutation score: 2%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 27
+* Writing JUnit test case 'CheckAccessControls_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

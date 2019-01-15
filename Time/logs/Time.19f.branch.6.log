@@ -1,0 +1,36 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.joda.time.DateTimeZone
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_57707_1545149541/build/classes
+  - /defects4j/framework/projects/Time/lib/joda-convert-1.2.jar
+* Finished analyzing classpath
+* Generating tests for class org.joda.time.DateTimeZone
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 186
+* Using seed 1000
+* Starting evolution
+[MASTER] 08:12:32.470 [logback-2] ERROR TestCluster - Failed to check cache for java.lang.ref.PhantomReference<T> : Type points to itself
+[MASTER] 08:12:32.471 [logback-2] ERROR TestCluster - Failed to check cache for java.lang.ref.SoftReference<T> : Type points to itself
+[MASTER] 08:12:32.471 [logback-2] ERROR TestCluster - Failed to check cache for java.lang.ref.WeakReference<T> : Type points to itself
+[MASTER] 08:12:34.030 [logback-2] ERROR TestCluster - Failed to check cache for java.time.temporal.TemporalQuery<R> : Type points to itself
+[MASTER] 08:12:36.242 [logback-2] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+[MASTER] 08:13:11.435 [logback-2] ERROR AbstractStatement - Error assigning value of type TemporalQuery[] defined at statement TemporalQuery<ZoneInfoProvider>[] temporalQueryArray0 = (TemporalQuery<ZoneInfoProvider>[]) Array.newInstance(TemporalQuery.class, 1), assignment statement: temporalQueryArray0[0] = (TemporalQuery<ZoneInfoProvider>) temporalQueryArray0; SUT=org.joda.time.DateTimeZone
+* Search finished after 101s and 1388 generations, 351530 statements, best individual has fitness: 22.16666666480402
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 82%
+* Total number of goals: 186
+* Number of covered goals: 153
+* Generated 50 tests with total length 111
+* Resulting test suite's coverage: 82%
+* Generating assertions
+* Resulting test suite's mutation score: 47%
+* Writing JUnit test case 'DateTimeZone_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,44 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.chart.plot.MultiplePiePlot
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_217496_1546748597/build
+  - /tmp/run_evosuite.pl_217496_1546748597/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.chart.plot.MultiplePiePlot
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 96
+* Using seed 5000
+* Starting evolution
+[MASTER] 20:23:31.266 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+[MASTER] 20:23:52.402 [logback-1] WARN  TestUsageChecker - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 20:24:15.287 [logback-1] WARN  TestUsageChecker - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$2 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$2
+* Search finished after 101s and 528 generations, 183866 statements, best individual has fitness: 3.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 95%
+* Total number of goals: 96
+* Number of covered goals: 91
+* Generated 28 tests with total length 145
+* Resulting test suite's coverage: 95%
+* Generating assertions
+* Resulting test suite's mutation score: 50%
+* Permissions denied during test execution: 
+  - java.io.FilePermission: 
+         write /tmp/+~JT2331589287175067006.tmp: 1
+         write /tmp/+~JT3616793782509487751.tmp: 1
+         write /tmp/+~JT4745102395041731147.tmp: 1
+         and other 3 cases of action/name for this exception class
+  - java.net.URLPermission: 
+         *:* http://www.someFakeButWellFormedURL.org/fooExample: 1
+  - java.lang.RuntimePermission: 
+         queuePrintJob: 3
+         writeFileDescriptor: 1
+* Writing JUnit test case 'MultiplePiePlot_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,42 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.ClosureCodingConvention
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_120263_1546758021/build/classes
+  - /tmp/run_evosuite.pl_120263_1546758021/lib/args4j.jar
+  - /tmp/run_evosuite.pl_120263_1546758021/lib/guava.jar
+  - /tmp/run_evosuite.pl_120263_1546758021/lib/json.jar
+  - /tmp/run_evosuite.pl_120263_1546758021/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_120263_1546758021/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_120263_1546758021/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_120263_1546758021/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.ClosureCodingConvention
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 117
+* Using seed 5000
+* Starting evolution
+[MASTER] 23:00:40.340 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 23:00:45.655 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.BooleanType due to IAE: tried to access class com.google.javascript.rhino.jstype.ValueType from class com.google.javascript.rhino.jstype.BooleanType$MockitoMock$1205836960
+[MASTER] 23:00:54.919 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.BooleanType due to failed class initialization: Could not initialize class com.google.javascript.rhino.jstype.BooleanType$MockitoMock$1205836960
+* Search finished after 102s and 581 generations, 254752 statements, best individual has fitness: 68.99999997324922
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 41%
+* Total number of goals: 117
+* Number of covered goals: 48
+* Generated 29 tests with total length 152
+* Resulting test suite's coverage: 41%
+* Generating assertions
+* Resulting test suite's mutation score: 11%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 10
+* Writing JUnit test case 'ClosureCodingConvention_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,29 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.lang.StringEscapeUtils
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_84800_1546625624/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang.StringEscapeUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 140
+* Using seed 3000
+* Starting evolution
+* Search finished after 101s and 4100 generations, 845791 statements, best individual has fitness: 9.57538913647226
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 85%
+* Total number of goals: 140
+* Number of covered goals: 119
+* Generated 49 tests with total length 73
+* Resulting test suite's coverage: 91%
+* Generating assertions
+* Resulting test suite's mutation score: 60%
+* Writing JUnit test case 'StringEscapeUtils_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

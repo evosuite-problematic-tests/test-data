@@ -1,0 +1,37 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.NodeUtil
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_240178_1546680533/build/classes
+  - /tmp/run_evosuite.pl_240178_1546680533/lib/args4j.jar
+  - /tmp/run_evosuite.pl_240178_1546680533/lib/guava.jar
+  - /tmp/run_evosuite.pl_240178_1546680533/lib/json.jar
+  - /tmp/run_evosuite.pl_240178_1546680533/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_240178_1546680533/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_240178_1546680533/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_240178_1546680533/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.NodeUtil
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 2426
+* Using seed 4000
+* Starting evolution
+* Search finished after 102s and 310 generations, 125709 statements, best individual has fitness: 922.6287391951081
+* Minimizing test suite
+[MASTER] 01:30:50.159 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 54%
+* Total number of goals: 2426
+* Number of covered goals: 1320
+* Generated 250 tests with total length 548
+* Resulting test suite's coverage: 54%
+* Generating assertions
+* Resulting test suite's mutation score: 23%
+* Writing JUnit test case 'NodeUtil_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

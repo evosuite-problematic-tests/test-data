@@ -1,0 +1,30 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.lang.time.DurationFormatUtils
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_259140_1546783040/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang.time.DurationFormatUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 155
+* Using seed 5000
+* Starting evolution
+[MASTER] 05:57:49.810 [logback-2] ERROR AbstractStatement - Error assigning value of type TemporalQuery[] defined at statement TemporalQuery<ChronoLocalDate>[] temporalQueryArray0 = (TemporalQuery<ChronoLocalDate>[]) Array.newInstance(TemporalQuery.class, 4), assignment statement: temporalQueryArray0[0] = (TemporalQuery<ChronoLocalDate>) temporalQueryArray0; SUT=org.apache.commons.lang.time.DurationFormatUtils
+* Search finished after 101s and 2611 generations, 613795 statements, best individual has fitness: 10.992753623188406
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 92%
+* Total number of goals: 155
+* Number of covered goals: 143
+* Generated 21 tests with total length 45
+* Resulting test suite's coverage: 92%
+* Generating assertions
+* Resulting test suite's mutation score: 11%
+* Writing JUnit test case 'DurationFormatUtils_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

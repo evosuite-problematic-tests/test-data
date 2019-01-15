@@ -1,0 +1,35 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.data.time.TimeSeries
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_95413_1545154746/build
+  - /tmp/run_evosuite.pl_95413_1545154746/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.data.time.TimeSeries
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 227
+* Using seed 1000
+* Starting evolution
+[MASTER] 09:39:18.869 [logback-2] ERROR TestCluster - Failed to check cache for java.util.LinkedList<E> : Type points to itself
+[MASTER] 09:39:19.129 [logback-2] ERROR TestCluster - Failed to check cache for javax.swing.RowFilter<M, I>.ComparisonType : Type points to itself
+* Search finished after 101s and 1776 generations, 550529 statements, best individual has fitness: 6.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 95%
+* Total number of goals: 227
+* Number of covered goals: 216
+* Generated 69 tests with total length 321
+* Resulting test suite's coverage: 95%
+* Generating assertions
+* Resulting test suite's mutation score: 50%
+* Permissions denied during test execution: 
+  - java.net.URLPermission: 
+         *:* http://www.someFakeButWellFormedURL.org/fooExample: 2
+* Writing JUnit test case 'TimeSeries_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

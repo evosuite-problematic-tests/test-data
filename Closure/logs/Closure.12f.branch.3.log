@@ -1,0 +1,42 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.MaybeReachingVariableUse
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_218718_1546674171/build/classes
+  - /tmp/run_evosuite.pl_218718_1546674171/lib/args4j.jar
+  - /tmp/run_evosuite.pl_218718_1546674171/lib/guava.jar
+  - /tmp/run_evosuite.pl_218718_1546674171/lib/json.jar
+  - /tmp/run_evosuite.pl_218718_1546674171/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_218718_1546674171/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_218718_1546674171/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_218718_1546674171/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.MaybeReachingVariableUse
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 81
+* Using seed 4000
+* Starting evolution
+[MASTER] 23:43:54.353 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Set<java.lang.String> : Invalid generic instance
+[MASTER] 23:43:54.552 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Set<com.google.javascript.jscomp.Scope$Var> : Invalid generic instance
+[MASTER] 23:44:36.976 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Collection<com.google.javascript.jscomp.SourceFile> : Invalid generic instance
+* Search finished after 103s and 349 generations, 105792 statements, best individual has fitness: 39.56836361062601
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 49%
+* Total number of goals: 81
+* Number of covered goals: 40
+* Generated 9 tests with total length 57
+* Resulting test suite's coverage: 49%
+* Generating assertions
+* Resulting test suite's mutation score: 15%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'MaybeReachingVariableUse_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

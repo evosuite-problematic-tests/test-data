@@ -1,0 +1,30 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.data.category.DefaultIntervalCategoryDataset
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_11209_1546601039/build
+  - /tmp/run_evosuite.pl_11209_1546601039/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.data.category.DefaultIntervalCategoryDataset
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 137
+* Using seed 3000
+* Starting evolution
+* Search finished after 101s and 1203 generations, 429430 statements, best individual has fitness: 6.333333333333332
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 92%
+* Total number of goals: 137
+* Number of covered goals: 126
+* Generated 54 tests with total length 192
+* Resulting test suite's coverage: 92%
+* Generating assertions
+* Resulting test suite's mutation score: 37%
+* Writing JUnit test case 'DefaultIntervalCategoryDataset_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

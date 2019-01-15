@@ -1,0 +1,31 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.lang3.reflect.TypeUtils
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_100329_1545171621/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.reflect.TypeUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 294
+* Using seed 1000
+* Starting evolution
+[MASTER] 14:20:29.342 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 14:20:29.347 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself
+* Search finished after 101s and 1270 generations, 376096 statements, best individual has fitness: 157.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 43%
+* Total number of goals: 294
+* Number of covered goals: 127
+* Generated 27 tests with total length 94
+* Resulting test suite's coverage: 43%
+* Generating assertions
+* Resulting test suite's mutation score: 22%
+* Writing JUnit test case 'TypeUtils_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

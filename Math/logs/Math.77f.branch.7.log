@@ -1,0 +1,58 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math.linear.ArrayRealVector
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_19330_1545216851/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.linear.ArrayRealVector
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 220
+* Using seed 1000
+* Starting evolution
+* Search finished after 101s and 968 generations, 304912 statements, best individual has fitness: 1.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 99%
+* Total number of goals: 220
+* Number of covered goals: 217
+* Generated 88 tests with total length 318
+* Resulting test suite's coverage: 99%
+* Generating assertions
+* Resulting test suite's mutation score: 58%
+* Writing JUnit test case 'ArrayRealVector_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math.linear.OpenMapRealVector
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_19330_1545216851/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.linear.OpenMapRealVector
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 184
+* Using seed 1000
+* Starting evolution
+* Search finished after 20s and 96 generations, 51165 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 184
+* Number of covered goals: 184
+* Generated 58 tests with total length 270
+* Resulting test suite's coverage: 100%
+* Generating assertions
+* Resulting test suite's mutation score: 60%
+* Writing JUnit test case 'OpenMapRealVector_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

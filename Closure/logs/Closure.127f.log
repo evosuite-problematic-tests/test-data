@@ -1,0 +1,15 @@
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2018-12-26 11:25:22  ######
+Generate tests for: com.google.javascript.jscomp.UnreachableCodeElimination : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2018-12-26 11:27:14  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-04 16:24:00  ######
+Generate tests for: com.google.javascript.jscomp.UnreachableCodeElimination : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-04 16:25:48  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-05 11:54:43  ######
+Generate tests for: com.google.javascript.jscomp.UnreachableCodeElimination : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-05 11:56:33  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-06 11:34:01  ######
+Generate tests for: com.google.javascript.jscomp.UnreachableCodeElimination : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-06 11:35:51  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-07 07:20:38  ######
+Generate tests for: com.google.javascript.jscomp.UnreachableCodeElimination : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-07 07:22:29  ######

@@ -1,0 +1,29 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math3.genetics.ElitisticListPopulation
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_10427_1546787357/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.genetics.ElitisticListPopulation
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 9
+* Using seed 5000
+* Starting evolution
+* Search finished after 43s and 113 generations, 15544 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 9
+* Number of covered goals: 9
+* Generated 3 tests with total length 8
+* Resulting test suite's coverage: 100%
+* Generating assertions
+* Resulting test suite's mutation score: 52%
+* Writing JUnit test case 'ElitisticListPopulation_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

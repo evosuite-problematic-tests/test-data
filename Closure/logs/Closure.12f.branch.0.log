@@ -1,0 +1,43 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.MaybeReachingVariableUse
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_67655_1546830454/build/classes
+  - /tmp/run_evosuite.pl_67655_1546830454/lib/args4j.jar
+  - /tmp/run_evosuite.pl_67655_1546830454/lib/guava.jar
+  - /tmp/run_evosuite.pl_67655_1546830454/lib/json.jar
+  - /tmp/run_evosuite.pl_67655_1546830454/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_67655_1546830454/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_67655_1546830454/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_67655_1546830454/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.MaybeReachingVariableUse
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 81
+* Using seed 1000
+* Starting evolution
+[MASTER] 19:07:47.405 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.ControlFlowGraph<N>.Branch : Type points to itself
+[MASTER] 19:07:47.526 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Set<java.lang.String> : Invalid generic instance
+[MASTER] 19:07:50.865 [logback-2] ERROR TestCluster - Failed to check cache for com.google.common.base.Supplier<T> : Type points to itself
+[MASTER] 19:08:58.790 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Collection<java.lang.String> : Invalid generic instance
+* Search finished after 101s and 237 generations, 72156 statements, best individual has fitness: 48.84287045149422
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 40%
+* Total number of goals: 81
+* Number of covered goals: 32
+* Generated 9 tests with total length 54
+* Resulting test suite's coverage: 40%
+* Generating assertions
+* Resulting test suite's mutation score: 8%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+* Writing JUnit test case 'MaybeReachingVariableUse_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

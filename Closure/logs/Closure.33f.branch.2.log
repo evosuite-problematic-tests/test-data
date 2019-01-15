@@ -1,0 +1,37 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.rhino.jstype.PrototypeObjectType
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_32636_1546606349/build/classes
+  - /tmp/run_evosuite.pl_32636_1546606349/lib/args4j.jar
+  - /tmp/run_evosuite.pl_32636_1546606349/lib/guava.jar
+  - /tmp/run_evosuite.pl_32636_1546606349/lib/json.jar
+  - /tmp/run_evosuite.pl_32636_1546606349/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_32636_1546606349/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_32636_1546606349/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_32636_1546606349/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.rhino.jstype.PrototypeObjectType
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 197
+* Using seed 3000
+* Starting evolution
+[MASTER] 04:52:41.820 [logback-2] ERROR TestCluster - Failed to check cache for java.util.function.Function<T, R> : Type points to itself
+* Search finished after 101s and 998 generations, 416105 statements, best individual has fitness: 13.833333333333332
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 89%
+* Total number of goals: 197
+* Number of covered goals: 176
+* Generated 55 tests with total length 348
+* Resulting test suite's coverage: 89%
+* Generating assertions
+* Resulting test suite's mutation score: 56%
+* Writing JUnit test case 'PrototypeObjectType_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

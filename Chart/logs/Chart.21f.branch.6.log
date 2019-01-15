@@ -1,0 +1,30 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_70831_1545147517/build
+  - /tmp/run_evosuite.pl_70831_1545147517/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 99
+* Using seed 1000
+* Starting evolution
+* Search finished after 101s and 1525 generations, 495224 statements, best individual has fitness: 7.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 85%
+* Total number of goals: 99
+* Number of covered goals: 84
+* Generated 40 tests with total length 218
+* Resulting test suite's coverage: 85%
+* Generating assertions
+* Resulting test suite's mutation score: 36%
+* Writing JUnit test case 'DefaultBoxAndWhiskerCategoryDataset_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

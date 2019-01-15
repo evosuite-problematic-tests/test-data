@@ -1,0 +1,40 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.RemoveUnusedVars
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_61824_1546756376/build/classes
+  - /tmp/run_evosuite.pl_61824_1546756376/lib/args4j.jar
+  - /tmp/run_evosuite.pl_61824_1546756376/lib/guava.jar
+  - /tmp/run_evosuite.pl_61824_1546756376/lib/json.jar
+  - /tmp/run_evosuite.pl_61824_1546756376/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_61824_1546756376/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_61824_1546756376/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_61824_1546756376/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.RemoveUnusedVars
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 307
+* Using seed 5000
+* Starting evolution
+[MASTER] 22:34:06.257 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.Node due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.Node due to org.evosuite.ga.ConstructionFailedException: Have no generator for class com.google.javascript.rhino.jstype.EnumType canUseFunctionalMocks=false, canBeMocked: true
+* Search finished after 101s and 1317 generations, 402724 statements, best individual has fitness: 152.33333333271617
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 47%
+* Total number of goals: 307
+* Number of covered goals: 145
+* Generated 10 tests with total length 54
+* Resulting test suite's coverage: 47%
+* Generating assertions
+* Resulting test suite's mutation score: 20%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+* Writing JUnit test case 'RemoveUnusedVars_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

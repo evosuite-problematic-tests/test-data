@@ -1,0 +1,15 @@
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2018-12-26 11:33:18  ######
+Generate tests for: com.google.javascript.rhino.TokenStream : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2018-12-26 11:35:07  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-04 16:31:48  ######
+Generate tests for: com.google.javascript.rhino.TokenStream : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-04 16:33:37  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-05 12:02:37  ######
+Generate tests for: com.google.javascript.rhino.TokenStream : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-05 12:04:26  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-06 11:41:50  ######
+Generate tests for: com.google.javascript.rhino.TokenStream : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-06 11:43:39  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-07 07:28:28  ######
+Generate tests for: com.google.javascript.rhino.TokenStream : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-07 07:30:17  ######

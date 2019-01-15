@@ -1,0 +1,29 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math3.geometry.euclidean.threed.Line
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_209049_1545198675/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.geometry.euclidean.threed.Line
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 27
+* Using seed 1000
+* Starting evolution
+* Search finished after 19s and 493 generations, 105114 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 27
+* Number of covered goals: 27
+* Generated 13 tests with total length 52
+* Resulting test suite's coverage: 100%
+* Generating assertions
+* Resulting test suite's mutation score: 45%
+* Writing JUnit test case 'Line_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

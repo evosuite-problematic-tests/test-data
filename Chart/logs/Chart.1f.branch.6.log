@@ -1,0 +1,35 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.chart.renderer.category.AbstractCategoryItemRenderer
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_62615_1545144983/build
+  - /tmp/run_evosuite.pl_62615_1545144983/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.chart.renderer.category.AbstractCategoryItemRenderer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 274
+* Using seed 1000
+* Starting evolution
+[MASTER] 06:56:42.143 [logback-1] WARN  TestUsageChecker - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$2 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$2
+[MASTER] 06:56:42.364 [logback-1] WARN  TestUsageChecker - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+* Search finished after 101s and 370 generations, 265384 statements, best individual has fitness: 94.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 55%
+* Total number of goals: 274
+* Number of covered goals: 151
+* Generated 70 tests with total length 396
+* Resulting test suite's coverage: 55%
+* Generating assertions
+* Resulting test suite's mutation score: 11%
+* Permissions denied during test execution: 
+  - java.io.FilePermission: 
+         write /tmp/+~JT4116290291230552160.tmp: 1
+* Writing JUnit test case 'AbstractCategoryItemRenderer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

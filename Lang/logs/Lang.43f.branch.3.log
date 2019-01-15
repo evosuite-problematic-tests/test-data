@@ -1,0 +1,32 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.lang.text.ExtendedMessageFormat
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_16947_1546695385/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang.text.ExtendedMessageFormat
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 123
+* Using seed 4000
+* Starting evolution
+[MASTER] 05:36:33.657 [logback-2] ERROR TestCluster - Failed to check cache for java.time.temporal.TemporalQuery<R> : Type points to itself
+[MASTER] 05:36:44.644 [logback-2] ERROR AbstractStatement - Error assigning value of type TemporalQuery[] defined at statement TemporalQuery<Integer>[] temporalQueryArray0 = (TemporalQuery<Integer>[]) Array.newInstance(TemporalQuery.class, 2), assignment statement: temporalQueryArray0[0] = (TemporalQuery<Integer>) temporalQueryArray0; SUT=org.apache.commons.lang.text.ExtendedMessageFormat
+[MASTER] 05:36:55.797 [logback-2] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+* Search finished after 101s and 3143 generations, 562981 statements, best individual has fitness: 31.15432098765432
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 67%
+* Total number of goals: 123
+* Number of covered goals: 82
+* Generated 14 tests with total length 41
+* Resulting test suite's coverage: 67%
+* Generating assertions
+* Resulting test suite's mutation score: 22%
+* Writing JUnit test case 'ExtendedMessageFormat_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

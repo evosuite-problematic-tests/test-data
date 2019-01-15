@@ -1,0 +1,42 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.PeepholeFoldConstants
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_246735_1546682206/build/classes
+  - /tmp/run_evosuite.pl_246735_1546682206/lib/args4j.jar
+  - /tmp/run_evosuite.pl_246735_1546682206/lib/guava.jar
+  - /tmp/run_evosuite.pl_246735_1546682206/lib/json.jar
+  - /tmp/run_evosuite.pl_246735_1546682206/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_246735_1546682206/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_246735_1546682206/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_246735_1546682206/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.PeepholeFoldConstants
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 1155
+* Using seed 4000
+* Starting evolution
+[MASTER] 01:57:02.006 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+[MASTER] 01:57:02.224 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 01:57:46.456 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.ControlFlowGraph<N> : Type points to itself
+* Search finished after 101s and 527 generations, 247289 statements, best individual has fitness: 669.626913874434
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 39%
+* Total number of goals: 1155
+* Number of covered goals: 451
+* Generated 106 tests with total length 552
+* Resulting test suite's coverage: 39%
+* Generating assertions
+* Resulting test suite's mutation score: 7%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 4
+* Writing JUnit test case 'PeepholeFoldConstants_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

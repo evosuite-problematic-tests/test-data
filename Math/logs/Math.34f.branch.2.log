@@ -1,0 +1,29 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math3.genetics.ListPopulation
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_102616_1546632198/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.genetics.ListPopulation
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 29
+* Using seed 3000
+* Starting evolution
+* Search finished after 101s and 3714 generations, 721825 statements, best individual has fitness: 2.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 90%
+* Total number of goals: 29
+* Number of covered goals: 26
+* Generated 14 tests with total length 50
+* Resulting test suite's coverage: 90%
+* Generating assertions
+* Resulting test suite's mutation score: 31%
+* Writing JUnit test case 'ListPopulation_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,41 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.FoldConstants
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_141301_1545820536/build/classes
+  - /tmp/run_evosuite.pl_141301_1545820536/lib/ant_deploy.jar
+  - /tmp/run_evosuite.pl_141301_1545820536/lib/google_common_deploy.jar
+  - /tmp/run_evosuite.pl_141301_1545820536/lib/hamcrest-core-1.1.jar
+  - /tmp/run_evosuite.pl_141301_1545820536/lib/junit4-core.jar
+  - /tmp/run_evosuite.pl_141301_1545820536/lib/junit4-legacy.jar
+  - /tmp/run_evosuite.pl_141301_1545820536/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_141301_1545820536/lib/protobuf_deploy.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.FoldConstants
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 928
+* Using seed 2000
+* Starting evolution
+[MASTER] 02:35:48.530 [logback-2] ERROR TestCluster - Failed to check cache for java.util.ArrayList<E> : Type points to itself
+[MASTER] 02:37:23.841 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.ControlFlowGraph<N> : Type points to itself
+* Search finished after 103s and 430 generations, 197410 statements, best individual has fitness: 708.6932572475363
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 23%
+* Total number of goals: 928
+* Number of covered goals: 209
+* Generated 62 tests with total length 359
+* Resulting test suite's coverage: 23%
+* Generating assertions
+* Resulting test suite's mutation score: 7%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 101
+* Writing JUnit test case 'FoldConstants_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

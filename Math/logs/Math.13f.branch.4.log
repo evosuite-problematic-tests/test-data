@@ -1,0 +1,29 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math3.optimization.general.AbstractLeastSquaresOptimizer
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_3317_1546785119/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.optimization.general.AbstractLeastSquaresOptimizer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 39
+* Using seed 5000
+* Starting evolution
+* Search finished after 101s and 945 generations, 0 statements, best individual has fitness: 44.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 0%
+* Total number of goals: 39
+* Number of covered goals: 0
+* Generated 0 tests with total length 0
+* Resulting test suite's coverage: 0%
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Writing JUnit test case 'AbstractLeastSquaresOptimizer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

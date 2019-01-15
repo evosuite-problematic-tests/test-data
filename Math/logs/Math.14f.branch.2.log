@@ -1,0 +1,58 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizer
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_96126_1546630281/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 23
+* Using seed 3000
+* Starting evolution
+* Search finished after 101s and 4380 generations, 683244 statements, best individual has fitness: 6.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 74%
+* Total number of goals: 23
+* Number of covered goals: 17
+* Generated 8 tests with total length 29
+* Resulting test suite's coverage: 74%
+* Generating assertions
+* Resulting test suite's mutation score: 3%
+* Writing JUnit test case 'AbstractLeastSquaresOptimizer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math3.optim.nonlinear.vector.Weight
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_96126_1546630281/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.optim.nonlinear.vector.Weight
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 4
+* Using seed 3000
+* Starting evolution
+* Search finished after 1s and 1 generations, 4790 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Generated 3 tests with total length 8
+* Resulting test suite's coverage: 100%
+* Generating assertions
+* Resulting test suite's mutation score: 33%
+* Writing JUnit test case 'Weight_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

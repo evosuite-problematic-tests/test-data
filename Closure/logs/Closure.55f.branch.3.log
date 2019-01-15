@@ -1,0 +1,43 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.FunctionRewriter
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_236010_1546679812/build/classes
+  - /tmp/run_evosuite.pl_236010_1546679812/lib/args4j.jar
+  - /tmp/run_evosuite.pl_236010_1546679812/lib/guava.jar
+  - /tmp/run_evosuite.pl_236010_1546679812/lib/json.jar
+  - /tmp/run_evosuite.pl_236010_1546679812/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_236010_1546679812/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_236010_1546679812/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_236010_1546679812/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.FunctionRewriter
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 97
+* Using seed 4000
+* Starting evolution
+[MASTER] 01:17:08.412 [logback-2] ERROR TestCluster - Failed to check cache for java.util.function.Function<T, R> : Type points to itself
+[MASTER] 01:18:32.301 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+* Search finished after 101s and 847 generations, 167613 statements, best individual has fitness: 80.99999999953434
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 19%
+* Total number of goals: 97
+* Number of covered goals: 18
+* Generated 1 tests with total length 4
+* Resulting test suite's coverage: 19%
+* Generating assertions
+* Resulting test suite's mutation score: 1%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 18
+  - java.net.SocketPermission: 
+         connect,resolve 127.0.0.1:1: 1
+* Writing JUnit test case 'FunctionRewriter_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

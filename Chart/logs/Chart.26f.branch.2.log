@@ -1,0 +1,39 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.chart.axis.Axis
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_15957_1546602231/build
+  - /tmp/run_evosuite.pl_15957_1546602231/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.chart.axis.Axis
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 172
+* Using seed 3000
+* Starting evolution
+[MASTER] 03:44:06.594 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+[MASTER] 03:45:04.075 [logback-2] ERROR TestCluster - Failed to check cache for java.lang.Comparable<java.text.Format$Field> : Invalid generic instance
+[MASTER] 03:45:06.762 [logback-2] ERROR TestCluster - Failed to check cache for java.lang.Comparable<org.jfree.chart.plot.CombinedRangeXYPlot> : Invalid generic instance
+[MASTER] 03:45:25.009 [logback-2] ERROR TestCluster - Failed to check cache for java.lang.Comparable<org.jfree.chart.axis.CategoryAxis3D> : Invalid generic instance
+* Search finished after 101s and 479 generations, 219985 statements, best individual has fitness: 10.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 90%
+* Total number of goals: 172
+* Number of covered goals: 154
+* Generated 57 tests with total length 217
+* Resulting test suite's coverage: 90%
+* Generating assertions
+* Resulting test suite's mutation score: 33%
+* Permissions denied during test execution: 
+  - java.io.FilePermission: 
+         write /tmp/+~JT656368417498565311.tmp: 1
+         write /tmp/+~JT144375391825439145.tmp: 1
+         write /tmp/+~JT4788866845524563904.tmp: 1
+* Writing JUnit test case 'Axis_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

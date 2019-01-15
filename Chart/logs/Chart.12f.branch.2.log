@@ -1,0 +1,42 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.chart.plot.MultiplePiePlot
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_9284_1546599573/build
+  - /tmp/run_evosuite.pl_9284_1546599573/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.chart.plot.MultiplePiePlot
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 96
+* Using seed 3000
+* Starting evolution
+[MASTER] 02:59:57.857 [logback-1] WARN  TestUsageChecker - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+[MASTER] 03:00:59.394 [logback-1] WARN  TestUsageChecker - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$2 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$2
+* Search finished after 102s and 660 generations, 196604 statements, best individual has fitness: 3.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 95%
+* Total number of goals: 96
+* Number of covered goals: 91
+* Generated 26 tests with total length 128
+* Resulting test suite's coverage: 95%
+* Generating assertions
+* Resulting test suite's mutation score: 52%
+* Permissions denied during test execution: 
+  - java.io.FilePermission: 
+         write /tmp/+~JT6358555812051583225.tmp: 1
+         write /tmp/+~JT4391199497383440993.tmp: 1
+         write /tmp/+~JF2837132982934447583.tmp: 1
+         and other 5 cases of action/name for this exception class
+  - java.net.URLPermission: 
+         *:* http://www.someFakeButWellFormedURL.org/fooExample: 1
+  - java.lang.RuntimePermission: 
+         queuePrintJob: 1
+* Writing JUnit test case 'MultiplePiePlot_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

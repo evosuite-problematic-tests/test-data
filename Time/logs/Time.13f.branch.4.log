@@ -1,0 +1,34 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.joda.time.format.PeriodFormatterBuilder
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_59701_1546801962/build/classes
+  - /d4j/defects4j/framework/projects/Time/lib/joda-convert-1.2.jar
+* Finished analyzing classpath
+* Generating tests for class org.joda.time.format.PeriodFormatterBuilder
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 577
+* Using seed 5000
+* Starting evolution
+[MASTER] 11:12:51.716 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+* Search finished after 101s and 473 generations, 323317 statements, best individual has fitness: 68.20237824306867
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 83%
+* Total number of goals: 577
+* Number of covered goals: 479
+* Generated 116 tests with total length 723
+* Resulting test suite's coverage: 85%
+* Generating assertions
+* Resulting test suite's mutation score: 38%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 54
+* Writing JUnit test case 'PeriodFormatterBuilder_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

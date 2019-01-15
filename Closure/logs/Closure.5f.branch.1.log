@@ -1,0 +1,41 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.InlineObjectLiterals
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_86829_1545806836/build/classes
+  - /tmp/run_evosuite.pl_86829_1545806836/lib/args4j.jar
+  - /tmp/run_evosuite.pl_86829_1545806836/lib/guava.jar
+  - /tmp/run_evosuite.pl_86829_1545806836/lib/json.jar
+  - /tmp/run_evosuite.pl_86829_1545806836/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_86829_1545806836/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_86829_1545806836/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_86829_1545806836/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.InlineObjectLiterals
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 126
+* Using seed 2000
+* Starting evolution
+[MASTER] 22:47:48.637 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+[MASTER] 22:47:48.747 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Iterator<E> : Type points to itself
+* Search finished after 101s and 3341 generations, 531024 statements, best individual has fitness: 133.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 2%
+* Total number of goals: 126
+* Number of covered goals: 2
+* Generated 1 tests with total length 3
+* Resulting test suite's coverage: 2%
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 5
+* Writing JUnit test case 'InlineObjectLiterals_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,44 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.parsing.JsDocInfoParser
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_258100_1546686910/build/classes
+  - /tmp/run_evosuite.pl_258100_1546686910/lib/args4j.jar
+  - /tmp/run_evosuite.pl_258100_1546686910/lib/guava.jar
+  - /tmp/run_evosuite.pl_258100_1546686910/lib/json.jar
+  - /tmp/run_evosuite.pl_258100_1546686910/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_258100_1546686910/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_258100_1546686910/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_258100_1546686910/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.parsing.JsDocInfoParser
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 862
+* Using seed 4000
+* Starting evolution
+[MASTER] 03:15:28.226 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 03:15:33.440 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.BooleanType due to IAE: tried to access class com.google.javascript.rhino.jstype.ValueType from class com.google.javascript.rhino.jstype.BooleanType$MockitoMock$1615027050
+[MASTER] 03:15:54.262 [logback-1] WARN  TestUsageChecker - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 03:16:01.193 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.BooleanType due to IAE: tried to access class com.google.javascript.rhino.jstype.ValueType from class com.google.javascript.rhino.jstype.BooleanType$MockitoMock$157358187
+[MASTER] 03:16:15.800 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.BooleanType due to failed class initialization: Could not initialize class com.google.javascript.rhino.jstype.BooleanType$MockitoMock$157358187
+* Search finished after 101s and 727 generations, 363052 statements, best individual has fitness: 620.7166666666667
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 26%
+* Total number of goals: 862
+* Number of covered goals: 226
+* Generated 43 tests with total length 338
+* Resulting test suite's coverage: 27%
+* Generating assertions
+* Resulting test suite's mutation score: 17%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 7
+* Writing JUnit test case 'JsDocInfoParser_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

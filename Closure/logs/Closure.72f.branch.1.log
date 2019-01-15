@@ -1,0 +1,81 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.FunctionToBlockMutator
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_256020_1545815781/build/classes
+  - /tmp/run_evosuite.pl_256020_1545815781/lib/args4j.jar
+  - /tmp/run_evosuite.pl_256020_1545815781/lib/guava.jar
+  - /tmp/run_evosuite.pl_256020_1545815781/lib/json.jar
+  - /tmp/run_evosuite.pl_256020_1545815781/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_256020_1545815781/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_256020_1545815781/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_256020_1545815781/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.FunctionToBlockMutator
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 85
+* Using seed 2000
+* Starting evolution
+[MASTER] 01:16:31.965 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 01:16:31.965 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself
+* Search finished after 101s and 1218 generations, 298994 statements, best individual has fitness: 90.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 5%
+* Total number of goals: 85
+* Number of covered goals: 4
+* Generated 2 tests with total length 8
+* Resulting test suite's coverage: 5%
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 24
+* Writing JUnit test case 'FunctionToBlockMutator_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.RenameLabels
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_256020_1545815781/build/classes
+  - /tmp/run_evosuite.pl_256020_1545815781/lib/args4j.jar
+  - /tmp/run_evosuite.pl_256020_1545815781/lib/guava.jar
+  - /tmp/run_evosuite.pl_256020_1545815781/lib/json.jar
+  - /tmp/run_evosuite.pl_256020_1545815781/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_256020_1545815781/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_256020_1545815781/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_256020_1545815781/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.RenameLabels
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 45
+* Using seed 2000
+* Starting evolution
+[MASTER] 01:18:22.733 [logback-2] ERROR TestCluster - Failed to check cache for com.google.common.base.Supplier<T> : Type points to itself
+* Search finished after 101s and 575 generations, 153919 statements, best individual has fitness: 8.166666666666666
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 78%
+* Total number of goals: 45
+* Number of covered goals: 35
+* Generated 6 tests with total length 36
+* Resulting test suite's coverage: 78%
+* Generating assertions
+* Resulting test suite's mutation score: 8%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+* Writing JUnit test case 'RenameLabels_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

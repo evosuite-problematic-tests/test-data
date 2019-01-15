@@ -1,0 +1,81 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.GlobalNamespace
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_251445_1546684189/build/classes
+  - /tmp/run_evosuite.pl_251445_1546684189/lib/ant-launcher.jar
+  - /tmp/run_evosuite.pl_251445_1546684189/lib/ant.jar
+  - /tmp/run_evosuite.pl_251445_1546684189/lib/args4j.jar
+  - /tmp/run_evosuite.pl_251445_1546684189/lib/guava.jar
+  - /tmp/run_evosuite.pl_251445_1546684189/lib/json.jar
+  - /tmp/run_evosuite.pl_251445_1546684189/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_251445_1546684189/lib/junit.jar
+  - /tmp/run_evosuite.pl_251445_1546684189/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_251445_1546684189/lib/protobuf-java.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.GlobalNamespace
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 406
+* Using seed 4000
+* Starting evolution
+[MASTER] 02:30:02.222 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+* Search finished after 101s and 1379 generations, 449566 statements, best individual has fitness: 262.44246945154873
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 35%
+* Total number of goals: 406
+* Number of covered goals: 144
+* Generated 45 tests with total length 218
+* Resulting test suite's coverage: 35%
+* Generating assertions
+* Resulting test suite's mutation score: 15%
+* Writing JUnit test case 'GlobalNamespace_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.CollapseProperties
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_251445_1546684189/build/classes
+  - /tmp/run_evosuite.pl_251445_1546684189/lib/ant-launcher.jar
+  - /tmp/run_evosuite.pl_251445_1546684189/lib/ant.jar
+  - /tmp/run_evosuite.pl_251445_1546684189/lib/args4j.jar
+  - /tmp/run_evosuite.pl_251445_1546684189/lib/guava.jar
+  - /tmp/run_evosuite.pl_251445_1546684189/lib/json.jar
+  - /tmp/run_evosuite.pl_251445_1546684189/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_251445_1546684189/lib/junit.jar
+  - /tmp/run_evosuite.pl_251445_1546684189/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_251445_1546684189/lib/protobuf-java.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.CollapseProperties
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 236
+* Using seed 4000
+* Starting evolution
+[MASTER] 02:31:53.212 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+* Search finished after 101s and 1001 generations, 219409 statements, best individual has fitness: 240.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 4%
+* Total number of goals: 236
+* Number of covered goals: 9
+* Generated 3 tests with total length 10
+* Resulting test suite's coverage: 4%
+* Generating assertions
+* Resulting test suite's mutation score: 1%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 19
+* Writing JUnit test case 'CollapseProperties_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

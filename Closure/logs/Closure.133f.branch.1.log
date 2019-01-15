@@ -1,0 +1,41 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.parsing.JsDocInfoParser
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_200737_1545824233/build/classes
+  - /tmp/run_evosuite.pl_200737_1545824233/lib/args4j.jar
+  - /tmp/run_evosuite.pl_200737_1545824233/lib/guava.jar
+  - /tmp/run_evosuite.pl_200737_1545824233/lib/json.jar
+  - /tmp/run_evosuite.pl_200737_1545824233/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_200737_1545824233/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_200737_1545824233/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_200737_1545824233/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.parsing.JsDocInfoParser
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 800
+* Using seed 2000
+* Starting evolution
+[MASTER] 03:37:31.225 [logback-1] WARN  TestUsageChecker - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 03:37:41.778 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.TemplateType due to IAE: tried to access class com.google.javascript.rhino.jstype.ProxyObjectType from class com.google.javascript.rhino.jstype.TemplateType$MockitoMock$137284782
+* Search finished after 101s and 625 generations, 348891 statements, best individual has fitness: 576.0499999839003
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 26%
+* Total number of goals: 800
+* Number of covered goals: 212
+* Generated 42 tests with total length 363
+* Resulting test suite's coverage: 26%
+* Generating assertions
+* Resulting test suite's mutation score: 16%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 5
+* Writing JUnit test case 'JsDocInfoParser_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

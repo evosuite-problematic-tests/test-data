@@ -1,0 +1,44 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.CheckGlobalThis
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_99892_1546841025/build/classes
+  - /tmp/run_evosuite.pl_99892_1546841025/lib/ant_deploy.jar
+  - /tmp/run_evosuite.pl_99892_1546841025/lib/args4j_deploy.jar
+  - /tmp/run_evosuite.pl_99892_1546841025/lib/guava-r06.jar
+  - /tmp/run_evosuite.pl_99892_1546841025/lib/hamcrest-core-1.1.jar
+  - /tmp/run_evosuite.pl_99892_1546841025/lib/json.jar
+  - /tmp/run_evosuite.pl_99892_1546841025/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_99892_1546841025/lib/junit.jar
+  - /tmp/run_evosuite.pl_99892_1546841025/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_99892_1546841025/lib/protobuf-java-2.3.0.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.CheckGlobalThis
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 75
+* Using seed 1000
+* Starting evolution
+* Search finished after 101s and 661 generations, 201145 statements, best individual has fitness: 34.18796992481203
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 47%
+* Total number of goals: 75
+* Number of covered goals: 35
+* Generated 8 tests with total length 48
+* Resulting test suite's coverage: 47%
+* Generating assertions
+* Resulting test suite's mutation score: 28%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 17
+  - java.net.SocketPermission: 
+         resolve RB: 1
+         connect,resolve 127.0.0.1:804: 1
+* Writing JUnit test case 'CheckGlobalThis_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

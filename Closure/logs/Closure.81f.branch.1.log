@@ -1,0 +1,37 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.parsing.IRFactory
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_29770_1545817141/build/classes
+  - /tmp/run_evosuite.pl_29770_1545817141/lib/args4j.jar
+  - /tmp/run_evosuite.pl_29770_1545817141/lib/guava.jar
+  - /tmp/run_evosuite.pl_29770_1545817141/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_29770_1545817141/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_29770_1545817141/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_29770_1545817141/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.parsing.IRFactory
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 541
+* Using seed 2000
+* Starting evolution
+[MASTER] 01:39:18.277 [logback-1] WARN  TestUsageChecker - class com.google.javascript.jscomp.mozilla.rhino.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+* Search finished after 101s and 93 generations, 73677 statements, best individual has fitness: 348.76232658596354
+* Minimizing test suite
+[MASTER] 01:40:53.349 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 36%
+* Total number of goals: 541
+* Number of covered goals: 193
+* Generated 7 tests with total length 57
+* Resulting test suite's coverage: 36%
+* Generating assertions
+* Resulting test suite's mutation score: 1%
+* Writing JUnit test case 'IRFactory_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

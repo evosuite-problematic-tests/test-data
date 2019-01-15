@@ -1,0 +1,29 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.lang3.RandomStringUtils
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_137592_1545187892/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.RandomStringUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 65
+* Using seed 1000
+* Starting evolution
+* Search finished after 101s and 427 generations, 160128 statements, best individual has fitness: 6.998927061113219
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 89%
+* Total number of goals: 65
+* Number of covered goals: 58
+* Generated 16 tests with total length 24
+* Resulting test suite's coverage: 89%
+* Generating assertions
+* Resulting test suite's mutation score: 45%
+* Writing JUnit test case 'RandomStringUtils_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

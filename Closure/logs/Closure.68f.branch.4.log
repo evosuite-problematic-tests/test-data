@@ -1,0 +1,85 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.parsing.JsDocInfoParser
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_218803_1546766611/build/classes
+  - /tmp/run_evosuite.pl_218803_1546766611/lib/args4j.jar
+  - /tmp/run_evosuite.pl_218803_1546766611/lib/guava.jar
+  - /tmp/run_evosuite.pl_218803_1546766611/lib/json.jar
+  - /tmp/run_evosuite.pl_218803_1546766611/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_218803_1546766611/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_218803_1546766611/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_218803_1546766611/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.parsing.JsDocInfoParser
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 723
+* Using seed 5000
+* Starting evolution
+[MASTER] 01:23:43.218 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 01:23:44.818 [logback-1] WARN  TestUsageChecker - class com.google.javascript.jscomp.mozilla.rhino.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 01:24:46.470 [logback-2] ERROR FunctionalMockStatement - IAE on <public abstract boolean com.google.javascript.jscomp.mozilla.rhino.ast.NodeVisitor.visit(com.google.javascript.jscomp.mozilla.rhino.ast.AstNode)> when called with [[]]
+[MASTER] 01:24:46.478 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on interface java.util.function.Consumer due to IAE: 
+Misplaced or misused argument matcher detected here:
+
+-> at org.evosuite.testcase.fm.MethodDescriptor.executeMatcher(MethodDescriptor.java:245)
+
+You cannot use argument matchers outside of verification or stubbing.
+Examples of correct usage of argument matchers:
+    when(mock.get(anyInt())).thenReturn(null);
+    doThrow(new RuntimeException()).when(mock).someVoidMethod(anyObject());
+    verify(mock).someMethod(contains("foo"))
+
+This message may appear after an NullPointerException if the last matcher is returning an object 
+like any() but the stubbed method signature expect a primitive argument, in this case,
+use primitive alternatives.
+    when(mock.get(any())); // bad use, will raise NPE
+    when(mock.get(anyInt())); // correct usage use
+
+Also, this error might show up because you use argument matchers with methods that cannot be mocked.
+Following methods *cannot* be stubbed/verified: final/private/equals()/hashCode().
+Mocking methods declared on non-public parent classes is not supported.
+
+[MASTER] 01:25:21.041 [logback-2] ERROR FunctionalMockStatement - IAE on <public abstract boolean com.google.javascript.jscomp.mozilla.rhino.ast.NodeVisitor.visit(com.google.javascript.jscomp.mozilla.rhino.ast.AstNode)> when called with [[]]
+[MASTER] 01:25:21.056 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on interface com.google.javascript.jscomp.mozilla.rhino.ast.NodeVisitor due to IAE: 
+Misplaced or misused argument matcher detected here:
+
+-> at org.evosuite.testcase.fm.MethodDescriptor.executeMatcher(MethodDescriptor.java:245)
+
+You cannot use argument matchers outside of verification or stubbing.
+Examples of correct usage of argument matchers:
+    when(mock.get(anyInt())).thenReturn(null);
+    doThrow(new RuntimeException()).when(mock).someVoidMethod(anyObject());
+    verify(mock).someMethod(contains("foo"))
+
+This message may appear after an NullPointerException if the last matcher is returning an object 
+like any() but the stubbed method signature expect a primitive argument, in this case,
+use primitive alternatives.
+    when(mock.get(any())); // bad use, will raise NPE
+    when(mock.get(anyInt())); // correct usage use
+
+Also, this error might show up because you use argument matchers with methods that cannot be mocked.
+Following methods *cannot* be stubbed/verified: final/private/equals()/hashCode().
+Mocking methods declared on non-public parent classes is not supported.
+
+* Search finished after 101s and 1153 generations, 556046 statements, best individual has fitness: 520.2166666575881
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 28%
+* Total number of goals: 723
+* Number of covered goals: 204
+* Generated 44 tests with total length 288
+* Resulting test suite's coverage: 28%
+* Generating assertions
+* Resulting test suite's mutation score: 16%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 12
+* Writing JUnit test case 'JsDocInfoParser_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

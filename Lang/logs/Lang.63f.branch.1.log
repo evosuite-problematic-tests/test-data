@@ -1,0 +1,30 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.lang.time.DurationFormatUtils
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_32765_1545658368/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang.time.DurationFormatUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 155
+* Using seed 2000
+* Starting evolution
+[MASTER] 05:33:06.631 [logback-2] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+* Search finished after 101s and 2097 generations, 607672 statements, best individual has fitness: 10.992753623188406
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 92%
+* Total number of goals: 155
+* Number of covered goals: 143
+* Generated 23 tests with total length 46
+* Resulting test suite's coverage: 92%
+* Generating assertions
+* Resulting test suite's mutation score: 17%
+* Writing JUnit test case 'DurationFormatUtils_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

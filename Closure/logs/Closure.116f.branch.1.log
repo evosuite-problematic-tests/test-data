@@ -1,0 +1,39 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.FunctionInjector
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_195262_1545822158/build/classes
+  - /tmp/run_evosuite.pl_195262_1545822158/lib/args4j.jar
+  - /tmp/run_evosuite.pl_195262_1545822158/lib/guava.jar
+  - /tmp/run_evosuite.pl_195262_1545822158/lib/json.jar
+  - /tmp/run_evosuite.pl_195262_1545822158/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_195262_1545822158/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_195262_1545822158/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_195262_1545822158/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.FunctionInjector
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 258
+* Using seed 2000
+* Starting evolution
+* Search finished after 102s and 207 generations, 92317 statements, best individual has fitness: 213.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 17%
+* Total number of goals: 258
+* Number of covered goals: 45
+* Generated 13 tests with total length 114
+* Resulting test suite's coverage: 17%
+* Generating assertions
+* Resulting test suite's mutation score: 5%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 6
+* Writing JUnit test case 'FunctionInjector_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

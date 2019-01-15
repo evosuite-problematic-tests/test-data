@@ -1,0 +1,81 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.rhino.Node
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_232875_1546772226/build/classes
+  - /tmp/run_evosuite.pl_232875_1546772226/lib/args4j.jar
+  - /tmp/run_evosuite.pl_232875_1546772226/lib/guava.jar
+  - /tmp/run_evosuite.pl_232875_1546772226/lib/json.jar
+  - /tmp/run_evosuite.pl_232875_1546772226/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_232875_1546772226/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_232875_1546772226/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_232875_1546772226/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.rhino.Node
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 716
+* Using seed 5000
+* Starting evolution
+[MASTER] 02:57:19.331 [logback-2] ERROR TestCluster - Failed to check cache for java.util.LinkedHashSet<E> : Type points to itself
+[MASTER] 02:57:22.690 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Iterator<E> : Type points to itself
+[MASTER] 02:57:47.736 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class com.google.javascript.rhino.jstype.UnionType canUseFunctionalMocks=false, canBeMocked: true
+* Search finished after 102s and 387 generations, 216063 statements, best individual has fitness: 116.00640144123366
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 78%
+* Total number of goals: 716
+* Number of covered goals: 561
+* Generated 234 tests with total length 656
+* Resulting test suite's coverage: 78%
+* Generating assertions
+* Resulting test suite's mutation score: 32%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 3
+* Writing JUnit test case 'Node_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.ScopedAliases
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_232875_1546772226/build/classes
+  - /tmp/run_evosuite.pl_232875_1546772226/lib/args4j.jar
+  - /tmp/run_evosuite.pl_232875_1546772226/lib/guava.jar
+  - /tmp/run_evosuite.pl_232875_1546772226/lib/json.jar
+  - /tmp/run_evosuite.pl_232875_1546772226/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_232875_1546772226/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_232875_1546772226/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_232875_1546772226/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.ScopedAliases
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 169
+* Using seed 5000
+* Starting evolution
+* Search finished after 102s and 173 generations, 47150 statements, best individual has fitness: 145.83333333240202
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 15%
+* Total number of goals: 169
+* Number of covered goals: 25
+* Generated 3 tests with total length 23
+* Resulting test suite's coverage: 15%
+* Generating assertions
+* Resulting test suite's mutation score: 1%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 6
+* Writing JUnit test case 'ScopedAliases_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

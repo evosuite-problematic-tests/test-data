@@ -1,0 +1,37 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.chart.block.BorderArrangement
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_9747_1546599691/build
+  - /tmp/run_evosuite.pl_9747_1546599691/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.chart.block.BorderArrangement
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 122
+* Using seed 3000
+* Starting evolution
+[MASTER] 03:03:01.439 [logback-2] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+* Search finished after 102s and 1816 generations, 587233 statements, best individual has fitness: 4.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 93%
+* Total number of goals: 122
+* Number of covered goals: 114
+* Generated 27 tests with total length 157
+* Resulting test suite's coverage: 93%
+* Generating assertions
+* Resulting test suite's mutation score: 34%
+* Permissions denied during test execution: 
+  - java.io.FilePermission: 
+         write /tmp/+~JT1390880534744715345.tmp: 1
+         write /tmp/+~JT1824926181487953520.tmp: 1
+         write /tmp/+~JT721523678237086306.tmp: 1
+         and other 40 cases of action/name for this exception class
+* Writing JUnit test case 'BorderArrangement_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

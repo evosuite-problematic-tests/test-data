@@ -1,0 +1,31 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.data.category.DefaultIntervalCategoryDataset
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_220484_1546749280/build
+  - /tmp/run_evosuite.pl_220484_1546749280/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.data.category.DefaultIntervalCategoryDataset
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 137
+* Using seed 5000
+* Starting evolution
+[MASTER] 20:35:47.569 [logback-2] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+* Search finished after 101s and 1166 generations, 403632 statements, best individual has fitness: 5.833333333333333
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 93%
+* Total number of goals: 137
+* Number of covered goals: 127
+* Generated 54 tests with total length 207
+* Resulting test suite's coverage: 93%
+* Generating assertions
+* Resulting test suite's mutation score: 31%
+* Writing JUnit test case 'DefaultIntervalCategoryDataset_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

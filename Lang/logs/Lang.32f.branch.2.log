@@ -1,0 +1,30 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.lang3.builder.HashCodeBuilder
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_80626_1546623685/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.builder.HashCodeBuilder
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 119
+* Using seed 3000
+* Starting evolution
+[MASTER] 09:41:32.209 [logback-2] ERROR TestCluster - Failed to check cache for java.util.LinkedHashSet<E> : Type points to itself
+* Search finished after 101s and 507 generations, 204112 statements, best individual has fitness: 4.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 88%
+* Total number of goals: 119
+* Number of covered goals: 105
+* Generated 31 tests with total length 92
+* Resulting test suite's coverage: 92%
+* Generating assertions
+* Resulting test suite's mutation score: 77%
+* Writing JUnit test case 'HashCodeBuilder_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

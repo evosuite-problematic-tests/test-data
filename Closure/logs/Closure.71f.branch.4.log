@@ -1,0 +1,40 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.CheckAccessControls
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_219708_1546766973/build/classes
+  - /tmp/run_evosuite.pl_219708_1546766973/lib/args4j.jar
+  - /tmp/run_evosuite.pl_219708_1546766973/lib/guava.jar
+  - /tmp/run_evosuite.pl_219708_1546766973/lib/json.jar
+  - /tmp/run_evosuite.pl_219708_1546766973/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_219708_1546766973/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_219708_1546766973/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_219708_1546766973/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.CheckAccessControls
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 230
+* Using seed 5000
+* Starting evolution
+[MASTER] 01:29:45.402 [logback-2] ERROR TestCluster - Failed to check cache for com.google.common.base.Supplier<T> : Type points to itself
+* Search finished after 101s and 476 generations, 164920 statements, best individual has fitness: 204.13185522150616
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 13%
+* Total number of goals: 230
+* Number of covered goals: 29
+* Generated 6 tests with total length 57
+* Resulting test suite's coverage: 13%
+* Generating assertions
+* Resulting test suite's mutation score: 3%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 6
+* Writing JUnit test case 'CheckAccessControls_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

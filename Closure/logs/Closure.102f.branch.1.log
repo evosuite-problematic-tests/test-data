@@ -1,0 +1,40 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.Normalize
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_124115_1545820126/build/classes
+  - /tmp/run_evosuite.pl_124115_1545820126/lib/ant_deploy.jar
+  - /tmp/run_evosuite.pl_124115_1545820126/lib/google_common_deploy.jar
+  - /tmp/run_evosuite.pl_124115_1545820126/lib/hamcrest-core-1.1.jar
+  - /tmp/run_evosuite.pl_124115_1545820126/lib/junit4-core.jar
+  - /tmp/run_evosuite.pl_124115_1545820126/lib/junit4-legacy.jar
+  - /tmp/run_evosuite.pl_124115_1545820126/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_124115_1545820126/lib/protobuf_deploy.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.Normalize
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 153
+* Using seed 2000
+* Starting evolution
+[MASTER] 02:29:01.748 [logback-2] ERROR TestCluster - Failed to check cache for java.util.EnumSet<E> : Type points to itself
+* Search finished after 101s and 596 generations, 250596 statements, best individual has fitness: 58.65203407703408
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 58%
+* Total number of goals: 153
+* Number of covered goals: 89
+* Generated 17 tests with total length 95
+* Resulting test suite's coverage: 58%
+* Generating assertions
+* Resulting test suite's mutation score: 5%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 17
+* Writing JUnit test case 'Normalize_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

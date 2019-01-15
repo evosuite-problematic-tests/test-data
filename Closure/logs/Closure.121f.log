@@ -1,0 +1,15 @@
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2018-12-26 11:12:51  ######
+Generate tests for: com.google.javascript.jscomp.InlineVariables : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2018-12-26 11:14:42  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-04 16:11:59  ######
+Generate tests for: com.google.javascript.jscomp.InlineVariables : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-04 16:13:50  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-05 11:42:54  ######
+Generate tests for: com.google.javascript.jscomp.InlineVariables : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-05 11:44:42  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-06 11:21:58  ######
+Generate tests for: com.google.javascript.jscomp.InlineVariables : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-06 11:23:46  ######
+######  Start test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-07 07:08:33  ######
+Generate tests for: com.google.javascript.jscomp.InlineVariables : branch : 100s
+######  End test generation  defects4j/framework/bin/run_evosuite.pl: 2019-01-07 07:10:25  ######

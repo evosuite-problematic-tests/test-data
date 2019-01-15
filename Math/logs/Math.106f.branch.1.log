@@ -1,0 +1,30 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math.fraction.ProperFractionFormat
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_67539_1545670840/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.fraction.ProperFractionFormat
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 26
+* Using seed 2000
+* Starting evolution
+[MASTER] 09:00:58.916 [logback-2] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+* Search finished after 58s and 2235 generations, 478444 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 26
+* Number of covered goals: 26
+* Generated 12 tests with total length 63
+* Resulting test suite's coverage: 100%
+* Generating assertions
+* Resulting test suite's mutation score: 76%
+* Writing JUnit test case 'ProperFractionFormat_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

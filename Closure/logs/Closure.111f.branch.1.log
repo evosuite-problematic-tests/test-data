@@ -1,0 +1,56 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.type.ClosureReverseAbstractInterpreter
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_191937_1545821567/build/classes
+  - /tmp/run_evosuite.pl_191937_1545821567/lib/args4j.jar
+  - /tmp/run_evosuite.pl_191937_1545821567/lib/guava.jar
+  - /tmp/run_evosuite.pl_191937_1545821567/lib/json.jar
+  - /tmp/run_evosuite.pl_191937_1545821567/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_191937_1545821567/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_191937_1545821567/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_191937_1545821567/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.type.ClosureReverseAbstractInterpreter
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 72
+* Using seed 2000
+* Starting evolution
+[MASTER] 02:53:06.596 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.NumberType due to IAE: tried to access class com.google.javascript.rhino.jstype.ValueType from class com.google.javascript.rhino.jstype.NumberType$MockitoMock$1189237483
+[MASTER] 02:53:14.236 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.NoObjectType due to IAE: tried to access class com.google.javascript.rhino.jstype.PrototypeObjectType from class com.google.javascript.rhino.jstype.NoObjectType$MockitoMock$1506541079
+[MASTER] 02:53:14.764 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.NoType due to IAE: tried to access class com.google.javascript.rhino.jstype.PrototypeObjectType from class com.google.javascript.rhino.jstype.NoType$MockitoMock$686684763
+[MASTER] 02:53:15.715 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.NullType due to IAE: tried to access class com.google.javascript.rhino.jstype.ValueType from class com.google.javascript.rhino.jstype.NullType$MockitoMock$1355976371
+[MASTER] 02:53:17.569 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.BooleanType due to IAE: tried to access class com.google.javascript.rhino.jstype.ValueType from class com.google.javascript.rhino.jstype.BooleanType$MockitoMock$2117673351
+[MASTER] 02:53:27.681 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.StringType due to IAE: tried to access class com.google.javascript.rhino.jstype.ValueType from class com.google.javascript.rhino.jstype.StringType$MockitoMock$830434773
+[MASTER] 02:53:37.539 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.NumberType due to failed class initialization: Could not initialize class com.google.javascript.rhino.jstype.NumberType$MockitoMock$1189237483
+[MASTER] 02:53:40.738 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.BooleanType due to failed class initialization: Could not initialize class com.google.javascript.rhino.jstype.BooleanType$MockitoMock$2117673351
+[MASTER] 02:53:46.983 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.StringType due to failed class initialization: Could not initialize class com.google.javascript.rhino.jstype.StringType$MockitoMock$830434773
+[MASTER] 02:54:10.832 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.NoObjectType due to failed class initialization: Could not initialize class com.google.javascript.rhino.jstype.NoObjectType$MockitoMock$1506541079
+[MASTER] 02:54:11.358 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.VoidType due to IAE: tried to access class com.google.javascript.rhino.jstype.ValueType from class com.google.javascript.rhino.jstype.VoidType$MockitoMock$2029023629
+[MASTER] 02:54:17.243 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.NoObjectType due to IAE: tried to access class com.google.javascript.rhino.jstype.PrototypeObjectType from class com.google.javascript.rhino.jstype.NoObjectType$MockitoMock$1324550174
+[MASTER] 02:54:20.958 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.BooleanType due to IAE: tried to access class com.google.javascript.rhino.jstype.ValueType from class com.google.javascript.rhino.jstype.BooleanType$MockitoMock$112077903
+[MASTER] 02:54:21.842 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.NoObjectType due to failed class initialization: Could not initialize class com.google.javascript.rhino.jstype.NoObjectType$MockitoMock$1324550174
+[MASTER] 02:54:35.183 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.StringType due to IAE: tried to access class com.google.javascript.rhino.jstype.ValueType from class com.google.javascript.rhino.jstype.StringType$MockitoMock$1945623290
+[MASTER] 02:54:38.247 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.NoType due to IAE: tried to access class com.google.javascript.rhino.jstype.PrototypeObjectType from class com.google.javascript.rhino.jstype.NoType$MockitoMock$109842836
+[MASTER] 02:54:38.751 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.NumberType due to IAE: tried to access class com.google.javascript.rhino.jstype.ValueType from class com.google.javascript.rhino.jstype.NumberType$MockitoMock$5826846
+* Search finished after 101s and 1273 generations, 481482 statements, best individual has fitness: 61.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 26%
+* Total number of goals: 72
+* Number of covered goals: 19
+* Generated 2 tests with total length 19
+* Resulting test suite's coverage: 26%
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'ClosureReverseAbstractInterpreter_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

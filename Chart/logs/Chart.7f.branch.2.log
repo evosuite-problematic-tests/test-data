@@ -1,0 +1,31 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.data.time.TimePeriodValues
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_7410_1546599219/build
+  - /tmp/run_evosuite.pl_7410_1546599219/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.data.time.TimePeriodValues
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 74
+* Using seed 3000
+* Starting evolution
+[MASTER] 02:54:05.214 [logback-2] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+* Search finished after 23s and 548 generations, 159625 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 74
+* Number of covered goals: 74
+* Generated 24 tests with total length 99
+* Resulting test suite's coverage: 100%
+* Generating assertions
+* Resulting test suite's mutation score: 40%
+* Writing JUnit test case 'TimePeriodValues_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

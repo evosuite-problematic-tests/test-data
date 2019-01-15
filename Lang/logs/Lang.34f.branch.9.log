@@ -1,0 +1,31 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.lang3.builder.ToStringStyle
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_185388_1545208037/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.builder.ToStringStyle
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 298
+* Using seed 1000
+* Starting evolution
+[MASTER] 00:27:25.679 [logback-2] ERROR TestCluster - Failed to check cache for java.util.LinkedList<E> : Type points to itself
+[MASTER] 00:27:25.681 [logback-2] ERROR TestCluster - Failed to check cache for java.util.HashMap<K, V> : Type points to itself
+* Search finished after 101s and 1819 generations, 774157 statements, best individual has fitness: 39.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 84%
+* Total number of goals: 298
+* Number of covered goals: 251
+* Generated 96 tests with total length 359
+* Resulting test suite's coverage: 85%
+* Generating assertions
+* Resulting test suite's mutation score: 70%
+* Writing JUnit test case 'ToStringStyle_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

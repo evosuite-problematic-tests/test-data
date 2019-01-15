@@ -1,0 +1,31 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.data.xy.XYSeries
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_54129_1545142293/build
+  - /tmp/run_evosuite.pl_54129_1545142293/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.data.xy.XYSeries
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 103
+* Using seed 1000
+* Starting evolution
+[MASTER] 06:11:49.543 [logback-2] ERROR TestCluster - Failed to check cache for java.util.LinkedList<E> : Type points to itself
+* Search finished after 44s and 554 generations, 173479 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 103
+* Number of covered goals: 103
+* Generated 39 tests with total length 175
+* Resulting test suite's coverage: 100%
+* Generating assertions
+* Resulting test suite's mutation score: 38%
+* Writing JUnit test case 'XYSeries_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

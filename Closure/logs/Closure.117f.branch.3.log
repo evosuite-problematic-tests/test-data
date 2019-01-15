@@ -1,0 +1,44 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.TypeValidator
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_260860_1546688084/build/classes
+  - /tmp/run_evosuite.pl_260860_1546688084/lib/args4j.jar
+  - /tmp/run_evosuite.pl_260860_1546688084/lib/guava.jar
+  - /tmp/run_evosuite.pl_260860_1546688084/lib/json.jar
+  - /tmp/run_evosuite.pl_260860_1546688084/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_260860_1546688084/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_260860_1546688084/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_260860_1546688084/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.TypeValidator
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 222
+* Using seed 4000
+* Starting evolution
+[MASTER] 03:35:15.698 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Iterator<E> : Type points to itself
+[MASTER] 03:35:15.800 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 03:36:30.708 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.rhino.Node due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 03:36:31.051 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 03:36:32.046 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class com.google.javascript.rhino.jstype.UnionType canUseFunctionalMocks=false, canBeMocked: true
+* Search finished after 104s and 148 generations, 76618 statements, best individual has fitness: 131.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 36%
+* Total number of goals: 222
+* Number of covered goals: 80
+* Generated 37 tests with total length 426
+* Resulting test suite's coverage: 36%
+* Generating assertions
+* Resulting test suite's mutation score: 15%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 7
+* Writing JUnit test case 'TypeValidator_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

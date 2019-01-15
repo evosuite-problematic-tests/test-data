@@ -1,0 +1,36 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.SourceFile
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_40890_1546609635/build/classes
+  - /tmp/run_evosuite.pl_40890_1546609635/lib/args4j.jar
+  - /tmp/run_evosuite.pl_40890_1546609635/lib/guava.jar
+  - /tmp/run_evosuite.pl_40890_1546609635/lib/json.jar
+  - /tmp/run_evosuite.pl_40890_1546609635/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_40890_1546609635/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_40890_1546609635/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_40890_1546609635/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.SourceFile
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 78
+* Using seed 3000
+* Starting evolution
+* Search finished after 105s and 280 generations, 75264 statements, best individual has fitness: 1.3333333333333335
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 97%
+* Total number of goals: 78
+* Number of covered goals: 76
+* Generated 30 tests with total length 92
+* Resulting test suite's coverage: 97%
+* Generating assertions
+* Resulting test suite's mutation score: 46%
+* Writing JUnit test case 'SourceFile_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

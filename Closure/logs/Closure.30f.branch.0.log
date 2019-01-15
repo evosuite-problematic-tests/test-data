@@ -1,0 +1,86 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.MustBeReachingVariableDef
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_75617_1546832593/build/classes
+  - /tmp/run_evosuite.pl_75617_1546832593/lib/args4j.jar
+  - /tmp/run_evosuite.pl_75617_1546832593/lib/guava.jar
+  - /tmp/run_evosuite.pl_75617_1546832593/lib/json.jar
+  - /tmp/run_evosuite.pl_75617_1546832593/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_75617_1546832593/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_75617_1546832593/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_75617_1546832593/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.MustBeReachingVariableDef
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 177
+* Using seed 1000
+* Starting evolution
+[MASTER] 19:43:25.727 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 19:43:25.727 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself
+[MASTER] 19:43:26.119 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Set<com.google.javascript.jscomp.Scope$Var> : Invalid generic instance
+[MASTER] 19:43:32.999 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Collection<com.google.javascript.rhino.Node> : Invalid generic instance
+[MASTER] 19:43:38.330 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Collection<com.google.javascript.jscomp.MustBeReachingVariableDef$MustDef> : Invalid generic instance
+* Search finished after 101s and 341 generations, 159148 statements, best individual has fitness: 69.83333333333333
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 55%
+* Total number of goals: 177
+* Number of covered goals: 97
+* Generated 28 tests with total length 238
+* Resulting test suite's coverage: 55%
+* Generating assertions
+* Resulting test suite's mutation score: 13%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 4
+* Writing JUnit test case 'MustBeReachingVariableDef_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.FlowSensitiveInlineVariables
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_75617_1546832593/build/classes
+  - /tmp/run_evosuite.pl_75617_1546832593/lib/args4j.jar
+  - /tmp/run_evosuite.pl_75617_1546832593/lib/guava.jar
+  - /tmp/run_evosuite.pl_75617_1546832593/lib/json.jar
+  - /tmp/run_evosuite.pl_75617_1546832593/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_75617_1546832593/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_75617_1546832593/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_75617_1546832593/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.FlowSensitiveInlineVariables
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 145
+* Using seed 1000
+* Starting evolution
+[MASTER] 19:45:36.265 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+[MASTER] 19:45:36.273 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 19:45:52.636 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.ControlFlowGraph<N> : Type points to itself
+* Search finished after 101s and 945 generations, 153933 statements, best individual has fitness: 150.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 3%
+* Total number of goals: 145
+* Number of covered goals: 5
+* Generated 4 tests with total length 14
+* Resulting test suite's coverage: 3%
+* Generating assertions
+* Resulting test suite's mutation score: 1%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 22
+* Writing JUnit test case 'FlowSensitiveInlineVariables_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

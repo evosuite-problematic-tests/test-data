@@ -1,0 +1,32 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math.ode.events.EventState
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_59105_1545667999/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.ode.events.EventState
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 68
+* Using seed 2000
+* Starting evolution
+* Search finished after 103s and 550 generations, 326907 statements, best individual has fitness: 10.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 84%
+* Total number of goals: 68
+* Number of covered goals: 57
+* Generated 19 tests with total length 101
+* Resulting test suite's coverage: 84%
+* Generating assertions
+* Resulting test suite's mutation score: 45%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 19
+* Writing JUnit test case 'EventState_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

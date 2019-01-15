@@ -1,0 +1,43 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.TypeCheck
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_68548_1546618786/build/classes
+  - /tmp/run_evosuite.pl_68548_1546618786/lib/args4j.jar
+  - /tmp/run_evosuite.pl_68548_1546618786/lib/guava.jar
+  - /tmp/run_evosuite.pl_68548_1546618786/lib/json.jar
+  - /tmp/run_evosuite.pl_68548_1546618786/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_68548_1546618786/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_68548_1546618786/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_68548_1546618786/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.TypeCheck
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 1106
+* Using seed 3000
+* Starting evolution
+[MASTER] 08:20:16.512 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.NoType due to IAE: tried to access class com.google.javascript.rhino.jstype.PrototypeObjectType from class com.google.javascript.rhino.jstype.NoType$MockitoMock$1576000998
+[MASTER] 08:20:44.619 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.NumberType due to IAE: tried to access class com.google.javascript.rhino.jstype.ValueType from class com.google.javascript.rhino.jstype.NumberType$MockitoMock$711357534
+[MASTER] 08:20:51.587 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.BooleanType due to IAE: tried to access class com.google.javascript.rhino.jstype.ValueType from class com.google.javascript.rhino.jstype.BooleanType$MockitoMock$542795448
+* Search finished after 106s and 231 generations, 121908 statements, best individual has fitness: 800.9449885862929
+* Minimizing test suite
+[MASTER] 08:21:45.898 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Iterator<E> : Type points to itself
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 25%
+* Total number of goals: 1106
+* Number of covered goals: 273
+* Generated 61 tests with total length 686
+* Resulting test suite's coverage: 25%
+* Generating assertions
+* Resulting test suite's mutation score: 7%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 7
+* Writing JUnit test case 'TypeCheck_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

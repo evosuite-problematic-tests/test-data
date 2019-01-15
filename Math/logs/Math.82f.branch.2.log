@@ -1,0 +1,30 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math.optimization.linear.SimplexSolver
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_117291_1546637084/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.optimization.linear.SimplexSolver
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 38
+* Using seed 3000
+* Starting evolution
+[MASTER] 13:25:43.249 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.apache.commons.math.linear.OpenMapRealMatrix due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.apache.commons.math.linear.OpenMapRealVector due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.apache.commons.math.linear.ArrayRealVector due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.apache.commons.math.linear.ArrayRealVector due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+* Search finished after 101s and 2151 generations, 1100119 statements, best individual has fitness: 0.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 97%
+* Total number of goals: 38
+* Number of covered goals: 37
+* Generated 5 tests with total length 55
+* Resulting test suite's coverage: 97%
+* Generating assertions
+* Resulting test suite's mutation score: 31%
+* Writing JUnit test case 'SimplexSolver_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

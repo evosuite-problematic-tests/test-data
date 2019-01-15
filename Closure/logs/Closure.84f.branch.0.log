@@ -1,0 +1,44 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.parsing.IRFactory
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_97438_1546839973/build/classes
+  - /tmp/run_evosuite.pl_97438_1546839973/lib/ant-launcher.jar
+  - /tmp/run_evosuite.pl_97438_1546839973/lib/ant.jar
+  - /tmp/run_evosuite.pl_97438_1546839973/lib/args4j.jar
+  - /tmp/run_evosuite.pl_97438_1546839973/lib/caja-r4314.jar
+  - /tmp/run_evosuite.pl_97438_1546839973/lib/guava.jar
+  - /tmp/run_evosuite.pl_97438_1546839973/lib/json.jar
+  - /tmp/run_evosuite.pl_97438_1546839973/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_97438_1546839973/lib/junit.jar
+  - /tmp/run_evosuite.pl_97438_1546839973/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_97438_1546839973/lib/protobuf-java.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.parsing.IRFactory
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 523
+* Using seed 1000
+* Starting evolution
+[MASTER] 21:46:25.477 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 21:46:40.426 [logback-1] WARN  TestUsageChecker - class com.google.javascript.jscomp.mozilla.rhino.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+* Search finished after 101s and 383 generations, 192264 statements, best individual has fitness: 316.3141310894556
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 40%
+* Total number of goals: 523
+* Number of covered goals: 209
+* Generated 13 tests with total length 99
+* Resulting test suite's coverage: 40%
+* Generating assertions
+* Resulting test suite's mutation score: 2%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 4
+* Writing JUnit test case 'IRFactory_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

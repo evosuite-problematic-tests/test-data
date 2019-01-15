@@ -1,0 +1,42 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.FlowSensitiveInlineVariables
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_219705_1546674535/build/classes
+  - /tmp/run_evosuite.pl_219705_1546674535/lib/args4j.jar
+  - /tmp/run_evosuite.pl_219705_1546674535/lib/guava.jar
+  - /tmp/run_evosuite.pl_219705_1546674535/lib/json.jar
+  - /tmp/run_evosuite.pl_219705_1546674535/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_219705_1546674535/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_219705_1546674535/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_219705_1546674535/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.FlowSensitiveInlineVariables
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 149
+* Using seed 4000
+* Starting evolution
+[MASTER] 23:49:08.444 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.ControlFlowGraph<N> : Type points to itself
+[MASTER] 23:49:10.937 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 23:49:11.221 [logback-2] ERROR TestCluster - Failed to check cache for com.google.common.base.Supplier<T> : Type points to itself
+* Search finished after 101s and 982 generations, 160509 statements, best individual has fitness: 154.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 3%
+* Total number of goals: 149
+* Number of covered goals: 5
+* Generated 4 tests with total length 15
+* Resulting test suite's coverage: 3%
+* Generating assertions
+* Resulting test suite's mutation score: 1%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 14
+* Writing JUnit test case 'FlowSensitiveInlineVariables_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

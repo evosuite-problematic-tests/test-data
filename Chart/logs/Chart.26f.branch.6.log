@@ -1,0 +1,34 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.chart.axis.Axis
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_72602_1545148002/build
+  - /tmp/run_evosuite.pl_72602_1545148002/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.chart.axis.Axis
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 172
+* Using seed 1000
+* Starting evolution
+* Search finished after 101s and 390 generations, 192813 statements, best individual has fitness: 11.166666666666666
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 88%
+* Total number of goals: 172
+* Number of covered goals: 152
+* Generated 63 tests with total length 289
+* Resulting test suite's coverage: 88%
+* Generating assertions
+* Resulting test suite's mutation score: 40%
+* Permissions denied during test execution: 
+  - java.io.FilePermission: 
+         write /tmp/+~JT7928426463675092648.tmp: 1
+         write /tmp/+~JT1295695925557314005.tmp: 1
+* Writing JUnit test case 'Axis_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

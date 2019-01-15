@@ -1,0 +1,29 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.lang.BooleanUtils
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_86278_1546626301/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang.BooleanUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 223
+* Using seed 3000
+* Starting evolution
+* Search finished after 101s and 1568 generations, 600273 statements, best individual has fitness: 17.83653846153846
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 91%
+* Total number of goals: 223
+* Number of covered goals: 202
+* Generated 100 tests with total length 161
+* Resulting test suite's coverage: 91%
+* Generating assertions
+* Resulting test suite's mutation score: 72%
+* Writing JUnit test case 'BooleanUtils_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

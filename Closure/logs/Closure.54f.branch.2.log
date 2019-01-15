@@ -1,0 +1,78 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.TypedScopeCreator
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_40032_1546609210/build/classes
+  - /tmp/run_evosuite.pl_40032_1546609210/lib/args4j.jar
+  - /tmp/run_evosuite.pl_40032_1546609210/lib/guava.jar
+  - /tmp/run_evosuite.pl_40032_1546609210/lib/json.jar
+  - /tmp/run_evosuite.pl_40032_1546609210/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_40032_1546609210/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_40032_1546609210/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_40032_1546609210/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.TypedScopeCreator
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 646
+* Using seed 3000
+* Starting evolution
+* Search finished after 106s and 357 generations, 188711 statements, best individual has fitness: 487.06402883254106
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 23%
+* Total number of goals: 646
+* Number of covered goals: 148
+* Generated 14 tests with total length 119
+* Resulting test suite's coverage: 23%
+* Generating assertions
+* Resulting test suite's mutation score: 11%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 12
+  - java.net.SocketPermission: 
+         resolve $AWKLPj: 1
+* Writing JUnit test case 'TypedScopeCreator_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.rhino.jstype.FunctionType
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_40032_1546609210/build/classes
+  - /tmp/run_evosuite.pl_40032_1546609210/lib/args4j.jar
+  - /tmp/run_evosuite.pl_40032_1546609210/lib/guava.jar
+  - /tmp/run_evosuite.pl_40032_1546609210/lib/json.jar
+  - /tmp/run_evosuite.pl_40032_1546609210/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_40032_1546609210/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_40032_1546609210/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_40032_1546609210/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.rhino.jstype.FunctionType
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 334
+* Using seed 3000
+* Starting evolution
+[MASTER] 05:43:23.948 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.VoidType due to IAE: tried to access class com.google.javascript.rhino.jstype.ValueType from class com.google.javascript.rhino.jstype.VoidType$MockitoMock$1907110904
+* Search finished after 101s and 778 generations, 416512 statements, best individual has fitness: 59.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 79%
+* Total number of goals: 334
+* Number of covered goals: 265
+* Generated 70 tests with total length 413
+* Resulting test suite's coverage: 79%
+* Generating assertions
+* Resulting test suite's mutation score: 46%
+* Writing JUnit test case 'FunctionType_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

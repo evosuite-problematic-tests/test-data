@@ -1,0 +1,29 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math3.ode.AbstractIntegrator
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_3313_1545126996/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.ode.AbstractIntegrator
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 78
+* Using seed 1000
+* Starting evolution
+* Search finished after 101s and 128 generations, 65638 statements, best individual has fitness: 5.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 88%
+* Total number of goals: 78
+* Number of covered goals: 69
+* Generated 16 tests with total length 70
+* Resulting test suite's coverage: 88%
+* Generating assertions
+* Resulting test suite's mutation score: 28%
+* Writing JUnit test case 'AbstractIntegrator_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

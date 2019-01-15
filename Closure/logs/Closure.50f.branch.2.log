@@ -1,0 +1,42 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.PeepholeReplaceKnownMethods
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_38730_1546608752/build/classes
+  - /tmp/run_evosuite.pl_38730_1546608752/lib/args4j.jar
+  - /tmp/run_evosuite.pl_38730_1546608752/lib/guava.jar
+  - /tmp/run_evosuite.pl_38730_1546608752/lib/json.jar
+  - /tmp/run_evosuite.pl_38730_1546608752/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_38730_1546608752/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_38730_1546608752/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_38730_1546608752/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.PeepholeReplaceKnownMethods
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 259
+* Using seed 3000
+* Starting evolution
+[MASTER] 05:32:50.356 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 05:32:55.352 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.NoObjectType due to IAE: tried to access class com.google.javascript.rhino.jstype.PrototypeObjectType from class com.google.javascript.rhino.jstype.NoObjectType$MockitoMock$187727397
+[MASTER] 05:33:33.676 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.ControlFlowGraph<N> : Type points to itself
+* Search finished after 101s and 1427 generations, 473385 statements, best individual has fitness: 250.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 5%
+* Total number of goals: 259
+* Number of covered goals: 14
+* Generated 4 tests with total length 29
+* Resulting test suite's coverage: 5%
+* Generating assertions
+* Resulting test suite's mutation score: 2%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 3
+* Writing JUnit test case 'PeepholeReplaceKnownMethods_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

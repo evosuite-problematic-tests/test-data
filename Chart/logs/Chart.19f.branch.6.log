@@ -1,0 +1,32 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.chart.plot.CategoryPlot
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_69840_1545147238/build
+  - /tmp/run_evosuite.pl_69840_1545147238/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.chart.plot.CategoryPlot
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 677
+* Using seed 1000
+* Starting evolution
+[MASTER] 07:34:14.433 [logback-2] ERROR TestCluster - Failed to check cache for java.util.LinkedList<E> : Type points to itself
+* Search finished after 103s and 211 generations, 153030 statements, best individual has fitness: 135.0
+* Minimizing test suite
+[MASTER] 07:35:57.985 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 74%
+* Total number of goals: 677
+* Number of covered goals: 498
+* Generated 137 tests with total length 553
+* Resulting test suite's coverage: 74%
+* Generating assertions
+* Resulting test suite's mutation score: 19%
+* Writing JUnit test case 'CategoryPlot_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,29 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math.optimization.fitting.GaussianFitter
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_84278_1546704764/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.optimization.fitting.GaussianFitter
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 67
+* Using seed 4000
+* Starting evolution
+* Search finished after 101s and 4034 generations, 1987500 statements, best individual has fitness: 3.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 94%
+* Total number of goals: 67
+* Number of covered goals: 63
+* Generated 11 tests with total length 72
+* Resulting test suite's coverage: 94%
+* Generating assertions
+* Resulting test suite's mutation score: 23%
+* Writing JUnit test case 'GaussianFitter_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

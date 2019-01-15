@@ -1,0 +1,41 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.rhino.jstype.RecordType
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_65241_1546756495/build/classes
+  - /tmp/run_evosuite.pl_65241_1546756495/lib/args4j.jar
+  - /tmp/run_evosuite.pl_65241_1546756495/lib/guava.jar
+  - /tmp/run_evosuite.pl_65241_1546756495/lib/json.jar
+  - /tmp/run_evosuite.pl_65241_1546756495/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_65241_1546756495/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_65241_1546756495/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_65241_1546756495/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.rhino.jstype.RecordType
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 74
+* Using seed 5000
+* Starting evolution
+[MASTER] 22:35:07.243 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 22:35:07.243 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself
+[MASTER] 22:35:18.913 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class com.google.javascript.rhino.jstype.ParameterizedType canUseFunctionalMocks=true, canBeMocked: false
+[MASTER] 22:35:19.563 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class com.google.javascript.rhino.jstype.ErrorFunctionType canUseFunctionalMocks=false, canBeMocked: false
+[MASTER] 22:35:48.335 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class com.google.javascript.rhino.jstype.RecordTypeBuilder$RecordProperty canUseFunctionalMocks=true, canBeMocked: false
+* Search finished after 101s and 1261 generations, 651409 statements, best individual has fitness: 14.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 77%
+* Total number of goals: 74
+* Number of covered goals: 57
+* Generated 14 tests with total length 121
+* Resulting test suite's coverage: 77%
+* Generating assertions
+* Resulting test suite's mutation score: 64%
+* Writing JUnit test case 'RecordType_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

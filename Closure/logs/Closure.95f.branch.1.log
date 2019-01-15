@@ -1,0 +1,41 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.TypedScopeCreator
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_98026_1545819304/build/classes
+  - /tmp/run_evosuite.pl_98026_1545819304/lib/ant_deploy.jar
+  - /tmp/run_evosuite.pl_98026_1545819304/lib/args4j_deploy.jar
+  - /tmp/run_evosuite.pl_98026_1545819304/lib/guava-r06.jar
+  - /tmp/run_evosuite.pl_98026_1545819304/lib/hamcrest-core-1.1.jar
+  - /tmp/run_evosuite.pl_98026_1545819304/lib/json.jar
+  - /tmp/run_evosuite.pl_98026_1545819304/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_98026_1545819304/lib/junit.jar
+  - /tmp/run_evosuite.pl_98026_1545819304/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_98026_1545819304/lib/protobuf-java-2.3.0.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.TypedScopeCreator
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 538
+* Using seed 2000
+* Starting evolution
+* Search finished after 101s and 511 generations, 207789 statements, best individual has fitness: 401.20473855661567
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 24%
+* Total number of goals: 538
+* Number of covered goals: 128
+* Generated 12 tests with total length 101
+* Resulting test suite's coverage: 24%
+* Generating assertions
+* Resulting test suite's mutation score: 12%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 13
+* Writing JUnit test case 'TypedScopeCreator_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,35 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizer
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_18572_1546790093/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 25
+* Using seed 5000
+* Starting evolution
+[MASTER] 07:55:07.918 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class org.apache.commons.math.optimization.univariate.BrentOptimizer canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 07:55:07.925 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizer<org.apache.commons.math.analysis.polynomials.PolynomialFunction> canUseFunctionalMocks=false, canBeMocked: false
+[MASTER] 07:55:07.989 [logback-2] ERROR TestCluster - Failed to check cache for org.apache.commons.math.optimization.ConvergenceChecker<PAIR> : Type points to itself
+[MASTER] 07:55:08.609 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizer<org.apache.commons.math.analysis.polynomials.PolynomialFunctionNewtonForm> canUseFunctionalMocks=false, canBeMocked: false
+[MASTER] 07:55:12.661 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class org.apache.commons.math.analysis.polynomials.PolynomialFunction canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 07:56:38.146 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class org.apache.commons.math.analysis.polynomials.PolynomialSplineFunction canUseFunctionalMocks=false, canBeMocked: true
+* Search finished after 101s and 197 generations, 85186 statements, best individual has fitness: 0.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 96%
+* Total number of goals: 25
+* Number of covered goals: 24
+* Generated 10 tests with total length 48
+* Resulting test suite's coverage: 96%
+* Generating assertions
+* Resulting test suite's mutation score: 26%
+* Writing JUnit test case 'MultiStartUnivariateRealOptimizer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

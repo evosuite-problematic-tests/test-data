@@ -1,0 +1,30 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.joda.time.field.FieldUtils
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_47905_1545145436/build/classes
+  - /defects4j/framework/projects/Time/lib/joda-convert-1.2.jar
+* Finished analyzing classpath
+* Generating tests for class org.joda.time.field.FieldUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 78
+* Using seed 1000
+* Starting evolution
+* Search finished after 101s and 3679 generations, 743110 statements, best individual has fitness: 1.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 97%
+* Total number of goals: 78
+* Number of covered goals: 76
+* Generated 46 tests with total length 60
+* Resulting test suite's coverage: 97%
+* Generating assertions
+* Resulting test suite's mutation score: 42%
+* Writing JUnit test case 'FieldUtils_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

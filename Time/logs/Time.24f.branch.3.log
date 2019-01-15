@@ -1,0 +1,30 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.joda.time.format.DateTimeParserBucket
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_212100_1546718175/build/classes
+  - /d4j/defects4j/framework/projects/Time/lib/joda-convert-1.2.jar
+* Finished analyzing classpath
+* Generating tests for class org.joda.time.format.DateTimeParserBucket
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 87
+* Using seed 4000
+* Starting evolution
+* Search finished after 101s and 2224 generations, 820919 statements, best individual has fitness: 2.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 97%
+* Total number of goals: 87
+* Number of covered goals: 84
+* Generated 22 tests with total length 116
+* Resulting test suite's coverage: 97%
+* Generating assertions
+* Resulting test suite's mutation score: 37%
+* Writing JUnit test case 'DateTimeParserBucket_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,39 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.UnreachableCodeElimination
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_69191_1546619033/build/classes
+  - /tmp/run_evosuite.pl_69191_1546619033/lib/args4j.jar
+  - /tmp/run_evosuite.pl_69191_1546619033/lib/guava.jar
+  - /tmp/run_evosuite.pl_69191_1546619033/lib/json.jar
+  - /tmp/run_evosuite.pl_69191_1546619033/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_69191_1546619033/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_69191_1546619033/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_69191_1546619033/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.UnreachableCodeElimination
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 85
+* Using seed 3000
+* Starting evolution
+* Search finished after 101s and 150 generations, 35935 statements, best individual has fitness: 88.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 4%
+* Total number of goals: 85
+* Number of covered goals: 3
+* Generated 1 tests with total length 3
+* Resulting test suite's coverage: 4%
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+* Writing JUnit test case 'UnreachableCodeElimination_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

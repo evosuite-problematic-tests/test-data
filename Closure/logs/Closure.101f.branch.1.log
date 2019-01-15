@@ -1,0 +1,42 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.CommandLineRunner
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_120535_1545820013/build/classes
+  - /tmp/run_evosuite.pl_120535_1545820013/lib/ant_deploy.jar
+  - /tmp/run_evosuite.pl_120535_1545820013/lib/args4j_deploy.jar
+  - /tmp/run_evosuite.pl_120535_1545820013/lib/google_common_deploy.jar
+  - /tmp/run_evosuite.pl_120535_1545820013/lib/hamcrest-core-1.1.jar
+  - /tmp/run_evosuite.pl_120535_1545820013/lib/junit.jar
+  - /tmp/run_evosuite.pl_120535_1545820013/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_120535_1545820013/lib/protobuf_deploy.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.CommandLineRunner
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 36
+* Using seed 2000
+* Starting evolution
+[MASTER] 02:27:04.072 [logback-2] ERROR TestCluster - Failed to check cache for java.util.LinkedList<E> : Type points to itself
+[MASTER] 02:27:07.030 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 02:28:13.831 [logback-2] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+* Search finished after 102s and 958 generations, 154312 statements, best individual has fitness: 23.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 36%
+* Total number of goals: 36
+* Number of covered goals: 13
+* Generated 5 tests with total length 17
+* Resulting test suite's coverage: 36%
+* Generating assertions
+* Resulting test suite's mutation score: 7%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 28
+* Writing JUnit test case 'CommandLineRunner_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

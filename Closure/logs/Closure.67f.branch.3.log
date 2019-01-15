@@ -1,0 +1,41 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.AnalyzePrototypeProperties
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_244435_1546681276/build/classes
+  - /tmp/run_evosuite.pl_244435_1546681276/lib/args4j.jar
+  - /tmp/run_evosuite.pl_244435_1546681276/lib/guava.jar
+  - /tmp/run_evosuite.pl_244435_1546681276/lib/json.jar
+  - /tmp/run_evosuite.pl_244435_1546681276/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_244435_1546681276/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_244435_1546681276/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_244435_1546681276/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.AnalyzePrototypeProperties
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 175
+* Using seed 4000
+* Starting evolution
+[MASTER] 01:41:56.952 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.RecordType due to IAE: tried to access class com.google.javascript.rhino.jstype.PrototypeObjectType from class com.google.javascript.rhino.jstype.RecordType$MockitoMock$497852224
+[MASTER] 01:42:44.674 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.rhino.jstype.RecordType due to failed class initialization: Could not initialize class com.google.javascript.rhino.jstype.RecordType$MockitoMock$497852224
+* Search finished after 102s and 297 generations, 106528 statements, best individual has fitness: 85.7980769219028
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 47%
+* Total number of goals: 175
+* Number of covered goals: 83
+* Generated 18 tests with total length 84
+* Resulting test suite's coverage: 47%
+* Generating assertions
+* Resulting test suite's mutation score: 5%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 3
+* Writing JUnit test case 'AnalyzePrototypeProperties_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

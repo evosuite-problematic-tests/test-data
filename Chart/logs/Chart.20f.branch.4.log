@@ -1,0 +1,38 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.chart.plot.ValueMarker
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_222044_1546749885/build
+  - /tmp/run_evosuite.pl_222044_1546749885/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.chart.plot.ValueMarker
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 13
+* Using seed 5000
+* Starting evolution
+[MASTER] 20:44:57.333 [logback-2] ERROR TestCluster - Failed to check cache for javax.swing.JComboBox<E> : Type points to itself
+[MASTER] 20:45:56.422 [logback-2] ERROR AbstractStatement - Error assigning value of type TemporalQuery[] defined at statement TemporalQuery<Integer>[] temporalQueryArray0 = (TemporalQuery<Integer>[]) Array.newInstance(TemporalQuery.class, 5), assignment statement: temporalQueryArray0[0] = (TemporalQuery<Integer>) temporalQueryArray0; SUT=org.jfree.chart.plot.ValueMarker
+* Search finished after 101s and 1129 generations, 236686 statements, best individual has fitness: 0.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 92%
+* Total number of goals: 13
+* Number of covered goals: 12
+* Generated 5 tests with total length 14
+* Resulting test suite's coverage: 92%
+* Generating assertions
+* Resulting test suite's mutation score: 89%
+* Permissions denied during test execution: 
+  - java.io.FilePermission: 
+         write /tmp/+~JT4486521437839827408.tmp: 1
+         write /tmp/+~JT3394114489478787813.tmp: 1
+         write /tmp/+~JT174259826461119646.tmp: 1
+         and other 6 cases of action/name for this exception class
+* Writing JUnit test case 'ValueMarker_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

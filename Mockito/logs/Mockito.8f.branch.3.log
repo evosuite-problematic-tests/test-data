@@ -1,0 +1,58 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.mockito.internal.util.reflection.GenericMetadataSupport
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_50227_1546710486/build/classes/main
+  - /d4j/defects4j/framework/projects/Mockito/lib/asm-all-5.0.4.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/assertj-core-2.1.0.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/cglib-and-asm-1.0.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/cobertura-2.0.3.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/fest-assert-1.3.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/fest-util-1.1.4.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/hamcrest-all-1.3.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/hamcrest-core-1.1.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/objenesis-2.1.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/objenesis-2.2.jar
+  - /d4j/defects4j/framework/projects/Mockito/lib/powermock-reflect-1.2.5.jar
+* Finished analyzing classpath
+* Generating tests for class org.mockito.internal.util.reflection.GenericMetadataSupport
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 110
+* Using seed 4000
+* Starting evolution
+[MASTER] 09:48:47.892 [logback-2] ERROR TestCluster - Failed to check cache for java.lang.reflect.TypeVariable<D> : Type points to itself
+[MASTER] 09:48:48.513 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.mockito.internal.util.reflection.GenericMetadataSupport$TypeVarBoundedType due to org.evosuite.ga.ConstructionFailedException: Invalid generic instance
+[MASTER] 09:48:48.539 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class org.mockito.internal.util.reflection.GenericMetadataSupport$TypeVarBoundedType canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 09:48:48.556 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class org.mockito.internal.util.reflection.GenericMetadataSupport canUseFunctionalMocks=false, canBeMocked: false
+[MASTER] 09:48:48.618 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class org.mockito.internal.util.reflection.GenericMetadataSupport$WildCardBoundedType canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 09:48:48.691 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Invalid generic instance
+[MASTER] 09:48:48.714 [logback-2] ERROR AbstractStatement - Error assigning value of type TypeVariable[] defined at statement TypeVariable<Method>[] typeVariableArray0 = (TypeVariable<Method>[]) Array.newInstance(TypeVariable.class, 6), assignment statement: typeVariableArray0[0] = (TypeVariable<Method>) typeVariableArray0; SUT=org.mockito.internal.util.reflection.GenericMetadataSupport
+[MASTER] 09:48:48.853 [logback-2] ERROR AbstractStatement - Error assigning value of type TypeVariable[] defined at statement TypeVariable<Class<Object>>[] typeVariableArray0 = (TypeVariable<Class<Object>>[]) Array.newInstance(TypeVariable.class, 9), assignment statement: typeVariableArray0[0] = (TypeVariable<Class<Object>>) typeVariableArray0; SUT=org.mockito.internal.util.reflection.GenericMetadataSupport
+[MASTER] 09:48:48.875 [logback-2] ERROR AbstractStatement - Error assigning value of type TypeVariable[] defined at statement TypeVariable<Method>[] typeVariableArray0 = (TypeVariable<Method>[]) Array.newInstance(TypeVariable.class, 4), assignment statement: typeVariableArray0[0] = (TypeVariable<Method>) typeVariableArray0; SUT=org.mockito.internal.util.reflection.GenericMetadataSupport
+[MASTER] 09:48:48.892 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class java.lang.reflect.Method canUseFunctionalMocks=true, canBeMocked: false
+[MASTER] 09:48:53.707 [logback-2] ERROR AbstractStatement - Error assigning value of type TypeVariable[] defined at statement TypeVariable<Method>[] typeVariableArray0 = (TypeVariable<Method>[]) Array.newInstance(TypeVariable.class, 8), assignment statement: typeVariableArray0[0] = (TypeVariable<Method>) typeVariableArray0; SUT=org.mockito.internal.util.reflection.GenericMetadataSupport
+[MASTER] 09:49:04.289 [logback-2] ERROR AbstractStatement - Error assigning value of type TypeVariable[] defined at statement TypeVariable<Method>[] typeVariableArray0 = (TypeVariable<Method>[]) Array.newInstance(TypeVariable.class, 5), assignment statement: typeVariableArray0[0] = (TypeVariable<Method>) typeVariableArray0; SUT=org.mockito.internal.util.reflection.GenericMetadataSupport
+[MASTER] 09:49:08.101 [logback-2] ERROR AbstractStatement - Error assigning value of type TypeVariable[] defined at statement TypeVariable<Class<Object>>[] typeVariableArray0 = (TypeVariable<Class<Object>>[]) Array.newInstance(TypeVariable.class, 9), assignment statement: typeVariableArray0[0] = (TypeVariable<Class<Object>>) typeVariableArray0; SUT=org.mockito.internal.util.reflection.GenericMetadataSupport
+[MASTER] 09:49:08.136 [logback-2] ERROR AbstractStatement - Error assigning value of type TypeVariable[] defined at statement TypeVariable<Method>[] typeVariableArray0 = (TypeVariable<Method>[]) Array.newInstance(TypeVariable.class, 5), assignment statement: typeVariableArray0[0] = (TypeVariable<Method>) typeVariableArray0; SUT=org.mockito.internal.util.reflection.GenericMetadataSupport
+[MASTER] 09:49:27.653 [logback-2] ERROR AbstractStatement - Error assigning value of type TypeVariable[] defined at statement TypeVariable<Class<String>>[] typeVariableArray0 = (TypeVariable<Class<String>>[]) Array.newInstance(TypeVariable.class, 6), assignment statement: typeVariableArray0[0] = (TypeVariable<Class<String>>) typeVariableArray0; SUT=org.mockito.internal.util.reflection.GenericMetadataSupport
+[MASTER] 09:49:34.862 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for interface org.mockito.internal.util.reflection.GenericMetadataSupport$BoundedType canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 09:49:38.687 [logback-2] ERROR AbstractStatement - Error assigning value of type TypeVariable[] defined at statement TypeVariable<Method>[] typeVariableArray0 = (TypeVariable<Method>[]) Array.newInstance(TypeVariable.class, 6), assignment statement: typeVariableArray0[0] = (TypeVariable<Method>) typeVariableArray0; SUT=org.mockito.internal.util.reflection.GenericMetadataSupport
+[MASTER] 09:50:14.127 [logback-2] ERROR AbstractStatement - Error assigning value of type TypeVariable[] defined at statement TypeVariable<Method>[] typeVariableArray0 = (TypeVariable<Method>[]) Array.newInstance(TypeVariable.class, 9), assignment statement: typeVariableArray0[0] = (TypeVariable<Method>) typeVariableArray0; SUT=org.mockito.internal.util.reflection.GenericMetadataSupport
+* Search finished after 101s and 6 generations, 1414 statements, best individual has fitness: 109.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 17%
+* Total number of goals: 110
+* Number of covered goals: 19
+* Generated 10 tests with total length 34
+* Resulting test suite's coverage: 17%
+* Generating assertions
+* Resulting test suite's mutation score: 4%
+* Writing JUnit test case 'GenericMetadataSupport_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

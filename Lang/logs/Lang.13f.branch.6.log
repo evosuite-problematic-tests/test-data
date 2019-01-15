@@ -1,0 +1,35 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.lang3.SerializationUtils
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_118958_1545179761/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.SerializationUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 25
+* Using seed 1000
+* Starting evolution
+* Search finished after 104s and 35 generations, 10181 statements, best individual has fitness: 6.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 68%
+* Total number of goals: 25
+* Number of covered goals: 17
+* Generated 10 tests with total length 18
+* Resulting test suite's coverage: 68%
+* Generating assertions
+* Resulting test suite's mutation score: 14%
+* Permissions denied during test execution: 
+  - java.security.SecurityPermission: 
+         ;dv:_;Doic:M$h&l6Z: 15
+         ;dv:;Doi:$hl6Z: 2
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 4
+* Writing JUnit test case 'SerializationUtils_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

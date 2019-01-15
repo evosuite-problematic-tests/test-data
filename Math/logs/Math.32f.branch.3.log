@@ -1,0 +1,32 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_115347_1546702006/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 95
+* Using seed 4000
+* Starting evolution
+[MASTER] 07:26:56.334 [logback-2] ERROR TestCluster - Failed to check cache for java.util.LinkedList<E> : Type points to itself
+[MASTER] 07:26:57.619 [logback-2] ERROR TestCluster - Failed to check cache for java.util.function.Function<T, R> : Type points to itself
+[MASTER] 07:26:57.625 [logback-2] ERROR TestCluster - Failed to check cache for org.apache.commons.math3.geometry.partitioning.Transform<S, T> : Type points to itself
+* Search finished after 101s and 2975 generations, 592430 statements, best individual has fitness: 8.666666666666668
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 92%
+* Total number of goals: 95
+* Number of covered goals: 87
+* Generated 11 tests with total length 74
+* Resulting test suite's coverage: 92%
+* Generating assertions
+* Resulting test suite's mutation score: 54%
+* Writing JUnit test case 'PolygonsSet_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

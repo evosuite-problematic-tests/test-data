@@ -1,0 +1,35 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.jfree.chart.plot.ValueMarker
+* Starting client
+* Connecting to master process on port 18539
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_11505_1545649731/build
+  - /tmp/run_evosuite.pl_11505_1545649731/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.chart.plot.ValueMarker
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 13
+* Using seed 2000
+* Starting evolution
+[MASTER] 03:09:05.506 [logback-2] ERROR TestCluster - Failed to check cache for java.time.temporal.TemporalQuery<R> : Type points to itself
+[MASTER] 03:10:33.989 [logback-1] WARN  TestUsageChecker - class org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1 looks like an anonymous class, ignoring it (although reflection says false) MinMaxCategoryRenderer$1
+* Search finished after 101s and 690 generations, 146688 statements, best individual has fitness: 0.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 92%
+* Total number of goals: 13
+* Number of covered goals: 12
+* Generated 5 tests with total length 14
+* Resulting test suite's coverage: 92%
+* Generating assertions
+* Resulting test suite's mutation score: 89%
+* Permissions denied during test execution: 
+  - java.io.FilePermission: 
+         write /tmp/+~JT431868655565533627.tmp: 1
+* Writing JUnit test case 'ValueMarker_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

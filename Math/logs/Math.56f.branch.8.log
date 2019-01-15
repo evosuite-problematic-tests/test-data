@@ -1,0 +1,29 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math.util.MultidimensionalCounter
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_47212_1545226550/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.util.MultidimensionalCounter
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 41
+* Using seed 1000
+* Starting evolution
+* Search finished after 2s and 4 generations, 3646 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 41
+* Number of covered goals: 41
+* Generated 16 tests with total length 86
+* Resulting test suite's coverage: 100%
+* Generating assertions
+* Resulting test suite's mutation score: 52%
+* Writing JUnit test case 'MultidimensionalCounter_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,76 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.mockito.internal.invocation.Invocation
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_160045_1545163850/target/classes
+  - /defects4j/framework/projects/Mockito/lib/asm-all-5.0.4.jar
+  - /defects4j/framework/projects/Mockito/lib/assertj-core-2.1.0.jar
+  - /defects4j/framework/projects/Mockito/lib/cglib-and-asm-1.0.jar
+  - /defects4j/framework/projects/Mockito/lib/cobertura-2.0.3.jar
+  - /defects4j/framework/projects/Mockito/lib/fest-assert-1.3.jar
+  - /defects4j/framework/projects/Mockito/lib/fest-util-1.1.4.jar
+  - /defects4j/framework/projects/Mockito/lib/hamcrest-all-1.3.jar
+  - /defects4j/framework/projects/Mockito/lib/hamcrest-core-1.1.jar
+  - /defects4j/framework/projects/Mockito/lib/objenesis-2.1.jar
+  - /defects4j/framework/projects/Mockito/lib/objenesis-2.2.jar
+  - /defects4j/framework/projects/Mockito/lib/powermock-reflect-1.2.5.jar
+* Finished analyzing classpath
+* Generating tests for class org.mockito.internal.invocation.Invocation
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 67
+* Using seed 1000
+* Starting evolution
+[MASTER] 12:10:58.940 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.beans.HasProperty<T> : Type points to itself
+[MASTER] 12:10:58.940 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.beans.HasPropertyWithValue<T> : Type points to itself
+[MASTER] 12:10:58.940 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.beans.SamePropertyValuesAs<T> : Type points to itself
+[MASTER] 12:10:58.940 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.beans.SamePropertyValuesAs<T>.PropertyMatcher : Type points to itself
+[MASTER] 12:10:58.940 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.collection.IsArray<T> : Type points to itself
+[MASTER] 12:10:58.940 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.collection.IsArrayContaining<T> : Type points to itself
+[MASTER] 12:10:58.940 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.collection.IsArrayContainingInAnyOrder<E> : Type points to itself
+[MASTER] 12:10:58.940 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.collection.IsArrayContainingInOrder<E> : Type points to itself
+[MASTER] 12:10:58.940 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.collection.IsArrayWithSize<E> : Type points to itself
+[MASTER] 12:10:58.940 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.collection.IsCollectionWithSize<E> : Type points to itself
+[MASTER] 12:10:58.940 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.collection.IsEmptyCollection<E> : Type points to itself
+[MASTER] 12:10:58.940 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.collection.IsEmptyIterable<E> : Type points to itself
+[MASTER] 12:10:58.940 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.collection.IsIn<T> : Type points to itself
+[MASTER] 12:10:58.940 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.collection.IsIterableContainingInAnyOrder<T> : Type points to itself
+[MASTER] 12:10:58.940 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.collection.IsIterableContainingInOrder<E> : Type points to itself
+[MASTER] 12:10:58.940 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.collection.IsIterableWithSize<E> : Type points to itself
+[MASTER] 12:10:58.941 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.collection.IsMapContaining<K, V> : Type points to itself
+[MASTER] 12:10:58.941 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.core.AllOf<T> : Type points to itself
+[MASTER] 12:10:58.941 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.core.AnyOf<T> : Type points to itself
+[MASTER] 12:10:58.941 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.core.CombinableMatcher<T> : Type points to itself
+[MASTER] 12:10:58.941 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.core.DescribedAs<T> : Type points to itself
+[MASTER] 12:10:58.941 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.core.Every<T> : Type points to itself
+[MASTER] 12:10:58.941 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.core.Is<T> : Type points to itself
+[MASTER] 12:10:58.942 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.core.IsAnything<T> : Type points to itself
+[MASTER] 12:10:58.942 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.core.IsCollectionContaining<T> : Type points to itself
+[MASTER] 12:10:58.942 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.core.IsEqual<T> : Type points to itself
+[MASTER] 12:10:58.942 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.core.IsNot<T> : Type points to itself
+[MASTER] 12:10:58.942 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.core.IsNull<T> : Type points to itself
+[MASTER] 12:10:58.942 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.core.IsSame<T> : Type points to itself
+[MASTER] 12:10:58.943 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.object.HasToString<T> : Type points to itself
+[MASTER] 12:10:58.943 [logback-2] ERROR TestCluster - Failed to check cache for org.hamcrest.object.IsCompatibleType<T> : Type points to itself
+[MASTER] 12:11:13.038 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 12:12:35.443 [logback-2] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+* Search finished after 101s and 1146 generations, 112378 statements, best individual has fitness: 73.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 3%
+* Total number of goals: 67
+* Number of covered goals: 2
+* Generated 2 tests with total length 5
+* Resulting test suite's coverage: 3%
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'Invocation_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

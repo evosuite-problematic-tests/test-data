@@ -1,0 +1,39 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.CodeGenerator
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_246434_1546682082/build/classes
+  - /tmp/run_evosuite.pl_246434_1546682082/lib/args4j.jar
+  - /tmp/run_evosuite.pl_246434_1546682082/lib/guava.jar
+  - /tmp/run_evosuite.pl_246434_1546682082/lib/json.jar
+  - /tmp/run_evosuite.pl_246434_1546682082/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_246434_1546682082/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_246434_1546682082/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_246434_1546682082/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.CodeGenerator
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 732
+* Using seed 4000
+* Starting evolution
+* Search finished after 101s and 1639 generations, 341840 statements, best individual has fitness: 399.62678383381075
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 41%
+* Total number of goals: 732
+* Number of covered goals: 297
+* Generated 30 tests with total length 73
+* Resulting test suite's coverage: 41%
+* Generating assertions
+* Resulting test suite's mutation score: 39%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 4
+* Writing JUnit test case 'CodeGenerator_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

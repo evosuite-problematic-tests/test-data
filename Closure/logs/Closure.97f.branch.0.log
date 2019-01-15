@@ -1,0 +1,42 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.PeepholeFoldConstants
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_101644_1546841745/build/classes
+  - /tmp/run_evosuite.pl_101644_1546841745/lib/ant_deploy.jar
+  - /tmp/run_evosuite.pl_101644_1546841745/lib/args4j_deploy.jar
+  - /tmp/run_evosuite.pl_101644_1546841745/lib/google_common_deploy.jar
+  - /tmp/run_evosuite.pl_101644_1546841745/lib/hamcrest-core-1.1.jar
+  - /tmp/run_evosuite.pl_101644_1546841745/lib/json.jar
+  - /tmp/run_evosuite.pl_101644_1546841745/lib/junit.jar
+  - /tmp/run_evosuite.pl_101644_1546841745/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_101644_1546841745/lib/protobuf_deploy.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.PeepholeFoldConstants
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 761
+* Using seed 1000
+* Starting evolution
+[MASTER] 22:15:55.592 [logback-2] ERROR TestCluster - Failed to check cache for com.google.common.collect.ImmutableSortedSet<E> : Type points to itself
+[MASTER] 22:15:59.957 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+* Search finished after 101s and 646 generations, 300338 statements, best individual has fitness: 410.8660172497747
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 43%
+* Total number of goals: 761
+* Number of covered goals: 326
+* Generated 108 tests with total length 758
+* Resulting test suite's coverage: 43%
+* Generating assertions
+* Resulting test suite's mutation score: 10%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 6
+* Writing JUnit test case 'PeepholeFoldConstants_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

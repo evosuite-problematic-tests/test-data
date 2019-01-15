@@ -1,0 +1,33 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.lang.text.ExtendedMessageFormat
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_253263_1546780407/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang.text.ExtendedMessageFormat
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 123
+* Using seed 5000
+* Starting evolution
+[MASTER] 05:13:35.361 [logback-2] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+[MASTER] 05:13:43.155 [logback-2] ERROR AbstractStatement - Error assigning value of type TemporalQuery[] defined at statement TemporalQuery<Integer>[] temporalQueryArray0 = (TemporalQuery<Integer>[]) Array.newInstance(TemporalQuery.class, 9), assignment statement: temporalQueryArray0[0] = (TemporalQuery<Integer>) temporalQueryArray0; SUT=org.apache.commons.lang.text.ExtendedMessageFormat
+[MASTER] 05:14:03.582 [logback-2] ERROR AbstractStatement - Error assigning value of type TemporalQuery[] defined at statement TemporalQuery<Long>[] temporalQueryArray0 = (TemporalQuery<Long>[]) Array.newInstance(TemporalQuery.class, 6), assignment statement: temporalQueryArray0[0] = (TemporalQuery<Long>) temporalQueryArray0; SUT=org.apache.commons.lang.text.ExtendedMessageFormat
+[MASTER] 05:15:03.100 [logback-2] ERROR AbstractStatement - Error assigning value of type TemporalQuery[] defined at statement TemporalQuery<MessageFormat>[] temporalQueryArray0 = (TemporalQuery<MessageFormat>[]) Array.newInstance(TemporalQuery.class, 8), assignment statement: temporalQueryArray0[0] = (TemporalQuery<MessageFormat>) temporalQueryArray0; SUT=org.apache.commons.lang.text.ExtendedMessageFormat
+* Search finished after 101s and 2832 generations, 477714 statements, best individual has fitness: 31.5
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 66%
+* Total number of goals: 123
+* Number of covered goals: 81
+* Generated 13 tests with total length 33
+* Resulting test suite's coverage: 66%
+* Generating assertions
+* Resulting test suite's mutation score: 29%
+* Writing JUnit test case 'ExtendedMessageFormat_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

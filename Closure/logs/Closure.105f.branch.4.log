@@ -1,0 +1,40 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.FoldConstants
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_231134_1546771521/build/classes
+  - /tmp/run_evosuite.pl_231134_1546771521/lib/ant_deploy.jar
+  - /tmp/run_evosuite.pl_231134_1546771521/lib/google_common_deploy.jar
+  - /tmp/run_evosuite.pl_231134_1546771521/lib/hamcrest-core-1.1.jar
+  - /tmp/run_evosuite.pl_231134_1546771521/lib/junit4-core.jar
+  - /tmp/run_evosuite.pl_231134_1546771521/lib/junit4-legacy.jar
+  - /tmp/run_evosuite.pl_231134_1546771521/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_231134_1546771521/lib/protobuf_deploy.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.FoldConstants
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 928
+* Using seed 5000
+* Starting evolution
+[MASTER] 02:45:31.657 [logback-2] ERROR TestCluster - Failed to check cache for java.util.HashSet<E> : Type points to itself
+* Search finished after 102s and 384 generations, 210279 statements, best individual has fitness: 687.1999141421709
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 24%
+* Total number of goals: 928
+* Number of covered goals: 226
+* Generated 61 tests with total length 387
+* Resulting test suite's coverage: 24%
+* Generating assertions
+* Resulting test suite's mutation score: 6%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 7
+* Writing JUnit test case 'FoldConstants_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

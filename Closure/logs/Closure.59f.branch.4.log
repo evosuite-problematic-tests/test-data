@@ -1,0 +1,42 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.Compiler
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_214340_1546765246/build/classes
+  - /tmp/run_evosuite.pl_214340_1546765246/lib/args4j.jar
+  - /tmp/run_evosuite.pl_214340_1546765246/lib/guava.jar
+  - /tmp/run_evosuite.pl_214340_1546765246/lib/json.jar
+  - /tmp/run_evosuite.pl_214340_1546765246/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_214340_1546765246/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_214340_1546765246/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_214340_1546765246/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.Compiler
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 467
+* Using seed 5000
+* Starting evolution
+[MASTER] 01:01:00.149 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.DisambiguateProperties<T> : Type points to itself
+[MASTER] 01:01:56.296 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class com.google.javascript.jscomp.PeepholeOptimizationsPass canUseFunctionalMocks=true, canBeMocked: false
+* Search finished after 106s and 11 generations, 7131 statements, best individual has fitness: 298.999354838244
+* Minimizing test suite
+[MASTER] 01:04:05.697 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 35%
+* Total number of goals: 467
+* Number of covered goals: 164
+* Generated 67 tests with total length 1295
+* Resulting test suite's coverage: 35%
+* Generating assertions
+* Resulting test suite's mutation score: 10%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 8
+* Writing JUnit test case 'Compiler_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

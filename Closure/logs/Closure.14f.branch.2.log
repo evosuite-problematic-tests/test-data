@@ -1,0 +1,40 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.ControlFlowAnalysis
+* Starting client
+* Connecting to master process on port 2830
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_20707_1546603968/build/classes
+  - /tmp/run_evosuite.pl_20707_1546603968/lib/args4j.jar
+  - /tmp/run_evosuite.pl_20707_1546603968/lib/guava.jar
+  - /tmp/run_evosuite.pl_20707_1546603968/lib/json.jar
+  - /tmp/run_evosuite.pl_20707_1546603968/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_20707_1546603968/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_20707_1546603968/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_20707_1546603968/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.ControlFlowAnalysis
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 413
+* Using seed 3000
+* Starting evolution
+[MASTER] 04:13:05.061 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+* Search finished after 101s and 358 generations, 143231 statements, best individual has fitness: 126.85454545454546
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 64%
+* Total number of goals: 413
+* Number of covered goals: 266
+* Generated 47 tests with total length 220
+* Resulting test suite's coverage: 64%
+* Generating assertions
+* Resulting test suite's mutation score: 9%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 3
+* Writing JUnit test case 'ControlFlowAnalysis_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

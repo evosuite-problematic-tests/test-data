@@ -1,0 +1,29 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math3.fraction.Fraction
+* Starting client
+* Connecting to master process on port 14953
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_3861_1545211911/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.fraction.Fraction
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 114
+* Using seed 1000
+* Starting evolution
+* Search finished after 101s and 2707 generations, 712255 statements, best individual has fitness: 1.1666666666666665
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 97%
+* Total number of goals: 114
+* Number of covered goals: 111
+* Generated 47 tests with total length 95
+* Resulting test suite's coverage: 98%
+* Generating assertions
+* Resulting test suite's mutation score: 47%
+* Writing JUnit test case 'Fraction_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

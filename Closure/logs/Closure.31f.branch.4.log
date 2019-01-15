@@ -1,0 +1,45 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.Compiler
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_224175_1546754438/build/classes
+  - /tmp/run_evosuite.pl_224175_1546754438/lib/args4j.jar
+  - /tmp/run_evosuite.pl_224175_1546754438/lib/guava.jar
+  - /tmp/run_evosuite.pl_224175_1546754438/lib/json.jar
+  - /tmp/run_evosuite.pl_224175_1546754438/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_224175_1546754438/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_224175_1546754438/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_224175_1546754438/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.Compiler
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 542
+* Using seed 5000
+* Starting evolution
+[MASTER] 22:00:56.416 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.GlobalNamespace$Name due to org.evosuite.ga.ConstructionFailedException: Have no generator for class com.google.javascript.jscomp.GlobalNamespace$Name canUseFunctionalMocks=true, canBeMocked: false
+[MASTER] 22:00:57.857 [logback-2] ERROR TestCluster - Failed to check cache for com.google.javascript.jscomp.DisambiguateProperties<T> : Type points to itself
+[MASTER] 22:00:58.472 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.NodeTraversal due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.TypeCheck due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.Scope due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.Scope due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 22:02:12.409 [logback-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.AliasStrings due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.NodeTraversal due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.MemoizedScopeCreator due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.google.javascript.jscomp.SyntacticScopeCreator due to org.evosuite.ga.ConstructionFailedException: Have no generator for interface com.google.javascript.jscomp.SyntacticScopeCreator$RedeclarationHandler canUseFunctionalMocks=true, canBeMocked: false
+* Search finished after 101s and 167 generations, 60037 statements, best individual has fitness: 216.33333333086017
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 56%
+* Total number of goals: 542
+* Number of covered goals: 301
+* Generated 96 tests with total length 391
+* Resulting test suite's coverage: 56%
+* Generating assertions
+* Resulting test suite's mutation score: 16%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 9
+  - java.net.SocketPermission: 
+         resolve NO_ALIAS: 1
+* Writing JUnit test case 'Compiler_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,29 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: org.apache.commons.math.dfp.Dfp
+* Starting client
+* Connecting to master process on port 19758
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_66785_1546704475/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.dfp.Dfp
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 767
+* Using seed 4000
+* Starting evolution
+* Search finished after 101s and 136 generations, 7388 statements, best individual has fitness: 574.055635153399
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 22%
+* Total number of goals: 767
+* Number of covered goals: 167
+* Generated 5 tests with total length 5
+* Resulting test suite's coverage: 22%
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Writing JUnit test case 'Dfp_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

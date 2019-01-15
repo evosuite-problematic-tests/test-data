@@ -1,0 +1,144 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.google.javascript.jscomp.parsing.IRFactory
+* Starting client
+* Connecting to master process on port 18557
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_223099_1546768447/build/classes
+  - /tmp/run_evosuite.pl_223099_1546768447/lib/args4j.jar
+  - /tmp/run_evosuite.pl_223099_1546768447/lib/guava.jar
+  - /tmp/run_evosuite.pl_223099_1546768447/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_223099_1546768447/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_223099_1546768447/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_223099_1546768447/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.parsing.IRFactory
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 541
+* Using seed 5000
+* Starting evolution
+[MASTER] 01:54:19.365 [logback-1] WARN  TestUsageChecker - class com.google.javascript.jscomp.mozilla.rhino.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 01:54:20.287 [logback-2] ERROR FunctionalMockStatement - IAE on <public abstract boolean com.google.javascript.jscomp.mozilla.rhino.ast.NodeVisitor.visit(com.google.javascript.jscomp.mozilla.rhino.ast.AstNode)> when called with [[]]
+[MASTER] 01:54:20.301 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on interface com.google.javascript.jscomp.mozilla.rhino.ast.NodeVisitor due to IAE: 
+Misplaced or misused argument matcher detected here:
+
+-> at org.evosuite.testcase.fm.MethodDescriptor.executeMatcher(MethodDescriptor.java:245)
+
+You cannot use argument matchers outside of verification or stubbing.
+Examples of correct usage of argument matchers:
+    when(mock.get(anyInt())).thenReturn(null);
+    doThrow(new RuntimeException()).when(mock).someVoidMethod(anyObject());
+    verify(mock).someMethod(contains("foo"))
+
+This message may appear after an NullPointerException if the last matcher is returning an object 
+like any() but the stubbed method signature expect a primitive argument, in this case,
+use primitive alternatives.
+    when(mock.get(any())); // bad use, will raise NPE
+    when(mock.get(anyInt())); // correct usage use
+
+Also, this error might show up because you use argument matchers with methods that cannot be mocked.
+Following methods *cannot* be stubbed/verified: final/private/equals()/hashCode().
+Mocking methods declared on non-public parent classes is not supported.
+
+[MASTER] 01:54:20.366 [logback-2] ERROR FunctionalMockStatement - IAE on <public abstract boolean com.google.javascript.jscomp.mozilla.rhino.ast.NodeVisitor.visit(com.google.javascript.jscomp.mozilla.rhino.ast.AstNode)> when called with [[]]
+[MASTER] 01:54:20.397 [logback-2] ERROR FunctionalMockStatement - IAE on <public abstract boolean com.google.javascript.jscomp.mozilla.rhino.ast.NodeVisitor.visit(com.google.javascript.jscomp.mozilla.rhino.ast.AstNode)> when called with [[]]
+[MASTER] 01:54:20.480 [logback-2] ERROR FunctionalMockStatement - IAE on <public abstract boolean com.google.javascript.jscomp.mozilla.rhino.ast.NodeVisitor.visit(com.google.javascript.jscomp.mozilla.rhino.ast.AstNode)> when called with [[]]
+[MASTER] 01:54:20.579 [logback-2] ERROR FunctionalMockStatement - IAE on <public abstract boolean com.google.javascript.jscomp.mozilla.rhino.ast.NodeVisitor.visit(com.google.javascript.jscomp.mozilla.rhino.ast.AstNode)> when called with [[]]
+[MASTER] 01:54:20.633 [logback-2] ERROR FunctionalMockStatement - IAE on <public abstract boolean com.google.javascript.jscomp.mozilla.rhino.ast.NodeVisitor.visit(com.google.javascript.jscomp.mozilla.rhino.ast.AstNode)> when called with [[]]
+[MASTER] 01:54:20.653 [logback-2] ERROR FunctionalMockStatement - IAE on <public abstract boolean com.google.javascript.jscomp.mozilla.rhino.ast.NodeVisitor.visit(com.google.javascript.jscomp.mozilla.rhino.ast.AstNode)> when called with [[]]
+[MASTER] 01:54:20.684 [logback-2] ERROR FunctionalMockStatement - IAE on <public abstract boolean com.google.javascript.jscomp.mozilla.rhino.ast.NodeVisitor.visit(com.google.javascript.jscomp.mozilla.rhino.ast.AstNode)> when called with [[]]
+[MASTER] 01:54:20.792 [logback-2] ERROR FunctionalMockStatement - IAE on <public abstract boolean com.google.javascript.jscomp.mozilla.rhino.ast.NodeVisitor.visit(com.google.javascript.jscomp.mozilla.rhino.ast.AstNode)> when called with [[]]
+[MASTER] 01:54:20.892 [logback-2] ERROR FunctionalMockStatement - IAE on <public abstract boolean com.google.javascript.jscomp.mozilla.rhino.ast.NodeVisitor.visit(com.google.javascript.jscomp.mozilla.rhino.ast.AstNode)> when called with [[]]
+[MASTER] 01:54:21.183 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on interface com.google.javascript.jscomp.mozilla.rhino.ContextAction due to IAE: 
+Misplaced or misused argument matcher detected here:
+
+-> at org.evosuite.testcase.fm.MethodDescriptor.executeMatcher(MethodDescriptor.java:245)
+
+You cannot use argument matchers outside of verification or stubbing.
+Examples of correct usage of argument matchers:
+    when(mock.get(anyInt())).thenReturn(null);
+    doThrow(new RuntimeException()).when(mock).someVoidMethod(anyObject());
+    verify(mock).someMethod(contains("foo"))
+
+This message may appear after an NullPointerException if the last matcher is returning an object 
+like any() but the stubbed method signature expect a primitive argument, in this case,
+use primitive alternatives.
+    when(mock.get(any())); // bad use, will raise NPE
+    when(mock.get(anyInt())); // correct usage use
+
+Also, this error might show up because you use argument matchers with methods that cannot be mocked.
+Following methods *cannot* be stubbed/verified: final/private/equals()/hashCode().
+Mocking methods declared on non-public parent classes is not supported.
+
+[MASTER] 01:54:21.217 [logback-2] ERROR FunctionalMockStatement - IAE on <public abstract boolean com.google.javascript.jscomp.mozilla.rhino.ast.NodeVisitor.visit(com.google.javascript.jscomp.mozilla.rhino.ast.AstNode)> when called with [[]]
+[MASTER] 01:54:22.031 [logback-2] ERROR FunctionalMockStatement - IAE on <public abstract boolean com.google.javascript.jscomp.mozilla.rhino.ast.NodeVisitor.visit(com.google.javascript.jscomp.mozilla.rhino.ast.AstNode)> when called with [[]]
+[MASTER] 01:54:23.975 [logback-2] ERROR FunctionalMockStatement - IAE on <public abstract boolean com.google.javascript.jscomp.mozilla.rhino.ast.NodeVisitor.visit(com.google.javascript.jscomp.mozilla.rhino.ast.AstNode)> when called with [[]]
+[MASTER] 01:54:23.980 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.google.javascript.jscomp.parsing.Config due to IAE: 
+Misplaced or misused argument matcher detected here:
+
+-> at org.evosuite.testcase.fm.MethodDescriptor.executeMatcher(MethodDescriptor.java:245)
+
+You cannot use argument matchers outside of verification or stubbing.
+Examples of correct usage of argument matchers:
+    when(mock.get(anyInt())).thenReturn(null);
+    doThrow(new RuntimeException()).when(mock).someVoidMethod(anyObject());
+    verify(mock).someMethod(contains("foo"))
+
+This message may appear after an NullPointerException if the last matcher is returning an object 
+like any() but the stubbed method signature expect a primitive argument, in this case,
+use primitive alternatives.
+    when(mock.get(any())); // bad use, will raise NPE
+    when(mock.get(anyInt())); // correct usage use
+
+Also, this error might show up because you use argument matchers with methods that cannot be mocked.
+Following methods *cannot* be stubbed/verified: final/private/equals()/hashCode().
+Mocking methods declared on non-public parent classes is not supported.
+
+[MASTER] 01:54:27.581 [logback-2] ERROR FunctionalMockStatement - IAE on <public abstract boolean com.google.javascript.jscomp.mozilla.rhino.ast.NodeVisitor.visit(com.google.javascript.jscomp.mozilla.rhino.ast.AstNode)> when called with [[]]
+[MASTER] 01:54:30.251 [logback-2] ERROR FunctionalMockStatement - IAE on <public abstract boolean com.google.javascript.jscomp.mozilla.rhino.ast.NodeVisitor.visit(com.google.javascript.jscomp.mozilla.rhino.ast.AstNode)> when called with [[]]
+[MASTER] 01:54:31.702 [logback-2] ERROR FunctionalMockStatement - IAE on <public abstract boolean com.google.javascript.jscomp.mozilla.rhino.ast.NodeVisitor.visit(com.google.javascript.jscomp.mozilla.rhino.ast.AstNode)> when called with [[]]
+[MASTER] 01:54:32.162 [logback-2] ERROR FunctionalMockStatement - Cannot use Mockito on interface java.util.function.Consumer due to IAE: 
+Misplaced or misused argument matcher detected here:
+
+-> at org.evosuite.testcase.fm.MethodDescriptor.executeMatcher(MethodDescriptor.java:245)
+
+You cannot use argument matchers outside of verification or stubbing.
+Examples of correct usage of argument matchers:
+    when(mock.get(anyInt())).thenReturn(null);
+    doThrow(new RuntimeException()).when(mock).someVoidMethod(anyObject());
+    verify(mock).someMethod(contains("foo"))
+
+This message may appear after an NullPointerException if the last matcher is returning an object 
+like any() but the stubbed method signature expect a primitive argument, in this case,
+use primitive alternatives.
+    when(mock.get(any())); // bad use, will raise NPE
+    when(mock.get(anyInt())); // correct usage use
+
+Also, this error might show up because you use argument matchers with methods that cannot be mocked.
+Following methods *cannot* be stubbed/verified: final/private/equals()/hashCode().
+Mocking methods declared on non-public parent classes is not supported.
+
+[MASTER] 01:54:54.977 [logback-2] ERROR FunctionalMockStatement - IAE on <public abstract boolean com.google.javascript.jscomp.mozilla.rhino.ast.NodeVisitor.visit(com.google.javascript.jscomp.mozilla.rhino.ast.AstNode)> when called with [[]]
+[MASTER] 01:55:00.250 [logback-2] ERROR FunctionalMockStatement - IAE on <public abstract boolean com.google.javascript.jscomp.mozilla.rhino.ast.NodeVisitor.visit(com.google.javascript.jscomp.mozilla.rhino.ast.AstNode)> when called with [[]]
+[MASTER] 01:55:01.262 [logback-2] ERROR FunctionalMockStatement - IAE on <public abstract boolean com.google.javascript.jscomp.mozilla.rhino.ast.NodeVisitor.visit(com.google.javascript.jscomp.mozilla.rhino.ast.AstNode)> when called with [[]]
+[MASTER] 01:55:01.471 [logback-2] ERROR FunctionalMockStatement - IAE on <public abstract boolean com.google.javascript.jscomp.mozilla.rhino.ast.NodeVisitor.visit(com.google.javascript.jscomp.mozilla.rhino.ast.AstNode)> when called with [[]]
+[MASTER] 01:55:33.150 [logback-2] ERROR FunctionalMockStatement - IAE on <public abstract boolean com.google.javascript.jscomp.mozilla.rhino.ast.NodeVisitor.visit(com.google.javascript.jscomp.mozilla.rhino.ast.AstNode)> when called with [[]]
+* Search finished after 101s and 979 generations, 402012 statements, best individual has fitness: 311.41346066569537
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 41%
+* Total number of goals: 541
+* Number of covered goals: 222
+* Generated 20 tests with total length 144
+* Resulting test suite's coverage: 41%
+* Generating assertions
+* Resulting test suite's mutation score: 2%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 7
+* Writing JUnit test case 'IRFactory_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
